@@ -77,13 +77,13 @@
 
  ]]></format>
     </remarks>
-    <threadsafe>This type is safe for multithreaded read operations. You must synchronize any write operations.</threadsafe>
     <altmember cref="P:System.Data.DataTable.Columns" />
     <altmember cref="T:System.Data.DataColumn" />
-    <altmember cref="T:System.Data.DataTable" />
     <altmember cref="T:System.Data.DataRelation" />
     <altmember cref="T:System.Data.DataRow" />
     <altmember cref="T:System.Data.DataSet" />
+    <altmember cref="T:System.Data.DataTable" />
+    <threadsafe>This type is safe for multithreaded read operations. You must synchronize any write operations.</threadsafe>
   </Docs>
   <Members>
     <MemberGroup MemberName="Add">
@@ -153,8 +153,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Data.DataColumn.ColumnName" />
         <altmember cref="M:System.Data.DataColumnCollection.Contains(System.String)" />
+        <altmember cref="P:System.Data.DataColumn.ColumnName" />
         <altmember cref="P:System.Data.DataColumn.DataType" />
         <altmember cref="P:System.Data.DataColumn.Expression" />
       </Docs>
@@ -220,9 +220,9 @@
         <exception cref="T:System.ArgumentException">The column already belongs to this collection, or to another collection.</exception>
         <exception cref="T:System.Data.DuplicateNameException">The collection already has a column with the specified name. (The comparison is not case-sensitive.)</exception>
         <exception cref="T:System.Data.InvalidExpressionException">The expression is invalid. See the <see cref="P:System.Data.DataColumn.Expression" /> property for more information about how to create expressions.</exception>
-        <altmember cref="P:System.Data.DataColumn.ColumnName" />
         <altmember cref="E:System.Data.DataColumnCollection.CollectionChanged" />
         <altmember cref="M:System.Data.DataColumnCollection.Contains(System.String)" />
+        <altmember cref="P:System.Data.DataColumn.ColumnName" />
         <altmember cref="P:System.Data.DataColumn.DataType" />
         <altmember cref="P:System.Data.DataColumn.Expression" />
       </Docs>
@@ -300,8 +300,8 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.Data.DuplicateNameException">The collection already has a column with the specified name. (The comparison is not case-sensitive.)</exception>
-        <altmember cref="P:System.Data.DataColumn.ColumnName" />
         <altmember cref="M:System.Data.DataColumnCollection.Contains(System.String)" />
+        <altmember cref="P:System.Data.DataColumn.ColumnName" />
         <altmember cref="P:System.Data.DataColumn.DataType" />
         <altmember cref="P:System.Data.DataColumn.Expression" />
       </Docs>
@@ -481,8 +481,8 @@
         </remarks>
         <exception cref="T:System.Data.DuplicateNameException">The collection already has a column with the specified name. (The comparison is not case-sensitive.)</exception>
         <exception cref="T:System.Data.InvalidExpressionException">The expression is invalid. See the <see cref="P:System.Data.DataColumn.Expression" /> property for more information about how to create expressions.</exception>
-        <altmember cref="P:System.Data.DataColumn.ColumnName" />
         <altmember cref="M:System.Data.DataColumnCollection.Contains(System.String)" />
+        <altmember cref="P:System.Data.DataColumn.ColumnName" />
         <altmember cref="P:System.Data.DataColumn.DataType" />
         <altmember cref="P:System.Data.DataColumn.Expression" />
       </Docs>
@@ -603,8 +603,6 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Data.DataColumnCollection.Contains(System.String)" />
-        <altmember cref="M:System.Data.DataColumnCollection.Remove(System.Data.DataColumn)" />
         <exception cref="T:System.ArgumentNullException">The <paramref name="column" /> parameter is null. </exception>
         <exception cref="T:System.ArgumentException">The column does not belong to this collection.
 
@@ -615,6 +613,8 @@ The column is part of a relationship.
 -or-
 
 Another column's expression depends on this column. </exception>
+        <altmember cref="M:System.Data.DataColumnCollection.Contains(System.String)" />
+        <altmember cref="M:System.Data.DataColumnCollection.Remove(System.Data.DataColumn)" />
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -1036,8 +1036,8 @@ Another column's expression depends on this column. </exception>
  ]]></format>
         </remarks>
         <exception cref="T:System.IndexOutOfRangeException">The index value is greater than the number of items in the collection.</exception>
-        <altmember cref="P:System.Data.DataColumn.ColumnName" />
         <altmember cref="M:System.Data.DataColumnCollection.Contains(System.String)" />
+        <altmember cref="P:System.Data.DataColumn.ColumnName" />
         <altmember cref="T:System.Data.DataColumn" />
       </Docs>
     </Member>
@@ -1107,8 +1107,8 @@ Another column's expression depends on this column. </exception>
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Data.DataColumn.ColumnName" />
         <altmember cref="M:System.Data.DataColumnCollection.Contains(System.String)" />
+        <altmember cref="P:System.Data.DataColumn.ColumnName" />
         <altmember cref="T:System.Data.DataColumn" />
       </Docs>
     </Member>
@@ -1232,8 +1232,8 @@ Another column's expression depends on this column. </exception>
  -Or-
 
  Another column's expression depends on this column.</exception>
-        <altmember cref="M:System.Data.DataColumnCollection.Contains(System.String)" />
         <altmember cref="M:System.Data.DataColumnCollection.CanRemove(System.Data.DataColumn)" />
+        <altmember cref="M:System.Data.DataColumnCollection.Contains(System.String)" />
         <altmember cref="P:System.Data.DataColumnCollection.Item(System.Int32)" />
       </Docs>
     </Member>
@@ -1357,9 +1357,9 @@ Another column's expression depends on this column. </exception>
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">The collection does not have a column at the specified index.</exception>
-        <altmember cref="M:System.Data.DataColumnCollection.IndexOf(System.Data.DataColumn)" />
-        <altmember cref="M:System.Data.DataColumnCollection.Contains(System.String)" />
         <altmember cref="M:System.Data.DataColumnCollection.CanRemove(System.Data.DataColumn)" />
+        <altmember cref="M:System.Data.DataColumnCollection.Contains(System.String)" />
+        <altmember cref="M:System.Data.DataColumnCollection.IndexOf(System.Data.DataColumn)" />
       </Docs>
     </Member>
   </Members>

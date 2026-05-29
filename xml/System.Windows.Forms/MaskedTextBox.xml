@@ -297,8 +297,8 @@
  ]]></format>
         </remarks>
         <altmember cref="E:System.Windows.Forms.MaskedTextBox.AcceptsTabChanged" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Multiline" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.Lines" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Multiline" />
       </Docs>
     </Member>
     <Member MemberName="AcceptsTabChanged">
@@ -353,8 +353,8 @@
  ]]></format>
         </remarks>
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.AcceptsTab" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Multiline" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.Lines" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Multiline" />
       </Docs>
     </Member>
     <Member MemberName="AllowPromptAsInput">
@@ -399,8 +399,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.PromptChar" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.HidePromptOnLeave" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.PromptChar" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.ResetOnPrompt" />
       </Docs>
     </Member>
@@ -587,8 +587,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.CanUndo" />
         <altmember cref="M:System.Windows.Forms.MaskedTextBox.Undo" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.CanUndo" />
       </Docs>
     </Member>
     <Member MemberName="CreateAccessibilityInstance">
@@ -763,11 +763,11 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ComponentModel.InvalidEnumArgumentException">Property set with a <see cref="T:System.Windows.Forms.MaskFormat" /> value that is not valid.</exception>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.TextMaskFormat" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.PromptChar" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.AllowPromptAsInput" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
         <altmember cref="M:System.Windows.Forms.MaskedTextBox.ToString" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.AllowPromptAsInput" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.PromptChar" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.TextMaskFormat" />
       </Docs>
     </Member>
     <Member MemberName="FormatProvider">
@@ -818,8 +818,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.IFormatProvider" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.Culture" />
+        <altmember cref="T:System.IFormatProvider" />
       </Docs>
     </Member>
     <Member MemberName="GetCharFromPosition">
@@ -931,9 +931,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Multiline" />
         <altmember cref="M:System.Windows.Forms.MaskedTextBox.GetFirstCharIndexOfCurrentLine" />
         <altmember cref="M:System.Windows.Forms.MaskedTextBox.GetLineFromCharIndex(System.Int32)" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Multiline" />
       </Docs>
     </Member>
     <Member MemberName="GetFirstCharIndexOfCurrentLine">
@@ -976,9 +976,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Multiline" />
         <altmember cref="M:System.Windows.Forms.MaskedTextBox.GetFirstCharIndexFromLine(System.Int32)" />
         <altmember cref="M:System.Windows.Forms.MaskedTextBox.GetLineFromCharIndex(System.Int32)" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Multiline" />
       </Docs>
     </Member>
     <Member MemberName="GetLineFromCharIndex">
@@ -1024,9 +1024,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Multiline" />
-        <altmember cref="M:System.Windows.Forms.MaskedTextBox.GetFirstCharIndexFromLine(System.Int32)" />
         <altmember cref="M:System.Windows.Forms.MaskedTextBox.GetFirstCharIndexOfCurrentLine" />
+        <altmember cref="M:System.Windows.Forms.MaskedTextBox.GetFirstCharIndexFromLine(System.Int32)" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Multiline" />
       </Docs>
     </Member>
     <Member MemberName="GetPositionFromCharIndex">
@@ -1099,10 +1099,10 @@
         <value>
           <see langword="true" /> if <see cref="P:System.Windows.Forms.MaskedTextBox.PromptChar" /> is hidden when <see cref="T:System.Windows.Forms.MaskedTextBox" /> does not have focus; otherwise, <see langword="false" />. The default is <see langword="false" />.</value>
         <remarks>To be added.</remarks>
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.CutCopyMaskFormat" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.PromptChar" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.ResetOnPrompt" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.TextMaskFormat" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.CutCopyMaskFormat" />
       </Docs>
     </Member>
     <Member MemberName="InsertKeyMode">
@@ -1149,8 +1149,8 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ComponentModel.InvalidEnumArgumentException">An invalid <see cref="T:System.Windows.Forms.InsertKeyMode" /> value was supplied when setting this property.</exception>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.IsOverwriteMode" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.AsciiOnly" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.IsOverwriteMode" />
       </Docs>
     </Member>
     <Member MemberName="IsInputKey">
@@ -1228,8 +1228,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.InsertKeyMode" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.AsciiOnly" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.InsertKeyMode" />
       </Docs>
     </Member>
     <Member MemberName="IsOverwriteModeChanged">
@@ -1283,8 +1283,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.IsOverwriteMode" />
         <altmember cref="M:System.Windows.Forms.MaskedTextBox.OnIsOverwriteModeChanged(System.EventArgs)" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.IsOverwriteMode" />
       </Docs>
     </Member>
     <Member MemberName="Lines">
@@ -1334,8 +1334,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.AcceptsTab" />
         <altmember cref="E:System.Windows.Forms.MaskedTextBox.AcceptsTabChanged" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.AcceptsTab" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.Multiline" />
       </Docs>
     </Member>
@@ -1437,11 +1437,11 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">The string supplied to the <see cref="P:System.Windows.Forms.MaskedTextBox.Mask" /> property is not a valid mask. Invalid masks include masks containing non-printable characters.</exception>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.MaskFull" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.MaskCompleted" />
         <altmember cref="E:System.Windows.Forms.MaskedTextBox.MaskChanged" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.MaskCompleted" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.MaskedTextProvider" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.MaskFull" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
       </Docs>
     </Member>
     <Member MemberName="MaskChanged">
@@ -1493,8 +1493,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
         <altmember cref="M:System.Windows.Forms.MaskedTextBox.OnMaskChanged(System.EventArgs)" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.MaskedTextProvider" />
       </Docs>
     </Member>
@@ -1538,10 +1538,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.MaskFull" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
         <altmember cref="E:System.Windows.Forms.MaskedTextBox.MaskChanged" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.MaskFull" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
       </Docs>
     </Member>
     <Member MemberName="MaskedTextProvider">
@@ -1594,8 +1594,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.ComponentModel.MaskedTextProvider" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
+        <altmember cref="T:System.ComponentModel.MaskedTextProvider" />
       </Docs>
     </Member>
     <Member MemberName="MaskFull">
@@ -1646,11 +1646,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.MaskCompleted" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
         <altmember cref="E:System.Windows.Forms.MaskedTextBox.MaskChanged" />
         <altmember cref="E:System.Windows.Forms.MaskedTextBox.MaskInputRejected" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.MaskCompleted" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
       </Docs>
     </Member>
     <Member MemberName="MaskInputRejected">
@@ -1718,12 +1718,12 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.BeepOnError" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.IsOverwriteMode" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.MaskedTextProvider" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
         <altmember cref="T:System.Windows.Forms.MaskInputRejectedEventArgs" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.IsOverwriteMode" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.BeepOnError" />
       </Docs>
     </Member>
     <Member MemberName="MaxLength">
@@ -1824,8 +1824,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.AcceptsTab" />
         <altmember cref="E:System.Windows.Forms.MaskedTextBox.AcceptsTabChanged" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.AcceptsTab" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.Lines" />
       </Docs>
     </Member>
@@ -1880,8 +1880,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Multiline" />
         <altmember cref="M:System.Windows.Forms.MaskedTextBox.OnMultilineChanged(System.EventArgs)" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Multiline" />
       </Docs>
     </Member>
     <Member MemberName="OnBackColorChanged">
@@ -2017,11 +2017,11 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Forms.MaskedTextBox.IsOverwriteModeChanged" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.IsOverwriteMode" />
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Windows.Forms.MaskedTextBox.OnIsOverwriteModeChanged(System.EventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Windows.Forms.MaskedTextBox.OnIsOverwriteModeChanged(System.EventArgs)" /> method so that registered delegates receive the event.</para>
         </block>
-        <altmember cref="E:System.Windows.Forms.MaskedTextBox.IsOverwriteModeChanged" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.IsOverwriteMode" />
       </Docs>
     </Member>
     <Member MemberName="OnKeyDown">
@@ -2164,11 +2164,11 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Forms.MaskedTextBox.MaskChanged" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Windows.Forms.MaskedTextBox.OnMaskChanged(System.EventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Windows.Forms.MaskedTextBox.OnMaskChanged(System.EventArgs)" /> method so that registered delegates receive the event.</para>
         </block>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
-        <altmember cref="E:System.Windows.Forms.MaskedTextBox.MaskChanged" />
       </Docs>
     </Member>
     <Member MemberName="OnMouseDown">
@@ -2240,8 +2240,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Multiline" />
         <altmember cref="E:System.Windows.Forms.MaskedTextBox.MultilineChanged" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Multiline" />
       </Docs>
     </Member>
     <Member MemberName="OnTextAlignChanged">
@@ -2282,11 +2282,11 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Forms.MaskedTextBox.TextAlignChanged" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.TextAlign" />
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Windows.Forms.MaskedTextBox.OnTextAlignChanged(System.EventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Windows.Forms.MaskedTextBox.OnTextAlignChanged(System.EventArgs)" /> method so that registered delegates receive the event.</para>
         </block>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.TextAlign" />
-        <altmember cref="E:System.Windows.Forms.MaskedTextBox.TextAlignChanged" />
       </Docs>
     </Member>
     <Member MemberName="OnTextChanged">
@@ -2327,11 +2327,11 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Forms.Control.TextChanged" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Windows.Forms.MaskedTextBox.OnTextChanged(System.EventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Windows.Forms.MaskedTextBox.OnTextChanged(System.EventArgs)" /> method so that registered delegates receive the event.</para>
         </block>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
-        <altmember cref="E:System.Windows.Forms.Control.TextChanged" />
       </Docs>
     </Member>
     <Member MemberName="OnValidating">
@@ -2384,12 +2384,12 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.Exception">A critical exception occurred during the parsing of the input string.</exception>
+        <altmember cref="E:System.Windows.Forms.Control.Validating" />
+        <altmember cref="E:System.Windows.Forms.MaskedTextBox.MaskInputRejected" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.ValidatingType" />
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Windows.Forms.MaskedTextBox.OnValidating(System.ComponentModel.CancelEventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Windows.Forms.MaskedTextBox.OnValidating(System.ComponentModel.CancelEventArgs)" /> method so that registered delegates receive the event.</para>
         </block>
-        <altmember cref="E:System.Windows.Forms.Control.Validating" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.ValidatingType" />
-        <altmember cref="E:System.Windows.Forms.MaskedTextBox.MaskInputRejected" />
       </Docs>
     </Member>
     <Member MemberName="PasswordChar">
@@ -2442,9 +2442,9 @@
         </remarks>
         <exception cref="T:System.ArgumentException">The character specified when setting this property is not a valid password character, as determined by the <see cref="M:System.ComponentModel.MaskedTextProvider.IsValidPasswordChar(System.Char)" /> method of the <see cref="T:System.ComponentModel.MaskedTextProvider" /> class.</exception>
         <exception cref="T:System.InvalidOperationException">The password character specified is the same as the current prompt character, <see cref="P:System.Windows.Forms.MaskedTextBox.PromptChar" />. The two are required to be different.</exception>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.UseSystemPasswordChar" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.PromptChar" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.UseSystemPasswordChar" />
       </Docs>
     </Member>
     <Member MemberName="ProcessCmdKey">
@@ -2574,11 +2574,11 @@
         </remarks>
         <exception cref="T:System.ArgumentException">The character specified when setting this property is not a valid prompt character, as determined by the <see cref="M:System.ComponentModel.MaskedTextProvider.IsValidPasswordChar(System.Char)" /> method of the <see cref="T:System.ComponentModel.MaskedTextProvider" /> class.</exception>
         <exception cref="T:System.InvalidOperationException">The prompt character specified is the same as the current password character, <see cref="P:System.Windows.Forms.MaskedTextBox.PasswordChar" />. The two are required to be different.</exception>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.PasswordChar" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.UseSystemPasswordChar" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.TextMaskFormat" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.CutCopyMaskFormat" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.PasswordChar" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.TextMaskFormat" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.UseSystemPasswordChar" />
       </Docs>
     </Member>
     <Member MemberName="ReadOnly">
@@ -2660,11 +2660,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
         <altmember cref="E:System.Windows.Forms.MaskedTextBox.MaskInputRejected" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.IsOverwriteMode" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.ResetOnPrompt" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.ResetOnSpace" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.IsOverwriteMode" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.SelectedText" />
       </Docs>
     </Member>
@@ -2717,9 +2717,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.PromptChar" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.AllowPromptAsInput" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.HidePromptOnLeave" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.PromptChar" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.ResetOnSpace" />
       </Docs>
     </Member>
@@ -2843,11 +2843,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.CutCopyMaskFormat" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.RejectInputOnFirstFailure" />
         <altmember cref="M:System.Windows.Forms.MaskedTextBox.GetPositionFromCharIndex(System.Int32)" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.CutCopyMaskFormat" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.RejectInputOnFirstFailure" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
       </Docs>
     </Member>
     <Member MemberName="SkipLiterals">
@@ -2975,13 +2975,13 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.ComponentModel.DefaultBindingPropertyAttribute" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.SelectedText" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.FormatProvider" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.TextMaskFormat" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.Culture" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.FormatProvider" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.HidePromptOnLeave" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.SelectedText" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.TextMaskFormat" />
+        <altmember cref="T:System.ComponentModel.DefaultBindingPropertyAttribute" />
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -3028,10 +3028,10 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ComponentModel.InvalidEnumArgumentException">The value assigned to this property is not of type <see cref="T:System.Windows.Forms.HorizontalAlignment" />.</exception>
-        <altmember cref="T:System.Windows.Forms.HorizontalAlignment" />
-        <altmember cref="P:System.Windows.Forms.TextBoxBase.TextLength" />
-        <altmember cref="P:System.Windows.Forms.TextBoxBase.AutoSize" />
         <altmember cref="E:System.Windows.Forms.MaskedTextBox.TextAlignChanged" />
+        <altmember cref="P:System.Windows.Forms.TextBoxBase.AutoSize" />
+        <altmember cref="P:System.Windows.Forms.TextBoxBase.TextLength" />
+        <altmember cref="T:System.Windows.Forms.HorizontalAlignment" />
       </Docs>
     </Member>
     <Member MemberName="TextAlignChanged">
@@ -3083,8 +3083,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.TextAlign" />
         <altmember cref="M:System.Windows.Forms.MaskedTextBox.OnTextAlignChanged(System.EventArgs)" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.TextAlign" />
       </Docs>
     </Member>
     <Member MemberName="TextLength">
@@ -3168,11 +3168,11 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ComponentModel.InvalidEnumArgumentException">Property set with a <see cref="T:System.Windows.Forms.MaskFormat" /> value that is not valid.</exception>
+        <altmember cref="M:System.Windows.Forms.MaskedTextBox.ToString" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.AllowPromptAsInput" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.CutCopyMaskFormat" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.PromptChar" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.AllowPromptAsInput" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
-        <altmember cref="M:System.Windows.Forms.MaskedTextBox.ToString" />
       </Docs>
     </Member>
     <Member MemberName="ToString">
@@ -3213,10 +3213,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.TextMaskFormat" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.PasswordChar" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.TextMaskFormat" />
       </Docs>
     </Member>
     <Member MemberName="TypeValidationCompleted">
@@ -3284,8 +3284,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
         <altmember cref="M:System.Windows.Forms.MaskedTextBox.ValidateText" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.ValidatingType" />
         <altmember cref="T:System.Windows.Forms.TypeValidationEventArgs" />
       </Docs>
@@ -3329,8 +3329,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.CanUndo" />
         <altmember cref="M:System.Windows.Forms.MaskedTextBox.ClearUndo" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.CanUndo" />
       </Docs>
     </Member>
     <Member MemberName="UseSystemPasswordChar">
@@ -3381,9 +3381,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">The password character specified is the same as the current prompt character, <see cref="P:System.Windows.Forms.MaskedTextBox.PromptChar" />. The two are required to be different.</exception>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.PromptChar" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.PasswordChar" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.AllowPromptAsInput" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.PasswordChar" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.PromptChar" />
       </Docs>
     </Member>
     <Member MemberName="ValidateText">
@@ -3424,10 +3424,10 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.Exception">A critical exception occurred during the parsing of the input string.</exception>
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
-        <altmember cref="P:System.Windows.Forms.MaskedTextBox.ValidatingType" />
         <altmember cref="E:System.Windows.Forms.MaskedTextBox.TypeValidationCompleted" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.Text" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.TextMaskFormat" />
+        <altmember cref="P:System.Windows.Forms.MaskedTextBox.ValidatingType" />
       </Docs>
     </Member>
     <Member MemberName="ValidatingType">
@@ -3504,9 +3504,9 @@ maskedTextBox1.Mask = "99/99/9999";
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Forms.MaskedTextBox.TypeValidationCompleted" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.Mask" />
         <altmember cref="P:System.Windows.Forms.MaskedTextBox.MaskedTextProvider" />
-        <altmember cref="E:System.Windows.Forms.MaskedTextBox.TypeValidationCompleted" />
       </Docs>
     </Member>
     <Member MemberName="WndProc">

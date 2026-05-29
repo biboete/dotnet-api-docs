@@ -116,10 +116,10 @@
 
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Collections.Generic.LinkedListNode`1" />
     <threadsafe>This type is not thread safe. If the <see cref="T:System.Collections.Generic.LinkedList`1" /> needs to be accessed by multiple threads, you will need to implement your own synchronization mechanism.
 
  A <see cref="T:System.Collections.Generic.LinkedList`1" /> can support multiple readers concurrently, as long as the collection is not modified. Even so, enumerating through a collection is intrinsically not a thread-safe procedure. In the rare case where an enumeration contends with write accesses, the collection must be locked during the entire enumeration. To allow the collection to be accessed by multiple threads for reading and writing, you must implement your own synchronization.</threadsafe>
-    <altmember cref="T:System.Collections.Generic.LinkedListNode`1" />
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">
@@ -705,10 +705,10 @@
           <paramref name="node" /> is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">
           <paramref name="node" /> belongs to another <see cref="T:System.Collections.Generic.LinkedList`1" />.</exception>
+        <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveFirst" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddAfter" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddBefore" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddLast" />
-        <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveFirst" />
       </Docs>
     </Member>
     <Member MemberName="AddFirst">
@@ -771,10 +771,10 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveFirst" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddAfter" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddBefore" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddLast" />
-        <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveFirst" />
       </Docs>
     </Member>
     <MemberGroup MemberName="AddLast">
@@ -851,10 +851,10 @@
           <paramref name="node" /> is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">
           <paramref name="node" /> belongs to another <see cref="T:System.Collections.Generic.LinkedList`1" />.</exception>
+        <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveLast" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddAfter" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddBefore" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddFirst" />
-        <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveLast" />
       </Docs>
     </Member>
     <Member MemberName="AddLast">
@@ -917,10 +917,10 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveLast" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddAfter" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddBefore" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddFirst" />
-        <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveLast" />
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -980,9 +980,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:System.Collections.Generic.LinkedList`1.Remove" />
         <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveFirst" />
         <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveLast" />
+        <altmember cref="Overload:System.Collections.Generic.LinkedList`1.Remove" />
       </Docs>
     </Member>
     <Member MemberName="Contains">
@@ -1243,8 +1243,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Collections.Generic.LinkedList`1.FindLast(`0)" />
         <altmember cref="M:System.Collections.Generic.LinkedList`1.Contains(`0)" />
+        <altmember cref="M:System.Collections.Generic.LinkedList`1.FindLast(`0)" />
         <related type="Article" href="/dotnet/standard/globalization-localization/performing-culture-insensitive-string-operations-in-collections">Performing Culture-Insensitive String Operations in Collections</related>
       </Docs>
     </Member>
@@ -1313,8 +1313,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Collections.Generic.LinkedList`1.Find(`0)" />
         <altmember cref="M:System.Collections.Generic.LinkedList`1.Contains(`0)" />
+        <altmember cref="M:System.Collections.Generic.LinkedList`1.Find(`0)" />
         <related type="Article" href="/dotnet/standard/globalization-localization/performing-culture-insensitive-string-operations-in-collections">Performing Culture-Insensitive String Operations in Collections</related>
       </Docs>
     </Member>
@@ -1453,8 +1453,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Collections.Generic.LinkedList`1.Enumerator" />
         <altmember cref="T:System.Collections.Generic.IEnumerator`1" />
+        <altmember cref="T:System.Collections.Generic.LinkedList`1.Enumerator" />
       </Docs>
     </Member>
     <Member MemberName="GetObjectData">
@@ -1523,10 +1523,10 @@
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="info" /> is <see langword="null" />.</exception>
+        <altmember cref="M:System.Collections.Generic.LinkedList`1.OnDeserialization(System.Object)" />
         <altmember cref="T:System.Runtime.Serialization.ISerializable" />
         <altmember cref="T:System.Runtime.Serialization.SerializationInfo" />
         <altmember cref="T:System.Runtime.Serialization.StreamingContext" />
-        <altmember cref="M:System.Collections.Generic.LinkedList`1.OnDeserialization(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="Last">
@@ -1648,10 +1648,10 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.Runtime.Serialization.SerializationException">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> object associated with the current <see cref="T:System.Collections.Generic.LinkedList`1" /> instance is invalid.</exception>
+        <altmember cref="M:System.Collections.Generic.LinkedList`1.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
         <altmember cref="T:System.Runtime.Serialization.ISerializable" />
         <altmember cref="T:System.Runtime.Serialization.SerializationInfo" />
         <altmember cref="T:System.Runtime.Serialization.StreamingContext" />
-        <altmember cref="M:System.Collections.Generic.LinkedList`1.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
       </Docs>
     </Member>
     <MemberGroup MemberName="Remove">
@@ -1724,11 +1724,11 @@
           <paramref name="node" /> is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">
           <paramref name="node" /> is not in the current <see cref="T:System.Collections.Generic.LinkedList`1" />.</exception>
+        <altmember cref="M:System.Collections.Generic.LinkedList`1.Clear" />
         <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveFirst" />
         <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveLast" />
-        <altmember cref="M:System.Collections.Generic.LinkedList`1.Clear" />
-        <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddBefore" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddAfter" />
+        <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddBefore" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddFirst" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddLast" />
       </Docs>
@@ -1793,11 +1793,11 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Collections.Generic.LinkedList`1.Clear" />
         <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveFirst" />
         <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveLast" />
-        <altmember cref="M:System.Collections.Generic.LinkedList`1.Clear" />
-        <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddBefore" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddAfter" />
+        <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddBefore" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddFirst" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddLast" />
       </Docs>
@@ -1855,10 +1855,10 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">The <see cref="T:System.Collections.Generic.LinkedList`1" /> is empty.</exception>
-        <altmember cref="Overload:System.Collections.Generic.LinkedList`1.Remove" />
-        <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveLast" />
         <altmember cref="M:System.Collections.Generic.LinkedList`1.Clear" />
+        <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveLast" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddFirst" />
+        <altmember cref="Overload:System.Collections.Generic.LinkedList`1.Remove" />
       </Docs>
     </Member>
     <Member MemberName="RemoveLast">
@@ -1914,10 +1914,10 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">The <see cref="T:System.Collections.Generic.LinkedList`1" /> is empty.</exception>
-        <altmember cref="Overload:System.Collections.Generic.LinkedList`1.Remove" />
-        <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveFirst" />
         <altmember cref="M:System.Collections.Generic.LinkedList`1.Clear" />
+        <altmember cref="M:System.Collections.Generic.LinkedList`1.RemoveFirst" />
         <altmember cref="Overload:System.Collections.Generic.LinkedList`1.AddLast" />
+        <altmember cref="Overload:System.Collections.Generic.LinkedList`1.Remove" />
       </Docs>
     </Member>
     <Member MemberName="System.Collections.Generic.ICollection&lt;T&gt;.Add">
@@ -2391,8 +2391,8 @@ Retrieving the value of this property is an O(1) operation.
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Collections.Generic.LinkedList`1.GetEnumerator" />
         <altmember cref="M:System.Collections.Generic.IEnumerable`1.GetEnumerator" />
+        <altmember cref="M:System.Collections.Generic.LinkedList`1.GetEnumerator" />
         <altmember cref="T:System.Collections.IEnumerator" />
       </Docs>
     </Member>

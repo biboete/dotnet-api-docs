@@ -383,8 +383,8 @@
         </remarks>
         <exception cref="T:System.InvalidOperationException">The device is not activated.</exception>
         <altmember cref="E:System.Windows.ContentElement.TouchLeave" />
-        <altmember cref="E:System.Windows.UIElement3D.TouchLeave" />
         <altmember cref="E:System.Windows.UIElement.TouchLeave" />
+        <altmember cref="E:System.Windows.UIElement3D.TouchLeave" />
       </Docs>
     </Member>
     <Member MemberName="Deactivated">
@@ -726,8 +726,8 @@
  ]]></format>
         </remarks>
         <altmember cref="E:System.Windows.ContentElement.TouchDown" />
-        <altmember cref="E:System.Windows.UIElement3D.TouchDown" />
         <altmember cref="E:System.Windows.UIElement.TouchDown" />
+        <altmember cref="E:System.Windows.UIElement3D.TouchDown" />
       </Docs>
     </Member>
     <Member MemberName="ReportMove">
@@ -766,8 +766,8 @@
  ]]></format>
         </remarks>
         <altmember cref="E:System.Windows.ContentElement.TouchMove" />
-        <altmember cref="E:System.Windows.UIElement3D.TouchMove" />
         <altmember cref="E:System.Windows.UIElement.TouchMove" />
+        <altmember cref="E:System.Windows.UIElement3D.TouchMove" />
       </Docs>
     </Member>
     <Member MemberName="ReportUp">
@@ -806,8 +806,8 @@
  ]]></format>
         </remarks>
         <altmember cref="E:System.Windows.ContentElement.TouchUp" />
-        <altmember cref="E:System.Windows.UIElement3D.TouchUp" />
         <altmember cref="E:System.Windows.UIElement.TouchUp" />
+        <altmember cref="E:System.Windows.UIElement3D.TouchUp" />
       </Docs>
     </Member>
     <Member MemberName="SetActiveSource">

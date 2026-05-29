@@ -67,6 +67,7 @@ For more information about this API, see [Supplemental API remarks for AssemblyB
 > `AssemblyBuilder` APIs require a fully trusted environment with trusted input, similar to other technologies such as compilers. There are no restrictions other than basic validation for generated IL that the `AssemblyBuilder` can contain. That includes validation for member name, count, and associated metadata, such as custom attributes.
 ]]></format>
     </remarks>
+    <related type="Article" href="/dotnet/framework/reflection-and-codedom/emitting-dynamic-methods-and-assemblies">Emitting Dynamic Methods and Assemblies</related>
     <example>
       <format type="text/markdown"><![CDATA[
 The following code example shows how to define and use a dynamic assembly. The example assembly contains one type, `MyDynamicType`, that has a private field, a property that gets and sets the private field, constructors that initialize the private field, and a method that multiplies a user-supplied number by the private field value and returns the result.
@@ -76,7 +77,6 @@ The following code example shows how to define and use a dynamic assembly. The e
 :::code language="vb" source="~/snippets/visualbasic/System.Reflection.Emit/AssemblyBuilder/Overview/24895.vb" id="Snippet1":::
       ]]></format>
     </example>
-    <related type="Article" href="/dotnet/framework/reflection-and-codedom/emitting-dynamic-methods-and-assemblies">Emitting Dynamic Methods and Assemblies</related>
   </Docs>
   <Members>
     <Member MemberName=".ctor">

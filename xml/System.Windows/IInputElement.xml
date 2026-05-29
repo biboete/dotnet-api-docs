@@ -31,8 +31,8 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Windows.FrameworkElement" />
     <altmember cref="T:System.Windows.FrameworkContentElement" />
+    <altmember cref="T:System.Windows.FrameworkElement" />
   </Docs>
   <Members>
     <Member MemberName="AddHandler">
@@ -73,10 +73,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="M:System.Windows.ContentElement.AddHandler(System.Windows.RoutedEvent,System.Delegate)" />
         <altmember cref="M:System.Windows.UIElement.AddHandler(System.Windows.RoutedEvent,System.Delegate)" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="CaptureMouse">
@@ -114,10 +114,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="M:System.Windows.ContentElement.CaptureMouse" />
         <altmember cref="M:System.Windows.UIElement.CaptureMouse" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="CaptureStylus">
@@ -155,10 +155,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="M:System.Windows.ContentElement.CaptureStylus" />
         <altmember cref="M:System.Windows.UIElement.CaptureStylus" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="Focus">
@@ -196,10 +196,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="M:System.Windows.ContentElement.Focus" />
         <altmember cref="M:System.Windows.UIElement.Focus" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="Focusable">
@@ -238,8 +238,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
         <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="GotKeyboardFocus">
@@ -274,11 +274,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.LostKeyboardFocus" />
         <altmember cref="E:System.Windows.ContentElement.GotKeyboardFocus" />
+        <altmember cref="E:System.Windows.IInputElement.LostKeyboardFocus" />
         <altmember cref="E:System.Windows.UIElement.GotKeyboardFocus" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="GotMouseCapture">
@@ -315,11 +315,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.LostMouseCapture" />
         <altmember cref="E:System.Windows.ContentElement.GotMouseCapture" />
+        <altmember cref="E:System.Windows.IInputElement.LostMouseCapture" />
         <altmember cref="E:System.Windows.UIElement.GotMouseCapture" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="GotStylusCapture">
@@ -356,11 +356,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.LostStylusCapture" />
         <altmember cref="E:System.Windows.ContentElement.GotStylusCapture" />
+        <altmember cref="E:System.Windows.IInputElement.LostStylusCapture" />
         <altmember cref="E:System.Windows.UIElement.GotStylusCapture" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="IsEnabled">
@@ -399,8 +399,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
         <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="IsKeyboardFocused">
@@ -439,8 +439,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
         <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="IsKeyboardFocusWithin">
@@ -479,8 +479,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
         <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="IsMouseCaptured">
@@ -519,8 +519,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
         <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="IsMouseDirectlyOver">
@@ -559,8 +559,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
         <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="IsMouseOver">
@@ -599,8 +599,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
         <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="IsStylusCaptured">
@@ -639,8 +639,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
         <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="IsStylusDirectlyOver">
@@ -679,8 +679,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
         <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="IsStylusOver">
@@ -721,8 +721,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
         <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="KeyDown">
@@ -757,11 +757,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.KeyUp" />
         <altmember cref="E:System.Windows.ContentElement.KeyDown" />
+        <altmember cref="E:System.Windows.IInputElement.KeyUp" />
         <altmember cref="E:System.Windows.UIElement.KeyDown" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="KeyUp">
@@ -796,11 +796,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.KeyDown" />
         <altmember cref="E:System.Windows.ContentElement.KeyUp" />
+        <altmember cref="E:System.Windows.IInputElement.KeyDown" />
         <altmember cref="E:System.Windows.UIElement.KeyUp" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="LostKeyboardFocus">
@@ -835,11 +835,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.GotKeyboardFocus" />
         <altmember cref="E:System.Windows.ContentElement.LostKeyboardFocus" />
+        <altmember cref="E:System.Windows.IInputElement.GotKeyboardFocus" />
         <altmember cref="E:System.Windows.UIElement.LostKeyboardFocus" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="LostMouseCapture">
@@ -876,11 +876,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.GotMouseCapture" />
         <altmember cref="E:System.Windows.ContentElement.LostMouseCapture" />
+        <altmember cref="E:System.Windows.IInputElement.GotMouseCapture" />
         <altmember cref="E:System.Windows.UIElement.LostMouseCapture" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="LostStylusCapture">
@@ -917,11 +917,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.GotStylusCapture" />
         <altmember cref="E:System.Windows.ContentElement.LostStylusCapture" />
+        <altmember cref="E:System.Windows.IInputElement.GotStylusCapture" />
         <altmember cref="E:System.Windows.UIElement.LostStylusCapture" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="MouseEnter">
@@ -956,11 +956,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.MouseLeave" />
         <altmember cref="E:System.Windows.ContentElement.MouseEnter" />
+        <altmember cref="E:System.Windows.IInputElement.MouseLeave" />
         <altmember cref="E:System.Windows.UIElement.MouseEnter" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="MouseLeave">
@@ -995,11 +995,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.MouseEnter" />
         <altmember cref="E:System.Windows.ContentElement.MouseLeave" />
+        <altmember cref="E:System.Windows.IInputElement.MouseEnter" />
         <altmember cref="E:System.Windows.UIElement.MouseLeave" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="MouseLeftButtonDown">
@@ -1034,11 +1034,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.MouseLeftButtonUp" />
         <altmember cref="E:System.Windows.ContentElement.MouseLeftButtonDown" />
+        <altmember cref="E:System.Windows.IInputElement.MouseLeftButtonUp" />
         <altmember cref="E:System.Windows.UIElement.MouseLeftButtonDown" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="MouseLeftButtonUp">
@@ -1073,11 +1073,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.MouseLeftButtonDown" />
         <altmember cref="E:System.Windows.ContentElement.MouseLeftButtonUp" />
+        <altmember cref="E:System.Windows.IInputElement.MouseLeftButtonDown" />
         <altmember cref="E:System.Windows.UIElement.MouseLeftButtonUp" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="MouseMove">
@@ -1112,12 +1112,12 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="E:System.Windows.ContentElement.MouseMove" />
         <altmember cref="E:System.Windows.IInputElement.MouseEnter" />
         <altmember cref="E:System.Windows.IInputElement.MouseLeave" />
-        <altmember cref="E:System.Windows.ContentElement.MouseMove" />
         <altmember cref="E:System.Windows.UIElement.MouseMove" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="MouseRightButtonDown">
@@ -1152,10 +1152,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.MouseRightButtonUp" />
         <altmember cref="E:System.Windows.IInputElement.MouseRightButtonDown" />
+        <altmember cref="E:System.Windows.IInputElement.MouseRightButtonUp" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="MouseRightButtonUp">
@@ -1190,11 +1190,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.MouseRightButtonDown" />
         <altmember cref="E:System.Windows.ContentElement.MouseRightButtonUp" />
+        <altmember cref="E:System.Windows.IInputElement.MouseRightButtonDown" />
         <altmember cref="E:System.Windows.UIElement.MouseRightButtonUp" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="MouseWheel">
@@ -1229,11 +1229,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.MouseMove" />
         <altmember cref="E:System.Windows.ContentElement.MouseWheel" />
+        <altmember cref="E:System.Windows.IInputElement.MouseMove" />
         <altmember cref="E:System.Windows.UIElement.MouseWheel" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewGotKeyboardFocus">
@@ -1268,11 +1268,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.PreviewLostKeyboardFocus" />
         <altmember cref="E:System.Windows.ContentElement.PreviewGotKeyboardFocus" />
+        <altmember cref="E:System.Windows.IInputElement.PreviewLostKeyboardFocus" />
         <altmember cref="E:System.Windows.UIElement.PreviewGotKeyboardFocus" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewKeyDown">
@@ -1307,11 +1307,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.PreviewKeyUp" />
         <altmember cref="E:System.Windows.ContentElement.PreviewKeyDown" />
+        <altmember cref="E:System.Windows.IInputElement.PreviewKeyUp" />
         <altmember cref="E:System.Windows.UIElement.PreviewKeyDown" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewKeyUp">
@@ -1346,11 +1346,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.PreviewKeyDown" />
         <altmember cref="E:System.Windows.ContentElement.PreviewKeyUp" />
+        <altmember cref="E:System.Windows.IInputElement.PreviewKeyDown" />
         <altmember cref="E:System.Windows.UIElement.PreviewKeyUp" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewLostKeyboardFocus">
@@ -1385,11 +1385,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.PreviewGotKeyboardFocus" />
         <altmember cref="E:System.Windows.ContentElement.PreviewLostKeyboardFocus" />
+        <altmember cref="E:System.Windows.IInputElement.PreviewGotKeyboardFocus" />
         <altmember cref="E:System.Windows.UIElement.PreviewLostKeyboardFocus" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewMouseLeftButtonDown">
@@ -1424,11 +1424,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.PreviewMouseLeftButtonUp" />
         <altmember cref="E:System.Windows.ContentElement.PreviewMouseLeftButtonDown" />
+        <altmember cref="E:System.Windows.IInputElement.PreviewMouseLeftButtonUp" />
         <altmember cref="E:System.Windows.UIElement.PreviewMouseLeftButtonDown" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewMouseLeftButtonUp">
@@ -1463,11 +1463,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.PreviewMouseLeftButtonDown" />
         <altmember cref="E:System.Windows.ContentElement.PreviewMouseLeftButtonUp" />
+        <altmember cref="E:System.Windows.IInputElement.PreviewMouseLeftButtonDown" />
         <altmember cref="E:System.Windows.UIElement.PreviewMouseLeftButtonUp" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewMouseMove">
@@ -1502,10 +1502,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="E:System.Windows.ContentElement.PreviewMouseMove" />
         <altmember cref="E:System.Windows.UIElement.PreviewMouseMove" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewMouseRightButtonDown">
@@ -1540,11 +1540,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.PreviewMouseRightButtonUp" />
         <altmember cref="E:System.Windows.ContentElement.PreviewMouseRightButtonDown" />
+        <altmember cref="E:System.Windows.IInputElement.PreviewMouseRightButtonUp" />
         <altmember cref="E:System.Windows.UIElement.PreviewMouseRightButtonDown" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewMouseRightButtonUp">
@@ -1579,11 +1579,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.PreviewMouseRightButtonDown" />
         <altmember cref="E:System.Windows.ContentElement.PreviewMouseRightButtonUp" />
+        <altmember cref="E:System.Windows.IInputElement.PreviewMouseRightButtonDown" />
         <altmember cref="E:System.Windows.UIElement.PreviewMouseRightButtonUp" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewMouseWheel">
@@ -1618,10 +1618,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="E:System.Windows.ContentElement.PreviewMouseWheel" />
         <altmember cref="E:System.Windows.UIElement.PreviewMouseWheel" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewStylusButtonDown">
@@ -1656,11 +1656,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.PreviewStylusButtonUp" />
         <altmember cref="E:System.Windows.ContentElement.PreviewStylusButtonDown" />
+        <altmember cref="E:System.Windows.IInputElement.PreviewStylusButtonUp" />
         <altmember cref="E:System.Windows.UIElement.PreviewStylusButtonDown" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewStylusButtonUp">
@@ -1695,11 +1695,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.PreviewStylusButtonDown" />
         <altmember cref="E:System.Windows.ContentElement.PreviewStylusButtonUp" />
+        <altmember cref="E:System.Windows.IInputElement.PreviewStylusButtonDown" />
         <altmember cref="E:System.Windows.UIElement.PreviewStylusButtonUp" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewStylusDown">
@@ -1734,11 +1734,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.PreviewStylusUp" />
         <altmember cref="E:System.Windows.ContentElement.PreviewStylusDown" />
+        <altmember cref="E:System.Windows.IInputElement.PreviewStylusUp" />
         <altmember cref="E:System.Windows.UIElement.PreviewStylusDown" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewStylusInAirMove">
@@ -1773,10 +1773,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="E:System.Windows.ContentElement.PreviewStylusInAirMove" />
         <altmember cref="E:System.Windows.UIElement.PreviewStylusInAirMove" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewStylusInRange">
@@ -1811,11 +1811,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.PreviewStylusOutOfRange" />
         <altmember cref="E:System.Windows.ContentElement.PreviewStylusInRange" />
+        <altmember cref="E:System.Windows.IInputElement.PreviewStylusOutOfRange" />
         <altmember cref="E:System.Windows.UIElement.PreviewStylusInRange" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewStylusMove">
@@ -1850,10 +1850,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="E:System.Windows.ContentElement.PreviewStylusMove" />
         <altmember cref="E:System.Windows.UIElement.PreviewStylusMove" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewStylusOutOfRange">
@@ -1888,11 +1888,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.PreviewStylusInRange" />
         <altmember cref="E:System.Windows.ContentElement.PreviewStylusOutOfRange" />
+        <altmember cref="E:System.Windows.IInputElement.PreviewStylusInRange" />
         <altmember cref="E:System.Windows.UIElement.PreviewStylusOutOfRange" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewStylusSystemGesture">
@@ -1927,10 +1927,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="E:System.Windows.ContentElement.PreviewStylusSystemGesture" />
         <altmember cref="E:System.Windows.UIElement.PreviewStylusSystemGesture" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewStylusUp">
@@ -1965,11 +1965,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.PreviewStylusDown" />
         <altmember cref="E:System.Windows.ContentElement.PreviewStylusUp" />
+        <altmember cref="E:System.Windows.IInputElement.PreviewStylusDown" />
         <altmember cref="E:System.Windows.UIElement.PreviewStylusUp" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="PreviewTextInput">
@@ -2004,10 +2004,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="E:System.Windows.ContentElement.PreviewTextInput" />
         <altmember cref="E:System.Windows.UIElement.PreviewTextInput" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="RaiseEvent">
@@ -2046,10 +2046,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="M:System.Windows.ContentElement.RaiseEvent(System.Windows.RoutedEventArgs)" />
         <altmember cref="M:System.Windows.UIElement.RaiseEvent(System.Windows.RoutedEventArgs)" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="ReleaseMouseCapture">
@@ -2085,10 +2085,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="M:System.Windows.ContentElement.ReleaseMouseCapture" />
         <altmember cref="M:System.Windows.UIElement.ReleaseMouseCapture" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="ReleaseStylusCapture">
@@ -2124,10 +2124,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="M:System.Windows.ContentElement.ReleaseStylusCapture" />
         <altmember cref="M:System.Windows.UIElement.ReleaseStylusCapture" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="RemoveHandler">
@@ -2168,10 +2168,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="M:System.Windows.ContentElement.RemoveHandler(System.Windows.RoutedEvent,System.Delegate)" />
         <altmember cref="M:System.Windows.UIElement.RemoveHandler(System.Windows.RoutedEvent,System.Delegate)" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="StylusButtonDown">
@@ -2206,11 +2206,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.StylusButtonUp" />
         <altmember cref="E:System.Windows.ContentElement.StylusButtonDown" />
+        <altmember cref="E:System.Windows.IInputElement.StylusButtonUp" />
         <altmember cref="E:System.Windows.UIElement.StylusButtonDown" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="StylusButtonUp">
@@ -2245,11 +2245,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.StylusButtonDown" />
         <altmember cref="E:System.Windows.ContentElement.StylusButtonUp" />
+        <altmember cref="E:System.Windows.IInputElement.StylusButtonDown" />
         <altmember cref="E:System.Windows.UIElement.StylusButtonUp" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="StylusDown">
@@ -2284,11 +2284,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.StylusUp" />
         <altmember cref="E:System.Windows.ContentElement.StylusDown" />
+        <altmember cref="E:System.Windows.IInputElement.StylusUp" />
         <altmember cref="E:System.Windows.UIElement.StylusDown" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="StylusEnter">
@@ -2323,11 +2323,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.StylusLeave" />
         <altmember cref="E:System.Windows.ContentElement.StylusEnter" />
+        <altmember cref="E:System.Windows.IInputElement.StylusLeave" />
         <altmember cref="E:System.Windows.UIElement.StylusEnter" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="StylusInAirMove">
@@ -2362,10 +2362,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="E:System.Windows.ContentElement.StylusInAirMove" />
         <altmember cref="E:System.Windows.UIElement.StylusInAirMove" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="StylusInRange">
@@ -2400,11 +2400,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.StylusOutOfRange" />
         <altmember cref="E:System.Windows.ContentElement.StylusInRange" />
+        <altmember cref="E:System.Windows.IInputElement.StylusOutOfRange" />
         <altmember cref="E:System.Windows.UIElement.StylusInRange" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="StylusLeave">
@@ -2439,11 +2439,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.StylusEnter" />
         <altmember cref="E:System.Windows.ContentElement.StylusLeave" />
+        <altmember cref="E:System.Windows.IInputElement.StylusEnter" />
         <altmember cref="E:System.Windows.UIElement.StylusLeave" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="StylusMove">
@@ -2478,10 +2478,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="E:System.Windows.ContentElement.StylusMove" />
         <altmember cref="E:System.Windows.UIElement.StylusMove" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="StylusOutOfRange">
@@ -2516,11 +2516,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.StylusInRange" />
         <altmember cref="E:System.Windows.ContentElement.StylusOutOfRange" />
+        <altmember cref="E:System.Windows.IInputElement.StylusInRange" />
         <altmember cref="E:System.Windows.UIElement.StylusOutOfRange" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="StylusSystemGesture">
@@ -2555,10 +2555,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="E:System.Windows.ContentElement.StylusSystemGesture" />
         <altmember cref="E:System.Windows.UIElement.StylusSystemGesture" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="StylusUp">
@@ -2593,11 +2593,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
-        <altmember cref="E:System.Windows.IInputElement.StylusDown" />
         <altmember cref="E:System.Windows.ContentElement.StylusUp" />
+        <altmember cref="E:System.Windows.IInputElement.StylusDown" />
         <altmember cref="E:System.Windows.UIElement.StylusUp" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
     <Member MemberName="TextInput">
@@ -2632,10 +2632,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.FrameworkElement" />
-        <altmember cref="T:System.Windows.FrameworkContentElement" />
         <altmember cref="E:System.Windows.ContentElement.TextInput" />
         <altmember cref="E:System.Windows.UIElement.TextInput" />
+        <altmember cref="T:System.Windows.FrameworkContentElement" />
+        <altmember cref="T:System.Windows.FrameworkElement" />
       </Docs>
     </Member>
   </Members>

@@ -63,6 +63,7 @@
 
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Data.ITableMappingCollection" />
     <block subset="none" type="overrides">
       <para>When you inherit from the <see cref="T:System.Data.ITableMapping" /> interface, you should implement the following constructors:
 
@@ -84,7 +85,6 @@
 
  </description></item></list></para>
     </block>
-    <altmember cref="T:System.Data.ITableMappingCollection" />
   </Docs>
   <Members>
     <Member MemberName="ColumnMappings">

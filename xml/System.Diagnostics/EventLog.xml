@@ -112,8 +112,8 @@ On Windows, User Account Control (UAC) determines the credentials of a user. If 
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Diagnostics.EventLogEntry" />
     <altmember cref="T:System.Diagnostics.EntryWrittenEventArgs" />
+    <altmember cref="T:System.Diagnostics.EventLogEntry" />
     <altmember cref="T:System.ServiceProcess.ServiceBase" />
   </Docs>
   <Members>
@@ -181,12 +181,12 @@ On Windows, User Account Control (UAC) determines the credentials of a user. If 
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="P:System.Diagnostics.EventLog.Log" />
-        <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
-        <altmember cref="P:System.Diagnostics.EventLog.Entries" />
         <altmember cref="Overload:System.Diagnostics.EventLog.WriteEntry" />
         <altmember cref="Overload:System.Diagnostics.EventLog.WriteEvent" />
+        <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Log" />
+        <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
         <altmember cref="T:System.Diagnostics.EventLogEntry" />
       </Docs>
     </Member>
@@ -253,12 +253,12 @@ On Windows, User Account Control (UAC) determines the credentials of a user. If 
         </remarks>
         <exception cref="T:System.ArgumentNullException">The log name is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentException">The log name is invalid.</exception>
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="P:System.Diagnostics.EventLog.Log" />
-        <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
-        <altmember cref="P:System.Diagnostics.EventLog.Entries" />
         <altmember cref="Overload:System.Diagnostics.EventLog.WriteEntry" />
         <altmember cref="Overload:System.Diagnostics.EventLog.WriteEvent" />
+        <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Log" />
+        <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
         <altmember cref="T:System.Diagnostics.EventLogEntry" />
       </Docs>
     </Member>
@@ -329,12 +329,12 @@ On Windows, User Account Control (UAC) determines the credentials of a user. If 
  -or-
 
  The computer name is invalid.</exception>
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="P:System.Diagnostics.EventLog.Log" />
-        <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
-        <altmember cref="P:System.Diagnostics.EventLog.Entries" />
         <altmember cref="Overload:System.Diagnostics.EventLog.WriteEntry" />
         <altmember cref="Overload:System.Diagnostics.EventLog.WriteEvent" />
+        <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Log" />
+        <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
         <altmember cref="T:System.Diagnostics.EventLogEntry" />
       </Docs>
     </Member>
@@ -404,12 +404,12 @@ On Windows, User Account Control (UAC) determines the credentials of a user. If 
  -or-
 
  The computer name is invalid.</exception>
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="P:System.Diagnostics.EventLog.Log" />
-        <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
-        <altmember cref="P:System.Diagnostics.EventLog.Entries" />
         <altmember cref="Overload:System.Diagnostics.EventLog.WriteEntry" />
         <altmember cref="Overload:System.Diagnostics.EventLog.WriteEvent" />
+        <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Log" />
+        <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
         <altmember cref="T:System.Diagnostics.EventLogEntry" />
       </Docs>
     </Member>
@@ -566,8 +566,8 @@ On Windows, User Account Control (UAC) determines the credentials of a user. If 
  ]]></format>
         </remarks>
         <exception cref="T:System.ComponentModel.Win32Exception">The event log's read handle or write handle was not released successfully.</exception>
-        <altmember cref="M:System.Diagnostics.EventLog.Delete(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.Clear" />
+        <altmember cref="M:System.Diagnostics.EventLog.Delete(System.String)" />
       </Docs>
     </Member>
     <MemberGroup MemberName="CreateEventSource">
@@ -806,10 +806,10 @@ SVC_UPDATE.EXE
         <exception cref="T:System.InvalidOperationException">The registry key for the event log could not be opened.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sourceData" /> is <see langword="null" />.</exception>
-        <altmember cref="T:System.Diagnostics.EventSourceCreationData" />
-        <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
+        <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
         <altmember cref="P:System.Diagnostics.EventLog.Source" />
+        <altmember cref="T:System.Diagnostics.EventSourceCreationData" />
       </Docs>
     </Member>
     <Member MemberName="CreateEventSource">
@@ -927,11 +927,11 @@ SVC_UPDATE.EXE
 
  The source name matches an existing event log name.</exception>
         <exception cref="T:System.InvalidOperationException">The registry key for the event log could not be opened on the local computer.</exception>
+        <altmember cref="M:System.Diagnostics.EventLog.Delete(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
         <altmember cref="P:System.Diagnostics.EventLog.Log" />
-        <altmember cref="M:System.Diagnostics.EventLog.Delete(System.String)" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
       </Docs>
     </Member>
     <Member MemberName="CreateEventSource">
@@ -966,8 +966,8 @@ SVC_UPDATE.EXE
           <AttributeName Language="F#">[&lt;System.Obsolete("EventLog.CreateEventSource has been deprecated. Use System.Diagnostics.EventLog.CreateEventSource(EventSourceCreationData sourceData) instead.")&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.6.2-pp;netframework-4.7.1-pp;netframework-4.7.2-pp;netframework-4.7-pp;netframework-4.8.1-pp;netframework-4.8-pp;windowsdesktop-3.0;windowsdesktop-3.1;windowsdesktop-5.0">
-          <AttributeName Language="C#">[System.Obsolete("This method has been deprecated. Please use System.Diagnostics.EventLog.CreateEventSource(EventSourceCreationData sourceData) instead. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Obsolete("This method has been deprecated. Please use System.Diagnostics.EventLog.CreateEventSource(EventSourceCreationData sourceData) instead. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Obsolete("This method has been deprecated.  Please use System.Diagnostics.EventLog.CreateEventSource(EventSourceCreationData sourceData) instead.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("This method has been deprecated.  Please use System.Diagnostics.EventLog.CreateEventSource(EventSourceCreationData sourceData) instead.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1053,12 +1053,12 @@ SVC_UPDATE.EXE
 
  The source name matches an existing event source name.</exception>
         <exception cref="T:System.InvalidOperationException">The registry key for the event log could not be opened on the specified computer.</exception>
+        <altmember cref="M:System.Diagnostics.EventLog.Delete(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
+        <altmember cref="P:System.Diagnostics.EventLog.Log" />
         <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
         <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="P:System.Diagnostics.EventLog.Log" />
-        <altmember cref="M:System.Diagnostics.EventLog.Delete(System.String)" />
       </Docs>
     </Member>
     <MemberGroup MemberName="Delete">
@@ -1316,11 +1316,11 @@ SVC_UPDATE.EXE
 -or-
 
  You do not have write access on the registry key for the event log.</exception>
+        <altmember cref="M:System.Diagnostics.EventLog.Clear" />
+        <altmember cref="M:System.Diagnostics.EventLog.Delete(System.String)" />
+        <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
         <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
-        <altmember cref="M:System.Diagnostics.EventLog.Delete(System.String)" />
-        <altmember cref="M:System.Diagnostics.EventLog.Clear" />
       </Docs>
     </Member>
     <Member MemberName="DeleteEventSource">
@@ -1399,12 +1399,12 @@ SVC_UPDATE.EXE
  You do not have write access on the registry key for the event log.</exception>
         <exception cref="T:System.InvalidOperationException">
           <paramref name="source" /> cannot be deleted because in the registry, the parent registry key for <paramref name="source" /> does not contain a subkey with the same name.</exception>
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
-        <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
-        <altmember cref="M:System.Diagnostics.EventLog.Delete(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.Clear" />
+        <altmember cref="M:System.Diagnostics.EventLog.Delete(System.String)" />
+        <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
+        <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
       </Docs>
     </Member>
     <Member MemberName="Dispose">
@@ -1640,12 +1640,12 @@ SVC_UPDATE.EXE
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Diagnostics.EventLogEntryCollection" />
-        <altmember cref="T:System.Diagnostics.EventLogEntry" />
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.WriteEntry" />
         <altmember cref="P:System.Diagnostics.EventLog.Log" />
         <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
-        <altmember cref="Overload:System.Diagnostics.EventLog.WriteEntry" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
+        <altmember cref="T:System.Diagnostics.EventLogEntry" />
+        <altmember cref="T:System.Diagnostics.EventLogEntryCollection" />
       </Docs>
     </Member>
     <Member MemberName="EntryWritten">
@@ -1784,9 +1784,9 @@ SVC_UPDATE.EXE
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">The logName is <see langword="null" /> or the value is empty.</exception>
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="M:System.Diagnostics.EventLog.Delete(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="P:System.Diagnostics.EventLog.Log" />
       </Docs>
     </Member>
@@ -1860,9 +1860,9 @@ SVC_UPDATE.EXE
  -or-
 
  The <paramref name="logName" /> is <see langword="null" /> or the value is empty.</exception>
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="M:System.Diagnostics.EventLog.Delete(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="P:System.Diagnostics.EventLog.Log" />
         <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
       </Docs>
@@ -2084,12 +2084,12 @@ SVC_UPDATE.EXE
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Diagnostics.EventLog.Delete(System.String)" />
+        <altmember cref="M:System.Diagnostics.EventLog.Exists(System.String)" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
+        <altmember cref="P:System.Diagnostics.EventLog.Entries" />
         <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
         <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="P:System.Diagnostics.EventLog.Entries" />
-        <altmember cref="M:System.Diagnostics.EventLog.Exists(System.String)" />
-        <altmember cref="M:System.Diagnostics.EventLog.Delete(System.String)" />
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="T:System.Diagnostics.EventLogEntryCollection" />
       </Docs>
     </Member>
@@ -2219,10 +2219,10 @@ SVC_UPDATE.EXE
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
-        <altmember cref="P:System.Diagnostics.EventLog.Log" />
         <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
+        <altmember cref="P:System.Diagnostics.EventLog.Log" />
+        <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
       </Docs>
     </Member>
     <Member MemberName="MachineName">
@@ -2295,14 +2295,14 @@ SVC_UPDATE.EXE
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">The computer name is invalid.</exception>
+        <altmember cref="M:System.Diagnostics.EventLog.GetEventLogs" />
+        <altmember cref="M:System.Diagnostics.EventLog.Delete(System.String)" />
+        <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
+        <altmember cref="M:System.Diagnostics.EventLog.Exists(System.String)" />
+        <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="P:System.Diagnostics.EventLog.Log" />
         <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
-        <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
-        <altmember cref="M:System.Diagnostics.EventLog.Delete(System.String)" />
-        <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
-        <altmember cref="M:System.Diagnostics.EventLog.Exists(System.String)" />
-        <altmember cref="M:System.Diagnostics.EventLog.GetEventLogs" />
       </Docs>
     </Member>
     <Member MemberName="MaximumKilobytes">
@@ -2371,8 +2371,8 @@ SVC_UPDATE.EXE
 -or-
 
  The registry key for the event log could not be opened on the target computer.</exception>
-        <altmember cref="P:System.Diagnostics.EventLog.OverflowAction" />
         <altmember cref="M:System.Diagnostics.EventLog.ModifyOverflowPolicy(System.Diagnostics.OverflowAction,System.Int32)" />
+        <altmember cref="P:System.Diagnostics.EventLog.OverflowAction" />
       </Docs>
     </Member>
     <Member MemberName="MinimumRetentionDays">
@@ -2428,8 +2428,8 @@ SVC_UPDATE.EXE
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Diagnostics.EventLog.MaximumKilobytes" />
         <altmember cref="M:System.Diagnostics.EventLog.ModifyOverflowPolicy(System.Diagnostics.OverflowAction,System.Int32)" />
+        <altmember cref="P:System.Diagnostics.EventLog.MaximumKilobytes" />
         <altmember cref="P:System.Diagnostics.EventLog.OverflowAction" />
       </Docs>
     </Member>
@@ -2510,10 +2510,10 @@ SVC_UPDATE.EXE
 -or-
 
  The registry key for the event log could not be opened on the target computer.</exception>
-        <altmember cref="T:System.Diagnostics.OverflowAction" />
         <altmember cref="P:System.Diagnostics.EventLog.MaximumKilobytes" />
-        <altmember cref="P:System.Diagnostics.EventLog.OverflowAction" />
         <altmember cref="P:System.Diagnostics.EventLog.MinimumRetentionDays" />
+        <altmember cref="P:System.Diagnostics.EventLog.OverflowAction" />
+        <altmember cref="T:System.Diagnostics.OverflowAction" />
       </Docs>
     </Member>
     <Member MemberName="OverflowAction">
@@ -2574,10 +2574,10 @@ SVC_UPDATE.EXE
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Diagnostics.OverflowAction" />
-        <altmember cref="P:System.Diagnostics.EventLog.MaximumKilobytes" />
         <altmember cref="M:System.Diagnostics.EventLog.ModifyOverflowPolicy(System.Diagnostics.OverflowAction,System.Int32)" />
+        <altmember cref="P:System.Diagnostics.EventLog.MaximumKilobytes" />
         <altmember cref="P:System.Diagnostics.EventLog.MinimumRetentionDays" />
+        <altmember cref="T:System.Diagnostics.OverflowAction" />
       </Docs>
     </Member>
     <Member MemberName="RegisterDisplayName">
@@ -2847,11 +2847,11 @@ SVC_UPDATE.EXE
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">The source name results in a registry key path longer than 254 characters.</exception>
-        <altmember cref="P:System.Diagnostics.EventLog.Log" />
-        <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
+        <altmember cref="P:System.Diagnostics.EventLog.Log" />
+        <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
       </Docs>
     </Member>
     <MemberGroup MemberName="SourceExists">
@@ -2940,9 +2940,9 @@ SVC_UPDATE.EXE
         </remarks>
         <exception cref="T:System.Security.SecurityException">
           <paramref name="source" /> was not found, but some or all of the event logs could not be searched.</exception>
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.Exists(System.String)" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="P:System.Diagnostics.EventLog.Source" />
       </Docs>
     </Member>
@@ -3033,11 +3033,11 @@ SVC_UPDATE.EXE
           <paramref name="machineName" /> is an invalid computer name.</exception>
         <exception cref="T:System.Security.SecurityException">
           <paramref name="source" /> was not found, but some or all of the event logs could not be searched.</exception>
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.Exists(System.String)" />
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="P:System.Diagnostics.EventLog.MachineName" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
       </Docs>
     </Member>
     <Member MemberName="SynchronizingObject">
@@ -3205,11 +3205,11 @@ SVC_UPDATE.EXE
  The source name results in a registry key path longer than 254 characters.</exception>
         <exception cref="T:System.InvalidOperationException">The registry key for the event log could not be opened.</exception>
         <exception cref="T:System.ComponentModel.Win32Exception">The operating system reported an error when writing the event entry to the event log. A Windows error code is not available.</exception>
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
       </Docs>
     </Member>
     <Member MemberName="WriteEntry">
@@ -3309,12 +3309,12 @@ SVC_UPDATE.EXE
           <paramref name="type" /> is not a valid <see cref="T:System.Diagnostics.EventLogEntryType" />.</exception>
         <exception cref="T:System.InvalidOperationException">The registry key for the event log could not be opened.</exception>
         <exception cref="T:System.ComponentModel.Win32Exception">The operating system reported an error when writing the event entry to the event log. A Windows error code is not available.</exception>
-        <altmember cref="T:System.Diagnostics.EventLogEntryType" />
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
+        <altmember cref="T:System.Diagnostics.EventLogEntryType" />
       </Docs>
     </Member>
     <Member MemberName="WriteEntry">
@@ -3403,11 +3403,11 @@ SVC_UPDATE.EXE
  The source name results in a registry key path longer than 254 characters.</exception>
         <exception cref="T:System.InvalidOperationException">The registry key for the event log could not be opened.</exception>
         <exception cref="T:System.ComponentModel.Win32Exception">The operating system reported an error when writing the event entry to the event log. A Windows error code is not available.</exception>
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
       </Docs>
     </Member>
     <Member MemberName="WriteEntry">
@@ -3513,12 +3513,12 @@ SVC_UPDATE.EXE
         <exception cref="T:System.ComponentModel.InvalidEnumArgumentException">
           <paramref name="type" /> is not a valid <see cref="T:System.Diagnostics.EventLogEntryType" />.</exception>
         <exception cref="T:System.ComponentModel.Win32Exception">The operating system reported an error when writing the event entry to the event log. A Windows error code is not available.</exception>
-        <altmember cref="T:System.Diagnostics.EventLogEntryType" />
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
+        <altmember cref="T:System.Diagnostics.EventLogEntryType" />
       </Docs>
     </Member>
     <Member MemberName="WriteEntry">
@@ -3613,12 +3613,12 @@ SVC_UPDATE.EXE
         <exception cref="T:System.ComponentModel.InvalidEnumArgumentException">
           <paramref name="type" /> is not a valid <see cref="T:System.Diagnostics.EventLogEntryType" />.</exception>
         <exception cref="T:System.ComponentModel.Win32Exception">The operating system reported an error when writing the event entry to the event log. A Windows error code is not available.</exception>
-        <altmember cref="T:System.Diagnostics.EventLogEntryType" />
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
+        <altmember cref="T:System.Diagnostics.EventLogEntryType" />
       </Docs>
     </Member>
     <Member MemberName="WriteEntry">
@@ -3735,12 +3735,12 @@ SVC_UPDATE.EXE
         <exception cref="T:System.ComponentModel.InvalidEnumArgumentException">
           <paramref name="type" /> is not a valid <see cref="T:System.Diagnostics.EventLogEntryType" />.</exception>
         <exception cref="T:System.ComponentModel.Win32Exception">The operating system reported an error when writing the event entry to the event log. A Windows error code is not available.</exception>
-        <altmember cref="T:System.Diagnostics.EventLogEntryType" />
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
+        <altmember cref="T:System.Diagnostics.EventLogEntryType" />
       </Docs>
     </Member>
     <Member MemberName="WriteEntry">
@@ -3841,12 +3841,12 @@ SVC_UPDATE.EXE
         <exception cref="T:System.ComponentModel.InvalidEnumArgumentException">
           <paramref name="type" /> is not a valid <see cref="T:System.Diagnostics.EventLogEntryType" />.</exception>
         <exception cref="T:System.ComponentModel.Win32Exception">The operating system reported an error when writing the event entry to the event log. A Windows error code is not available.</exception>
-        <altmember cref="T:System.Diagnostics.EventLogEntryType" />
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
+        <altmember cref="T:System.Diagnostics.EventLogEntryType" />
       </Docs>
     </Member>
     <Member MemberName="WriteEntry">
@@ -3967,12 +3967,12 @@ SVC_UPDATE.EXE
         <exception cref="T:System.ComponentModel.InvalidEnumArgumentException">
           <paramref name="type" /> is not a valid <see cref="T:System.Diagnostics.EventLogEntryType" />.</exception>
         <exception cref="T:System.ComponentModel.Win32Exception">The operating system reported an error when writing the event entry to the event log. A Windows error code is not available.</exception>
-        <altmember cref="T:System.Diagnostics.EventLogEntryType" />
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
+        <altmember cref="T:System.Diagnostics.EventLogEntryType" />
       </Docs>
     </Member>
     <Member MemberName="WriteEntry">
@@ -4081,12 +4081,12 @@ SVC_UPDATE.EXE
         <exception cref="T:System.ComponentModel.InvalidEnumArgumentException">
           <paramref name="type" /> is not a valid <see cref="T:System.Diagnostics.EventLogEntryType" />.</exception>
         <exception cref="T:System.ComponentModel.Win32Exception">The operating system reported an error when writing the event entry to the event log. A Windows error code is not available.</exception>
-        <altmember cref="T:System.Diagnostics.EventLogEntryType" />
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
+        <altmember cref="T:System.Diagnostics.EventLogEntryType" />
       </Docs>
     </Member>
     <Member MemberName="WriteEntry">
@@ -4203,12 +4203,12 @@ SVC_UPDATE.EXE
           <paramref name="type" /> is not a valid <see cref="T:System.Diagnostics.EventLogEntryType" />.</exception>
         <exception cref="T:System.InvalidOperationException">The registry key for the event log could not be opened.</exception>
         <exception cref="T:System.ComponentModel.Win32Exception">The operating system reported an error when writing the event entry to the event log. A Windows error code is not available.</exception>
-        <altmember cref="T:System.Diagnostics.EventLogEntryType" />
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
-        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="M:System.Diagnostics.EventLog.DeleteEventSource(System.String)" />
         <altmember cref="M:System.Diagnostics.EventLog.SourceExists(System.String)" />
+        <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
         <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
+        <altmember cref="T:System.Diagnostics.EventLogEntryType" />
       </Docs>
     </Member>
     <MemberGroup MemberName="WriteEvent">
@@ -4439,8 +4439,8 @@ SVC_UPDATE.EXE
         <exception cref="T:System.InvalidOperationException">The registry key for the event log could not be opened.</exception>
         <exception cref="T:System.ComponentModel.Win32Exception">The operating system reported an error when writing the event entry to the event log. A Windows error code is not available.</exception>
         <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
         <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
         <altmember cref="T:System.Diagnostics.EventInstance" />
       </Docs>
     </Member>
@@ -4676,8 +4676,8 @@ SVC_UPDATE.EXE
         <exception cref="T:System.InvalidOperationException">The registry key for the event log could not be opened.</exception>
         <exception cref="T:System.ComponentModel.Win32Exception">The operating system reported an error when writing the event entry to the event log. A Windows error code is not available.</exception>
         <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
         <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
         <altmember cref="T:System.Diagnostics.EventInstance" />
       </Docs>
     </Member>
@@ -4896,8 +4896,8 @@ SVC_UPDATE.EXE
         <exception cref="T:System.InvalidOperationException">The registry key for the event log could not be opened.</exception>
         <exception cref="T:System.ComponentModel.Win32Exception">The operating system reported an error when writing the event entry to the event log. A Windows error code is not available.</exception>
         <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
         <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
         <altmember cref="T:System.Diagnostics.EventInstance" />
       </Docs>
     </Member>
@@ -5120,8 +5120,8 @@ SVC_UPDATE.EXE
         <exception cref="T:System.InvalidOperationException">The registry key for the event log could not be opened.</exception>
         <exception cref="T:System.ComponentModel.Win32Exception">The operating system reported an error when writing the event entry to the event log. A Windows error code is not available.</exception>
         <altmember cref="Overload:System.Diagnostics.EventLog.CreateEventSource" />
-        <altmember cref="P:System.Diagnostics.EventLog.Source" />
         <altmember cref="P:System.Diagnostics.EventLog.Entries" />
+        <altmember cref="P:System.Diagnostics.EventLog.Source" />
         <altmember cref="T:System.Diagnostics.EventInstance" />
       </Docs>
     </Member>

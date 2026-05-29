@@ -55,6 +55,11 @@
   <Docs>
     <summary>Transforms XML data using an XSLT style sheet.</summary>
     <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-xml-xsl-xslcompiledtransform">Supplemental API remarks for XslCompiledTransform</see>.</remarks>
+    <altmember cref="N:System.Xml" />
+    <altmember cref="T:System.Xml.Xsl.XsltArgumentList" />
+    <altmember cref="T:System.Xml.Xsl.XsltMessageEncounteredEventArgs" />
+    <related type="Article" href="/dotnet/standard/data/xml/xslt-transformations">XSLT Transformations</related>
+    <related type="Article" href="/dotnet/standard/data/xml/">XML Documents and Data</related>
     <example>
       <format type="text/markdown"><![CDATA[
 The following example executes a transform and outputs to a file.
@@ -75,11 +80,6 @@ The sample uses the following two input files:
 
  The <see cref="Overload:System.Xml.Xsl.XslCompiledTransform.Load" /> method is not thread safe when called simultaneously from multiple threads.
     </threadsafe>
-    <altmember cref="T:System.Xml.Xsl.XsltArgumentList" />
-    <altmember cref="T:System.Xml.Xsl.XsltMessageEncounteredEventArgs" />
-    <altmember cref="N:System.Xml" />
-    <related type="Article" href="/dotnet/standard/data/xml/xslt-transformations">XSLT Transformations</related>
-    <related type="Article" href="/dotnet/standard/data/xml/">XML Documents and Data</related>
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">

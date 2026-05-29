@@ -74,9 +74,9 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Runtime.Serialization.XsdDataContractImporter" />
-    <altmember cref="T:System.Runtime.Serialization.ExportOptions" />
     <altmember cref="T:System.Runtime.Serialization.DataContractSerializer" />
+    <altmember cref="T:System.Runtime.Serialization.ExportOptions" />
+    <altmember cref="T:System.Runtime.Serialization.XsdDataContractImporter" />
     <related type="Article" href="/dotnet/framework/wcf/feature-details/schema-import-and-export">Schema Import and Export</related>
     <related type="Article" href="/dotnet/framework/wcf/feature-details/importing-schema-to-generate-classes">Importing Schema To Generate Classes</related>
     <related type="Article" href="/dotnet/framework/wcf/feature-details/exporting-schemas-from-classes">Exporting Schemas From Classes</related>

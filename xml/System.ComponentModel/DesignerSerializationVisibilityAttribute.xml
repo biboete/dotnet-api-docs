@@ -82,8 +82,8 @@
  ]]></format>
     </remarks>
     <altmember cref="T:System.Attribute" />
-    <altmember cref="T:System.ComponentModel.PropertyDescriptor" />
     <altmember cref="T:System.ComponentModel.AttributeCollection" />
+    <altmember cref="T:System.ComponentModel.PropertyDescriptor" />
     <altmember cref="T:System.ComponentModel.PropertyDescriptorCollection" />
   </Docs>
   <Members>
@@ -189,9 +189,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.ComponentModel.DesignerSerializationVisibilityAttribute" />
         <altmember cref="F:System.ComponentModel.DesignerSerializationVisibilityAttribute.Hidden" />
         <altmember cref="F:System.ComponentModel.DesignerSerializationVisibilityAttribute.Visible" />
+        <altmember cref="T:System.ComponentModel.DesignerSerializationVisibilityAttribute" />
       </Docs>
     </Member>
     <Member MemberName="Default">
@@ -241,10 +241,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.ComponentModel.DesignerSerializationVisibilityAttribute" />
-        <altmember cref="F:System.ComponentModel.DesignerSerializationVisibilityAttribute.Visible" />
-        <altmember cref="F:System.ComponentModel.DesignerSerializationVisibilityAttribute.Hidden" />
         <altmember cref="F:System.ComponentModel.DesignerSerializationVisibilityAttribute.Content" />
+        <altmember cref="F:System.ComponentModel.DesignerSerializationVisibilityAttribute.Hidden" />
+        <altmember cref="F:System.ComponentModel.DesignerSerializationVisibilityAttribute.Visible" />
+        <altmember cref="T:System.ComponentModel.DesignerSerializationVisibilityAttribute" />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -394,9 +394,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.ComponentModel.DesignerSerializationVisibilityAttribute" />
-        <altmember cref="F:System.ComponentModel.DesignerSerializationVisibilityAttribute.Visible" />
         <altmember cref="F:System.ComponentModel.DesignerSerializationVisibilityAttribute.Content" />
+        <altmember cref="F:System.ComponentModel.DesignerSerializationVisibilityAttribute.Visible" />
+        <altmember cref="T:System.ComponentModel.DesignerSerializationVisibilityAttribute" />
       </Docs>
     </Member>
     <Member MemberName="IsDefaultAttribute">
@@ -498,8 +498,8 @@
  ]]></format>
         </remarks>
         <altmember cref="T:System.Attribute" />
-        <altmember cref="T:System.ComponentModel.PropertyDescriptor" />
         <altmember cref="T:System.ComponentModel.AttributeCollection" />
+        <altmember cref="T:System.ComponentModel.PropertyDescriptor" />
         <altmember cref="T:System.ComponentModel.PropertyDescriptorCollection" />
       </Docs>
     </Member>
@@ -552,9 +552,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.ComponentModel.DesignerSerializationVisibilityAttribute" />
-        <altmember cref="F:System.ComponentModel.DesignerSerializationVisibilityAttribute.Visible" />
         <altmember cref="F:System.ComponentModel.DesignerSerializationVisibilityAttribute.Content" />
+        <altmember cref="F:System.ComponentModel.DesignerSerializationVisibilityAttribute.Visible" />
+        <altmember cref="T:System.ComponentModel.DesignerSerializationVisibilityAttribute" />
       </Docs>
     </Member>
   </Members>

@@ -142,14 +142,14 @@ The <xref:System.Collections.Generic.SortedList`2> generic class is an array of 
 
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Collections.Generic.Dictionary`2" />
+    <altmember cref="T:System.Collections.Generic.IComparer`1" />
+    <altmember cref="T:System.Collections.Generic.IDictionary`2" />
+    <altmember cref="T:System.Collections.Generic.KeyValuePair`2" />
+    <altmember cref="T:System.Collections.Generic.SortedDictionary`2" />
     <threadsafe>Public static (<see langword="Shared" /> in Visual Basic) members of this type are thread safe. Any instance members are not guaranteed to be thread safe.
 
  A <see cref="T:System.Collections.Generic.SortedList`2" /> can support multiple readers concurrently, as long as the collection is not modified.  Even so, enumerating through a collection is intrinsically not a thread-safe procedure.  To guarantee thread safety during enumeration, you can lock the collection during the entire enumeration.  To allow the collection to be accessed by multiple threads for reading and writing, you must implement your own synchronization.</threadsafe>
-    <altmember cref="T:System.Collections.Generic.IDictionary`2" />
-    <altmember cref="T:System.Collections.Generic.Dictionary`2" />
-    <altmember cref="T:System.Collections.Generic.SortedDictionary`2" />
-    <altmember cref="T:System.Collections.Generic.KeyValuePair`2" />
-    <altmember cref="T:System.Collections.Generic.IComparer`1" />
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">
@@ -222,8 +222,8 @@ The <xref:System.Collections.Generic.SortedList`2> generic class is an array of 
  ]]></format>
         </remarks>
         <altmember cref="P:System.Collections.Generic.Comparer`1.Default" />
-        <altmember cref="T:System.IComparable`1" />
         <altmember cref="T:System.IComparable" />
+        <altmember cref="T:System.IComparable`1" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -297,10 +297,10 @@ The <xref:System.Collections.Generic.SortedList`2> generic class is an array of 
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Collections.Generic.IComparer`1" />
         <altmember cref="P:System.Collections.Generic.Comparer`1.Default" />
-        <altmember cref="T:System.IComparable`1" />
         <altmember cref="T:System.IComparable" />
+        <altmember cref="T:System.IComparable`1" />
+        <altmember cref="T:System.Collections.Generic.IComparer`1" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -368,10 +368,10 @@ The <xref:System.Collections.Generic.SortedList`2> generic class is an array of 
           <paramref name="dictionary" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="dictionary" /> contains one or more duplicate keys.</exception>
-        <altmember cref="T:System.Collections.Generic.IDictionary`2" />
         <altmember cref="P:System.Collections.Generic.Comparer`1.Default" />
-        <altmember cref="T:System.IComparable`1" />
         <altmember cref="T:System.IComparable" />
+        <altmember cref="T:System.IComparable`1" />
+        <altmember cref="T:System.Collections.Generic.IDictionary`2" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -441,10 +441,10 @@ The <xref:System.Collections.Generic.SortedList`2> generic class is an array of 
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="capacity" /> is less than zero.</exception>
-        <altmember cref="P:System.Collections.Generic.SortedList`2.Capacity" />
         <altmember cref="P:System.Collections.Generic.Comparer`1.Default" />
-        <altmember cref="T:System.IComparable`1" />
+        <altmember cref="P:System.Collections.Generic.SortedList`2.Capacity" />
         <altmember cref="T:System.IComparable" />
+        <altmember cref="T:System.IComparable`1" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -524,11 +524,11 @@ The <xref:System.Collections.Generic.SortedList`2> generic class is an array of 
           <paramref name="dictionary" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="dictionary" /> contains one or more duplicate keys.</exception>
-        <altmember cref="T:System.Collections.Generic.IDictionary`2" />
-        <altmember cref="T:System.Collections.Generic.IComparer`1" />
         <altmember cref="P:System.Collections.Generic.Comparer`1.Default" />
-        <altmember cref="T:System.IComparable`1" />
         <altmember cref="T:System.IComparable" />
+        <altmember cref="T:System.IComparable`1" />
+        <altmember cref="T:System.Collections.Generic.IComparer`1" />
+        <altmember cref="T:System.Collections.Generic.IDictionary`2" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -610,11 +610,11 @@ The <xref:System.Collections.Generic.SortedList`2> generic class is an array of 
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="capacity" /> is less than zero.</exception>
-        <altmember cref="P:System.Collections.Generic.SortedList`2.Capacity" />
-        <altmember cref="T:System.Collections.Generic.IComparer`1" />
         <altmember cref="P:System.Collections.Generic.Comparer`1.Default" />
-        <altmember cref="T:System.IComparable`1" />
+        <altmember cref="P:System.Collections.Generic.SortedList`2.Capacity" />
         <altmember cref="T:System.IComparable" />
+        <altmember cref="T:System.IComparable`1" />
+        <altmember cref="T:System.Collections.Generic.IComparer`1" />
       </Docs>
     </Member>
     <Member MemberName="Add">
@@ -692,9 +692,9 @@ The <xref:System.Collections.Generic.SortedList`2> generic class is an array of 
         <exception cref="T:System.ArgumentNullException">
           <paramref name="key" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentException">An element with the same key already exists in the <see cref="T:System.Collections.Generic.SortedList`2" />.</exception>
+        <altmember cref="M:System.Collections.Generic.IDictionary`2.Add(`0,`1)" />
         <altmember cref="M:System.Collections.Generic.SortedList`2.Remove(`0)" />
         <altmember cref="P:System.Collections.Generic.SortedList`2.Item(`0)" />
-        <altmember cref="M:System.Collections.Generic.IDictionary`2.Add(`0,`1)" />
       </Docs>
     </Member>
     <Member MemberName="Capacity">
@@ -753,8 +753,8 @@ The <xref:System.Collections.Generic.SortedList`2> generic class is an array of 
         <exception cref="T:System.ArgumentOutOfRangeException">
           <see cref="P:System.Collections.Generic.SortedList`2.Capacity" /> is set to a value that is less than <see cref="P:System.Collections.Generic.SortedList`2.Count" />.</exception>
         <exception cref="T:System.OutOfMemoryException">There is not enough memory available on the system.</exception>
-        <altmember cref="P:System.Collections.Generic.SortedList`2.Count" />
         <altmember cref="M:System.Collections.Generic.SortedList`2.TrimExcess" />
+        <altmember cref="P:System.Collections.Generic.SortedList`2.Count" />
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -812,8 +812,8 @@ The <xref:System.Collections.Generic.SortedList`2> generic class is an array of 
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Collections.Generic.SortedList`2.TrimExcess" />
         <altmember cref="M:System.Collections.Generic.SortedList`2.Remove(`0)" />
+        <altmember cref="M:System.Collections.Generic.SortedList`2.TrimExcess" />
         <altmember cref="M:System.Collections.Generic.SortedList`2.RemoveAt(System.Int32)" />
       </Docs>
     </Member>
@@ -941,8 +941,8 @@ The <xref:System.Collections.Generic.SortedList`2> generic class is an array of 
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="key" /> is <see langword="null" />.</exception>
-        <altmember cref="M:System.Collections.Generic.SortedList`2.IndexOfKey(`0)" />
         <altmember cref="M:System.Collections.Generic.SortedList`2.ContainsValue(`1)" />
+        <altmember cref="M:System.Collections.Generic.SortedList`2.IndexOfKey(`0)" />
       </Docs>
     </Member>
     <Member MemberName="ContainsValue">
@@ -999,8 +999,8 @@ The <xref:System.Collections.Generic.SortedList`2> generic class is an array of 
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Collections.Generic.SortedList`2.IndexOfValue(`1)" />
         <altmember cref="M:System.Collections.Generic.SortedList`2.ContainsKey(`0)" />
+        <altmember cref="M:System.Collections.Generic.SortedList`2.IndexOfValue(`1)" />
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -1482,8 +1482,8 @@ The <xref:System.Collections.Generic.SortedList`2> generic class is an array of 
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Collections.Generic.IList`1" />
         <altmember cref="P:System.Collections.Generic.SortedList`2.Values" />
+        <altmember cref="T:System.Collections.Generic.IList`1" />
       </Docs>
     </Member>
     <Member MemberName="Remove">
@@ -1554,9 +1554,9 @@ The <xref:System.Collections.Generic.SortedList`2> generic class is an array of 
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="key" /> is <see langword="null" />.</exception>
-        <altmember cref="M:System.Collections.Generic.SortedList`2.RemoveAt(System.Int32)" />
-        <altmember cref="M:System.Collections.Generic.SortedList`2.Clear" />
         <altmember cref="M:System.Collections.Generic.SortedList`2.Add(`0,`1)" />
+        <altmember cref="M:System.Collections.Generic.SortedList`2.Clear" />
+        <altmember cref="M:System.Collections.Generic.SortedList`2.RemoveAt(System.Int32)" />
       </Docs>
     </Member>
     <Member MemberName="RemoveAt">
@@ -1615,9 +1615,9 @@ The <xref:System.Collections.Generic.SortedList`2> generic class is an array of 
  -or-
 
  <paramref name="index" /> is equal to or greater than <see cref="P:System.Collections.Generic.SortedList`2.Count" />.</exception>
-        <altmember cref="M:System.Collections.Generic.SortedList`2.Remove(`0)" />
-        <altmember cref="M:System.Collections.Generic.SortedList`2.Clear" />
         <altmember cref="M:System.Collections.Generic.SortedList`2.Add(`0,`1)" />
+        <altmember cref="M:System.Collections.Generic.SortedList`2.Clear" />
+        <altmember cref="M:System.Collections.Generic.SortedList`2.Remove(`0)" />
       </Docs>
     </Member>
     <Member MemberName="SetValueAtIndex">
@@ -2705,8 +2705,8 @@ Retrieving the value of this property is an O(1) operation.
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Collections.IDictionary.IsReadOnly" />
         <altmember cref="P:System.Collections.IDictionary.IsFixedSize" />
+        <altmember cref="P:System.Collections.IDictionary.IsReadOnly" />
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IDictionary.Item">
@@ -2803,8 +2803,8 @@ Retrieving the value of this property is an O(1) operation.
  -or-
 
  A value is being assigned and is of a type that isn't assignable to the value type <paramref name="TValue" /> of the <see cref="T:System.Collections.Generic.SortedList`2" />.</exception>
-        <altmember cref="P:System.Collections.Generic.SortedList`2.Item(`0)" />
         <altmember cref="M:System.Collections.IDictionary.Add(System.Object,System.Object)" />
+        <altmember cref="P:System.Collections.Generic.SortedList`2.Item(`0)" />
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IDictionary.Keys">
@@ -2875,9 +2875,9 @@ Retrieving the value of this property is an O(1) operation.
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Collections.ICollection" />
         <altmember cref="P:System.Collections.Generic.SortedList`2.Keys" />
         <altmember cref="P:System.Collections.Generic.SortedList`2.Values" />
+        <altmember cref="T:System.Collections.ICollection" />
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IDictionary.Remove">
@@ -3021,9 +3021,9 @@ Retrieving the value of this property is an O(1) operation.
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Collections.ICollection" />
         <altmember cref="P:System.Collections.Generic.SortedList`2.Keys" />
         <altmember cref="P:System.Collections.Generic.SortedList`2.Values" />
+        <altmember cref="T:System.Collections.ICollection" />
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
@@ -3241,9 +3241,9 @@ Retrieving the value of this property is an O(1) operation.
         <exception cref="T:System.ArgumentNullException">
           <paramref name="key" /> is <see langword="null" />.</exception>
         <altmember cref="M:System.Collections.Generic.SortedList`2.ContainsKey(`0)" />
-        <altmember cref="P:System.Collections.Generic.SortedList`2.Item(`0)" />
         <altmember cref="M:System.Collections.Generic.SortedList`2.ContainsValue(`1)" />
         <altmember cref="M:System.Collections.Generic.SortedList`2.IndexOfValue(`1)" />
+        <altmember cref="P:System.Collections.Generic.SortedList`2.Item(`0)" />
       </Docs>
     </Member>
     <Member MemberName="Values">
@@ -3319,8 +3319,8 @@ Retrieving the value of this property is an O(1) operation.
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Collections.Generic.IList`1" />
         <altmember cref="P:System.Collections.Generic.SortedList`2.Keys" />
+        <altmember cref="T:System.Collections.Generic.IList`1" />
       </Docs>
     </Member>
   </Members>

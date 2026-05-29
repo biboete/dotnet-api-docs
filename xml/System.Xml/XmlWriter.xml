@@ -67,6 +67,7 @@
   <Docs>
     <summary>Represents a writer that provides a fast, non-cached, forward-only way to generate streams or files that contain XML data.</summary>
     <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-xml-xmlwriter">Supplemental API remarks for XmlWriter</see>.</remarks>
+    <related type="Article" href="/dotnet/standard/data/xml/">XML Documents and Data</related>
     <example>
     The following example code shows how to use the asynchronous API to generate XML.
 
@@ -90,7 +91,6 @@
         }
     }
     </code></example>
-    <related type="Article" href="/dotnet/standard/data/xml/">XML Documents and Data</related>
   </Docs>
   <Members>
     <Member MemberName=".ctor">

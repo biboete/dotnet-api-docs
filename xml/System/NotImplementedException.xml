@@ -62,6 +62,8 @@
   <Docs>
     <summary>The exception that is thrown when a requested method or operation is not implemented.</summary>
     <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-notimplementedexception">Supplemental API remarks for NotImplementedException</see>.</remarks>
+    <altmember cref="T:System.Exception" />
+    <altmember cref="T:System.NotSupportedException" />
     <example>
       <format type="text/markdown"><![CDATA[
 The following example throws this exception for a method that has not been developed.
@@ -71,8 +73,6 @@ The following example throws this exception for a method that has not been devel
 :::code language="vb" source="~/snippets/visualbasic/System/NotImplementedException/Overview/program.vb" id="Snippet1":::
       ]]></format>
     </example>
-    <altmember cref="T:System.Exception" />
-    <altmember cref="T:System.NotSupportedException" />
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">

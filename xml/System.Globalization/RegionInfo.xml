@@ -540,11 +540,11 @@ The following code example displays the properties of the <xref:System.Globaliza
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Globalization.RegionInfo.Name" />
         <altmember cref="P:System.Globalization.RegionInfo.EnglishName" />
-        <altmember cref="P:System.Globalization.RegionInfo.TwoLetterISORegionName" />
+        <altmember cref="P:System.Globalization.RegionInfo.Name" />
         <altmember cref="P:System.Globalization.RegionInfo.ThreeLetterISORegionName" />
         <altmember cref="P:System.Globalization.RegionInfo.ThreeLetterWindowsRegionName" />
+        <altmember cref="P:System.Globalization.RegionInfo.TwoLetterISORegionName" />
       </Docs>
     </Member>
     <Member MemberName="EnglishName">
@@ -605,11 +605,11 @@ The following code example displays the properties of the <xref:System.Globaliza
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Globalization.RegionInfo.Name" />
         <altmember cref="P:System.Globalization.RegionInfo.DisplayName" />
-        <altmember cref="P:System.Globalization.RegionInfo.TwoLetterISORegionName" />
+        <altmember cref="P:System.Globalization.RegionInfo.Name" />
         <altmember cref="P:System.Globalization.RegionInfo.ThreeLetterISORegionName" />
         <altmember cref="P:System.Globalization.RegionInfo.ThreeLetterWindowsRegionName" />
+        <altmember cref="P:System.Globalization.RegionInfo.TwoLetterISORegionName" />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -799,9 +799,9 @@ This method generates the same hash code for two objects that are equal accordin
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Globalization.RegionInfo.Equals(System.Object)" />
         <altmember cref="M:System.Object.GetHashCode" />
         <altmember cref="T:System.Collections.Hashtable" />
-        <altmember cref="M:System.Globalization.RegionInfo.Equals(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="IsMetric">
@@ -1105,11 +1105,11 @@ The following code example displays the properties of the <xref:System.Globaliza
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Globalization.RegionInfo.EnglishName" />
         <altmember cref="P:System.Globalization.RegionInfo.DisplayName" />
-        <altmember cref="P:System.Globalization.RegionInfo.TwoLetterISORegionName" />
+        <altmember cref="P:System.Globalization.RegionInfo.EnglishName" />
         <altmember cref="P:System.Globalization.RegionInfo.ThreeLetterISORegionName" />
         <altmember cref="P:System.Globalization.RegionInfo.ThreeLetterWindowsRegionName" />
+        <altmember cref="P:System.Globalization.RegionInfo.TwoLetterISORegionName" />
       </Docs>
     </Member>
     <Member MemberName="NativeName">
@@ -1232,11 +1232,11 @@ The following code example displays the properties of the <xref:System.Globaliza
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Globalization.RegionInfo.Name" />
-        <altmember cref="P:System.Globalization.RegionInfo.EnglishName" />
         <altmember cref="P:System.Globalization.RegionInfo.DisplayName" />
-        <altmember cref="P:System.Globalization.RegionInfo.TwoLetterISORegionName" />
+        <altmember cref="P:System.Globalization.RegionInfo.EnglishName" />
+        <altmember cref="P:System.Globalization.RegionInfo.Name" />
         <altmember cref="P:System.Globalization.RegionInfo.ThreeLetterWindowsRegionName" />
+        <altmember cref="P:System.Globalization.RegionInfo.TwoLetterISORegionName" />
       </Docs>
     </Member>
     <Member MemberName="ThreeLetterWindowsRegionName">
@@ -1295,11 +1295,11 @@ The following code example displays the properties of the <xref:System.Globaliza
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Globalization.RegionInfo.Name" />
-        <altmember cref="P:System.Globalization.RegionInfo.EnglishName" />
         <altmember cref="P:System.Globalization.RegionInfo.DisplayName" />
-        <altmember cref="P:System.Globalization.RegionInfo.TwoLetterISORegionName" />
+        <altmember cref="P:System.Globalization.RegionInfo.EnglishName" />
+        <altmember cref="P:System.Globalization.RegionInfo.Name" />
         <altmember cref="P:System.Globalization.RegionInfo.ThreeLetterISORegionName" />
+        <altmember cref="P:System.Globalization.RegionInfo.TwoLetterISORegionName" />
       </Docs>
     </Member>
     <Member MemberName="ToString">
@@ -1432,9 +1432,9 @@ The following code example displays the properties of the <xref:System.Globaliza
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Globalization.RegionInfo.Name" />
-        <altmember cref="P:System.Globalization.RegionInfo.EnglishName" />
         <altmember cref="P:System.Globalization.RegionInfo.DisplayName" />
+        <altmember cref="P:System.Globalization.RegionInfo.EnglishName" />
+        <altmember cref="P:System.Globalization.RegionInfo.Name" />
         <altmember cref="P:System.Globalization.RegionInfo.ThreeLetterISORegionName" />
         <altmember cref="P:System.Globalization.RegionInfo.ThreeLetterWindowsRegionName" />
       </Docs>

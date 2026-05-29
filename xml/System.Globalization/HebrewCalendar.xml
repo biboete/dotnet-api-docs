@@ -114,9 +114,9 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Globalization.Calendar" />
     <altmember cref="P:System.Globalization.CultureInfo.Calendar" />
     <altmember cref="P:System.Globalization.CultureInfo.OptionalCalendars" />
+    <altmember cref="T:System.Globalization.Calendar" />
     <related type="Article" href="/dotnet/standard/datetime/working-with-calendars">Working with Calendars</related>
   </Docs>
   <Members>
@@ -243,14 +243,14 @@
         <exception cref="T:System.ArgumentException">The resulting <see cref="T:System.DateTime" /> is outside the supported range.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="months" /> is less than -120,000 or greater than 120,000.</exception>
-        <altmember cref="T:System.DateTime" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.AddYears(System.DateTime,System.Int32)" />
-        <altmember cref="M:System.Globalization.Calendar.AddWeeks(System.DateTime,System.Int32)" />
         <altmember cref="M:System.Globalization.Calendar.AddDays(System.DateTime,System.Int32)" />
         <altmember cref="M:System.Globalization.Calendar.AddHours(System.DateTime,System.Int32)" />
+        <altmember cref="M:System.Globalization.Calendar.AddMilliseconds(System.DateTime,System.Double)" />
         <altmember cref="M:System.Globalization.Calendar.AddMinutes(System.DateTime,System.Int32)" />
         <altmember cref="M:System.Globalization.Calendar.AddSeconds(System.DateTime,System.Int32)" />
-        <altmember cref="M:System.Globalization.Calendar.AddMilliseconds(System.DateTime,System.Double)" />
+        <altmember cref="M:System.Globalization.Calendar.AddWeeks(System.DateTime,System.Int32)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.AddYears(System.DateTime,System.Int32)" />
+        <altmember cref="T:System.DateTime" />
       </Docs>
     </Member>
     <Member MemberName="AddYears">
@@ -335,14 +335,14 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">The resulting <see cref="T:System.DateTime" /> is outside the supported range.</exception>
-        <altmember cref="T:System.DateTime" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.AddMonths(System.DateTime,System.Int32)" />
-        <altmember cref="M:System.Globalization.Calendar.AddWeeks(System.DateTime,System.Int32)" />
         <altmember cref="M:System.Globalization.Calendar.AddDays(System.DateTime,System.Int32)" />
         <altmember cref="M:System.Globalization.Calendar.AddHours(System.DateTime,System.Int32)" />
+        <altmember cref="M:System.Globalization.Calendar.AddMilliseconds(System.DateTime,System.Double)" />
         <altmember cref="M:System.Globalization.Calendar.AddMinutes(System.DateTime,System.Int32)" />
         <altmember cref="M:System.Globalization.Calendar.AddSeconds(System.DateTime,System.Int32)" />
-        <altmember cref="M:System.Globalization.Calendar.AddMilliseconds(System.DateTime,System.Double)" />
+        <altmember cref="M:System.Globalization.Calendar.AddWeeks(System.DateTime,System.Int32)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.AddMonths(System.DateTime,System.Int32)" />
+        <altmember cref="T:System.DateTime" />
       </Docs>
     </Member>
     <Member MemberName="AlgorithmType">
@@ -514,13 +514,13 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.DateTime.Day" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetEra(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetYear(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonth(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfYear(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfWeek(System.DateTime)" />
         <altmember cref="M:System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfWeek(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfYear(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetEra(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonth(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetYear(System.DateTime)" />
+        <altmember cref="P:System.DateTime.Day" />
       </Docs>
     </Member>
     <Member MemberName="GetDayOfWeek">
@@ -597,14 +597,14 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfMonth(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfYear(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetEra(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonth(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetYear(System.DateTime)" />
         <altmember cref="P:System.DateTime.DayOfWeek" />
         <altmember cref="T:System.DayOfWeek" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetEra(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetYear(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonth(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfYear(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfMonth(System.DateTime)" />
-        <altmember cref="M:System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)" />
       </Docs>
     </Member>
     <Member MemberName="GetDayOfYear">
@@ -675,13 +675,13 @@
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="time" /> is earlier than September 17, 1583 in the Gregorian calendar, or greater than <see cref="P:System.Globalization.HebrewCalendar.MaxSupportedDateTime" />.</exception>
-        <altmember cref="P:System.DateTime.DayOfYear" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetEra(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetYear(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonth(System.DateTime)" />
+        <altmember cref="M:System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)" />
         <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfMonth(System.DateTime)" />
         <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfWeek(System.DateTime)" />
-        <altmember cref="M:System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetEra(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonth(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetYear(System.DateTime)" />
+        <altmember cref="P:System.DateTime.DayOfYear" />
       </Docs>
     </Member>
     <Member MemberName="GetDaysInMonth">
@@ -758,9 +758,9 @@
           <paramref name="year" />, <paramref name="month" />, or <paramref name="era" /> is outside the range supported by the current <see cref="T:System.Globalization.HebrewCalendar" /> object.</exception>
         <altmember cref="F:System.Globalization.Calendar.CurrentEra" />
         <altmember cref="F:System.Globalization.HebrewCalendar.HebrewEra" />
-        <altmember cref="P:System.Globalization.HebrewCalendar.Eras" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonthsInYear(System.Int32,System.Int32)" />
         <altmember cref="M:System.Globalization.HebrewCalendar.GetDaysInYear(System.Int32,System.Int32)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonthsInYear(System.Int32,System.Int32)" />
+        <altmember cref="P:System.Globalization.HebrewCalendar.Eras" />
       </Docs>
     </Member>
     <Member MemberName="GetDaysInYear">
@@ -835,9 +835,9 @@
           <paramref name="year" /> or <paramref name="era" /> is outside the range supported by the current <see cref="T:System.Globalization.HebrewCalendar" /> object.</exception>
         <altmember cref="F:System.Globalization.Calendar.CurrentEra" />
         <altmember cref="F:System.Globalization.HebrewCalendar.HebrewEra" />
-        <altmember cref="P:System.Globalization.HebrewCalendar.Eras" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonthsInYear(System.Int32,System.Int32)" />
         <altmember cref="M:System.Globalization.HebrewCalendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonthsInYear(System.Int32,System.Int32)" />
+        <altmember cref="P:System.Globalization.HebrewCalendar.Eras" />
       </Docs>
     </Member>
     <Member MemberName="GetEra">
@@ -904,20 +904,20 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.DateTime" />
         <altmember cref="F:System.Globalization.Calendar.CurrentEra" />
         <altmember cref="F:System.Globalization.HebrewCalendar.HebrewEra" />
-        <altmember cref="P:System.Globalization.HebrewCalendar.Eras" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetYear(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonth(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfYear(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfMonth(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfWeek(System.DateTime)" />
-        <altmember cref="M:System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)" />
         <altmember cref="M:System.Globalization.Calendar.GetHour(System.DateTime)" />
+        <altmember cref="M:System.Globalization.Calendar.GetMilliseconds(System.DateTime)" />
         <altmember cref="M:System.Globalization.Calendar.GetMinute(System.DateTime)" />
         <altmember cref="M:System.Globalization.Calendar.GetSecond(System.DateTime)" />
-        <altmember cref="M:System.Globalization.Calendar.GetMilliseconds(System.DateTime)" />
+        <altmember cref="M:System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfMonth(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfWeek(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfYear(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonth(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetYear(System.DateTime)" />
+        <altmember cref="P:System.Globalization.HebrewCalendar.Eras" />
+        <altmember cref="T:System.DateTime" />
       </Docs>
     </Member>
     <Member MemberName="GetLeapMonth">
@@ -1046,17 +1046,17 @@
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="time" /> is less than <see cref="P:System.Globalization.HebrewCalendar.MinSupportedDateTime" /> or greater than <see cref="P:System.Globalization.HebrewCalendar.MaxSupportedDateTime" />.</exception>
-        <altmember cref="P:System.DateTime.Month" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetEra(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetYear(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfYear(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfMonth(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfWeek(System.DateTime)" />
-        <altmember cref="M:System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)" />
         <altmember cref="M:System.Globalization.Calendar.GetHour(System.DateTime)" />
+        <altmember cref="M:System.Globalization.Calendar.GetMilliseconds(System.DateTime)" />
         <altmember cref="M:System.Globalization.Calendar.GetMinute(System.DateTime)" />
         <altmember cref="M:System.Globalization.Calendar.GetSecond(System.DateTime)" />
-        <altmember cref="M:System.Globalization.Calendar.GetMilliseconds(System.DateTime)" />
+        <altmember cref="M:System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfMonth(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfWeek(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfYear(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetEra(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetYear(System.DateTime)" />
+        <altmember cref="P:System.DateTime.Month" />
       </Docs>
     </Member>
     <Member MemberName="GetMonthsInYear">
@@ -1129,9 +1129,9 @@
           <paramref name="year" /> or <paramref name="era" /> is outside the range supported by the current <see cref="T:System.Globalization.HebrewCalendar" /> object.</exception>
         <altmember cref="F:System.Globalization.Calendar.CurrentEra" />
         <altmember cref="F:System.Globalization.HebrewCalendar.HebrewEra" />
-        <altmember cref="P:System.Globalization.HebrewCalendar.Eras" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetDaysInYear(System.Int32,System.Int32)" />
         <altmember cref="M:System.Globalization.HebrewCalendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetDaysInYear(System.Int32,System.Int32)" />
+        <altmember cref="P:System.Globalization.HebrewCalendar.Eras" />
       </Docs>
     </Member>
     <Member MemberName="GetYear">
@@ -1200,17 +1200,17 @@
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="time" /> is outside the range supported by the current <see cref="T:System.Globalization.HebrewCalendar" /> object.</exception>
-        <altmember cref="P:System.DateTime.Year" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetEra(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonth(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfYear(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfMonth(System.DateTime)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfWeek(System.DateTime)" />
-        <altmember cref="M:System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)" />
         <altmember cref="M:System.Globalization.Calendar.GetHour(System.DateTime)" />
+        <altmember cref="M:System.Globalization.Calendar.GetMilliseconds(System.DateTime)" />
         <altmember cref="M:System.Globalization.Calendar.GetMinute(System.DateTime)" />
         <altmember cref="M:System.Globalization.Calendar.GetSecond(System.DateTime)" />
-        <altmember cref="M:System.Globalization.Calendar.GetMilliseconds(System.DateTime)" />
+        <altmember cref="M:System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfMonth(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfWeek(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetDayOfYear(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetEra(System.DateTime)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonth(System.DateTime)" />
+        <altmember cref="P:System.DateTime.Year" />
       </Docs>
     </Member>
     <Member MemberName="HebrewEra">
@@ -1347,11 +1347,11 @@
           <paramref name="year" />, <paramref name="month" />, <paramref name="day" />, or <paramref name="era" /> is outside the range supported by this calendar.</exception>
         <altmember cref="F:System.Globalization.Calendar.CurrentEra" />
         <altmember cref="F:System.Globalization.HebrewCalendar.HebrewEra" />
-        <altmember cref="P:System.Globalization.HebrewCalendar.Eras" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonthsInYear(System.Int32,System.Int32)" />
         <altmember cref="M:System.Globalization.HebrewCalendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.IsLeapYear(System.Int32,System.Int32)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonthsInYear(System.Int32,System.Int32)" />
         <altmember cref="M:System.Globalization.HebrewCalendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.IsLeapYear(System.Int32,System.Int32)" />
+        <altmember cref="P:System.Globalization.HebrewCalendar.Eras" />
       </Docs>
     </Member>
     <Member MemberName="IsLeapMonth">
@@ -1431,10 +1431,10 @@
           <paramref name="year" />, <paramref name="month" />, or <paramref name="era" /> is outside the range supported by this calendar.</exception>
         <altmember cref="F:System.Globalization.Calendar.CurrentEra" />
         <altmember cref="F:System.Globalization.HebrewCalendar.HebrewEra" />
-        <altmember cref="P:System.Globalization.HebrewCalendar.Eras" />
         <altmember cref="M:System.Globalization.HebrewCalendar.GetMonthsInYear(System.Int32,System.Int32)" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.IsLeapYear(System.Int32,System.Int32)" />
         <altmember cref="M:System.Globalization.HebrewCalendar.IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.IsLeapYear(System.Int32,System.Int32)" />
+        <altmember cref="P:System.Globalization.HebrewCalendar.Eras" />
       </Docs>
     </Member>
     <Member MemberName="IsLeapYear">
@@ -1510,9 +1510,9 @@
           <paramref name="year" /> or <paramref name="era" /> is outside the range supported by this calendar.</exception>
         <altmember cref="F:System.Globalization.Calendar.CurrentEra" />
         <altmember cref="F:System.Globalization.HebrewCalendar.HebrewEra" />
-        <altmember cref="P:System.Globalization.HebrewCalendar.Eras" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)" />
         <altmember cref="M:System.Globalization.HebrewCalendar.IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)" />
+        <altmember cref="P:System.Globalization.HebrewCalendar.Eras" />
       </Docs>
     </Member>
     <Member MemberName="MaxSupportedDateTime">
@@ -1722,12 +1722,12 @@
  -or-
 
  <paramref name="millisecond" /> is less than 0 or greater than 999.</exception>
-        <altmember cref="T:System.DateTime" />
         <altmember cref="F:System.Globalization.Calendar.CurrentEra" />
         <altmember cref="F:System.Globalization.HebrewCalendar.HebrewEra" />
-        <altmember cref="P:System.Globalization.HebrewCalendar.Eras" />
-        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonthsInYear(System.Int32,System.Int32)" />
         <altmember cref="M:System.Globalization.HebrewCalendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)" />
+        <altmember cref="M:System.Globalization.HebrewCalendar.GetMonthsInYear(System.Int32,System.Int32)" />
+        <altmember cref="P:System.Globalization.HebrewCalendar.Eras" />
+        <altmember cref="T:System.DateTime" />
       </Docs>
     </Member>
     <Member MemberName="ToFourDigitYear">

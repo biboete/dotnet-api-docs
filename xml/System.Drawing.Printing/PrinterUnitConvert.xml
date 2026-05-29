@@ -169,8 +169,8 @@
   
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Drawing.Printing.PrinterUnit" />
         <altmember cref="T:System.Drawing.Point" />
+        <altmember cref="T:System.Drawing.Printing.PrinterUnit" />
       </Docs>
     </Member>
     <Member MemberName="Convert">
@@ -228,8 +228,8 @@
   
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Drawing.Printing.PrinterUnit" />
         <altmember cref="T:System.Drawing.Printing.Margins" />
+        <altmember cref="T:System.Drawing.Printing.PrinterUnit" />
       </Docs>
     </Member>
     <Member MemberName="Convert">
@@ -287,8 +287,8 @@
   
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Drawing.Printing.PrinterUnit" />
         <altmember cref="T:System.Drawing.Rectangle" />
+        <altmember cref="T:System.Drawing.Printing.PrinterUnit" />
       </Docs>
     </Member>
     <Member MemberName="Convert">
@@ -346,8 +346,8 @@
   
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Drawing.Printing.PrinterUnit" />
         <altmember cref="T:System.Drawing.Size" />
+        <altmember cref="T:System.Drawing.Printing.PrinterUnit" />
       </Docs>
     </Member>
     <Member MemberName="Convert">

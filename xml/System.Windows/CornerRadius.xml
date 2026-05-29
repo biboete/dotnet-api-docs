@@ -192,9 +192,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.CornerRadius.TopRight" />
         <altmember cref="P:System.Windows.CornerRadius.BottomRight" />
         <altmember cref="P:System.Windows.CornerRadius.TopLeft" />
+        <altmember cref="P:System.Windows.CornerRadius.TopRight" />
       </Docs>
     </Member>
     <Member MemberName="BottomRight">
@@ -451,9 +451,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.CornerRadius.TopRight" />
         <altmember cref="P:System.Windows.CornerRadius.BottomLeft" />
         <altmember cref="P:System.Windows.CornerRadius.BottomRight" />
+        <altmember cref="P:System.Windows.CornerRadius.TopRight" />
       </Docs>
     </Member>
     <Member MemberName="TopRight">
@@ -489,9 +489,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.CornerRadius.TopLeft" />
         <altmember cref="P:System.Windows.CornerRadius.BottomLeft" />
         <altmember cref="P:System.Windows.CornerRadius.BottomRight" />
+        <altmember cref="P:System.Windows.CornerRadius.TopLeft" />
       </Docs>
     </Member>
     <Member MemberName="ToString">

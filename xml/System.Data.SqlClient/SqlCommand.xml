@@ -1416,8 +1416,8 @@ The <see cref="T:System.Data.SqlClient.SqlConnection" /> closed or dropped durin
  A timeout occurred during a streaming operation. For more information about streaming, see <see href="/dotnet/framework/data/adonet/sqlclient-streaming-support">SqlClient Streaming Support</see>.</exception>
         <exception cref="T:System.IO.IOException">An error occurred in a <see cref="T:System.IO.Stream" />, <see cref="T:System.Xml.XmlReader" /> or <see cref="T:System.IO.TextReader" /> object during a streaming operation.  For more information about streaming, see <see href="/dotnet/framework/data/adonet/sqlclient-streaming-support">SqlClient Streaming Support</see>.</exception>
         <exception cref="T:System.ObjectDisposedException">The <see cref="T:System.IO.Stream" />, <see cref="T:System.Xml.XmlReader" /> or <see cref="T:System.IO.TextReader" /> object was closed during a streaming operation.  For more information about streaming, see <see href="/dotnet/framework/data/adonet/sqlclient-streaming-support">SqlClient Streaming Support</see>.</exception>
-        <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
         <exception cref="T:System.OperationCanceledException">The cancellation token was canceled. This exception is stored into the returned task.</exception>
+        <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
       </Docs>
     </Member>
     <MemberGroup MemberName="ExecuteReader">
@@ -1807,8 +1807,8 @@ The <see cref="T:System.Data.SqlClient.SqlConnection" /> closed or dropped durin
 A timeout occurred during a streaming operation. For more information about streaming, see <see href="/dotnet/framework/data/adonet/sqlclient-streaming-support">SqlClient Streaming Support</see>.</exception>
         <exception cref="T:System.IO.IOException">An error occurred in a <see cref="T:System.IO.Stream" />, <see cref="T:System.Xml.XmlReader" /> or <see cref="T:System.IO.TextReader" /> object during a streaming operation.  For more information about streaming, see <see href="/dotnet/framework/data/adonet/sqlclient-streaming-support">SqlClient Streaming Support</see>.</exception>
         <exception cref="T:System.ObjectDisposedException">The <see cref="T:System.IO.Stream" />, <see cref="T:System.Xml.XmlReader" /> or <see cref="T:System.IO.TextReader" /> object was closed during a streaming operation.  For more information about streaming, see <see href="/dotnet/framework/data/adonet/sqlclient-streaming-support">SqlClient Streaming Support</see>.</exception>
-        <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
         <exception cref="T:System.OperationCanceledException">The cancellation token was canceled. This exception is stored into the returned task.</exception>
+        <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
       </Docs>
     </Member>
     <Member MemberName="ExecuteReaderAsync">
@@ -1882,8 +1882,8 @@ The <see cref="T:System.Data.SqlClient.SqlConnection" /> closed or dropped durin
 A timeout occurred during a streaming operation. For more information about streaming, see <see href="/dotnet/framework/data/adonet/sqlclient-streaming-support">SqlClient Streaming Support</see>.</exception>
         <exception cref="T:System.IO.IOException">An error occurred in a <see cref="T:System.IO.Stream" />, <see cref="T:System.Xml.XmlReader" /> or <see cref="T:System.IO.TextReader" /> object during a streaming operation.  For more information about streaming, see <see href="/dotnet/framework/data/adonet/sqlclient-streaming-support">SqlClient Streaming Support</see>.</exception>
         <exception cref="T:System.ObjectDisposedException">The <see cref="T:System.IO.Stream" />, <see cref="T:System.Xml.XmlReader" /> or <see cref="T:System.IO.TextReader" /> object was closed during a streaming operation.  For more information about streaming, see <see href="/dotnet/framework/data/adonet/sqlclient-streaming-support">SqlClient Streaming Support</see>.</exception>
-        <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
         <exception cref="T:System.OperationCanceledException">The cancellation token was canceled. This exception is stored into the returned task.</exception>
+        <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
       </Docs>
     </Member>
     <Member MemberName="ExecuteScalar">
@@ -2026,8 +2026,8 @@ The <see cref="T:System.Data.SqlClient.SqlConnection" /> closed or dropped durin
 A timeout occurred during a streaming operation. For more information about streaming, see <see href="/dotnet/framework/data/adonet/sqlclient-streaming-support">SqlClient Streaming Support</see>.</exception>
         <exception cref="T:System.IO.IOException">An error occurred in a <see cref="T:System.IO.Stream" />, <see cref="T:System.Xml.XmlReader" /> or <see cref="T:System.IO.TextReader" /> object during a streaming operation.  For more information about streaming, see <see href="/dotnet/framework/data/adonet/sqlclient-streaming-support">SqlClient Streaming Support</see>.</exception>
         <exception cref="T:System.ObjectDisposedException">The <see cref="T:System.IO.Stream" />, <see cref="T:System.Xml.XmlReader" /> or <see cref="T:System.IO.TextReader" /> object was closed during a streaming operation.  For more information about streaming, see <see href="/dotnet/framework/data/adonet/sqlclient-streaming-support">SqlClient Streaming Support</see>.</exception>
-        <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
         <exception cref="T:System.OperationCanceledException">The cancellation token was canceled. This exception is stored into the returned task.</exception>
+        <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
       </Docs>
     </Member>
     <Member MemberName="ExecuteXmlReader">
@@ -2263,8 +2263,8 @@ The <see cref="T:System.Data.SqlClient.SqlConnection" /> closed or dropped durin
 A timeout occurred during a streaming operation. For more information about streaming, see <see href="/dotnet/framework/data/adonet/sqlclient-streaming-support">SqlClient Streaming Support</see>.</exception>
         <exception cref="T:System.IO.IOException">An error occurred in a <see cref="T:System.IO.Stream" />, <see cref="T:System.Xml.XmlReader" /> or <see cref="T:System.IO.TextReader" /> object during a streaming operation.  For more information about streaming, see <see href="/dotnet/framework/data/adonet/sqlclient-streaming-support">SqlClient Streaming Support</see>.</exception>
         <exception cref="T:System.ObjectDisposedException">The <see cref="T:System.IO.Stream" />, <see cref="T:System.Xml.XmlReader" /> or <see cref="T:System.IO.TextReader" /> object was closed during a streaming operation.  For more information about streaming, see <see href="/dotnet/framework/data/adonet/sqlclient-streaming-support">SqlClient Streaming Support</see>.</exception>
-        <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
         <exception cref="T:System.OperationCanceledException">The cancellation token was canceled. This exception is stored into the returned task.</exception>
+        <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
       </Docs>
     </Member>
     <Member MemberName="Parameters">

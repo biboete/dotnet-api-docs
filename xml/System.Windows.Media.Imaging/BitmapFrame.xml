@@ -53,8 +53,8 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Windows.Media.Imaging.BitmapEncoder" />
     <altmember cref="T:System.Windows.Media.Imaging.BitmapDecoder" />
+    <altmember cref="T:System.Windows.Media.Imaging.BitmapEncoder" />
     <altmember cref="T:System.Windows.Media.Imaging.BitmapSource" />
   </Docs>
   <Members>
@@ -602,8 +602,8 @@
         <summary>When overridden in a derived class, gets the thumbnail image associated with this <see cref="T:System.Windows.Media.Imaging.BitmapFrame" />.</summary>
         <value>The <see cref="T:System.Windows.Media.Imaging.BitmapSource" /> that represents a thumbnail of the current <see cref="T:System.Windows.Media.Imaging.BitmapFrame" />.</value>
         <remarks>To be added.</remarks>
-        <altmember cref="P:System.Windows.Media.Imaging.BitmapEncoder.Thumbnail" />
         <altmember cref="P:System.Windows.Media.Imaging.BitmapDecoder.Thumbnail" />
+        <altmember cref="P:System.Windows.Media.Imaging.BitmapEncoder.Thumbnail" />
       </Docs>
     </Member>
   </Members>

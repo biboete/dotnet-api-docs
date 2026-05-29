@@ -223,8 +223,8 @@
 
  ]]></format>
         </remarks>
-        <forInternalUseOnly />
         <related type="Article" href="/dotnet/standard/serialization/xml-and-soap-serialization">XML and SOAP Serialization</related>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName=".ctor">

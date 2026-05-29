@@ -581,12 +581,12 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Forms.DataGridTableStyle.ColumnHeadersVisibleChanged" />
+        <altmember cref="P:System.Windows.Forms.DataGridColumnStyle.HeaderText" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderFont" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.RowHeadersVisible" />
-        <altmember cref="E:System.Windows.Forms.DataGridTableStyle.ColumnHeadersVisibleChanged" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderFont" />
-        <altmember cref="P:System.Windows.Forms.DataGridColumnStyle.HeaderText" />
       </Docs>
     </Member>
     <Member MemberName="ColumnHeadersVisibleChanged">
@@ -627,10 +627,10 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.ColumnHeadersVisible" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderFont" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
       </Docs>
     </Member>
     <MemberGroup MemberName="CreateGridColumn">
@@ -848,8 +848,8 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.BeginEdit(System.Windows.Forms.DataGridColumnStyle,System.Int32)" />
         <altmember cref="M:System.Windows.Forms.DataGrid.EndEdit(System.Windows.Forms.DataGridColumnStyle,System.Int32,System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.BeginEdit(System.Windows.Forms.DataGridColumnStyle,System.Int32)" />
       </Docs>
     </Member>
     <Member MemberName="ForeColor">
@@ -1147,11 +1147,11 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeHeaderBackColor" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetHeaderBackColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
+        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeHeaderBackColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.ColumnHeadersVisible" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderFont" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
       </Docs>
     </Member>
     <Member MemberName="HeaderBackColorChanged">
@@ -1234,12 +1234,12 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.ColumnHeadersVisible" />
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.HeaderFontChanged" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetHeaderFont" />
         <altmember cref="P:System.Windows.Forms.DataGridColumnStyle.HeaderText" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.ColumnHeadersVisible" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
       </Docs>
     </Member>
     <Member MemberName="HeaderFontChanged">
@@ -1278,12 +1278,12 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.ColumnHeadersVisible" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderFont" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetHeaderFont" />
         <altmember cref="P:System.Windows.Forms.DataGridColumnStyle.HeaderText" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.ColumnHeadersVisible" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderFont" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
       </Docs>
     </Member>
     <Member MemberName="HeaderForeColor">
@@ -1318,13 +1318,13 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
-        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeHeaderForeColor" />
-        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetHeaderForeColor" />
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.HeaderForeColorChanged" />
+        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetHeaderForeColor" />
+        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeHeaderForeColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.ColumnHeadersVisible" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderFont" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
       </Docs>
     </Member>
     <Member MemberName="HeaderForeColorChanged">
@@ -1363,12 +1363,12 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
-        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeHeaderForeColor" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetHeaderForeColor" />
+        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeHeaderForeColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.ColumnHeadersVisible" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderFont" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
       </Docs>
     </Member>
     <Member MemberName="LinkColor">
@@ -1443,8 +1443,8 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkColor" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeLinkColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkColor" />
       </Docs>
     </Member>
     <Member MemberName="LinkHoverColor">
@@ -1478,10 +1478,10 @@ private void PrintCurrentListName(DataGrid myDataGrid){
         <summary>Gets or sets the color displayed when hovering over link text.</summary>
         <value>A <see cref="T:System.Drawing.Color" /> that represents the hover color.</value>
         <remarks>To be added.</remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkColor" />
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.LinkHoverColorChanged" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetLinkHoverColor" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeLinkHoverColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkColor" />
       </Docs>
     </Member>
     <Member MemberName="LinkHoverColorChanged">
@@ -1511,10 +1511,10 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkHoverColor" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetLinkHoverColor" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeLinkHoverColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkHoverColor" />
       </Docs>
     </Member>
     <Member MemberName="MappingName">
@@ -1570,10 +1570,10 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Forms.DataGrid.TableStyles" />
         <altmember cref="T:System.Windows.Forms.CurrencyManager" />
         <altmember cref="T:System.Windows.Forms.DataGrid" />
         <altmember cref="T:System.Windows.Forms.DataGridColumnStyle" />
-        <altmember cref="P:System.Windows.Forms.DataGrid.TableStyles" />
       </Docs>
     </Member>
     <Member MemberName="MappingNameChanged">
@@ -2421,10 +2421,10 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderFont" />
-        <altmember cref="P:System.Windows.Forms.DataGridColumnStyle.HeaderText" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.PreferredRowHeight" />
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.PreferredColumnWidthChanged" />
+        <altmember cref="P:System.Windows.Forms.DataGridColumnStyle.HeaderText" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderFont" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.PreferredRowHeight" />
       </Docs>
     </Member>
     <Member MemberName="PreferredColumnWidthChanged">
@@ -2827,10 +2827,10 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.ColumnHeadersVisible" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderFont" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
       </Docs>
     </Member>
     <Member MemberName="ResetHeaderFont">
@@ -2870,12 +2870,12 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.ColumnHeadersVisible" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderFont" />
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.HeaderFontChanged" />
         <altmember cref="P:System.Windows.Forms.DataGridColumnStyle.HeaderText" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.ColumnHeadersVisible" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderFont" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
       </Docs>
     </Member>
     <Member MemberName="ResetHeaderForeColor">
@@ -2915,12 +2915,12 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
-        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeHeaderForeColor" />
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.HeaderForeColorChanged" />
+        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeHeaderForeColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.ColumnHeadersVisible" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderFont" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
       </Docs>
     </Member>
     <Member MemberName="ResetLinkColor">
@@ -2960,9 +2960,9 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkColor" />
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.LinkColorChanged" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeLinkColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkColor" />
       </Docs>
     </Member>
     <Member MemberName="ResetLinkHoverColor">
@@ -2993,10 +2993,10 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkHoverColor" />
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.LinkHoverColorChanged" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeLinkHoverColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkHoverColor" />
       </Docs>
     </Member>
     <Member MemberName="ResetSelectionBackColor">
@@ -3066,10 +3066,10 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.SelectionBackColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.SelectionForeColor" />
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.SelectionForeColorChanged" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeSelectionForeColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.SelectionBackColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.SelectionForeColor" />
       </Docs>
     </Member>
     <Member MemberName="RowHeadersVisible">
@@ -3158,8 +3158,8 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.RowHeaderWidth" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.RowHeadersVisible" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.RowHeaderWidth" />
       </Docs>
     </Member>
     <Member MemberName="RowHeaderWidth">
@@ -3212,8 +3212,8 @@ private void PrintCurrentListName(DataGrid myDataGrid){
  ]]></format>
         </remarks>
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.RowHeadersVisibleChanged" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.RowHeadersVisible" />
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.RowHeaderWidthChanged" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.RowHeadersVisible" />
       </Docs>
     </Member>
     <Member MemberName="RowHeaderWidthChanged">
@@ -3253,8 +3253,8 @@ private void PrintCurrentListName(DataGrid myDataGrid){
  ]]></format>
         </remarks>
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.RowHeadersVisibleChanged" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.RowHeaderWidth" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.RowHeadersVisible" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.RowHeaderWidth" />
       </Docs>
     </Member>
     <Member MemberName="SelectionBackColor">
@@ -3289,8 +3289,8 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetSelectionBackColor" />
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.SelectionBackColorChanged" />
+        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetSelectionBackColor" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeSelectionBackColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.SelectionForeColor" />
       </Docs>
@@ -3332,8 +3332,8 @@ private void PrintCurrentListName(DataGrid myDataGrid){
  ]]></format>
         </remarks>
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetSelectionBackColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.SelectionBackColor" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeSelectionBackColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.SelectionBackColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.SelectionForeColor" />
       </Docs>
     </Member>
@@ -3375,10 +3375,10 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetSelectionForeColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.SelectionBackColor" />
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.SelectionForeColorChanged" />
+        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetSelectionForeColor" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeSelectionForeColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.SelectionBackColor" />
       </Docs>
     </Member>
     <Member MemberName="SelectionForeColorChanged">
@@ -3414,9 +3414,9 @@ private void PrintCurrentListName(DataGrid myDataGrid){
  ]]></format>
         </remarks>
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetSelectionForeColor" />
+        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeSelectionForeColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.SelectionBackColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.SelectionForeColor" />
-        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ShouldSerializeSelectionForeColor" />
       </Docs>
     </Member>
     <Member MemberName="ShouldSerializeAlternatingBackColor">
@@ -3577,10 +3577,10 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.ColumnHeadersVisible" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderFont" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
       </Docs>
     </Member>
     <Member MemberName="ShouldSerializeHeaderForeColor">
@@ -3613,12 +3613,12 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
-        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetHeaderForeColor" />
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.HeaderForeColorChanged" />
+        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetHeaderForeColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.ColumnHeadersVisible" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderBackColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderFont" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.HeaderForeColor" />
       </Docs>
     </Member>
     <Member MemberName="ShouldSerializeLinkColor">
@@ -3651,9 +3651,9 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkColor" />
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.LinkColorChanged" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetLinkColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkColor" />
       </Docs>
     </Member>
     <Member MemberName="ShouldSerializeLinkHoverColor">
@@ -3686,10 +3686,10 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkColor" />
-        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkHoverColor" />
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.LinkHoverColorChanged" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetLinkHoverColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkColor" />
+        <altmember cref="P:System.Windows.Forms.DataGridTableStyle.LinkHoverColor" />
       </Docs>
     </Member>
     <Member MemberName="ShouldSerializePreferredRowHeight">
@@ -3755,8 +3755,8 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetSelectionBackColor" />
         <altmember cref="E:System.Windows.Forms.DataGridTableStyle.SelectionBackColorChanged" />
+        <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetSelectionBackColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.SelectionBackColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.SelectionForeColor" />
       </Docs>
@@ -3791,10 +3791,10 @@ private void PrintCurrentListName(DataGrid myDataGrid){
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Forms.DataGridTableStyle.SelectionForeColorChanged" />
         <altmember cref="M:System.Windows.Forms.DataGridTableStyle.ResetSelectionForeColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.SelectionBackColor" />
         <altmember cref="P:System.Windows.Forms.DataGridTableStyle.SelectionForeColor" />
-        <altmember cref="E:System.Windows.Forms.DataGridTableStyle.SelectionForeColorChanged" />
       </Docs>
     </Member>
   </Members>

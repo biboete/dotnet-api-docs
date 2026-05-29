@@ -55,20 +55,20 @@
 
  ]]></format>
     </remarks>
+    <altmember cref="N:System.DirectoryServices" />
+    <altmember cref="Overload:System.DirectoryServices.DirectorySearcher.#ctor" />
     <altmember cref="T:System.DirectoryServices.DirectoryEntries" />
     <altmember cref="T:System.DirectoryServices.DirectoryEntry" />
-    <altmember cref="Overload:System.DirectoryServices.DirectorySearcher.#ctor" />
     <altmember cref="T:System.DirectoryServices.DirectorySearcher" />
     <altmember cref="T:System.DirectoryServices.PropertyCollection" />
     <altmember cref="T:System.DirectoryServices.PropertyValueCollection" />
     <altmember cref="T:System.DirectoryServices.ReferralChasingOption" />
-    <altmember cref="T:System.DirectoryServices.SearchResultCollection" />
-    <altmember cref="T:System.DirectoryServices.SearchResult" />
     <altmember cref="T:System.DirectoryServices.ResultPropertyValueCollection" />
+    <altmember cref="T:System.DirectoryServices.SearchResult" />
+    <altmember cref="T:System.DirectoryServices.SearchResultCollection" />
     <altmember cref="T:System.DirectoryServices.SearchScope" />
     <altmember cref="T:System.DirectoryServices.SortDirection" />
     <altmember cref="T:System.DirectoryServices.SortOption" />
-    <altmember cref="N:System.DirectoryServices" />
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">
@@ -113,9 +113,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchRoot" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.Filter" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.PropertiesToLoad" />
+        <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchRoot" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchScope" />
       </Docs>
     </Member>
@@ -156,9 +156,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchRoot" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.Filter" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.PropertiesToLoad" />
+        <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchRoot" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchScope" />
       </Docs>
     </Member>
@@ -199,9 +199,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchRoot" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.Filter" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.PropertiesToLoad" />
+        <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchRoot" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchScope" />
       </Docs>
     </Member>
@@ -243,9 +243,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchRoot" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.Filter" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.PropertiesToLoad" />
+        <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchRoot" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchScope" />
       </Docs>
     </Member>
@@ -294,9 +294,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchRoot" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.Filter" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.PropertiesToLoad" />
+        <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchRoot" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchScope" />
       </Docs>
     </Member>
@@ -346,9 +346,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchRoot" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.Filter" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.PropertiesToLoad" />
+        <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchRoot" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchScope" />
       </Docs>
     </Member>
@@ -398,9 +398,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchRoot" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.Filter" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.PropertiesToLoad" />
+        <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchRoot" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchScope" />
       </Docs>
     </Member>
@@ -441,9 +441,9 @@
         <param name="scope">The scope of the search that is observed by the server. The <see cref="T:System.DirectoryServices.SearchScope" /> property is initialized to this value.</param>
         <summary>Initializes a new instance of the <see cref="T:System.DirectoryServices.DirectorySearcher" /> class with the specified search root, search filter, properties to retrieve, and search scope.</summary>
         <remarks>To be added.</remarks>
-        <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchRoot" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.Filter" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.PropertiesToLoad" />
+        <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchRoot" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.SearchScope" />
       </Docs>
     </Member>
@@ -1289,8 +1289,8 @@ SearchResultCollection res = src.FindAll();
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.TimeSpan" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.PageSize" />
+        <altmember cref="T:System.TimeSpan" />
       </Docs>
     </Member>
     <Member MemberName="ServerTimeLimit">
@@ -1332,8 +1332,8 @@ SearchResultCollection res = src.FindAll();
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.TimeSpan" />
         <altmember cref="P:System.DirectoryServices.DirectorySearcher.ServerPageTimeLimit" />
+        <altmember cref="T:System.TimeSpan" />
       </Docs>
     </Member>
     <Member MemberName="SizeLimit">

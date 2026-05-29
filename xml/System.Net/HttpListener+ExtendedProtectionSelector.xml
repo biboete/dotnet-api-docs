@@ -59,9 +59,9 @@
   
  ]]></format>
     </remarks>
+    <altmember cref="N:System.Security.Authentication.ExtendedProtection" />
     <altmember cref="P:System.Net.HttpListener.ExtendedProtectionPolicy" />
     <altmember cref="P:System.Net.HttpListener.ExtendedProtectionSelectorDelegate" />
-    <altmember cref="N:System.Security.Authentication.ExtendedProtection" />
     <altmember cref="T:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy" />
     <related type="Article" href="/dotnet/framework/network-programming/integrated-windows-authentication-with-extended-protection">Integrated Windows Authentication with Extended Protection</related>
   </Docs>

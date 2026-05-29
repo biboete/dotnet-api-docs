@@ -68,11 +68,11 @@
     </remarks>
     <altmember cref="M:System.Data.DataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)" />
     <altmember cref="M:System.Data.DataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)" />
+    <altmember cref="M:System.Data.DataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)" />
     <altmember cref="M:System.Data.DataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)" />
     <altmember cref="T:System.Data.DataRow" />
     <altmember cref="T:System.Data.DataRowAction" />
     <altmember cref="T:System.Data.DataRowChangeEventHandler" />
-    <altmember cref="M:System.Data.DataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)" />
     <altmember cref="T:System.Data.DataTable" />
   </Docs>
   <Members>
@@ -129,11 +129,11 @@
         </remarks>
         <altmember cref="M:System.Data.DataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)" />
         <altmember cref="M:System.Data.DataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)" />
+        <altmember cref="M:System.Data.DataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)" />
         <altmember cref="M:System.Data.DataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)" />
         <altmember cref="T:System.Data.DataRow" />
         <altmember cref="T:System.Data.DataRowAction" />
         <altmember cref="T:System.Data.DataRowChangeEventHandler" />
-        <altmember cref="M:System.Data.DataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)" />
         <altmember cref="T:System.Data.DataTable" />
       </Docs>
     </Member>
@@ -188,11 +188,11 @@
         </remarks>
         <altmember cref="M:System.Data.DataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)" />
         <altmember cref="M:System.Data.DataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)" />
+        <altmember cref="M:System.Data.DataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)" />
         <altmember cref="M:System.Data.DataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)" />
         <altmember cref="T:System.Data.DataRow" />
         <altmember cref="T:System.Data.DataRowAction" />
         <altmember cref="T:System.Data.DataRowChangeEventHandler" />
-        <altmember cref="M:System.Data.DataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)" />
         <altmember cref="T:System.Data.DataTable" />
       </Docs>
     </Member>
@@ -247,11 +247,11 @@
         </remarks>
         <altmember cref="M:System.Data.DataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)" />
         <altmember cref="M:System.Data.DataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)" />
+        <altmember cref="M:System.Data.DataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)" />
         <altmember cref="M:System.Data.DataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)" />
         <altmember cref="T:System.Data.DataRow" />
         <altmember cref="T:System.Data.DataRowAction" />
         <altmember cref="T:System.Data.DataRowChangeEventHandler" />
-        <altmember cref="M:System.Data.DataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)" />
         <altmember cref="T:System.Data.DataTable" />
       </Docs>
     </Member>

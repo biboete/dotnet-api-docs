@@ -84,11 +84,11 @@
 
  ]]></format>
     </remarks>
+    <related type="Article" href="/dotnet/standard/serialization/xml-and-soap-serialization">XML and SOAP Serialization</related>
+    <related type="Article" href="/dotnet/standard/serialization/custom-serialization">Custom serialization</related>
     <block subset="none" type="overrides">
       <para>Implement this interface to allow an object to take part in its own serialization and deserialization.</para>
     </block>
-    <related type="Article" href="/dotnet/standard/serialization/xml-and-soap-serialization">XML and SOAP Serialization</related>
-    <related type="Article" href="/dotnet/standard/serialization/custom-serialization">Custom serialization</related>
   </Docs>
   <Members>
     <Member MemberName="GetObjectData">
@@ -158,8 +158,8 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.Security.SecurityException">The caller does not have the required permission.</exception>
-        <altmember cref="T:System.Runtime.Serialization.StreamingContext" />
         <altmember cref="T:System.Runtime.Serialization.SerializationInfo" />
+        <altmember cref="T:System.Runtime.Serialization.StreamingContext" />
         <related type="Article" href="/dotnet/standard/serialization/custom-serialization">Custom serialization</related>
       </Docs>
     </Member>

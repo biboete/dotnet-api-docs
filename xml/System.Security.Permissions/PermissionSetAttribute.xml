@@ -59,8 +59,8 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Security.PermissionSet" />
     <altmember cref="T:System.Security.NamedPermissionSet" />
+    <altmember cref="T:System.Security.PermissionSet" />
     <related type="Article" href="/dotnet/standard/attributes/">Extending Metadata Using Attributes</related>
   </Docs>
   <Members>

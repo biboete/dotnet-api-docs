@@ -292,8 +292,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Text.Encoding" />
         <altmember cref="Overload:System.Text.UTF7Encoding.#ctor" />
+        <altmember cref="T:System.Text.Encoding" />
       </Docs>
     </Member>
     <MemberGroup MemberName="GetByteCount">
@@ -373,9 +373,9 @@
  -and-
 
  <see cref="P:System.Text.Encoding.EncoderFallback" /> is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
+        <altmember cref="M:System.Text.UTF7Encoding.GetEncoder" />
         <altmember cref="M:System.Text.UTF7Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)" />
         <altmember cref="M:System.Text.UTF7Encoding.GetMaxByteCount(System.Int32)" />
-        <altmember cref="M:System.Text.UTF7Encoding.GetEncoder" />
       </Docs>
     </Member>
     <Member MemberName="GetByteCount">
@@ -457,9 +457,9 @@
  -and-
 
  <see cref="P:System.Text.Encoding.EncoderFallback" /> is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
+        <altmember cref="M:System.Text.UTF7Encoding.GetEncoder" />
         <altmember cref="M:System.Text.UTF7Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)" />
         <altmember cref="M:System.Text.UTF7Encoding.GetMaxByteCount(System.Int32)" />
-        <altmember cref="M:System.Text.UTF7Encoding.GetEncoder" />
       </Docs>
     </Member>
     <Member MemberName="GetByteCount">
@@ -543,9 +543,9 @@
  -and-
 
  <see cref="P:System.Text.Encoding.EncoderFallback" /> is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
+        <altmember cref="M:System.Text.UTF7Encoding.GetEncoder" />
         <altmember cref="M:System.Text.UTF7Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)" />
         <altmember cref="M:System.Text.UTF7Encoding.GetMaxByteCount(System.Int32)" />
-        <altmember cref="M:System.Text.UTF7Encoding.GetEncoder" />
       </Docs>
     </Member>
     <MemberGroup MemberName="GetBytes">
@@ -943,9 +943,9 @@
  -and-
 
  <see cref="P:System.Text.Encoding.DecoderFallback" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
-        <altmember cref="Overload:System.Text.UTF7Encoding.GetChars" />
-        <altmember cref="M:System.Text.UTF7Encoding.GetMaxCharCount(System.Int32)" />
         <altmember cref="M:System.Text.UTF7Encoding.GetDecoder" />
+        <altmember cref="M:System.Text.UTF7Encoding.GetMaxCharCount(System.Int32)" />
+        <altmember cref="Overload:System.Text.UTF7Encoding.GetChars" />
       </Docs>
     </Member>
     <Member MemberName="GetCharCount">
@@ -1029,9 +1029,9 @@
  -and-
 
  <see cref="P:System.Text.Encoding.DecoderFallback" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
-        <altmember cref="Overload:System.Text.UTF7Encoding.GetChars" />
-        <altmember cref="M:System.Text.UTF7Encoding.GetMaxCharCount(System.Int32)" />
         <altmember cref="M:System.Text.UTF7Encoding.GetDecoder" />
+        <altmember cref="M:System.Text.UTF7Encoding.GetMaxCharCount(System.Int32)" />
+        <altmember cref="Overload:System.Text.UTF7Encoding.GetChars" />
       </Docs>
     </Member>
     <MemberGroup MemberName="GetChars">
@@ -1134,9 +1134,9 @@
  -and-
 
  <see cref="P:System.Text.Encoding.DecoderFallback" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
+        <altmember cref="M:System.Text.UTF7Encoding.GetDecoder" />
         <altmember cref="M:System.Text.UTF7Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)" />
         <altmember cref="M:System.Text.UTF7Encoding.GetMaxCharCount(System.Int32)" />
-        <altmember cref="M:System.Text.UTF7Encoding.GetDecoder" />
         <altmember cref="M:System.Text.UTF7Encoding.GetString(System.Byte[],System.Int32,System.Int32)" />
       </Docs>
     </Member>
@@ -1236,9 +1236,9 @@
  -and-
 
  <see cref="P:System.Text.Encoding.DecoderFallback" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
+        <altmember cref="M:System.Text.UTF7Encoding.GetDecoder" />
         <altmember cref="M:System.Text.UTF7Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)" />
         <altmember cref="M:System.Text.UTF7Encoding.GetMaxCharCount(System.Int32)" />
-        <altmember cref="M:System.Text.UTF7Encoding.GetDecoder" />
         <altmember cref="M:System.Text.UTF7Encoding.GetString(System.Byte[],System.Int32,System.Int32)" />
       </Docs>
     </Member>
@@ -1299,11 +1299,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Text.Decoder" />
+        <altmember cref="M:System.Text.UTF7Encoding.GetEncoder" />
+        <altmember cref="M:System.Text.UTF7Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)" />
         <altmember cref="M:System.Text.UTF7Encoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)" />
         <altmember cref="M:System.Text.UTF7Encoding.GetString(System.Byte[],System.Int32,System.Int32)" />
-        <altmember cref="M:System.Text.UTF7Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)" />
-        <altmember cref="M:System.Text.UTF7Encoding.GetEncoder" />
+        <altmember cref="T:System.Text.Decoder" />
         <related type="Article" href="/dotnet/standard/base-types/character-encoding">Understanding Encodings</related>
       </Docs>
     </Member>
@@ -1364,10 +1364,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Text.Encoder" />
-        <altmember cref="M:System.Text.UTF7Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)" />
-        <altmember cref="M:System.Text.UTF7Encoding.GetByteCount(System.Char[],System.Int32,System.Int32)" />
         <altmember cref="M:System.Text.UTF7Encoding.GetDecoder" />
+        <altmember cref="M:System.Text.UTF7Encoding.GetByteCount(System.Char[],System.Int32,System.Int32)" />
+        <altmember cref="M:System.Text.UTF7Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)" />
+        <altmember cref="T:System.Text.Encoder" />
         <related type="Article" href="/dotnet/standard/base-types/character-encoding">Understanding Encodings</related>
       </Docs>
     </Member>
@@ -1501,9 +1501,9 @@
  -and-
 
  <see cref="P:System.Text.Encoding.EncoderFallback" /> is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
-        <altmember cref="M:System.Text.UTF7Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)" />
-        <altmember cref="M:System.Text.UTF7Encoding.GetByteCount(System.Char[],System.Int32,System.Int32)" />
         <altmember cref="M:System.Text.UTF7Encoding.GetEncoder" />
+        <altmember cref="M:System.Text.UTF7Encoding.GetByteCount(System.Char[],System.Int32,System.Int32)" />
+        <altmember cref="M:System.Text.UTF7Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)" />
       </Docs>
     </Member>
     <Member MemberName="GetMaxCharCount">
@@ -1586,10 +1586,10 @@
  -and-
 
  <see cref="P:System.Text.Encoding.DecoderFallback" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
+        <altmember cref="M:System.Text.UTF7Encoding.GetDecoder" />
+        <altmember cref="M:System.Text.UTF7Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)" />
         <altmember cref="M:System.Text.UTF7Encoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)" />
         <altmember cref="M:System.Text.UTF7Encoding.GetString(System.Byte[],System.Int32,System.Int32)" />
-        <altmember cref="M:System.Text.UTF7Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)" />
-        <altmember cref="M:System.Text.UTF7Encoding.GetDecoder" />
       </Docs>
     </Member>
     <Member MemberName="GetString">
@@ -1671,9 +1671,9 @@
  -and-
 
  <see cref="P:System.Text.Encoding.DecoderFallback" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
-        <altmember cref="M:System.Text.UTF7Encoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)" />
         <altmember cref="M:System.Text.UTF7Encoding.GetDecoder" />
         <altmember cref="M:System.Text.UTF7Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)" />
+        <altmember cref="M:System.Text.UTF7Encoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)" />
         <altmember cref="M:System.Text.UTF7Encoding.GetMaxCharCount(System.Int32)" />
       </Docs>
     </Member>

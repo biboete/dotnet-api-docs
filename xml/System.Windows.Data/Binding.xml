@@ -1268,8 +1268,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Data.BindingExpression.UpdateSource" />
         <altmember cref="E:System.Windows.Data.Binding.TargetUpdated" />
+        <altmember cref="M:System.Windows.Data.BindingExpression.UpdateSource" />
       </Docs>
     </Member>
     <Member MemberName="SourceUpdatedEvent">
@@ -1335,8 +1335,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Data.BindingExpression.UpdateTarget" />
         <altmember cref="E:System.Windows.Data.Binding.SourceUpdated" />
+        <altmember cref="M:System.Windows.Data.BindingExpression.UpdateTarget" />
       </Docs>
     </Member>
     <Member MemberName="TargetUpdatedEvent">

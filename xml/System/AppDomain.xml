@@ -688,8 +688,8 @@ This method overload uses the <xref:System.AppDomainSetup> information from the 
         <exception cref="T:System.ArgumentNullException">
           <paramref name="friendlyName" /> is <see langword="null" />.</exception>
         <exception cref="T:System.PlatformNotSupportedException">.NET Core and .NET 5+ only: In all cases.</exception>
-        <related type="Article" href="/dotnet/core/porting/net-framework-tech-unavailable#application-domains">Unavailable technologies on .NET Core/5+: Application domains</related>
         <altmember cref="P:System.AppDomain.FriendlyName" />
+        <related type="Article" href="/dotnet/core/porting/net-framework-tech-unavailable#application-domains">Unavailable technologies on .NET Core/5+: Application domains</related>
       </Docs>
     </Member>
     <MemberGroup MemberName="CreateInstance">
@@ -2540,8 +2540,8 @@ This method overload uses the <xref:System.AppDomainSetup> information from the 
         <exception cref="T:System.AppDomainUnloadedException">The operation is attempted on an unloaded application domain.</exception>
         <exception cref="T:System.IO.FileLoadException">The assembly specified by <paramref name="assemblyName" /> was found, but could not be loaded.</exception>
         <exception cref="T:System.MissingMethodException">The specified assembly has no entry point.</exception>
-        <altmember cref="T:System.Reflection.AssemblyName" />
         <altmember cref="M:System.Reflection.Assembly.Load(System.String)" />
+        <altmember cref="T:System.Reflection.AssemblyName" />
       </Docs>
     </Member>
     <Member MemberName="ExecuteAssemblyByName">
@@ -2783,8 +2783,8 @@ This method overload uses the <xref:System.AppDomainSetup> information from the 
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs" />
         <altmember cref="E:System.AppDomain.UnhandledException" />
+        <altmember cref="T:System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs" />
         <related type="Article" href="/dotnet/framework/app-domains/how-to-receive-first-chance-exception-notifications">How to: Receive First-Chance Exception Notifications</related>
       </Docs>
     </Member>
@@ -2980,8 +2980,8 @@ The friendly name of the default application domain is the file name of the proc
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Int32" />
         <altmember cref="P:System.Threading.Thread.ManagedThreadId" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <Member MemberName="GetData">

@@ -155,15 +155,15 @@
 
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Collections.Generic.IDictionary`2" />
+    <altmember cref="T:System.Collections.Generic.IEqualityComparer`1" />
+    <altmember cref="T:System.Collections.Generic.KeyValuePair`2" />
+    <altmember cref="T:System.Collections.Generic.SortedList`2" />
     <threadsafe>A <see cref="T:System.Collections.Generic.Dictionary`2" /> can support multiple readers concurrently, as long as the collection is not modified. Even so, enumerating through a collection is intrinsically not a thread-safe procedure. In the rare case where an enumeration contends with write accesses, the collection must be locked during the entire enumeration. To allow the collection to be accessed by multiple threads for reading and writing, you must implement your own synchronization.
 
  For thread-safe alternatives, see the <see cref="T:System.Collections.Concurrent.ConcurrentDictionary`2" /> class or <see cref="T:System.Collections.Immutable.ImmutableDictionary`2" /> class.
 
  Public static (<see langword="Shared" /> in Visual Basic) members of this type are thread safe.</threadsafe>
-    <altmember cref="T:System.Collections.Generic.IDictionary`2" />
-    <altmember cref="T:System.Collections.Generic.SortedList`2" />
-    <altmember cref="T:System.Collections.Generic.KeyValuePair`2" />
-    <altmember cref="T:System.Collections.Generic.IEqualityComparer`1" />
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">
@@ -238,9 +238,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Collections.Immutable.IImmutableDictionary`2" />
         <altmember cref="P:System.Collections.Generic.EqualityComparer`1.Default" />
         <altmember cref="T:System.IEquatable`1" />
+        <altmember cref="T:System.Collections.Immutable.IImmutableDictionary`2" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -309,9 +309,9 @@
           <paramref name="dictionary" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="dictionary" /> contains one or more duplicate keys.</exception>
-        <altmember cref="T:System.Collections.Generic.IDictionary`2" />
         <altmember cref="P:System.Collections.Generic.EqualityComparer`1.Default" />
         <altmember cref="T:System.IEquatable`1" />
+        <altmember cref="T:System.Collections.Generic.IDictionary`2" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -435,9 +435,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Collections.Generic.IEqualityComparer`1" />
         <altmember cref="P:System.Collections.Generic.EqualityComparer`1.Default" />
         <altmember cref="T:System.IEquatable`1" />
+        <altmember cref="T:System.Collections.Generic.IEqualityComparer`1" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -595,10 +595,10 @@
           <paramref name="dictionary" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="dictionary" /> contains one or more duplicate keys.</exception>
-        <altmember cref="T:System.Collections.Generic.IDictionary`2" />
-        <altmember cref="T:System.Collections.Generic.IEqualityComparer`1" />
         <altmember cref="P:System.Collections.Generic.EqualityComparer`1.Default" />
         <altmember cref="T:System.IEquatable`1" />
+        <altmember cref="T:System.Collections.Generic.IDictionary`2" />
+        <altmember cref="T:System.Collections.Generic.IEqualityComparer`1" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -734,9 +734,9 @@
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="capacity" /> is less than 0.</exception>
-        <altmember cref="T:System.Collections.Generic.IEqualityComparer`1" />
         <altmember cref="P:System.Collections.Generic.EqualityComparer`1.Default" />
         <altmember cref="T:System.IEquatable`1" />
+        <altmember cref="T:System.Collections.Generic.IEqualityComparer`1" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -877,8 +877,8 @@
           <paramref name="key" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentException">An element with the same key already exists in the <see cref="T:System.Collections.Generic.Dictionary`2" />.</exception>
         <altmember cref="M:System.Collections.Generic.Dictionary`2.Remove(`0)" />
-        <altmember cref="P:System.Collections.Generic.Dictionary`2.Item(`0)" />
         <altmember cref="M:System.Collections.Generic.IDictionary`2.Add(`0,`1)" />
+        <altmember cref="P:System.Collections.Generic.Dictionary`2.Item(`0)" />
       </Docs>
     </Member>
     <Member MemberName="Capacity">
@@ -1373,8 +1373,8 @@ The only mutating methods that do not invalidate enumerators are <xref:System.Co
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Collections.Generic.Dictionary`2.Enumerator" />
         <altmember cref="T:System.Collections.Generic.IEnumerator`1" />
+        <altmember cref="T:System.Collections.Generic.Dictionary`2.Enumerator" />
       </Docs>
     </Member>
     <Member MemberName="GetObjectData">
@@ -1443,10 +1443,10 @@ The only mutating methods that do not invalidate enumerators are <xref:System.Co
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="info" /> is <see langword="null" />.</exception>
+        <altmember cref="M:System.Collections.Generic.Dictionary`2.OnDeserialization(System.Object)" />
         <altmember cref="T:System.Runtime.Serialization.ISerializable" />
         <altmember cref="T:System.Runtime.Serialization.SerializationInfo" />
         <altmember cref="T:System.Runtime.Serialization.StreamingContext" />
-        <altmember cref="M:System.Collections.Generic.Dictionary`2.OnDeserialization(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -1605,8 +1605,8 @@ The only mutating methods that do not invalidate enumerators are <xref:System.Co
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Collections.Generic.Dictionary`2.KeyCollection" />
         <altmember cref="P:System.Collections.Generic.Dictionary`2.Values" />
+        <altmember cref="T:System.Collections.Generic.Dictionary`2.KeyCollection" />
       </Docs>
     </Member>
     <Member MemberName="OnDeserialization">
@@ -1663,10 +1663,10 @@ The only mutating methods that do not invalidate enumerators are <xref:System.Co
  ]]></format>
         </remarks>
         <exception cref="T:System.Runtime.Serialization.SerializationException">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> object associated with the current <see cref="T:System.Collections.Generic.Dictionary`2" /> instance is invalid.</exception>
+        <altmember cref="M:System.Collections.Generic.Dictionary`2.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
         <altmember cref="T:System.Runtime.Serialization.ISerializable" />
         <altmember cref="T:System.Runtime.Serialization.SerializationInfo" />
         <altmember cref="T:System.Runtime.Serialization.StreamingContext" />
-        <altmember cref="M:System.Collections.Generic.Dictionary`2.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
       </Docs>
     </Member>
     <Member MemberName="Remove">
@@ -3520,8 +3520,8 @@ Unlike the <xref:System.Collections.Generic.Dictionary`2.Add*> method, this meth
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Collections.Generic.Dictionary`2.ValueCollection" />
         <altmember cref="P:System.Collections.Generic.Dictionary`2.Keys" />
+        <altmember cref="T:System.Collections.Generic.Dictionary`2.ValueCollection" />
       </Docs>
     </Member>
   </Members>

@@ -1212,8 +1212,8 @@ The following example uses the <xref:System.Reflection.AssemblyVersionAttribute>
         <remarks>
           <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Version.Equals(System.Object)?displayProperty=nameWithType>]]></format>
         </remarks>
-        <altmember cref="M:System.Version.Equals(System.Object)" />
         <altmember cref="M:System.Version.CompareTo(System.Object)" />
+        <altmember cref="M:System.Version.Equals(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="op_GreaterThan">
@@ -1267,8 +1267,8 @@ The following example uses the <xref:System.Reflection.AssemblyVersionAttribute>
         <remarks>
           <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Version.CompareTo(System.Object)?displayProperty=nameWithType>]]></format>
         </remarks>
-        <altmember cref="M:System.Version.Equals(System.Object)" />
         <altmember cref="M:System.Version.CompareTo(System.Object)" />
+        <altmember cref="M:System.Version.Equals(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="op_GreaterThanOrEqual">
@@ -1322,8 +1322,8 @@ The following example uses the <xref:System.Reflection.AssemblyVersionAttribute>
         <remarks>
           <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Version.CompareTo(System.Object)?displayProperty=nameWithType>]]></format>
         </remarks>
-        <altmember cref="M:System.Version.Equals(System.Object)" />
         <altmember cref="M:System.Version.CompareTo(System.Object)" />
+        <altmember cref="M:System.Version.Equals(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
@@ -1377,8 +1377,8 @@ The following example uses the <xref:System.Reflection.AssemblyVersionAttribute>
         <remarks>
           <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Version.Equals(System.Object)?displayProperty=nameWithType>]]></format>
         </remarks>
-        <altmember cref="M:System.Version.Equals(System.Object)" />
         <altmember cref="M:System.Version.CompareTo(System.Object)" />
+        <altmember cref="M:System.Version.Equals(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="op_LessThan">
@@ -1433,8 +1433,8 @@ The following example uses the <xref:System.Reflection.AssemblyVersionAttribute>
           <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Version.CompareTo(System.Object)?displayProperty=nameWithType>]]></format>
         </remarks>
         <exception cref="T:System.ArgumentNullException">.NET Framework only: <paramref name="v1" /> is <see langword="null" />.</exception>
-        <altmember cref="M:System.Version.Equals(System.Object)" />
         <altmember cref="M:System.Version.CompareTo(System.Object)" />
+        <altmember cref="M:System.Version.Equals(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="op_LessThanOrEqual">
@@ -1489,8 +1489,8 @@ The following example uses the <xref:System.Reflection.AssemblyVersionAttribute>
           <format type="text/markdown"><![CDATA[The equivalent method for this operator is <xref:System.Version.CompareTo(System.Object)?displayProperty=nameWithType>]]></format>
         </remarks>
         <exception cref="T:System.ArgumentNullException">.NET Framework only: <paramref name="v1" /> is <see langword="null" />.</exception>
-        <altmember cref="M:System.Version.Equals(System.Object)" />
         <altmember cref="M:System.Version.CompareTo(System.Object)" />
+        <altmember cref="M:System.Version.Equals(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="Parse">
@@ -1666,8 +1666,8 @@ where `major`, `minor`, `build`, and `revision` are the string representations o
         <exception cref="T:System.ArgumentOutOfRangeException">At least one component in <paramref name="input" /> is less than zero.</exception>
         <exception cref="T:System.FormatException">At least one component in <paramref name="input" /> is not an integer.</exception>
         <exception cref="T:System.OverflowException">At least one component in <paramref name="input" /> represents a number that is greater than <see cref="F:System.Int32.MaxValue">Int32.MaxValue</see>.</exception>
-        <altmember cref="Overload:System.Version.ToString" />
         <altmember cref="M:System.Version.TryParse(System.String,System.Version@)" />
+        <altmember cref="Overload:System.Version.ToString" />
       </Docs>
     </Member>
     <Member MemberName="Revision">

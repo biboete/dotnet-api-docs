@@ -4456,9 +4456,9 @@ orderDate=10/6/2006
         </remarks>
         <exception cref="T:System.FormatException">The element does not contain a valid <see cref="T:System.DateTime" /> value.</exception>
         <exception cref="T:System.ArgumentNullException">The <paramref name="element" /> parameter is <see langword="null" />.</exception>
-        <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
         <exception cref="T:System.InvalidOperationException">
           <paramref name="element" /> is <see langword="null" />.</exception>
+        <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
@@ -4553,9 +4553,9 @@ dt=10/6/2006 12:30:00 PM -07:00
         </remarks>
         <exception cref="T:System.FormatException">The element does not contain a valid <see cref="T:System.DateTimeOffset" /> value.</exception>
         <exception cref="T:System.ArgumentNullException">The <paramref name="element" /> parameter is <see langword="null" />.</exception>
-        <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
         <exception cref="T:System.InvalidOperationException">
           <paramref name="element" /> is <see langword="null" />.</exception>
+        <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
@@ -4635,9 +4635,9 @@ value=79228162514264337593543950335
         </remarks>
         <exception cref="T:System.FormatException">The element does not contain a valid <see cref="T:System.Decimal" /> value.</exception>
         <exception cref="T:System.ArgumentNullException">The <paramref name="element" /> parameter is <see langword="null" />.</exception>
-        <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
         <exception cref="T:System.InvalidOperationException">
           <paramref name="element" /> is <see langword="null" />.</exception>
+        <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
@@ -4716,9 +4716,9 @@ value=1.79769313486231E+308
         </remarks>
         <exception cref="T:System.FormatException">The element does not contain a valid <see cref="T:System.Double" /> value.</exception>
         <exception cref="T:System.ArgumentNullException">The <paramref name="element" /> parameter is <see langword="null" />.</exception>
-        <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
         <exception cref="T:System.InvalidOperationException">
           <paramref name="element" /> is <see langword="null" />.</exception>
+        <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
@@ -4798,9 +4798,9 @@ value=3c1cc55b-baff-4b7a-9d17-077af3aa5730
         </remarks>
         <exception cref="T:System.FormatException">The element does not contain a valid <see cref="T:System.Guid" /> value.</exception>
         <exception cref="T:System.ArgumentNullException">The <paramref name="element" /> parameter is <see langword="null" />.</exception>
-        <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
         <exception cref="T:System.InvalidOperationException">
           <paramref name="element" /> is <see langword="null" />.</exception>
+        <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
@@ -4960,9 +4960,9 @@ value=9223372036854775807
         </remarks>
         <exception cref="T:System.FormatException">The element does not contain a valid <see cref="T:System.Int64" /> value.</exception>
         <exception cref="T:System.ArgumentNullException">The <paramref name="element" /> parameter is <see langword="null" />.</exception>
-        <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
         <exception cref="T:System.InvalidOperationException">
           <paramref name="element" /> is <see langword="null" />.</exception>
+        <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
@@ -6168,9 +6168,9 @@ value=3.402823E+38
         </remarks>
         <exception cref="T:System.FormatException">The element does not contain a valid <see cref="T:System.Single" /> value.</exception>
         <exception cref="T:System.ArgumentNullException">The <paramref name="element" /> parameter is <see langword="null" />.</exception>
-        <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
         <exception cref="T:System.InvalidOperationException">
           <paramref name="element" /> is <see langword="null" />.</exception>
+        <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
@@ -6501,9 +6501,9 @@ value=18446744073709551615
         </remarks>
         <exception cref="T:System.FormatException">The element does not contain a valid <see cref="T:System.UInt64" /> value.</exception>
         <exception cref="T:System.ArgumentNullException">The <paramref name="element" /> parameter is <see langword="null" />.</exception>
-        <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
         <exception cref="T:System.InvalidOperationException">
           <paramref name="element" /> is <see langword="null" />.</exception>
+        <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
     <MemberGroup MemberName="Parse">
@@ -6869,8 +6869,8 @@ Console.WriteLine(root)
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xml.Linq.XElement.RemoveAttributes" />
         <altmember cref="M:System.Xml.Linq.XContainer.RemoveNodes" />
+        <altmember cref="M:System.Xml.Linq.XElement.RemoveAttributes" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -6961,8 +6961,8 @@ Console.WriteLine(root)
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xml.Linq.XElement.RemoveAttributes" />
         <altmember cref="M:System.Xml.Linq.XElement.RemoveAll" />
+        <altmember cref="M:System.Xml.Linq.XElement.RemoveAttributes" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>

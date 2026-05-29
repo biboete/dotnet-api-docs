@@ -1113,8 +1113,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Net.NetworkCredential" />
         <altmember cref="T:System.Net.CredentialCache" />
+        <altmember cref="T:System.Net.NetworkCredential" />
         <altmember cref="T:System.Xml.XmlSecureResolver" />
       </Docs>
     </Member>
@@ -1832,8 +1832,8 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">There was an error processing the XSLT transformation.</exception>
-        <altmember cref="T:System.Xml.XmlSecureResolver" />
         <altmember cref="P:System.Xml.XmlResolver.Credentials" />
+        <altmember cref="T:System.Xml.XmlSecureResolver" />
       </Docs>
     </Member>
     <Member MemberName="Transform">
@@ -1920,8 +1920,8 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">There was an error processing the XSLT transformation.</exception>
-        <altmember cref="T:System.Xml.XmlSecureResolver" />
         <altmember cref="P:System.Xml.XmlResolver.Credentials" />
+        <altmember cref="T:System.Xml.XmlSecureResolver" />
       </Docs>
     </Member>
     <Member MemberName="Transform">
@@ -2006,8 +2006,8 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">There was an error processing the XSLT transformation.</exception>
-        <altmember cref="T:System.Xml.XmlSecureResolver" />
         <altmember cref="P:System.Xml.XmlResolver.Credentials" />
+        <altmember cref="T:System.Xml.XmlSecureResolver" />
       </Docs>
     </Member>
     <Member MemberName="Transform">
@@ -2092,9 +2092,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">There was an error processing the XSLT transformation.</exception>
-        <altmember cref="T:System.Xml.Xsl.XsltArgumentList" />
-        <altmember cref="T:System.Xml.XmlSecureResolver" />
         <altmember cref="P:System.Xml.XmlResolver.Credentials" />
+        <altmember cref="T:System.Xml.XmlSecureResolver" />
+        <altmember cref="T:System.Xml.Xsl.XsltArgumentList" />
       </Docs>
     </Member>
     <Member MemberName="Transform">
@@ -2179,9 +2179,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">There was an error processing the XSLT transformation..</exception>
-        <altmember cref="T:System.Xml.Xsl.XsltArgumentList" />
-        <altmember cref="T:System.Xml.XmlSecureResolver" />
         <altmember cref="P:System.Xml.XmlResolver.Credentials" />
+        <altmember cref="T:System.Xml.XmlSecureResolver" />
+        <altmember cref="T:System.Xml.Xsl.XsltArgumentList" />
       </Docs>
     </Member>
     <Member MemberName="Transform">
@@ -2266,9 +2266,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">There was an error processing the XSLT transformation..</exception>
-        <altmember cref="T:System.Xml.Xsl.XsltArgumentList" />
-        <altmember cref="T:System.Xml.XmlSecureResolver" />
         <altmember cref="P:System.Xml.XmlResolver.Credentials" />
+        <altmember cref="T:System.Xml.XmlSecureResolver" />
+        <altmember cref="T:System.Xml.Xsl.XsltArgumentList" />
       </Docs>
     </Member>
     <Member MemberName="XmlResolver">

@@ -98,8 +98,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Drawing.Color" />
         <altmember cref="P:System.Windows.Forms.Control.BackColor" />
+        <altmember cref="T:System.Drawing.Color" />
       </Docs>
     </Member>
     <Member MemberName="Cursor">
@@ -136,8 +136,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.Forms.Cursor" />
         <altmember cref="P:System.Windows.Forms.Control.Cursor" />
+        <altmember cref="T:System.Windows.Forms.Cursor" />
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -174,8 +174,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Drawing.Font" />
         <altmember cref="P:System.Windows.Forms.Control.Font" />
+        <altmember cref="T:System.Drawing.Font" />
       </Docs>
     </Member>
     <Member MemberName="ForeColor">
@@ -211,8 +211,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Drawing.Color" />
         <altmember cref="P:System.Windows.Forms.Control.ForeColor" />
+        <altmember cref="T:System.Drawing.Color" />
       </Docs>
     </Member>
   </Members>

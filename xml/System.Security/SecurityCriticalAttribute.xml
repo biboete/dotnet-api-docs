@@ -70,8 +70,8 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Security.SecurityTransparentAttribute" />
     <altmember cref="T:System.Security.SecuritySafeCriticalAttribute" />
+    <altmember cref="T:System.Security.SecurityTransparentAttribute" />
     <related type="Article" href="/dotnet/framework/misc/security-transparent-code-level-1">Security-Transparent Code, Level 1</related>
     <related type="Article" href="/dotnet/framework/misc/security-transparent-code-level-2">Security-Transparent Code, Level 2</related>
   </Docs>

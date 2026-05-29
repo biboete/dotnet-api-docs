@@ -65,9 +65,9 @@
   
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Runtime.InteropServices.DllImportAttribute" />
     <altmember cref="M:System.Runtime.InteropServices.Marshal.GetDelegateForFunctionPointer(System.IntPtr,System.Type)" />
     <altmember cref="M:System.Runtime.InteropServices.Marshal.GetFunctionPointerForDelegate(System.Delegate)" />
+    <altmember cref="T:System.Runtime.InteropServices.DllImportAttribute" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -118,8 +118,8 @@
   
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Runtime.InteropServices.DllImportAttribute" />
         <altmember cref="T:System.Runtime.InteropServices.CallingConvention" />
+        <altmember cref="T:System.Runtime.InteropServices.DllImportAttribute" />
       </Docs>
     </Member>
     <Member MemberName="BestFitMapping">
@@ -171,9 +171,9 @@
   
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Runtime.InteropServices.DllImportAttribute" />
         <altmember cref="F:System.Runtime.InteropServices.DllImportAttribute.BestFitMapping" />
         <altmember cref="T:System.Runtime.InteropServices.BestFitMappingAttribute" />
+        <altmember cref="T:System.Runtime.InteropServices.DllImportAttribute" />
       </Docs>
     </Member>
     <Member MemberName="CallingConvention">
@@ -217,8 +217,8 @@
         <summary>Gets the value of the calling convention.</summary>
         <value>The value of the calling convention specified by the <see cref="M:System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute.#ctor(System.Runtime.InteropServices.CallingConvention)" /> constructor.</value>
         <remarks>To be added.</remarks>
-        <altmember cref="T:System.Runtime.InteropServices.DllImportAttribute" />
         <altmember cref="T:System.Runtime.InteropServices.CallingConvention" />
+        <altmember cref="T:System.Runtime.InteropServices.DllImportAttribute" />
       </Docs>
     </Member>
     <Member MemberName="CharSet">
@@ -270,9 +270,9 @@
   
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Runtime.InteropServices.DllImportAttribute" />
         <altmember cref="F:System.Runtime.InteropServices.DllImportAttribute.CharSet" />
         <altmember cref="T:System.Runtime.InteropServices.CharSet" />
+        <altmember cref="T:System.Runtime.InteropServices.DllImportAttribute" />
       </Docs>
     </Member>
     <Member MemberName="SetLastError">
@@ -324,8 +324,8 @@
   
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Runtime.InteropServices.DllImportAttribute" />
         <altmember cref="F:System.Runtime.InteropServices.DllImportAttribute.SetLastError" />
+        <altmember cref="T:System.Runtime.InteropServices.DllImportAttribute" />
       </Docs>
     </Member>
     <Member MemberName="ThrowOnUnmappableChar">
@@ -377,8 +377,8 @@
   
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Runtime.InteropServices.DllImportAttribute" />
         <altmember cref="F:System.Runtime.InteropServices.DllImportAttribute.ThrowOnUnmappableChar" />
+        <altmember cref="T:System.Runtime.InteropServices.DllImportAttribute" />
       </Docs>
     </Member>
   </Members>

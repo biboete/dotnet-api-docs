@@ -65,10 +65,10 @@
 
  We recommend that you use the <see cref="T:System.Xml.XmlReader" /> class instead.</summary>
     <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-xml-xmltextreader">Supplemental API remarks for XmlTextReader</see>.</remarks>
+    <related type="Article" href="/dotnet/standard/data/xml/">XML Documents and Data</related>
     <block subset="none" type="overrides">
       <para>This class has an inheritance demand. Full trust is required to inherit from <see langword="XmlTextReader" />.</para>
     </block>
-    <related type="Article" href="/dotnet/standard/data/xml/">XML Documents and Data</related>
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">
@@ -4096,9 +4096,9 @@ if (XmlNodeType.Element == reader.NodeType && "thing" == reader.Name)
         <exception cref="T:System.InvalidOperationException">
           <see cref="M:System.Xml.XmlTextReader.ReadContentAsBase64(System.Byte[],System.Int32,System.Int32)" /> is not supported in the current node.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The index into the buffer or index + count is larger than the allocated buffer size.</exception>
-        <altmember cref="T:System.Xml.XmlReader" />
         <altmember cref="M:System.Xml.XmlTextReader.ReadContentAsBase64(System.Byte[],System.Int32,System.Int32)" />
         <altmember cref="T:System.Xml.XmlNodeType" />
+        <altmember cref="T:System.Xml.XmlReader" />
       </Docs>
     </Member>
     <Member MemberName="ReadContentAsBinHex">
@@ -4175,9 +4175,9 @@ if (XmlNodeType.Element == reader.NodeType && "thing" == reader.Name)
           <see cref="M:System.Xml.XmlTextReader.ReadContentAsBinHex(System.Byte[],System.Int32,System.Int32)" /> is not supported on the current node.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The index into the buffer or index + count is larger than the allocated buffer size.</exception>
         <exception cref="T:System.NotSupportedException">The <see cref="T:System.Xml.XmlTextReader" /> implementation does not support this method.</exception>
-        <altmember cref="T:System.Xml.XmlReader" />
         <altmember cref="M:System.Xml.XmlTextReader.ReadElementContentAsBinHex(System.Byte[],System.Int32,System.Int32)" />
         <altmember cref="T:System.Xml.XmlNodeType" />
+        <altmember cref="T:System.Xml.XmlReader" />
       </Docs>
     </Member>
     <Member MemberName="ReadElementContentAsBase64">
@@ -4257,8 +4257,8 @@ if (XmlNodeType.Element == reader.NodeType && "thing" == reader.Name)
         <exception cref="T:System.NotSupportedException">The <see cref="T:System.Xml.XmlTextReader" /> implementation does not support this method.</exception>
         <exception cref="T:System.Xml.XmlException">The element contains mixed-content.</exception>
         <exception cref="T:System.FormatException">The content cannot be converted to the requested type.</exception>
-        <altmember cref="T:System.Xml.XmlReader" />
         <altmember cref="M:System.Xml.XmlTextReader.ReadElementContentAsBase64(System.Byte[],System.Int32,System.Int32)" />
+        <altmember cref="T:System.Xml.XmlReader" />
       </Docs>
     </Member>
     <Member MemberName="ReadElementContentAsBinHex">
@@ -4338,8 +4338,8 @@ if (XmlNodeType.Element == reader.NodeType && "thing" == reader.Name)
         <exception cref="T:System.NotSupportedException">The <see cref="T:System.Xml.XmlReader" /> implementation does not support this method.</exception>
         <exception cref="T:System.Xml.XmlException">The element contains mixed-content.</exception>
         <exception cref="T:System.FormatException">The content cannot be converted to the requested type.</exception>
-        <altmember cref="T:System.Xml.XmlReader" />
         <altmember cref="M:System.Xml.XmlTextReader.ReadElementContentAsBinHex(System.Byte[],System.Int32,System.Int32)" />
+        <altmember cref="T:System.Xml.XmlReader" />
       </Docs>
     </Member>
     <Member MemberName="ReadState">
@@ -5129,8 +5129,8 @@ if (XmlNodeType.Element == reader.NodeType && "thing" == reader.Name)
         <altmember cref="P:System.Xml.XmlUrlResolver.Credentials" />
         <altmember cref="T:System.Net.CredentialCache" />
         <altmember cref="T:System.Net.NetworkCredential" />
-        <altmember cref="T:System.Xml.XmlSecureResolver" />
         <altmember cref="T:System.Xml.XmlReader" />
+        <altmember cref="T:System.Xml.XmlSecureResolver" />
       </Docs>
     </Member>
     <Member MemberName="XmlSpace">

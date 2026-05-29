@@ -64,11 +64,11 @@ void sre_AudioStateChanged(object sender, AudioStateChangedEventArgs e)
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Speech.Recognition.AudioState" />
     <altmember cref="E:System.Speech.Recognition.SpeechRecognitionEngine.AudioStateChanged" />
     <altmember cref="E:System.Speech.Recognition.SpeechRecognizer.AudioStateChanged" />
-    <altmember cref="P:System.Speech.Recognition.SpeechRecognizer.AudioState" />
     <altmember cref="P:System.Speech.Recognition.SpeechRecognitionEngine.AudioState" />
+    <altmember cref="P:System.Speech.Recognition.SpeechRecognizer.AudioState" />
+    <altmember cref="T:System.Speech.Recognition.AudioState" />
   </Docs>
   <Members>
     <Member MemberName="AudioState">

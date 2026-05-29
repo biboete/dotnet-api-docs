@@ -114,8 +114,8 @@
         <summary>Frees the specified Windows Runtime<see href="https://learn.microsoft.com/windows/win32/winrt/hstring">HSTRING</see>.</summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.PlatformNotSupportedException">The Windows Runtime is not supported on the current version of the operating system.</exception>
-        <forInternalUseOnly />
         <altmember cref="M:System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal.StringToHString(System.String)" />
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="GetActivationFactory">
@@ -345,8 +345,8 @@
         <exception cref="T:System.PlatformNotSupportedException">The Windows Runtime is not supported on the current version of the operating system.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="s" /> is <see langword="null" />.</exception>
-        <forInternalUseOnly />
         <altmember cref="M:System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal.FreeHString(System.IntPtr)" />
+        <forInternalUseOnly />
       </Docs>
     </Member>
   </Members>

@@ -75,9 +75,9 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Reflection.AssemblyNameFlags" />
     <altmember cref="Overload:System.Reflection.Assembly.GetName" />
     <altmember cref="P:System.Reflection.AssemblyName.Flags" />
+    <altmember cref="T:System.Reflection.AssemblyNameFlags" />
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">
@@ -398,8 +398,8 @@
 
  ]]></format>
         </remarks>
-        <altCompliant cref="P:System.Reflection.AssemblyFlagsAttribute.AssemblyFlags" />
         <altmember cref="T:System.Reflection.AssemblyNameFlags" />
+        <altCompliant cref="P:System.Reflection.AssemblyFlagsAttribute.AssemblyFlags" />
       </Docs>
     </Member>
   </Members>

@@ -391,8 +391,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.Interop.HwndSourceHook" />
         <altmember cref="M:System.Windows.Interop.HwndSource.RemoveHook(System.Windows.Interop.HwndSourceHook)" />
+        <altmember cref="T:System.Windows.Interop.HwndSourceHook" />
       </Docs>
     </Member>
     <Member MemberName="AutoResized">
@@ -763,11 +763,11 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Interop.HwndSource.CompositionTarget" />
+        <altmember cref="T:System.Windows.Media.CompositionTarget" />
         <block subset="none" type="overrides">
           <para>Implement this method to return a type-specific visual target. <see cref="T:System.Windows.Interop.HwndSource" /> implements this method to return <see cref="T:System.Windows.Interop.HwndTarget" />.</para>
         </block>
-        <altmember cref="T:System.Windows.Media.CompositionTarget" />
-        <altmember cref="P:System.Windows.Interop.HwndSource.CompositionTarget" />
       </Docs>
     </Member>
     <Member MemberName="Handle">

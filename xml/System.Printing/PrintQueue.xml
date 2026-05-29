@@ -599,8 +599,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Threading.ApartmentState" />
         <altmember cref="T:System.STAThreadAttribute" />
+        <altmember cref="T:System.Threading.ApartmentState" />
         <related type="Article" href="/dotnet/framework/interop/exposing-com-components">Exposing COM Components to the .NET Framework</related>
       </Docs>
     </Member>
@@ -1154,8 +1154,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Printing.PrintQueue.UserPrintTicket" />
         <altmember cref="P:System.Printing.PrintQueue.DefaultPriority" />
+        <altmember cref="P:System.Printing.PrintQueue.UserPrintTicket" />
       </Docs>
     </Member>
     <Member MemberName="DefaultPriority">
@@ -3791,10 +3791,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.TimeZone" />
-        <altmember cref="T:System.TimeSpan" />
-        <altmember cref="T:System.DateTime" />
         <altmember cref="P:System.Printing.PrintQueue.UntilTimeOfDay" />
+        <altmember cref="T:System.DateTime" />
+        <altmember cref="T:System.TimeSpan" />
+        <altmember cref="T:System.TimeZone" />
       </Docs>
     </Member>
     <Member MemberName="UntilTimeOfDay">
@@ -3841,10 +3841,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.TimeZone" />
-        <altmember cref="T:System.TimeSpan" />
-        <altmember cref="T:System.DateTime" />
         <altmember cref="P:System.Printing.PrintQueue.StartTimeOfDay" />
+        <altmember cref="T:System.DateTime" />
+        <altmember cref="T:System.TimeSpan" />
+        <altmember cref="T:System.TimeZone" />
       </Docs>
     </Member>
     <Member MemberName="UserPrintTicket">

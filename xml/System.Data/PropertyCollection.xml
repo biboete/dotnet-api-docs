@@ -72,12 +72,12 @@
   
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Data.DataColumn" />
-    <altmember cref="T:System.Data.DataSet" />
-    <altmember cref="T:System.Data.DataTable" />
     <altmember cref="P:System.Data.DataColumn.ExtendedProperties" />
     <altmember cref="P:System.Data.DataSet.ExtendedProperties" />
     <altmember cref="P:System.Data.DataTable.ExtendedProperties" />
+    <altmember cref="T:System.Data.DataColumn" />
+    <altmember cref="T:System.Data.DataSet" />
+    <altmember cref="T:System.Data.DataTable" />
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">

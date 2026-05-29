@@ -72,9 +72,9 @@
   
  ]]></format>
     </remarks>
+    <altmember cref="P:System.Runtime.CompilerServices.DefaultDependencyAttribute.LoadHint" />
     <altmember cref="T:System.Runtime.CompilerServices.DependencyAttribute" />
     <altmember cref="T:System.Runtime.CompilerServices.LoadHint" />
-    <altmember cref="P:System.Runtime.CompilerServices.DefaultDependencyAttribute.LoadHint" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">

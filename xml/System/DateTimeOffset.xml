@@ -2605,8 +2605,8 @@ In .NET Framework, the `seconds` parameter is rounded to the nearest millisecond
  -or-
 
  <paramref name="milliseconds" /> is greater than 253,402,300,799,999.</exception>
-        <altmember cref="M:System.DateTimeOffset.FromUnixTimeSeconds(System.Int64)" />
         <altmember cref="M:System.DateTimeOffset.ToUnixTimeMilliseconds" />
+        <altmember cref="M:System.DateTimeOffset.FromUnixTimeSeconds(System.Int64)" />
       </Docs>
     </Member>
     <Member MemberName="FromUnixTimeSeconds">
@@ -2665,8 +2665,8 @@ In .NET Framework, the `seconds` parameter is rounded to the nearest millisecond
  -or-
 
  <paramref name="seconds" /> is greater than 253,402,300,799.</exception>
-        <altmember cref="M:System.DateTimeOffset.FromUnixTimeMilliseconds(System.Int64)" />
         <altmember cref="M:System.DateTimeOffset.ToUnixTimeSeconds" />
+        <altmember cref="M:System.DateTimeOffset.FromUnixTimeMilliseconds(System.Int64)" />
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -4143,8 +4143,8 @@ If you rely on properties such as <xref:System.DateTimeOffset.Now> or <xref:Syst
  -or-
 
  <paramref name="input" /> contains the string representation of an offset value without a date or time.</exception>
-        <altmember cref="Overload:System.DateTimeOffset.TryParse" />
         <altmember cref="Overload:System.DateTimeOffset.ParseExact" />
+        <altmember cref="Overload:System.DateTimeOffset.TryParse" />
       </Docs>
     </Member>
     <Member MemberName="Parse">
@@ -4293,8 +4293,8 @@ If you rely on properties such as <xref:System.DateTimeOffset.Now> or <xref:Syst
  -or-
 
  <paramref name="input" /> contains the string representation of an offset value without a date or time.</exception>
-        <altmember cref="Overload:System.DateTimeOffset.TryParse" />
         <altmember cref="Overload:System.DateTimeOffset.ParseExact" />
+        <altmember cref="Overload:System.DateTimeOffset.TryParse" />
       </Docs>
     </Member>
     <Member MemberName="Parse">
@@ -4474,8 +4474,8 @@ If you rely on properties such as <xref:System.DateTimeOffset.Now> or <xref:Syst
  -or-
 
  <paramref name="input" /> contains the string representation of an offset value without a date or time.</exception>
-        <altmember cref="Overload:System.DateTimeOffset.TryParse" />
         <altmember cref="Overload:System.DateTimeOffset.ParseExact" />
+        <altmember cref="Overload:System.DateTimeOffset.TryParse" />
       </Docs>
     </Member>
     <MemberGroup MemberName="ParseExact">
@@ -4615,12 +4615,12 @@ The following example parses an array of strings that are expected to conform to
  -or-
 
  The hour component and the AM/PM designator in <paramref name="input" /> do not agree.</exception>
-        <block subset="none" type="usage">
-          <para>In the .NET Framework 4, the <see cref="Overload:System.DateTimeOffset.ParseExact" /> method throws a <see cref="T:System.FormatException" /> if the string to be parsed contains an hour component and an AM/PM designator that are not in agreement. In the .NET Framework 3.5 and earlier versions, the AM/PM designator is ignored.</para>
-        </block>
         <altmember cref="Overload:System.DateTimeOffset.TryParseExact" />
         <related type="Article" href="/dotnet/standard/base-types/standard-date-and-time-format-strings">Standard Date and Time Format Strings</related>
         <related type="Article" href="/dotnet/standard/base-types/custom-date-and-time-format-strings">Custom Date and Time Format Strings</related>
+        <block subset="none" type="usage">
+          <para>In the .NET Framework 4, the <see cref="Overload:System.DateTimeOffset.ParseExact" /> method throws a <see cref="T:System.FormatException" /> if the string to be parsed contains an hour component and an AM/PM designator that are not in agreement. In the .NET Framework 3.5 and earlier versions, the AM/PM designator is ignored.</para>
+        </block>
       </Docs>
     </Member>
     <Member MemberName="ParseExact">
@@ -4973,12 +4973,12 @@ Strings that do not specify a UTC offset are assumed to have the offset of the l
  -or-
 
  The hour component and the AM/PM designator in <paramref name="input" /> do not agree.</exception>
-        <block subset="none" type="usage">
-          <para>In the .NET Framework 4, the <see cref="Overload:System.DateTimeOffset.ParseExact" /> method throws a <see cref="T:System.FormatException" /> if the string to be parsed contains an hour component and an AM/PM designator that are not in agreement. In the .NET Framework 3.5 and earlier versions, the AM/PM designator is ignored.</para>
-        </block>
         <altmember cref="Overload:System.DateTimeOffset.TryParseExact" />
         <related type="Article" href="/dotnet/standard/base-types/standard-date-and-time-format-strings">Standard Date and Time Format Strings</related>
         <related type="Article" href="/dotnet/standard/base-types/custom-date-and-time-format-strings">Custom Date and Time Format Strings</related>
+        <block subset="none" type="usage">
+          <para>In the .NET Framework 4, the <see cref="Overload:System.DateTimeOffset.ParseExact" /> method throws a <see cref="T:System.FormatException" /> if the string to be parsed contains an hour component and an AM/PM designator that are not in agreement. In the .NET Framework 3.5 and earlier versions, the AM/PM designator is ignored.</para>
+        </block>
       </Docs>
     </Member>
     <Member MemberName="ParseExact">
@@ -5116,12 +5116,12 @@ Strings that do not specify a UTC offset are assumed to have the offset of the l
  -or-
 
  The hour component and the AM/PM designator in <paramref name="input" /> do not agree.</exception>
-        <block subset="none" type="usage">
-          <para>In the .NET Framework 4, the <see cref="Overload:System.DateTimeOffset.ParseExact" /> method throws a <see cref="T:System.FormatException" /> if the string to be parsed contains an hour component and an AM/PM designator that are not in agreement. In the .NET Framework 3.5 and earlier versions, the AM/PM designator is ignored.</para>
-        </block>
         <altmember cref="Overload:System.DateTimeOffset.TryParseExact" />
         <related type="Article" href="/dotnet/standard/base-types/standard-date-and-time-format-strings">Standard Date and Time Format Strings</related>
         <related type="Article" href="/dotnet/standard/base-types/custom-date-and-time-format-strings">Custom Date and Time Format Strings</related>
+        <block subset="none" type="usage">
+          <para>In the .NET Framework 4, the <see cref="Overload:System.DateTimeOffset.ParseExact" /> method throws a <see cref="T:System.FormatException" /> if the string to be parsed contains an hour component and an AM/PM designator that are not in agreement. In the .NET Framework 3.5 and earlier versions, the AM/PM designator is ignored.</para>
+        </block>
       </Docs>
     </Member>
     <Member MemberName="Second">
@@ -6100,6 +6100,8 @@ Me.ToUtcDateTime().ToFileTime()
 
  <paramref name="format" /> does not contain a valid custom format pattern.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The date and time is outside the range of dates supported by the calendar used by the current culture.</exception>
+        <related type="Article" href="/dotnet/standard/base-types/standard-date-and-time-format-strings">Standard Date and Time Format Strings</related>
+        <related type="Article" href="/dotnet/standard/base-types/custom-date-and-time-format-strings">Custom Date and Time Format Strings</related>
         <block subset="none" type="usage">
           <para>The <see cref="M:System.DateTimeOffset.ToString(System.String)" /> method returns the string representation of the date and time in the calendar used by the current culture. If the value of the current <see cref="T:System.DateTimeOffset" /> instance is earlier than <see cref="P:System.Globalization.Calendar.MinSupportedDateTime" /> or later than <see cref="P:System.Globalization.Calendar.MaxSupportedDateTime" />, the method throws an <see cref="T:System.ArgumentOutOfRangeException" />. The following example provides an illustration. It attempts to format a date that is outside the range of the <see cref="T:System.Globalization.HebrewCalendar" /> class when the current culture is Hebrew (Israel).
 
@@ -6107,8 +6109,6 @@ Me.ToUtcDateTime().ToFileTime()
  :::code language="fsharp" source="~/snippets/fsharp/VS_Snippets_CLR_System/system.datetimeoffset.tostring.argumentoutofrangeexception/fs/datetimeoffset.tostring.argumentoutofrangeexception3.fs" id="Snippet3":::
  :::code language="vb" source="~/snippets/visualbasic/System/DateTimeOffset/ToString/datetimeoffset.tostring.argumentoutofrangeexception3.vb" id="Snippet3":::</para>
         </block>
-        <related type="Article" href="/dotnet/standard/base-types/standard-date-and-time-format-strings">Standard Date and Time Format Strings</related>
-        <related type="Article" href="/dotnet/standard/base-types/custom-date-and-time-format-strings">Custom Date and Time Format Strings</related>
       </Docs>
     </Member>
     <Member MemberName="ToString">
@@ -6215,6 +6215,10 @@ Me.ToUtcDateTime().ToFileTime()
 
  <paramref name="format" /> does not contain a valid custom format pattern.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The date and time is outside the range of dates supported by the calendar used by <paramref name="formatProvider" />.</exception>
+        <related type="Article" href="/dotnet/standard/base-types/standard-date-and-time-format-strings">Standard Date and Time Format Strings</related>
+        <related type="Article" href="/dotnet/standard/base-types/custom-date-and-time-format-strings">Custom Date and Time Format Strings</related>
+        <related type="ExternalDocumentation" href="https://learn.microsoft.com/samples/dotnet/samples/windowsforms-formatting-utility-cs/">Sample: .NET Core WinForms Formatting Utility (C#)</related>
+        <related type="ExternalDocumentation" href="https://learn.microsoft.com/samples/dotnet/samples/windowsforms-formatting-utility-vb/">Sample: .NET Core WinForms Formatting Utility (Visual Basic)</related>
         <block subset="none" type="usage">
           <para>The <see cref="M:System.DateTimeOffset.ToString(System.String,System.IFormatProvider)" /> method returns the string representation of the date and time in the calendar used by the <paramref name="formatProvider" /> parameter. Its calendar is defined by the <see cref="P:System.Globalization.DateTimeFormatInfo.Calendar" /> property. If the value of the current <see cref="T:System.DateTimeOffset" /> instance is earlier than <see cref="P:System.Globalization.Calendar.MinSupportedDateTime" /> or later than <see cref="P:System.Globalization.Calendar.MaxSupportedDateTime" />, the method throws an <see cref="T:System.ArgumentOutOfRangeException" />. The following example provides an illustration. It attempts to format a date that is outside the range of the <see cref="T:System.Globalization.UmAlQuraCalendar" /> class.
 
@@ -6222,10 +6226,6 @@ Me.ToUtcDateTime().ToFileTime()
  :::code language="fsharp" source="~/snippets/fsharp/VS_Snippets_CLR_System/system.datetimeoffset.tostring.argumentoutofrangeexception/fs/datetimeoffset.tostring.argumentoutofrangeexception4.fs" id="Snippet4":::
  :::code language="vb" source="~/snippets/visualbasic/System/DateTimeOffset/ToString/datetimeoffset.tostring.argumentoutofrangeexception4.vb" id="Snippet4":::</para>
         </block>
-        <related type="Article" href="/dotnet/standard/base-types/standard-date-and-time-format-strings">Standard Date and Time Format Strings</related>
-        <related type="Article" href="/dotnet/standard/base-types/custom-date-and-time-format-strings">Custom Date and Time Format Strings</related>
-        <related type="ExternalDocumentation" href="https://learn.microsoft.com/samples/dotnet/samples/windowsforms-formatting-utility-cs/">Sample: .NET Core WinForms Formatting Utility (C#)</related>
-        <related type="ExternalDocumentation" href="https://learn.microsoft.com/samples/dotnet/samples/windowsforms-formatting-utility-vb/">Sample: .NET Core WinForms Formatting Utility (Visual Basic)</related>
       </Docs>
     </Member>
     <Member MemberName="TotalOffsetMinutes">
@@ -6429,8 +6429,8 @@ Me.ToUtcDateTime().ToFileTime()
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.DateTimeOffset.FromUnixTimeSeconds(System.Int64)" />
         <altmember cref="M:System.DateTimeOffset.ToUnixTimeMilliseconds" />
+        <altmember cref="M:System.DateTimeOffset.FromUnixTimeSeconds(System.Int64)" />
       </Docs>
     </Member>
     <Member MemberName="TryFormat">
@@ -7323,10 +7323,10 @@ Strings that do not specify a UTC offset are assumed to have the offset of the l
  -or-
 
  <paramref name="styles" /> includes mutually exclusive <see cref="T:System.Globalization.DateTimeStyles" /> values.</exception>
+        <altmember cref="Overload:System.DateTimeOffset.ParseExact" />
         <block subset="none" type="usage">
           <para>In the .NET Framework 4, the <see cref="Overload:System.DateTimeOffset.TryParseExact" /> returns <see langword="false" /> if the string to be parsed contains an hour component and an AM/PM designator that are not in agreement. In the .NET Framework 3.5 and earlier versions, the AM/PM designator is ignored.</para>
         </block>
-        <altmember cref="Overload:System.DateTimeOffset.ParseExact" />
       </Docs>
     </Member>
     <Member MemberName="TryParseExact">

@@ -492,8 +492,8 @@
  <paramref name="defaultButton" /> is not a member of <see cref="T:System.Windows.Forms.MessageBoxDefaultButton" />.</exception>
         <exception cref="T:System.InvalidOperationException">An attempt was made to display the <see cref="T:System.Windows.Forms.MessageBox" /> in a process that is not running in User Interactive mode. This is specified by the <see cref="P:System.Windows.Forms.SystemInformation.UserInteractive" /> property.</exception>
         <altmember cref="T:System.Windows.Forms.MessageBoxButtons" />
-        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxDefaultButton" />
+        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
       </Docs>
     </Member>
     <Member MemberName="Show">
@@ -639,8 +639,8 @@
 
  <paramref name="buttons" /> specified an invalid combination of <see cref="T:System.Windows.Forms.MessageBoxButtons" />.</exception>
         <altmember cref="T:System.Windows.Forms.MessageBoxButtons" />
-        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxDefaultButton" />
+        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxOptions" />
       </Docs>
     </Member>
@@ -715,8 +715,8 @@
  <paramref name="defaultButton" /> is not a member of <see cref="T:System.Windows.Forms.MessageBoxDefaultButton" />.</exception>
         <exception cref="T:System.InvalidOperationException">An attempt was made to display the <see cref="T:System.Windows.Forms.MessageBox" /> in a process that is not running in User Interactive mode. This is specified by the <see cref="P:System.Windows.Forms.SystemInformation.UserInteractive" /> property.</exception>
         <altmember cref="T:System.Windows.Forms.MessageBoxButtons" />
-        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxDefaultButton" />
+        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
       </Docs>
     </Member>
     <Member MemberName="Show">
@@ -802,8 +802,8 @@
 
  <paramref name="buttons" /> specified an invalid combination of <see cref="T:System.Windows.Forms.MessageBoxButtons" />.</exception>
         <altmember cref="T:System.Windows.Forms.MessageBoxButtons" />
-        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxDefaultButton" />
+        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxOptions" />
       </Docs>
     </Member>
@@ -898,8 +898,8 @@
 
  <paramref name="buttons" /> specified an invalid combination of <see cref="T:System.Windows.Forms.MessageBoxButtons" />.</exception>
         <altmember cref="T:System.Windows.Forms.MessageBoxButtons" />
-        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxDefaultButton" />
+        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxOptions" />
       </Docs>
     </Member>
@@ -986,8 +986,8 @@
 
  <paramref name="buttons" /> specified an invalid combination of <see cref="T:System.Windows.Forms.MessageBoxButtons" />.</exception>
         <altmember cref="T:System.Windows.Forms.MessageBoxButtons" />
-        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxDefaultButton" />
+        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxOptions" />
       </Docs>
     </Member>
@@ -1089,8 +1089,8 @@
 
  <paramref name="buttons" /> specified an invalid combination of <see cref="T:System.Windows.Forms.MessageBoxButtons" />.</exception>
         <altmember cref="T:System.Windows.Forms.MessageBoxButtons" />
-        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxDefaultButton" />
+        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxOptions" />
       </Docs>
     </Member>
@@ -1189,8 +1189,8 @@
 
  <paramref name="buttons" /> specified an invalid combination of <see cref="T:System.Windows.Forms.MessageBoxButtons" />.</exception>
         <altmember cref="T:System.Windows.Forms.MessageBoxButtons" />
-        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxDefaultButton" />
+        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxOptions" />
       </Docs>
     </Member>
@@ -1287,8 +1287,8 @@
 
  <paramref name="buttons" /> specified an invalid combination of <see cref="T:System.Windows.Forms.MessageBoxButtons" />.</exception>
         <altmember cref="T:System.Windows.Forms.MessageBoxButtons" />
-        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxDefaultButton" />
+        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxOptions" />
       </Docs>
     </Member>
@@ -1391,8 +1391,8 @@
 
  <paramref name="buttons" /> specified an invalid combination of <see cref="T:System.Windows.Forms.MessageBoxButtons" />.</exception>
         <altmember cref="T:System.Windows.Forms.MessageBoxButtons" />
-        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxDefaultButton" />
+        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxOptions" />
       </Docs>
     </Member>
@@ -1496,8 +1496,8 @@
 
  <paramref name="buttons" /> specified an invalid combination of <see cref="T:System.Windows.Forms.MessageBoxButtons" />.</exception>
         <altmember cref="T:System.Windows.Forms.MessageBoxButtons" />
-        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxDefaultButton" />
+        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxOptions" />
       </Docs>
     </Member>
@@ -1598,8 +1598,8 @@
 
  <paramref name="buttons" /> specified an invalid combination of <see cref="T:System.Windows.Forms.MessageBoxButtons" />.</exception>
         <altmember cref="T:System.Windows.Forms.MessageBoxButtons" />
-        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxDefaultButton" />
+        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxOptions" />
       </Docs>
     </Member>
@@ -1704,8 +1704,8 @@
 
  <paramref name="buttons" /> specified an invalid combination of <see cref="T:System.Windows.Forms.MessageBoxButtons" />.</exception>
         <altmember cref="T:System.Windows.Forms.MessageBoxButtons" />
-        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxDefaultButton" />
+        <altmember cref="T:System.Windows.Forms.MessageBoxIcon" />
         <altmember cref="T:System.Windows.Forms.MessageBoxOptions" />
       </Docs>
     </Member>

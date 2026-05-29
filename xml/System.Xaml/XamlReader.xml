@@ -54,8 +54,8 @@
  ]]></format>
     </remarks>
     <altmember cref="T:System.Xaml.XamlObjectReader" />
-    <altmember cref="T:System.Xaml.XamlXmlReader" />
     <altmember cref="T:System.Xaml.XamlReaderSettings" />
+    <altmember cref="T:System.Xaml.XamlXmlReader" />
     <related type="Article" href="/dotnet/desktop/xaml-services/understanding-xaml-node-stream-structures-and-concepts">Understanding XAML Node Stream Structures and Concepts</related>
   </Docs>
   <Members>
@@ -371,8 +371,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xaml.XamlXmlReader.Read" />
         <altmember cref="M:System.Xaml.XamlObjectReader.Read" />
+        <altmember cref="M:System.Xaml.XamlXmlReader.Read" />
       </Docs>
     </Member>
     <Member MemberName="ReadSubtree">

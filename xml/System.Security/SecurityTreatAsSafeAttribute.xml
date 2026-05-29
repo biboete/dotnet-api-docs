@@ -73,8 +73,8 @@
   
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Security.SecurityTransparentAttribute" />
     <altmember cref="T:System.Security.SecurityCriticalAttribute" />
+    <altmember cref="T:System.Security.SecurityTransparentAttribute" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">

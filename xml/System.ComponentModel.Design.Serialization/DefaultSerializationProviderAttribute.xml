@@ -62,10 +62,10 @@
   
  ]]></format>
     </remarks>
+    <altmember cref="T:System.ComponentModel.Design.IDesignerHost" />
+    <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerLoaderService" />
     <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerSerializationProvider" />
     <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerSerializationService" />
-    <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerLoaderService" />
-    <altmember cref="T:System.ComponentModel.Design.IDesignerHost" />
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">
@@ -119,10 +119,10 @@
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="providerTypeName" /> is <see langword="null" />.</exception>
+        <altmember cref="T:System.ComponentModel.Design.IDesignerHost" />
+        <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerLoaderService" />
         <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerSerializationProvider" />
         <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerSerializationService" />
-        <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerLoaderService" />
-        <altmember cref="T:System.ComponentModel.Design.IDesignerHost" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -166,10 +166,10 @@
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="providerType" /> is <see langword="null" />.</exception>
+        <altmember cref="T:System.ComponentModel.Design.IDesignerHost" />
+        <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerLoaderService" />
         <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerSerializationProvider" />
         <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerSerializationService" />
-        <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerLoaderService" />
-        <altmember cref="T:System.ComponentModel.Design.IDesignerHost" />
       </Docs>
     </Member>
     <Member MemberName="ProviderTypeName">
@@ -211,10 +211,10 @@
         <summary>Gets the type name of the serialization provider.</summary>
         <value>A string containing the name of the provider.</value>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.ComponentModel.Design.IDesignerHost" />
+        <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerLoaderService" />
         <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerSerializationProvider" />
         <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerSerializationService" />
-        <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerLoaderService" />
-        <altmember cref="T:System.ComponentModel.Design.IDesignerHost" />
       </Docs>
     </Member>
   </Members>

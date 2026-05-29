@@ -1358,8 +1358,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Diagnostics.XmlWriterTraceListener" />
         <altmember cref="T:System.Diagnostics.DelimitedListTraceListener" />
+        <altmember cref="T:System.Diagnostics.XmlWriterTraceListener" />
       </Docs>
     </Member>
   </Members>

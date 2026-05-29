@@ -63,6 +63,10 @@
   <Docs>
     <summary>Represents text that should be kept confidential, such as by deleting it from computer memory when no longer needed. This class cannot be inherited.</summary>
     <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-security-securestring">Supplemental API remarks for SecureString</see>.</remarks>
+    <altmember cref="T:System.IDisposable" />
+    <altmember cref="T:System.Runtime.ConstrainedExecution.CriticalFinalizerObject" />
+    <altmember cref="T:System.Runtime.InteropServices.ComVisibleAttribute" />
+    <altmember cref="T:System.Runtime.InteropServices.Marshal" />
     <example>
       <format type="text/markdown"><![CDATA[
 The following example demonstrates how to use a <xref:System.Security.SecureString> to secure a user's password for use as a credential to start a new process.
@@ -71,10 +75,6 @@ The following example demonstrates how to use a <xref:System.Security.SecureStri
 :::code language="vb" source="~/snippets/visualbasic/System.Security/SecureString/Overview/ctor4.vb" id="Snippet4":::
       ]]></format>
     </example>
-    <altmember cref="T:System.Runtime.InteropServices.ComVisibleAttribute" />
-    <altmember cref="T:System.Runtime.InteropServices.Marshal" />
-    <altmember cref="T:System.Runtime.ConstrainedExecution.CriticalFinalizerObject" />
-    <altmember cref="T:System.IDisposable" />
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">
@@ -412,8 +412,8 @@ The following example demonstrates how to use a <xref:System.Security.SecureStri
         </remarks>
         <exception cref="T:System.ObjectDisposedException">This secure string has already been disposed.</exception>
         <exception cref="T:System.Security.Cryptography.CryptographicException">An error occurred while protecting or unprotecting the value of this secure string.</exception>
-        <altmember cref="M:System.Security.SecureString.MakeReadOnly" />
         <altmember cref="M:System.Security.SecureString.IsReadOnly" />
+        <altmember cref="M:System.Security.SecureString.MakeReadOnly" />
       </Docs>
     </Member>
     <Member MemberName="Dispose">

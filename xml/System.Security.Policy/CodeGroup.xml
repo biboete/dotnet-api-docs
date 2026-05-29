@@ -321,10 +321,10 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Security.Policy.CodeGroup.ParseXml(System.Security.SecurityElement,System.Security.Policy.PolicyLevel)" />
         <block subset="none" type="overrides">
           <para>If you implement this method, you must implement the <see cref="M:System.Security.Policy.CodeGroup.ParseXml(System.Security.SecurityElement,System.Security.Policy.PolicyLevel)" /> method as well.</para>
         </block>
-        <altmember cref="M:System.Security.Policy.CodeGroup.ParseXml(System.Security.SecurityElement,System.Security.Policy.PolicyLevel)" />
       </Docs>
     </Member>
     <Member MemberName="Description">
@@ -787,10 +787,10 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Security.Policy.CodeGroup.CreateXml(System.Security.SecurityElement,System.Security.Policy.PolicyLevel)" />
         <block subset="none" type="overrides">
           <para>If you implement this method, you must implement the <see cref="M:System.Security.Policy.CodeGroup.CreateXml(System.Security.SecurityElement,System.Security.Policy.PolicyLevel)" /> method as well.</para>
         </block>
-        <altmember cref="M:System.Security.Policy.CodeGroup.CreateXml(System.Security.SecurityElement,System.Security.Policy.PolicyLevel)" />
       </Docs>
     </Member>
     <Member MemberName="PermissionSetName">

@@ -1135,9 +1135,9 @@ The following example demonstrates calling this constructor. This code example i
         <exception cref="T:System.Security.Authentication.InvalidCredentialException">The authentication failed. You can use this object to retry the authentication.</exception>
         <exception cref="T:System.ObjectDisposedException">This object has been closed.</exception>
         <exception cref="T:System.PlatformNotSupportedException">The <paramref name="policy" /> parameter was set to <see cref="F:System.Security.Authentication.ExtendedProtection.PolicyEnforcement.Always" /> on a platform that does not support extended protection.</exception>
+        <exception cref="T:System.NotSupportedException">Windows 95 and Windows 98 are not supported.</exception>
         <altmember cref="T:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy" />
         <related type="Article" href="/dotnet/framework/network-programming/integrated-windows-authentication-with-extended-protection">Integrated Windows Authentication with Extended Protection</related>
-        <exception cref="T:System.NotSupportedException">Windows 95 and Windows 98 are not supported.</exception>
       </Docs>
     </Member>
     <Member MemberName="AuthenticateAsServer">
@@ -1295,9 +1295,9 @@ The following example demonstrates calling this constructor. This code example i
  This stream was used previously to attempt authentication as the client. You cannot use the stream to retry authentication as the server.</exception>
         <exception cref="T:System.ObjectDisposedException">This object has been closed.</exception>
         <exception cref="T:System.PlatformNotSupportedException">The <paramref name="policy" /> parameter was set to <see cref="F:System.Security.Authentication.ExtendedProtection.PolicyEnforcement.Always" /> on a platform that does not support extended protection.</exception>
+        <exception cref="T:System.NotSupportedException">Windows 95 and Windows 98 are not supported.</exception>
         <altmember cref="T:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy" />
         <related type="Article" href="/dotnet/framework/network-programming/integrated-windows-authentication-with-extended-protection">Integrated Windows Authentication with Extended Protection</related>
-        <exception cref="T:System.NotSupportedException">Windows 95 and Windows 98 are not supported.</exception>
       </Docs>
     </Member>
     <MemberGroup MemberName="AuthenticateAsServerAsync">
@@ -1440,9 +1440,9 @@ The following example demonstrates calling this constructor. This code example i
         <exception cref="T:System.Security.Authentication.InvalidCredentialException">The authentication failed. You can use this object to retry the authentication.</exception>
         <exception cref="T:System.ObjectDisposedException">This object has been closed.</exception>
         <exception cref="T:System.PlatformNotSupportedException">The <paramref name="policy" /> parameter was set to <see cref="F:System.Security.Authentication.ExtendedProtection.PolicyEnforcement.Always" /> on a platform that does not support extended protection.</exception>
+        <exception cref="T:System.NotSupportedException">Windows 95 and Windows 98 are not supported.</exception>
         <altmember cref="T:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy" />
         <related type="Article" href="/dotnet/framework/network-programming/integrated-windows-authentication-with-extended-protection">Integrated Windows Authentication with Extended Protection</related>
-        <exception cref="T:System.NotSupportedException">Windows 95 and Windows 98 are not supported.</exception>
       </Docs>
     </Member>
     <Member MemberName="AuthenticateAsServerAsync">
@@ -1602,9 +1602,9 @@ The following example demonstrates calling this constructor. This code example i
  This stream was used previously to attempt authentication as the client. You cannot use the stream to retry authentication as the server.</exception>
         <exception cref="T:System.ObjectDisposedException">This object has been closed.</exception>
         <exception cref="T:System.PlatformNotSupportedException">The <paramref name="policy" /> parameter was set to <see cref="F:System.Security.Authentication.ExtendedProtection.PolicyEnforcement.Always" /> on a platform that does not support extended protection.</exception>
+        <exception cref="T:System.NotSupportedException">Windows 95 and Windows 98 are not supported.</exception>
         <altmember cref="T:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy" />
         <related type="Article" href="/dotnet/framework/network-programming/integrated-windows-authentication-with-extended-protection">Integrated Windows Authentication with Extended Protection</related>
-        <exception cref="T:System.NotSupportedException">Windows 95 and Windows 98 are not supported.</exception>
       </Docs>
     </Member>
     <MemberGroup MemberName="BeginAuthenticateAsClient">
@@ -2268,9 +2268,9 @@ The following example demonstrates calling this method to begin an asynchronous 
         <exception cref="T:System.Security.Authentication.InvalidCredentialException">The authentication failed. You can use this object to retry the authentication.</exception>
         <exception cref="T:System.ObjectDisposedException">This object has been closed.</exception>
         <exception cref="T:System.PlatformNotSupportedException">The <paramref name="policy" /> parameter was set to <see cref="F:System.Security.Authentication.ExtendedProtection.PolicyEnforcement.Always" /> on a platform that does not support extended protection.</exception>
+        <exception cref="T:System.NotSupportedException">Windows 95 and Windows 98 are not supported.</exception>
         <altmember cref="T:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy" />
         <related type="Article" href="/dotnet/framework/network-programming/integrated-windows-authentication-with-extended-protection">Integrated Windows Authentication with Extended Protection</related>
-        <exception cref="T:System.NotSupportedException">Windows 95 and Windows 98 are not supported.</exception>
       </Docs>
     </Member>
     <Member MemberName="BeginAuthenticateAsServer">
@@ -2463,9 +2463,9 @@ The following example demonstrates calling this method to begin an asynchronous 
  This stream was used previously to attempt authentication as the client. You cannot use the stream to retry authentication as the server.</exception>
         <exception cref="T:System.ObjectDisposedException">This object has been closed.</exception>
         <exception cref="T:System.PlatformNotSupportedException">The <paramref name="policy" /> parameter was set to <see cref="F:System.Security.Authentication.ExtendedProtection.PolicyEnforcement.Always" /> on a platform that does not support extended protection.</exception>
+        <exception cref="T:System.NotSupportedException">Windows 95 and Windows 98 are not supported.</exception>
         <altmember cref="T:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy" />
         <related type="Article" href="/dotnet/framework/network-programming/integrated-windows-authentication-with-extended-protection">Integrated Windows Authentication with Extended Protection</related>
-        <exception cref="T:System.NotSupportedException">Windows 95 and Windows 98 are not supported.</exception>
       </Docs>
     </Member>
     <Member MemberName="BeginRead">

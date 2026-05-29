@@ -63,8 +63,8 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Exception" />
     <altmember cref="T:System.Double" />
+    <altmember cref="T:System.Exception" />
     <altmember cref="T:System.Single" />
     <related type="Article" href="/dotnet/standard/exceptions/">Handling and throwing exceptions in .NET</related>
   </Docs>

@@ -31,12 +31,12 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Windows.Input.QueryCursorEventHandler" />
-    <altmember cref="E:System.Windows.UIElement.QueryCursor" />
     <altmember cref="E:System.Windows.ContentElement.QueryCursor" />
-    <altmember cref="M:System.Windows.UIElement.OnQueryCursor(System.Windows.Input.QueryCursorEventArgs)" />
+    <altmember cref="E:System.Windows.UIElement.QueryCursor" />
     <altmember cref="M:System.Windows.ContentElement.OnQueryCursor(System.Windows.Input.QueryCursorEventArgs)" />
+    <altmember cref="M:System.Windows.UIElement.OnQueryCursor(System.Windows.Input.QueryCursorEventArgs)" />
     <altmember cref="T:System.Windows.Input.Cursor" />
+    <altmember cref="T:System.Windows.Input.QueryCursorEventHandler" />
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">

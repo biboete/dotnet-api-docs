@@ -40,6 +40,7 @@
   <Docs>
     <summary>Provides a wrapper on a core XML signature object to facilitate creating XML signatures.</summary>
     <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-security-cryptography-xml-signedxml">Supplemental API remarks for SignedXml</see>.</remarks>
+    <related type="ExternalDocumentation" href="https://www.w3.org/TR/xmldsig-bestpractices">XML Signature Best Practices</related>
     <example>
       <format type="text/markdown"><![CDATA[
 The following code example shows how to sign and verify an entire XML document using an enveloped signature.
@@ -53,7 +54,6 @@ The following code example shows how to sign and verify a single element of an X
 :::code language="vb" source="~/snippets/visualbasic/System.Security.Cryptography.Xml/SignedXml/Overview/sample.vb" id="Snippet1":::
       ]]></format>
     </example>
-    <related type="ExternalDocumentation" href="https://www.w3.org/TR/xmldsig-bestpractices">XML Signature Best Practices</related>
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">

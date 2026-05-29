@@ -75,8 +75,8 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="P:System.Exception.StackTrace" />
     <altmember cref="P:System.Environment.StackTrace" />
+    <altmember cref="P:System.Exception.StackTrace" />
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">
@@ -747,8 +747,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Diagnostics.StackFrame" />
         <altmember cref="M:System.Diagnostics.StackTrace.GetFrames" />
+        <altmember cref="T:System.Diagnostics.StackFrame" />
       </Docs>
     </Member>
     <Member MemberName="GetFrames">
@@ -817,8 +817,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Diagnostics.StackFrame" />
         <altmember cref="M:System.Diagnostics.StackTrace.GetFrame(System.Int32)" />
+        <altmember cref="T:System.Diagnostics.StackFrame" />
       </Docs>
     </Member>
     <Member MemberName="METHODS_TO_SKIP">

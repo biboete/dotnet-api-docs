@@ -281,8 +281,8 @@ Console.WriteLine(xmlTree)
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:System.Xml.Linq.XContainer.AddFirst" />
         <altmember cref="M:System.Xml.Linq.XContainer.RemoveNodes" />
+        <altmember cref="Overload:System.Xml.Linq.XContainer.AddFirst" />
         <altmember cref="Overload:System.Xml.Linq.XContainer.ReplaceNodes" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
@@ -431,8 +431,8 @@ Console.WriteLine(xmlTree)
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:System.Xml.Linq.XContainer.AddFirst" />
         <altmember cref="M:System.Xml.Linq.XContainer.RemoveNodes" />
+        <altmember cref="Overload:System.Xml.Linq.XContainer.AddFirst" />
         <altmember cref="Overload:System.Xml.Linq.XContainer.ReplaceNodes" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
@@ -651,8 +651,8 @@ Console.WriteLine(xmlTree)
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:System.Xml.Linq.XContainer.Add" />
         <altmember cref="M:System.Xml.Linq.XContainer.RemoveNodes" />
+        <altmember cref="Overload:System.Xml.Linq.XContainer.Add" />
         <altmember cref="Overload:System.Xml.Linq.XContainer.ReplaceNodes" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
@@ -802,8 +802,8 @@ Console.WriteLine(xmlTree)
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">The parent is <see langword="null" />.</exception>
-        <altmember cref="Overload:System.Xml.Linq.XContainer.Add" />
         <altmember cref="M:System.Xml.Linq.XContainer.RemoveNodes" />
+        <altmember cref="Overload:System.Xml.Linq.XContainer.Add" />
         <altmember cref="Overload:System.Xml.Linq.XContainer.ReplaceNodes" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
@@ -1163,8 +1163,8 @@ GrandChild
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
         <altmember cref="M:System.Xml.Linq.XContainer.DescendantNodes" />
+        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
         <altmember cref="Overload:System.Xml.Linq.XContainer.Elements" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
@@ -1706,9 +1706,9 @@ End Module
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Xml.Linq.XContainer.DescendantNodes" />
         <altmember cref="M:System.Xml.Linq.XContainer.Element(System.Xml.Linq.XName)" />
         <altmember cref="Overload:System.Xml.Linq.XContainer.Descendants" />
-        <altmember cref="M:System.Xml.Linq.XContainer.DescendantNodes" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -1868,9 +1868,9 @@ End Module
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Xml.Linq.XContainer.DescendantNodes" />
         <altmember cref="M:System.Xml.Linq.XContainer.Element(System.Xml.Linq.XName)" />
         <altmember cref="Overload:System.Xml.Linq.XContainer.Descendants" />
-        <altmember cref="M:System.Xml.Linq.XContainer.DescendantNodes" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -1960,8 +1960,8 @@ Console.WriteLine(firstNode)
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Xml.Linq.XContainer.LastNode" />
         <altmember cref="M:System.Xml.Linq.XContainer.Nodes" />
+        <altmember cref="P:System.Xml.Linq.XContainer.LastNode" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -2051,8 +2051,8 @@ Console.WriteLine(lastNode)
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Xml.Linq.XContainer.FirstNode" />
         <altmember cref="M:System.Xml.Linq.XContainer.Nodes" />
+        <altmember cref="P:System.Xml.Linq.XContainer.FirstNode" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -2235,9 +2235,9 @@ Text
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Xml.Linq.XContainer.DescendantNodes" />
         <altmember cref="M:System.Xml.Linq.XElement.Attributes" />
         <altmember cref="Overload:System.Xml.Linq.XContainer.Descendants" />
-        <altmember cref="M:System.Xml.Linq.XContainer.DescendantNodes" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -2512,8 +2512,8 @@ Console.WriteLine(root)
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:System.Xml.Linq.XContainer.Add" />
         <altmember cref="M:System.Xml.Linq.XContainer.RemoveNodes" />
+        <altmember cref="Overload:System.Xml.Linq.XContainer.Add" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -2630,8 +2630,8 @@ Console.WriteLine(root)
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:System.Xml.Linq.XContainer.Add" />
         <altmember cref="M:System.Xml.Linq.XContainer.RemoveNodes" />
+        <altmember cref="Overload:System.Xml.Linq.XContainer.Add" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>

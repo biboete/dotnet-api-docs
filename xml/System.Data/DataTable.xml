@@ -103,6 +103,7 @@
   <Docs>
     <summary>Represents one table of in-memory data.</summary>
     <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-data-datatable">Supplemental API remarks for DataTable</see>.</remarks>
+    <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
     <example>
       <format type="text/markdown"><![CDATA[
 The following example creates two <xref:System.Data.DataTable> objects and one <xref:System.Data.DataRelation> object, and adds the new objects to a <xref:System.Data.DataSet>. The tables are then displayed in a <xref:System.Windows.Forms.DataGridView> control.
@@ -112,7 +113,6 @@ The following example creates two <xref:System.Data.DataTable> objects and one <
       ]]></format>
     </example>
     <threadsafe>This type is safe for multithreaded read operations. You must synchronize any write operations.</threadsafe>
-    <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">
@@ -645,9 +645,9 @@ The following example creates two <xref:System.Data.DataTable> objects and one <
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Data.DataTable.ParentRelations" />
-        <altmember cref="M:System.Data.DataRow.GetParentRows(System.String)" />
         <altmember cref="M:System.Data.DataRow.GetChildRows(System.String)" />
+        <altmember cref="M:System.Data.DataRow.GetParentRows(System.String)" />
+        <altmember cref="P:System.Data.DataTable.ParentRelations" />
         <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
       </Docs>
     </Member>
@@ -1690,8 +1690,8 @@ class Program {
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Data.DataView.ToTable" />
         <altmember cref="M:System.Data.DataTable.Clone" />
+        <altmember cref="M:System.Data.DataView.ToTable" />
         <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
       </Docs>
     </Member>
@@ -2448,9 +2448,9 @@ class Program {
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Data.DataTable.HasErrors" />
-        <altmember cref="P:System.Data.DataRow.RowError" />
         <altmember cref="M:System.Data.DataRow.SetColumnError(System.Int32,System.String)" />
+        <altmember cref="P:System.Data.DataRow.RowError" />
+        <altmember cref="P:System.Data.DataTable.HasErrors" />
         <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables (ADO.NET)</related>
       </Docs>
     </Member>
@@ -4029,11 +4029,11 @@ Not present)|Current = \<Incoming><br /><br /> Original = \<Not available><br />
 
  ]]></format>
         </remarks>
+        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
+        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events">Handling DataTable Events</related>
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Data.DataTable.OnColumnChanged(System.Data.DataColumnChangeEventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Data.DataTable.OnColumnChanged(System.Data.DataColumnChangeEventArgs)" /> method.</para>
         </block>
-        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
-        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events">Handling DataTable Events</related>
       </Docs>
     </Member>
     <Member MemberName="OnColumnChanging">
@@ -4086,11 +4086,11 @@ Not present)|Current = \<Incoming><br /><br /> Original = \<Not available><br />
 
  ]]></format>
         </remarks>
+        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
+        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events">Handling DataTable Events</related>
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Data.DataTable.OnColumnChanging(System.Data.DataColumnChangeEventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Data.DataTable.OnColumnChanging(System.Data.DataColumnChangeEventArgs)" /> method.</para>
         </block>
-        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
-        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events">Handling DataTable Events</related>
       </Docs>
     </Member>
     <Member MemberName="OnPropertyChanging">
@@ -4143,11 +4143,11 @@ Not present)|Current = \<Incoming><br /><br /> Original = \<Not available><br />
 
  ]]></format>
         </remarks>
+        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
+        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events">Handling DataTable Events</related>
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Data.DataTable.OnPropertyChanging(System.ComponentModel.PropertyChangedEventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Data.DataTable.OnPropertyChanging(System.ComponentModel.PropertyChangedEventArgs)" /> method.</para>
         </block>
-        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
-        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events">Handling DataTable Events</related>
       </Docs>
     </Member>
     <Member MemberName="OnRemoveColumn">
@@ -4200,11 +4200,11 @@ Not present)|Current = \<Incoming><br /><br /> Original = \<Not available><br />
 
  ]]></format>
         </remarks>
+        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
+        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events">Handling DataTable Events</related>
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Data.DataTable.OnRemoveColumn(System.Data.DataColumn)" /> in a derived class, be sure to call the base class's <see cref="M:System.Data.DataTable.OnRemoveColumn(System.Data.DataColumn)" /> method.</para>
         </block>
-        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
-        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events">Handling DataTable Events</related>
       </Docs>
     </Member>
     <Member MemberName="OnRowChanged">
@@ -4257,11 +4257,11 @@ Not present)|Current = \<Incoming><br /><br /> Original = \<Not available><br />
 
  ]]></format>
         </remarks>
+        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
+        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events">Handling DataTable Events</related>
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Data.DataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Data.DataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)" /> method.</para>
         </block>
-        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
-        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events">Handling DataTable Events</related>
       </Docs>
     </Member>
     <Member MemberName="OnRowChanging">
@@ -4314,11 +4314,11 @@ Not present)|Current = \<Incoming><br /><br /> Original = \<Not available><br />
 
  ]]></format>
         </remarks>
+        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
+        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events">Handling DataTable Events</related>
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Data.DataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Data.DataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)" /> method.</para>
         </block>
-        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
-        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events">Handling DataTable Events</related>
       </Docs>
     </Member>
     <Member MemberName="OnRowDeleted">
@@ -4371,11 +4371,11 @@ Not present)|Current = \<Incoming><br /><br /> Original = \<Not available><br />
 
  ]]></format>
         </remarks>
+        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
+        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events">Handling DataTable Events</related>
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Data.DataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Data.DataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)" /> method.</para>
         </block>
-        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
-        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events">Handling DataTable Events</related>
       </Docs>
     </Member>
     <Member MemberName="OnRowDeleting">
@@ -4428,11 +4428,11 @@ Not present)|Current = \<Incoming><br /><br /> Original = \<Not available><br />
 
  ]]></format>
         </remarks>
+        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
+        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events">Handling DataTable Events</related>
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Data.DataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Data.DataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)" /> method.</para>
         </block>
-        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
-        <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/handling-datatable-events">Handling DataTable Events</related>
       </Docs>
     </Member>
     <Member MemberName="OnTableCleared">
@@ -4660,10 +4660,10 @@ Not present)|Current = \<Incoming><br /><br /> Original = \<Not available><br />
 
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Data.DataSet.Relations" />
         <altmember cref="P:System.Data.DataTable.ChildRelations" />
         <altmember cref="T:System.Data.DataRelation" />
         <altmember cref="T:System.Data.DataSet" />
-        <altmember cref="P:System.Data.DataSet.Relations" />
         <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
       </Docs>
     </Member>
@@ -4780,8 +4780,8 @@ Not present)|Current = \<Incoming><br /><br /> Original = \<Not available><br />
  ]]></format>
         </remarks>
         <exception cref="T:System.Data.DataException">The key is a foreign key.</exception>
-        <altmember cref="T:System.Data.DataColumn" />
         <altmember cref="P:System.Data.DataTable.PrimaryKey" />
+        <altmember cref="T:System.Data.DataColumn" />
         <altmember cref="T:System.Data.DataColumnCollection" />
         <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
       </Docs>
@@ -6045,9 +6045,9 @@ public class A {
  ]]></format>
         </remarks>
         <altmember cref="M:System.Data.DataTable.AcceptChanges" />
+        <altmember cref="M:System.Data.DataTable.NewRow" />
         <altmember cref="T:System.Data.DataRow" />
         <altmember cref="T:System.Data.DataRowCollection" />
-        <altmember cref="M:System.Data.DataTable.NewRow" />
         <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
       </Docs>
     </Member>
@@ -6868,8 +6868,8 @@ To ensure the proper sort order, specify sort criteria with <xref:System.Data.Da
         <exception cref="T:System.ArgumentException">
           <see langword="null" /> or empty string ("") is passed in and this table belongs to a collection.</exception>
         <exception cref="T:System.Data.DuplicateNameException">The table belongs to a collection that already has a table with the same name. (Comparison is case-sensitive).</exception>
-        <altmember cref="T:System.Data.DataSet" />
         <altmember cref="P:System.Data.DataSet.Tables" />
+        <altmember cref="T:System.Data.DataSet" />
         <related type="Article" href="/dotnet/framework/data/adonet/dataset-datatable-dataview/datatables">DataTables</related>
       </Docs>
     </Member>

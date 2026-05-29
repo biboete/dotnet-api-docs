@@ -55,15 +55,15 @@
 
  ]]></format>
     </remarks>
+    <altmember cref="E:System.Windows.Forms.DataGridView.RowContextMenuStripNeeded" />
+    <altmember cref="M:System.Windows.Forms.DataGridView.OnRowContextMenuStripNeeded(System.Windows.Forms.DataGridViewRowContextMenuStripNeededEventArgs)" />
+    <altmember cref="P:System.Windows.Forms.DataGridView.DataSource" />
+    <altmember cref="P:System.Windows.Forms.DataGridView.VirtualMode" />
+    <altmember cref="P:System.Windows.Forms.DataGridViewRow.ContextMenuStrip" />
     <altmember cref="P:System.Windows.Forms.DataGridViewRowContextMenuStripNeededEventArgs.ContextMenuStrip" />
     <altmember cref="T:System.Windows.Forms.ContextMenuStrip" />
     <altmember cref="T:System.Windows.Forms.DataGridView" />
-    <altmember cref="E:System.Windows.Forms.DataGridView.RowContextMenuStripNeeded" />
-    <altmember cref="P:System.Windows.Forms.DataGridView.DataSource" />
-    <altmember cref="P:System.Windows.Forms.DataGridView.VirtualMode" />
-    <altmember cref="M:System.Windows.Forms.DataGridView.OnRowContextMenuStripNeeded(System.Windows.Forms.DataGridViewRowContextMenuStripNeededEventArgs)" />
     <altmember cref="T:System.Windows.Forms.DataGridViewRowContextMenuStripNeededEventHandler" />
-    <altmember cref="P:System.Windows.Forms.DataGridViewRow.ContextMenuStrip" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -101,11 +101,11 @@
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="rowIndex" /> is less than -1.</exception>
-        <altmember cref="T:System.Windows.Forms.ContextMenuStrip" />
-        <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="E:System.Windows.Forms.DataGridView.RowContextMenuStripNeeded" />
         <altmember cref="M:System.Windows.Forms.DataGridView.OnRowContextMenuStripNeeded(System.Windows.Forms.DataGridViewRowContextMenuStripNeededEventArgs)" />
         <altmember cref="P:System.Windows.Forms.DataGridViewRowContextMenuStripNeededEventArgs.RowIndex" />
+        <altmember cref="T:System.Windows.Forms.ContextMenuStrip" />
+        <altmember cref="T:System.Windows.Forms.DataGridView" />
       </Docs>
     </Member>
     <Member MemberName="ContextMenuStrip">
@@ -150,10 +150,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.Forms.ContextMenuStrip" />
-        <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="E:System.Windows.Forms.DataGridView.RowContextMenuStripNeeded" />
         <altmember cref="P:System.Windows.Forms.DataGridViewRow.ContextMenuStrip" />
+        <altmember cref="T:System.Windows.Forms.ContextMenuStrip" />
+        <altmember cref="T:System.Windows.Forms.DataGridView" />
       </Docs>
     </Member>
     <Member MemberName="RowIndex">
@@ -197,10 +197,10 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Forms.DataGridView.RowContextMenuStripNeeded" />
+        <altmember cref="P:System.Windows.Forms.DataGridView.Rows" />
         <altmember cref="T:System.Windows.Forms.ContextMenuStrip" />
         <altmember cref="T:System.Windows.Forms.DataGridView" />
-        <altmember cref="P:System.Windows.Forms.DataGridView.Rows" />
-        <altmember cref="E:System.Windows.Forms.DataGridView.RowContextMenuStripNeeded" />
       </Docs>
     </Member>
   </Members>

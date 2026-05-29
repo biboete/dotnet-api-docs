@@ -73,8 +73,8 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="P:System.Diagnostics.ProcessModule.ModuleName" />
     <altmember cref="P:System.Diagnostics.ProcessModule.FileName" />
+    <altmember cref="P:System.Diagnostics.ProcessModule.ModuleName" />
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">

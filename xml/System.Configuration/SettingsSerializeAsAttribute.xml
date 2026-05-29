@@ -50,11 +50,11 @@
 
  ]]></format>
     </remarks>
+    <altmember cref="P:System.Configuration.SettingElement.SerializeAs" />
+    <altmember cref="P:System.Configuration.SettingsProperty.SerializeAs" />
+    <altmember cref="T:System.Configuration.ISettingsProviderService" />
     <altmember cref="T:System.Configuration.SettingsProvider" />
     <altmember cref="T:System.Configuration.SettingsSerializeAs" />
-    <altmember cref="P:System.Configuration.SettingsProperty.SerializeAs" />
-    <altmember cref="P:System.Configuration.SettingElement.SerializeAs" />
-    <altmember cref="T:System.Configuration.ISettingsProviderService" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -144,9 +144,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Configuration.SettingsSerializeAs" />
-        <altmember cref="P:System.Configuration.SettingsProperty.SerializeAs" />
         <altmember cref="P:System.Configuration.SettingElement.SerializeAs" />
+        <altmember cref="P:System.Configuration.SettingsProperty.SerializeAs" />
+        <altmember cref="T:System.Configuration.SettingsSerializeAs" />
       </Docs>
     </Member>
   </Members>

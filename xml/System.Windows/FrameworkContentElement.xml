@@ -67,8 +67,8 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Windows.FrameworkElement" />
     <altmember cref="T:System.Windows.ContentElement" />
+    <altmember cref="T:System.Windows.FrameworkElement" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -640,8 +640,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.Controls.ContextMenuService" />
         <altmember cref="T:System.Windows.Controls.ContextMenu" />
+        <altmember cref="T:System.Windows.Controls.ContextMenuService" />
       </Docs>
     </Member>
     <Member MemberName="ContextMenuOpeningEvent">
@@ -2152,11 +2152,11 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.DependencyObject.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)" />
+        <altmember cref="M:System.Windows.FrameworkElement.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)" />
         <block subset="none" type="overrides">
           <para>Always call the base implementation, as the first operation in your implementation. Failure to do this will significantly disable the entire WPF property system, which causes incorrect values to be reported.</para>
         </block>
-        <altmember cref="M:System.Windows.FrameworkElement.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)" />
-        <altmember cref="M:System.Windows.DependencyObject.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)" />
       </Docs>
     </Member>
     <Member MemberName="OnStyleChanged">
@@ -2197,10 +2197,10 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.FrameworkContentElement.Style" />
         <block subset="none" type="overrides">
           <para>Always call the base implementation, otherwise styles cannot be applied. Scenarios for overriding this method might include if your derived class has a specialized style selector, or caches style values. Theme changes will potentially invoke this method.</para>
         </block>
-        <altmember cref="P:System.Windows.FrameworkContentElement.Style" />
       </Docs>
     </Member>
     <Member MemberName="OnToolTipClosing">

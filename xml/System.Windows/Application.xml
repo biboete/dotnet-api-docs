@@ -69,8 +69,8 @@
 
  ]]></format>
     </remarks>
-    <threadsafe>The public <see langword="static" /> (<see langword="Shared" /> in Visual Basic) members of this type are thread safe. In addition, the <see cref="M:System.Windows.Application.FindResource(System.Object)" /> and <see cref="M:System.Windows.Application.TryFindResource(System.Object)" /> methods and the <see cref="P:System.Windows.Application.Properties" /> and <see cref="P:System.Windows.Application.Resources" /> properties are thread safe.</threadsafe>
     <altmember cref="T:System.Windows.Window" />
+    <threadsafe>The public <see langword="static" /> (<see langword="Shared" /> in Visual Basic) members of this type are thread safe. In addition, the <see cref="M:System.Windows.Application.FindResource(System.Object)" /> and <see cref="M:System.Windows.Application.TryFindResource(System.Object)" /> methods and the <see cref="P:System.Windows.Application.Properties" /> and <see cref="P:System.Windows.Application.Resources" /> properties are thread safe.</threadsafe>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -163,8 +163,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Application.OnActivated(System.EventArgs)" />
         <altmember cref="E:System.Windows.Application.Deactivated" />
+        <altmember cref="M:System.Windows.Application.OnActivated(System.EventArgs)" />
       </Docs>
     </Member>
     <Member MemberName="Current">
@@ -256,8 +256,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Application.OnDeactivated(System.EventArgs)" />
         <altmember cref="E:System.Windows.Application.Activated" />
+        <altmember cref="M:System.Windows.Application.OnDeactivated(System.EventArgs)" />
       </Docs>
     </Member>
     <Member MemberName="DispatcherUnhandledException">
@@ -398,8 +398,8 @@ For more information about XBAP support, see [Frequently asked questions about W
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Application.OnExit(System.Windows.ExitEventArgs)" />
         <altmember cref="E:System.Windows.Application.Startup" />
+        <altmember cref="M:System.Windows.Application.OnExit(System.Windows.ExitEventArgs)" />
         <altmember cref="T:System.IO.IsolatedStorage.IsolatedStorage" />
       </Docs>
     </Member>
@@ -493,12 +493,12 @@ For more information about XBAP support, see [Frequently asked questions about W
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Application.LoadCompleted" />
         <altmember cref="E:System.Windows.Application.Navigated" />
         <altmember cref="E:System.Windows.Application.Navigating" />
-        <altmember cref="E:System.Windows.Application.LoadCompleted" />
+        <altmember cref="E:System.Windows.Application.NavigationFailed" />
         <altmember cref="E:System.Windows.Application.NavigationProgress" />
         <altmember cref="E:System.Windows.Application.NavigationStopped" />
-        <altmember cref="E:System.Windows.Application.NavigationFailed" />
       </Docs>
     </Member>
     <Member MemberName="GetContentStream">
@@ -540,8 +540,8 @@ For more information about XBAP support, see [Frequently asked questions about W
         </remarks>
         <exception cref="T:System.ArgumentNullException">The <see cref="T:System.Uri" /> that is passed to <see cref="M:System.Windows.Application.GetContentStream(System.Uri)" /> is null.</exception>
         <exception cref="T:System.ArgumentException">The <see cref="T:System.Uri" /> that is passed to <see cref="M:System.Windows.Application.GetContentStream(System.Uri)" /> is an absolute <see cref="T:System.Uri" />.</exception>
-        <altmember cref="M:System.Windows.Application.GetResourceStream(System.Uri)" />
         <altmember cref="M:System.Windows.Application.GetRemoteStream(System.Uri)" />
+        <altmember cref="M:System.Windows.Application.GetResourceStream(System.Uri)" />
         <altmember cref="Overload:System.Windows.Application.LoadComponent" />
       </Docs>
     </Member>
@@ -714,12 +714,12 @@ For more information about XBAP support, see [Frequently asked questions about W
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Application.FragmentNavigation" />
         <altmember cref="E:System.Windows.Application.Navigated" />
         <altmember cref="E:System.Windows.Application.Navigating" />
+        <altmember cref="E:System.Windows.Application.NavigationFailed" />
         <altmember cref="E:System.Windows.Application.NavigationProgress" />
         <altmember cref="E:System.Windows.Application.NavigationStopped" />
-        <altmember cref="E:System.Windows.Application.NavigationFailed" />
-        <altmember cref="E:System.Windows.Application.FragmentNavigation" />
       </Docs>
     </Member>
     <MemberGroup MemberName="LoadComponent">
@@ -791,9 +791,9 @@ For more information about XBAP support, see [Frequently asked questions about W
           <paramref name="resourceLocator" /> is null.</exception>
         <exception cref="T:System.ArgumentException">The <paramref name="resourceLocator" /> is an absolute URI.</exception>
         <exception cref="T:System.Exception">The file is not a XAML file.</exception>
-        <altmember cref="M:System.Windows.Application.GetResourceStream(System.Uri)" />
         <altmember cref="M:System.Windows.Application.GetContentStream(System.Uri)" />
         <altmember cref="M:System.Windows.Application.GetRemoteStream(System.Uri)" />
+        <altmember cref="M:System.Windows.Application.GetResourceStream(System.Uri)" />
       </Docs>
     </Member>
     <Member MemberName="LoadComponent">
@@ -842,9 +842,9 @@ For more information about XBAP support, see [Frequently asked questions about W
         <exception cref="T:System.ArgumentException">The <paramref name="resourceLocator" /> is an absolute URI.</exception>
         <exception cref="T:System.Exception">
           <paramref name="component" /> is of a type that does not match the root element of the XAML file.</exception>
-        <altmember cref="M:System.Windows.Application.GetResourceStream(System.Uri)" />
         <altmember cref="M:System.Windows.Application.GetContentStream(System.Uri)" />
         <altmember cref="M:System.Windows.Application.GetRemoteStream(System.Uri)" />
+        <altmember cref="M:System.Windows.Application.GetResourceStream(System.Uri)" />
       </Docs>
     </Member>
     <Member MemberName="MainWindow">
@@ -953,12 +953,12 @@ For more information about XBAP support, see [Frequently asked questions about W
 
  ]]></format>
         </remarks>
-        <altmember cref="E:System.Windows.Application.Navigating" />
+        <altmember cref="E:System.Windows.Application.FragmentNavigation" />
         <altmember cref="E:System.Windows.Application.LoadCompleted" />
+        <altmember cref="E:System.Windows.Application.Navigating" />
+        <altmember cref="E:System.Windows.Application.NavigationFailed" />
         <altmember cref="E:System.Windows.Application.NavigationProgress" />
         <altmember cref="E:System.Windows.Application.NavigationStopped" />
-        <altmember cref="E:System.Windows.Application.NavigationFailed" />
-        <altmember cref="E:System.Windows.Application.FragmentNavigation" />
       </Docs>
     </Member>
     <Member MemberName="Navigating">
@@ -995,12 +995,12 @@ For more information about XBAP support, see [Frequently asked questions about W
 
  ]]></format>
         </remarks>
-        <altmember cref="E:System.Windows.Application.Navigated" />
+        <altmember cref="E:System.Windows.Application.FragmentNavigation" />
         <altmember cref="E:System.Windows.Application.LoadCompleted" />
+        <altmember cref="E:System.Windows.Application.Navigated" />
+        <altmember cref="E:System.Windows.Application.NavigationFailed" />
         <altmember cref="E:System.Windows.Application.NavigationProgress" />
         <altmember cref="E:System.Windows.Application.NavigationStopped" />
-        <altmember cref="E:System.Windows.Application.NavigationFailed" />
-        <altmember cref="E:System.Windows.Application.FragmentNavigation" />
       </Docs>
     </Member>
     <Member MemberName="NavigationFailed">
@@ -1037,12 +1037,12 @@ For more information about XBAP support, see [Frequently asked questions about W
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Application.FragmentNavigation" />
+        <altmember cref="E:System.Windows.Application.LoadCompleted" />
         <altmember cref="E:System.Windows.Application.Navigated" />
         <altmember cref="E:System.Windows.Application.Navigating" />
-        <altmember cref="E:System.Windows.Application.LoadCompleted" />
         <altmember cref="E:System.Windows.Application.NavigationProgress" />
         <altmember cref="E:System.Windows.Application.NavigationStopped" />
-        <altmember cref="E:System.Windows.Application.FragmentNavigation" />
       </Docs>
     </Member>
     <Member MemberName="NavigationProgress">
@@ -1079,12 +1079,12 @@ For more information about XBAP support, see [Frequently asked questions about W
 
  ]]></format>
         </remarks>
-        <altmember cref="E:System.Windows.Application.Navigating" />
-        <altmember cref="E:System.Windows.Application.Navigated" />
-        <altmember cref="E:System.Windows.Application.LoadCompleted" />
-        <altmember cref="E:System.Windows.Application.NavigationStopped" />
-        <altmember cref="E:System.Windows.Application.NavigationFailed" />
         <altmember cref="E:System.Windows.Application.FragmentNavigation" />
+        <altmember cref="E:System.Windows.Application.LoadCompleted" />
+        <altmember cref="E:System.Windows.Application.Navigated" />
+        <altmember cref="E:System.Windows.Application.Navigating" />
+        <altmember cref="E:System.Windows.Application.NavigationFailed" />
+        <altmember cref="E:System.Windows.Application.NavigationStopped" />
       </Docs>
     </Member>
     <Member MemberName="NavigationStopped">
@@ -1121,12 +1121,12 @@ For more information about XBAP support, see [Frequently asked questions about W
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Application.FragmentNavigation" />
+        <altmember cref="E:System.Windows.Application.LoadCompleted" />
         <altmember cref="E:System.Windows.Application.Navigated" />
         <altmember cref="E:System.Windows.Application.Navigating" />
-        <altmember cref="E:System.Windows.Application.LoadCompleted" />
-        <altmember cref="E:System.Windows.Application.NavigationProgress" />
         <altmember cref="E:System.Windows.Application.NavigationFailed" />
-        <altmember cref="E:System.Windows.Application.FragmentNavigation" />
+        <altmember cref="E:System.Windows.Application.NavigationProgress" />
       </Docs>
     </Member>
     <Member MemberName="OnActivated">
@@ -1249,8 +1249,8 @@ For more information about XBAP support, see [Frequently asked questions about W
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Application.OnStartup(System.Windows.StartupEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnSessionEnding(System.Windows.SessionEndingCancelEventArgs)" />
+        <altmember cref="M:System.Windows.Application.OnStartup(System.Windows.StartupEventArgs)" />
       </Docs>
     </Member>
     <Member MemberName="OnFragmentNavigation">
@@ -1291,10 +1291,10 @@ For more information about XBAP support, see [Frequently asked questions about W
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Application.OnNavigationFailed(System.Windows.Navigation.NavigationFailedEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnLoadCompleted(System.Windows.Navigation.NavigationEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigated(System.Windows.Navigation.NavigationEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigating(System.Windows.Navigation.NavigatingCancelEventArgs)" />
+        <altmember cref="M:System.Windows.Application.OnNavigationFailed(System.Windows.Navigation.NavigationFailedEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigationProgress(System.Windows.Navigation.NavigationProgressEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigationStopped(System.Windows.Navigation.NavigationEventArgs)" />
       </Docs>
@@ -1337,10 +1337,10 @@ For more information about XBAP support, see [Frequently asked questions about W
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Application.OnNavigationFailed(System.Windows.Navigation.NavigationFailedEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnFragmentNavigation(System.Windows.Navigation.FragmentNavigationEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigated(System.Windows.Navigation.NavigationEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigating(System.Windows.Navigation.NavigatingCancelEventArgs)" />
+        <altmember cref="M:System.Windows.Application.OnNavigationFailed(System.Windows.Navigation.NavigationFailedEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigationProgress(System.Windows.Navigation.NavigationProgressEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigationStopped(System.Windows.Navigation.NavigationEventArgs)" />
       </Docs>
@@ -1383,10 +1383,10 @@ For more information about XBAP support, see [Frequently asked questions about W
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Application.OnNavigationFailed(System.Windows.Navigation.NavigationFailedEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnFragmentNavigation(System.Windows.Navigation.FragmentNavigationEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnLoadCompleted(System.Windows.Navigation.NavigationEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigating(System.Windows.Navigation.NavigatingCancelEventArgs)" />
+        <altmember cref="M:System.Windows.Application.OnNavigationFailed(System.Windows.Navigation.NavigationFailedEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigationProgress(System.Windows.Navigation.NavigationProgressEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigationStopped(System.Windows.Navigation.NavigationEventArgs)" />
       </Docs>
@@ -1429,10 +1429,10 @@ For more information about XBAP support, see [Frequently asked questions about W
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Application.OnNavigationFailed(System.Windows.Navigation.NavigationFailedEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnFragmentNavigation(System.Windows.Navigation.FragmentNavigationEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnLoadCompleted(System.Windows.Navigation.NavigationEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigated(System.Windows.Navigation.NavigationEventArgs)" />
+        <altmember cref="M:System.Windows.Application.OnNavigationFailed(System.Windows.Navigation.NavigationFailedEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigationProgress(System.Windows.Navigation.NavigationProgressEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigationStopped(System.Windows.Navigation.NavigationEventArgs)" />
       </Docs>
@@ -1530,11 +1530,11 @@ For more information about XBAP support, see [Frequently asked questions about W
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Application.OnNavigationFailed(System.Windows.Navigation.NavigationFailedEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnFragmentNavigation(System.Windows.Navigation.FragmentNavigationEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnLoadCompleted(System.Windows.Navigation.NavigationEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigated(System.Windows.Navigation.NavigationEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigating(System.Windows.Navigation.NavigatingCancelEventArgs)" />
+        <altmember cref="M:System.Windows.Application.OnNavigationFailed(System.Windows.Navigation.NavigationFailedEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigationStopped(System.Windows.Navigation.NavigationEventArgs)" />
       </Docs>
     </Member>
@@ -1580,8 +1580,8 @@ For more information about XBAP support, see [Frequently asked questions about W
         <altmember cref="M:System.Windows.Application.OnLoadCompleted(System.Windows.Navigation.NavigationEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigated(System.Windows.Navigation.NavigationEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigating(System.Windows.Navigation.NavigatingCancelEventArgs)" />
-        <altmember cref="M:System.Windows.Application.OnNavigationProgress(System.Windows.Navigation.NavigationProgressEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnNavigationFailed(System.Windows.Navigation.NavigationFailedEventArgs)" />
+        <altmember cref="M:System.Windows.Application.OnNavigationProgress(System.Windows.Navigation.NavigationProgressEventArgs)" />
       </Docs>
     </Member>
     <Member MemberName="OnSessionEnding">
@@ -1622,8 +1622,8 @@ For more information about XBAP support, see [Frequently asked questions about W
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Application.OnStartup(System.Windows.StartupEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnExit(System.Windows.ExitEventArgs)" />
+        <altmember cref="M:System.Windows.Application.OnStartup(System.Windows.StartupEventArgs)" />
       </Docs>
     </Member>
     <Member MemberName="OnStartup">
@@ -1664,8 +1664,8 @@ For more information about XBAP support, see [Frequently asked questions about W
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Application.OnSessionEnding(System.Windows.SessionEndingCancelEventArgs)" />
         <altmember cref="M:System.Windows.Application.OnExit(System.Windows.ExitEventArgs)" />
+        <altmember cref="M:System.Windows.Application.OnSessionEnding(System.Windows.SessionEndingCancelEventArgs)" />
       </Docs>
     </Member>
     <Member MemberName="Properties">
@@ -1918,9 +1918,9 @@ This example illustrates how to use XAML together with application-scope resourc
         </remarks>
         <exception cref="T:System.InvalidOperationException">
           <see cref="M:System.Windows.Application.Run" /> is called from a browser-hosted application (for example, an XAML browser application (XBAP)).</exception>
+        <altmember cref="E:System.Windows.Application.Exit" />
         <altmember cref="M:System.Windows.Application.Run(System.Windows.Window)" />
         <altmember cref="M:System.Windows.Application.Shutdown(System.Int32)" />
-        <altmember cref="E:System.Windows.Application.Exit" />
       </Docs>
     </Member>
     <Member MemberName="Run">
@@ -2036,8 +2036,8 @@ This example illustrates how to use XAML together with application-scope resourc
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Application.OnSessionEnding(System.Windows.SessionEndingCancelEventArgs)" />
         <altmember cref="E:System.Windows.Application.Startup" />
+        <altmember cref="M:System.Windows.Application.OnSessionEnding(System.Windows.SessionEndingCancelEventArgs)" />
       </Docs>
     </Member>
     <Member MemberName="SetCookie">
@@ -2153,11 +2153,11 @@ This example illustrates how to use XAML together with application-scope resourc
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Application.Shutdown(System.Int32)" />
-        <altmember cref="P:System.Windows.Application.ShutdownMode" />
         <altmember cref="E:System.Windows.Application.SessionEnding" />
         <altmember cref="M:System.Windows.Application.Run" />
         <altmember cref="M:System.Windows.Application.Run(System.Windows.Window)" />
+        <altmember cref="M:System.Windows.Application.Shutdown(System.Int32)" />
+        <altmember cref="P:System.Windows.Application.ShutdownMode" />
       </Docs>
     </Member>
     <Member MemberName="Shutdown">
@@ -2252,8 +2252,8 @@ This example illustrates how to use XAML together with application-scope resourc
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.ShutdownMode" />
         <altmember cref="E:System.Windows.Application.Exit" />
+        <altmember cref="T:System.Windows.ShutdownMode" />
       </Docs>
     </Member>
     <Member MemberName="Startup">
@@ -2328,8 +2328,8 @@ This example illustrates how to use XAML together with application-scope resourc
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Application.OnStartup(System.Windows.StartupEventArgs)" />
         <altmember cref="E:System.Windows.Application.Exit" />
+        <altmember cref="M:System.Windows.Application.OnStartup(System.Windows.StartupEventArgs)" />
       </Docs>
     </Member>
     <Member MemberName="StartupUri">

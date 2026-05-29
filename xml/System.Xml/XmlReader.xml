@@ -63,6 +63,7 @@
   <Docs>
     <summary>Represents a reader that provides fast, noncached, forward-only access to XML data.</summary>
     <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-xml-xmlreader">Supplemental API remarks for XmlReader</see>.</remarks>
+    <related type="Article" href="/dotnet/standard/data/xml/">XML Documents and Data</related>
     <example>
       <format type="text/markdown"><![CDATA[
 The following example code shows how to use the asynchronous API to parse XML.
@@ -72,7 +73,6 @@ The following example code shows how to use the asynchronous API to parse XML.
 
       ]]></format>
     </example>
-    <related type="Article" href="/dotnet/standard/data/xml/">XML Documents and Data</related>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -9105,8 +9105,8 @@ An <see cref="T:System.Xml.XmlReader" /> asynchronous method was called without 
 -or-
 
 An <see cref="T:System.Xml.XmlReader" /> method was called before a previous asynchronous operation finished. In this case, <see cref="T:System.InvalidOperationException" /> is thrown with the message "An asynchronous operation is already in progress."</exception>
-        <altmember cref="T:System.Xml.EntityHandling" />
         <altmember cref="P:System.Xml.XmlReader.CanResolveEntity" />
+        <altmember cref="T:System.Xml.EntityHandling" />
       </Docs>
     </Member>
     <Member MemberName="SchemaInfo">

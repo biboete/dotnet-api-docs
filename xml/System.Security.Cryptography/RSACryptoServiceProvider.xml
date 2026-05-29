@@ -66,6 +66,7 @@
   <Docs>
     <summary>Performs asymmetric encryption and decryption using the implementation of the <see cref="T:System.Security.Cryptography.RSA" /> algorithm provided by the cryptographic service provider (CSP). This class cannot be inherited.</summary>
     <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-security-cryptography-rsacryptoserviceprovider">Supplemental API remarks for RSACryptoServiceProvider</see>.</remarks>
+    <related type="Article" href="/dotnet/standard/security/cryptographic-services">Cryptographic Services</related>
     <example>
       <format type="text/markdown"><![CDATA[
 The following code example uses the <xref:System.Security.Cryptography.RSACryptoServiceProvider> class to encrypt a string into an array of bytes and then decrypt the bytes back into a string.
@@ -79,7 +80,6 @@ The following code example exports the key information created using the <xref:S
 :::code language="vb" source="~/snippets/visualbasic/System.Security.Cryptography/RSACryptoServiceProvider/Overview/sample1.vb" id="Snippet1":::
       ]]></format>
     </example>
-    <related type="Article" href="/dotnet/standard/security/cryptographic-services">Cryptographic Services</related>
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">

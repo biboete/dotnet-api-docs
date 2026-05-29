@@ -213,8 +213,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Threading.LockRecursionPolicy" />
         <altmember cref="P:System.Threading.ReaderWriterLockSlim.RecursionPolicy" />
+        <altmember cref="T:System.Threading.LockRecursionPolicy" />
       </Docs>
     </Member>
     <Member MemberName="CurrentReadCount">

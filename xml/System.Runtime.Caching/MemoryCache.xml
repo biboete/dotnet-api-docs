@@ -100,9 +100,9 @@ private void btnGet_Click(object sender, EventArgs e)
 
  ]]></format>
     </remarks>
-    <threadsafe>This type is thread safe.</threadsafe>
     <altmember cref="T:System.Runtime.Caching.ObjectCache" />
     <related type="Article" href="/dotnet/framework/performance/caching-in-net-framework-applications">Caching in .NET Framework Applications</related>
+    <threadsafe>This type is thread safe.</threadsafe>
   </Docs>
   <Members>
     <Member MemberName=".ctor">

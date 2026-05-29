@@ -77,11 +77,11 @@
 
  ]]></format>
     </remarks>
+    <altmember cref="P:System.Threading.Thread.CurrentCulture" />
+    <altmember cref="T:System.Collections.CaseInsensitiveComparer" />
     <altmember cref="T:System.Collections.Hashtable" />
     <altmember cref="T:System.Collections.IHashCodeProvider" />
-    <altmember cref="P:System.Threading.Thread.CurrentCulture" />
     <altmember cref="T:System.Globalization.CultureInfo" />
-    <altmember cref="T:System.Collections.CaseInsensitiveComparer" />
     <related type="Article" href="/dotnet/standard/globalization-localization/performing-culture-insensitive-string-operations-in-collections">Performing Culture-Insensitive String Operations in Collections</related>
   </Docs>
   <Members>
@@ -139,8 +139,8 @@
  ]]></format>
         </remarks>
         <altmember cref="P:System.Threading.Thread.CurrentCulture" />
-        <altmember cref="T:System.Globalization.CultureInfo" />
         <altmember cref="T:System.Globalization.CompareInfo" />
+        <altmember cref="T:System.Globalization.CultureInfo" />
         <related type="Article" href="/dotnet/standard/globalization-localization/performing-culture-insensitive-string-operations-in-collections">Performing Culture-Insensitive String Operations in Collections</related>
       </Docs>
     </Member>

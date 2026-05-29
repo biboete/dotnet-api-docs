@@ -239,6 +239,9 @@
   <Docs>
     <summary>Represents a character as a UTF-16 code unit.</summary>
     <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-char">Supplemental API remarks for Char</see>.</remarks>
+    <altmember cref="T:System.IComparable" />
+    <altmember cref="T:System.IConvertible" />
+    <altmember cref="T:System.String" />
     <example>
       <format type="text/markdown"><![CDATA[
 The following code example demonstrates some of the methods in <xref:System.Char>.
@@ -249,9 +252,6 @@ The following code example demonstrates some of the methods in <xref:System.Char
       ]]></format>
     </example>
     <threadsafe>All members of this type are thread safe. Members that appear to modify instance state actually return a new instance initialized with the new value. As with any other type, reading and writing to a shared variable that contains an instance of this type must be protected by a lock to guarantee thread safety.</threadsafe>
-    <altmember cref="T:System.IComparable" />
-    <altmember cref="T:System.IConvertible" />
-    <altmember cref="T:System.String" />
   </Docs>
   <Members>
     <MemberGroup MemberName="CompareTo">
@@ -355,8 +355,8 @@ The following code example demonstrates some of the methods in <xref:System.Char
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.IComparable" />
         <altmember cref="M:System.Char.Equals(System.Object)" />
+        <altmember cref="T:System.IComparable" />
       </Docs>
     </Member>
     <Member MemberName="CompareTo">
@@ -451,8 +451,8 @@ The following code example demonstrates some of the methods in <xref:System.Char
         </remarks>
         <exception cref="T:System.ArgumentException">
           <paramref name="value" /> is not a <see cref="T:System.Char" /> object.</exception>
-        <altmember cref="T:System.IComparable" />
         <altmember cref="M:System.Char.Equals(System.Object)" />
+        <altmember cref="T:System.IComparable" />
       </Docs>
     </Member>
     <Member MemberName="ConvertFromUtf32">
@@ -519,8 +519,8 @@ The following code example demonstrates some of the methods in <xref:System.Char
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="utf32" /> is not a valid 21-bit Unicode code point ranging from U+0 through U+10FFFF, excluding the surrogate pair range from U+D800 through U+DFFF.</exception>
-        <altmember cref="T:System.Text.Rune" />
         <altmember cref="M:System.Char.ConvertToUtf32(System.Char,System.Char)" />
+        <altmember cref="T:System.Text.Rune" />
         <altmember cref="T:System.Text.UTF32Encoding" />
       </Docs>
     </Member>
@@ -606,8 +606,8 @@ The following code example demonstrates some of the methods in <xref:System.Char
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="highSurrogate" /> is not in the range U+D800 through U+DBFF, or <paramref name="lowSurrogate" /> is not in the range U+DC00 through U+DFFF.</exception>
-        <altmember cref="T:System.Text.Rune" />
         <altmember cref="M:System.Char.ConvertFromUtf32(System.Int32)" />
+        <altmember cref="T:System.Text.Rune" />
         <altmember cref="T:System.Text.UTF32Encoding" />
       </Docs>
     </Member>
@@ -669,8 +669,8 @@ The following code example demonstrates some of the methods in <xref:System.Char
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="index" /> is not a position within <paramref name="s" />.</exception>
         <exception cref="T:System.ArgumentException">The specified index position contains a surrogate pair, and either the first character in the pair is not a valid high surrogate or the second character in the pair is not a valid low surrogate.</exception>
-        <altmember cref="T:System.Text.Rune" />
         <altmember cref="M:System.Char.ConvertFromUtf32(System.Int32)" />
+        <altmember cref="T:System.Text.Rune" />
         <altmember cref="T:System.Text.UTF32Encoding" />
       </Docs>
     </Member>
@@ -1181,8 +1181,8 @@ The following code example demonstrates some of the methods in <xref:System.Char
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Text.Rune.GetUnicodeCategory(System.Text.Rune)" />
         <altmember cref="M:System.Globalization.CharUnicodeInfo.GetUnicodeCategory(System.Char)" />
+        <altmember cref="M:System.Text.Rune.GetUnicodeCategory(System.Text.Rune)" />
       </Docs>
     </Member>
     <Member MemberName="GetUnicodeCategory">
@@ -1899,9 +1899,9 @@ The method does not validate that `maxInclusive` is greater than or equal
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Char.IsNumber(System.Char)" />
         <altmember cref="M:System.Text.Rune.IsDigit(System.Text.Rune)" />
         <altmember cref="T:System.Boolean" />
-        <altmember cref="M:System.Char.IsNumber(System.Char)" />
       </Docs>
     </Member>
     <Member MemberName="IsDigit">
@@ -1967,8 +1967,8 @@ The method does not validate that `maxInclusive` is greater than or equal
           <paramref name="s" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="index" /> is less than zero or greater than the last position in <paramref name="s" />.</exception>
-        <altmember cref="T:System.Boolean" />
         <altmember cref="M:System.Char.IsNumber(System.Char)" />
+        <altmember cref="T:System.Boolean" />
       </Docs>
     </Member>
     <MemberGroup MemberName="IsHighSurrogate">
@@ -2519,10 +2519,10 @@ The following code example demonstrates <xref:System.Char.IsLetter*>.
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Char.IsUpper(System.Char)" />
         <altmember cref="M:System.Text.Rune.IsLower(System.Text.Rune)" />
         <altmember cref="M:System.Text.Rune.IsUpper(System.Text.Rune)" />
         <altmember cref="T:System.Boolean" />
-        <altmember cref="M:System.Char.IsUpper(System.Char)" />
       </Docs>
     </Member>
     <Member MemberName="IsLower">
@@ -2586,9 +2586,9 @@ The following code example demonstrates <xref:System.Char.IsLetter*>.
           <paramref name="s" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="index" /> is less than zero or greater than the last position in <paramref name="s" />.</exception>
+        <altmember cref="M:System.Char.IsUpper(System.Char)" />
         <altmember cref="T:System.Boolean" />
         <altmember cref="T:System.String" />
-        <altmember cref="M:System.Char.IsUpper(System.Char)" />
       </Docs>
     </Member>
     <MemberGroup MemberName="IsLowSurrogate">
@@ -2820,9 +2820,9 @@ The following code example demonstrates <xref:System.Char.IsLetter*>.
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Char.IsDigit(System.Char)" />
         <altmember cref="M:System.Text.Rune.IsNumber(System.Text.Rune)" />
         <altmember cref="T:System.Boolean" />
-        <altmember cref="M:System.Char.IsDigit(System.Char)" />
       </Docs>
     </Member>
     <Member MemberName="IsNumber">
@@ -2906,9 +2906,9 @@ The following code example demonstrates <xref:System.Char.IsLetter*>.
           <paramref name="s" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="index" /> is less than zero or greater than the last position in <paramref name="s" />.</exception>
+        <altmember cref="M:System.Char.IsDigit(System.Char)" />
         <altmember cref="T:System.Boolean" />
         <altmember cref="T:System.String" />
-        <altmember cref="M:System.Char.IsDigit(System.Char)" />
       </Docs>
     </Member>
     <MemberGroup MemberName="IsPunctuation">
@@ -3613,10 +3613,10 @@ The following code example demonstrates <xref:System.Char.IsLetter*>.
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Text.Rune" />
         <altmember cref="Overload:System.Char.IsHighSurrogate" />
         <altmember cref="Overload:System.Char.IsLowSurrogate" />
         <altmember cref="Overload:System.Char.IsSurrogatePair" />
+        <altmember cref="T:System.Text.Rune" />
       </Docs>
     </Member>
     <Member MemberName="IsSurrogate">
@@ -3680,10 +3680,10 @@ The following code example demonstrates <xref:System.Char.IsLetter*>.
           <paramref name="s" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="index" /> is less than zero or greater than the last position in <paramref name="s" />.</exception>
-        <altmember cref="T:System.Text.Rune" />
         <altmember cref="Overload:System.Char.IsHighSurrogate" />
         <altmember cref="Overload:System.Char.IsLowSurrogate" />
         <altmember cref="Overload:System.Char.IsSurrogatePair" />
+        <altmember cref="T:System.Text.Rune" />
       </Docs>
     </Member>
     <MemberGroup MemberName="IsSurrogatePair">
@@ -3765,9 +3765,9 @@ The following code example demonstrates <xref:System.Char.IsLetter*>.
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Text.Rune" />
         <altmember cref="M:System.Char.IsHighSurrogate(System.Char)" />
         <altmember cref="M:System.Char.IsLowSurrogate(System.Char)" />
+        <altmember cref="T:System.Text.Rune" />
       </Docs>
     </Member>
     <Member MemberName="IsSurrogatePair">
@@ -3828,9 +3828,9 @@ The following code example demonstrates <xref:System.Char.IsLetter*>.
           <paramref name="s" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="index" /> is not a position within <paramref name="s" />.</exception>
-        <altmember cref="T:System.Text.Rune" />
         <altmember cref="M:System.Char.IsHighSurrogate(System.Char)" />
         <altmember cref="M:System.Char.IsLowSurrogate(System.Char)" />
+        <altmember cref="T:System.Text.Rune" />
       </Docs>
     </Member>
     <MemberGroup MemberName="IsSymbol">
@@ -4102,10 +4102,10 @@ The following code example demonstrates <xref:System.Char.IsLetter*>.
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Text.Rune.IsUpper(System.Text.Rune)" />
-        <altmember cref="M:System.Text.Rune.IsLower(System.Text.Rune)" />
-        <altmember cref="T:System.Boolean" />
         <altmember cref="M:System.Char.IsLower(System.Char)" />
+        <altmember cref="M:System.Text.Rune.IsLower(System.Text.Rune)" />
+        <altmember cref="M:System.Text.Rune.IsUpper(System.Text.Rune)" />
+        <altmember cref="T:System.Boolean" />
       </Docs>
     </Member>
     <Member MemberName="IsUpper">
@@ -8949,13 +8949,13 @@ This member is an explicit interface member implementation. It can be used only 
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Char.ToUpper(System.Char,System.Globalization.CultureInfo)" />
+        <altmember cref="M:System.String.ToLower" />
+        <altmember cref="M:System.Text.Rune.ToLower(System.Text.Rune,System.Globalization.CultureInfo)" />
+        <altmember cref="M:System.Text.Rune.ToUpper(System.Text.Rune,System.Globalization.CultureInfo)" />
         <block subset="none" type="usage">
           <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling character-casing and string-casing methods that substitute default values. Instead, you should call methods that require parameters to be explicitly specified. To convert a character to lowercase by using the casing conventions of the current culture, call the <see cref="M:System.Char.ToLower(System.Char,System.Globalization.CultureInfo)" /> method overload with a value of <see cref="P:System.Globalization.CultureInfo.CurrentCulture" /> for its <code>culture</code> parameter.</para>
         </block>
-        <altmember cref="M:System.Text.Rune.ToLower(System.Text.Rune,System.Globalization.CultureInfo)" />
-        <altmember cref="M:System.Text.Rune.ToUpper(System.Text.Rune,System.Globalization.CultureInfo)" />
-        <altmember cref="M:System.String.ToLower" />
-        <altmember cref="M:System.Char.ToUpper(System.Char,System.Globalization.CultureInfo)" />
       </Docs>
     </Member>
     <Member MemberName="ToLower">
@@ -9013,11 +9013,11 @@ This member is an explicit interface member implementation. It can be used only 
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="culture" /> is <see langword="null" />.</exception>
+        <altmember cref="M:System.Char.ToUpper(System.Char,System.Globalization.CultureInfo)" />
+        <altmember cref="M:System.String.ToLower" />
         <altmember cref="M:System.Text.Rune.ToLower(System.Text.Rune,System.Globalization.CultureInfo)" />
         <altmember cref="M:System.Text.Rune.ToUpper(System.Text.Rune,System.Globalization.CultureInfo)" />
         <altmember cref="P:System.Globalization.CultureInfo.CurrentCulture" />
-        <altmember cref="M:System.String.ToLower" />
-        <altmember cref="M:System.Char.ToUpper(System.Char,System.Globalization.CultureInfo)" />
       </Docs>
     </Member>
     <Member MemberName="ToLowerInvariant">
@@ -9073,9 +9073,9 @@ This member is an explicit interface member implementation. It can be used only 
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Text.Rune.ToLowerInvariant(System.Text.Rune)" />
-        <altmember cref="M:System.String.ToLower" />
         <altmember cref="M:System.Char.ToUpper(System.Char,System.Globalization.CultureInfo)" />
+        <altmember cref="M:System.String.ToLower" />
+        <altmember cref="M:System.Text.Rune.ToLowerInvariant(System.Text.Rune)" />
         <altmember cref="P:System.Globalization.CultureInfo.InvariantCulture" />
       </Docs>
     </Member>
@@ -9349,13 +9349,13 @@ This member is an explicit interface member implementation. It can be used only 
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Char.ToLower(System.Char,System.Globalization.CultureInfo)" />
+        <altmember cref="M:System.String.ToUpper" />
+        <altmember cref="M:System.Text.Rune.ToLower(System.Text.Rune,System.Globalization.CultureInfo)" />
+        <altmember cref="M:System.Text.Rune.ToUpper(System.Text.Rune,System.Globalization.CultureInfo)" />
         <block subset="none" type="usage">
           <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling character-casing and string-casing methods that substitute default values. Instead, you should call methods that require parameters to be explicitly specified. To convert a character to uppercase by using the casing conventions of the current culture, call the <see cref="M:System.Char.ToUpper(System.Char,System.Globalization.CultureInfo)" /> method overload with a value of <see cref="P:System.Globalization.CultureInfo.CurrentCulture" /> for its <code>culture</code> parameter.</para>
         </block>
-        <altmember cref="M:System.Text.Rune.ToUpper(System.Text.Rune,System.Globalization.CultureInfo)" />
-        <altmember cref="M:System.Text.Rune.ToLower(System.Text.Rune,System.Globalization.CultureInfo)" />
-        <altmember cref="M:System.String.ToUpper" />
-        <altmember cref="M:System.Char.ToLower(System.Char,System.Globalization.CultureInfo)" />
       </Docs>
     </Member>
     <Member MemberName="ToUpper">
@@ -9422,11 +9422,11 @@ This member is an explicit interface member implementation. It can be used only 
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="culture" /> is <see langword="null" />.</exception>
-        <altmember cref="M:System.Text.Rune.ToUpper(System.Text.Rune,System.Globalization.CultureInfo)" />
-        <altmember cref="M:System.Text.Rune.ToLower(System.Text.Rune,System.Globalization.CultureInfo)" />
-        <altmember cref="P:System.Globalization.CultureInfo.CurrentCulture" />
-        <altmember cref="M:System.String.ToUpper" />
         <altmember cref="M:System.Char.ToLower(System.Char,System.Globalization.CultureInfo)" />
+        <altmember cref="M:System.String.ToUpper" />
+        <altmember cref="M:System.Text.Rune.ToLower(System.Text.Rune,System.Globalization.CultureInfo)" />
+        <altmember cref="M:System.Text.Rune.ToUpper(System.Text.Rune,System.Globalization.CultureInfo)" />
+        <altmember cref="P:System.Globalization.CultureInfo.CurrentCulture" />
       </Docs>
     </Member>
     <Member MemberName="ToUpperInvariant">
@@ -9482,9 +9482,9 @@ This member is an explicit interface member implementation. It can be used only 
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Text.Rune.ToUpperInvariant(System.Text.Rune)" />
-        <altmember cref="M:System.String.ToUpper" />
         <altmember cref="M:System.Char.ToUpper(System.Char,System.Globalization.CultureInfo)" />
+        <altmember cref="M:System.String.ToUpper" />
+        <altmember cref="M:System.Text.Rune.ToUpperInvariant(System.Text.Rune)" />
         <altmember cref="P:System.Globalization.CultureInfo.InvariantCulture" />
       </Docs>
     </Member>
@@ -9559,8 +9559,8 @@ This member is an explicit interface member implementation. It can be used only 
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Char.Parse(System.String)" />
         <altmember cref="M:System.Char.ToString" />
+        <altmember cref="M:System.Char.Parse(System.String)" />
         <related type="Article" href="/dotnet/standard/base-types/parsing-other">Parsing Other Strings in .NET</related>
       </Docs>
     </Member>

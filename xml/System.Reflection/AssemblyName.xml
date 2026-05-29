@@ -164,14 +164,14 @@ ExampleAssembly, Version=1.0.0.0, Culture=en, PublicKeyToken=a5d015c7d5a0b012
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Version" />
     <altmember cref="M:System.Reflection.AssemblyName.GetPublicKey" />
     <altmember cref="M:System.Reflection.AssemblyName.GetPublicKeyToken" />
     <altmember cref="M:System.Reflection.AssemblyName.SetPublicKey(System.Byte[])" />
     <altmember cref="M:System.Reflection.AssemblyName.SetPublicKeyToken(System.Byte[])" />
-    <altmember cref="P:System.Type.FullName" />
     <altmember cref="M:System.Type.GetType" />
     <altmember cref="P:System.Type.AssemblyQualifiedName" />
+    <altmember cref="P:System.Type.FullName" />
+    <altmember cref="T:System.Version" />
     <related type="Article" href="/dotnet/fundamentals/reflection/specifying-fully-qualified-type-names">Specifying Fully Qualified Type Names</related>
   </Docs>
   <Members>
@@ -1280,8 +1280,8 @@ mylib, Version=1.2.1900.0, Culture=neutral, PublicKeyToken=a14f3033def15840
         <param name="sender">The source of the deserialization event.</param>
         <summary>Implements the <see cref="T:System.Runtime.Serialization.ISerializable" /> interface and is called back by the deserialization event when deserialization is complete.</summary>
         <remarks>To be added.</remarks>
-        <altmember cref="T:System.Runtime.Serialization.ISerializable" />
         <altmember cref="M:System.Reflection.AssemblyName.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <altmember cref="T:System.Runtime.Serialization.ISerializable" />
       </Docs>
     </Member>
     <Member MemberName="ProcessorArchitecture">

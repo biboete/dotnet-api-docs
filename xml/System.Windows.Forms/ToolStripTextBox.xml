@@ -409,8 +409,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.ToolStripTextBox.AutoCompleteSource" />
         <altmember cref="P:System.Windows.Forms.ToolStripTextBox.AutoCompleteMode" />
+        <altmember cref="P:System.Windows.Forms.ToolStripTextBox.AutoCompleteSource" />
       </Docs>
     </Member>
     <Member MemberName="AutoCompleteMode">
@@ -790,11 +790,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Cut" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Clear" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Copy" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Cut" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Paste" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Undo" />
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Clear" />
       </Docs>
     </Member>
     <Member MemberName="CharacterCasing">
@@ -872,11 +872,11 @@
       <Docs>
         <summary>Clears all text from the <see cref="T:System.Windows.Forms.ToolStripTextBox" /> control.</summary>
         <remarks>To be added.</remarks>
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Cut" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.ClearUndo" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Copy" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Cut" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Paste" />
         <altmember cref="P:System.Windows.Forms.ToolStripTextBox.CanUndo" />
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.ClearUndo" />
       </Docs>
     </Member>
     <Member MemberName="ClearUndo">
@@ -912,11 +912,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Cut" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Clear" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Copy" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Cut" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Paste" />
         <altmember cref="P:System.Windows.Forms.ToolStripTextBox.CanUndo" />
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Clear" />
       </Docs>
     </Member>
     <Member MemberName="Copy">
@@ -952,11 +952,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Cut" />
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Undo" />
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Paste" />
-        <altmember cref="P:System.Windows.Forms.ToolStripTextBox.CanUndo" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Clear" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Cut" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Paste" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Undo" />
+        <altmember cref="P:System.Windows.Forms.ToolStripTextBox.CanUndo" />
       </Docs>
     </Member>
     <Member MemberName="Cut">
@@ -992,11 +992,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Undo" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Clear" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Copy" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Paste" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Undo" />
         <altmember cref="P:System.Windows.Forms.ToolStripTextBox.CanUndo" />
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Clear" />
       </Docs>
     </Member>
     <Member MemberName="DefaultMargin">
@@ -1136,9 +1136,9 @@
  ]]></format>
         </remarks>
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetCharIndexFromPosition(System.Drawing.Point)" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetFirstCharIndexFromLine(System.Int32)" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetLineFromCharIndex(System.Int32)" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetPositionFromCharIndex(System.Int32)" />
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetFirstCharIndexFromLine(System.Int32)" />
       </Docs>
     </Member>
     <Member MemberName="GetCharIndexFromPosition">
@@ -1179,9 +1179,9 @@
  ]]></format>
         </remarks>
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetCharFromPosition(System.Drawing.Point)" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetFirstCharIndexFromLine(System.Int32)" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetLineFromCharIndex(System.Int32)" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetPositionFromCharIndex(System.Int32)" />
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetFirstCharIndexFromLine(System.Int32)" />
       </Docs>
     </Member>
     <Member MemberName="GetFirstCharIndexFromLine">
@@ -1223,10 +1223,10 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetCharFromPosition(System.Drawing.Point)" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetCharIndexFromPosition(System.Drawing.Point)" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetLineFromCharIndex(System.Int32)" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetPositionFromCharIndex(System.Int32)" />
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetCharFromPosition(System.Drawing.Point)" />
       </Docs>
     </Member>
     <Member MemberName="GetFirstCharIndexOfCurrentLine">
@@ -1298,10 +1298,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetCharIndexFromPosition(System.Drawing.Point)" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetCharFromPosition(System.Drawing.Point)" />
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetPositionFromCharIndex(System.Int32)" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetCharIndexFromPosition(System.Drawing.Point)" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetFirstCharIndexFromLine(System.Int32)" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetPositionFromCharIndex(System.Int32)" />
       </Docs>
     </Member>
     <Member MemberName="GetPositionFromCharIndex">
@@ -1341,10 +1341,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetCharIndexFromPosition(System.Drawing.Point)" />
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetLineFromCharIndex(System.Int32)" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetCharFromPosition(System.Drawing.Point)" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetCharIndexFromPosition(System.Drawing.Point)" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetFirstCharIndexFromLine(System.Int32)" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.GetLineFromCharIndex(System.Int32)" />
       </Docs>
     </Member>
     <Member MemberName="GetPreferredSize">
@@ -2144,11 +2144,11 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Clear" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Copy" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Cut" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Undo" />
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Copy" />
         <altmember cref="P:System.Windows.Forms.ToolStripTextBox.CanUndo" />
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Clear" />
       </Docs>
     </Member>
     <Member MemberName="ReadOnly">
@@ -2403,8 +2403,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.ToolStripTextBox.SelectionStart" />
         <altmember cref="P:System.Windows.Forms.ToolStripTextBox.SelectionLength" />
+        <altmember cref="P:System.Windows.Forms.ToolStripTextBox.SelectionStart" />
       </Docs>
     </Member>
     <Member MemberName="SelectionLength">
@@ -2453,8 +2453,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.ToolStripTextBox.SelectionStart" />
         <altmember cref="P:System.Windows.Forms.ToolStripTextBox.SelectedText" />
+        <altmember cref="P:System.Windows.Forms.ToolStripTextBox.SelectionStart" />
       </Docs>
     </Member>
     <Member MemberName="SelectionStart">
@@ -2783,11 +2783,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Cut" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Clear" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Copy" />
+        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Cut" />
         <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Paste" />
         <altmember cref="P:System.Windows.Forms.ToolStripTextBox.CanUndo" />
-        <altmember cref="M:System.Windows.Forms.ToolStripTextBox.Clear" />
       </Docs>
     </Member>
     <Member MemberName="WordWrap">

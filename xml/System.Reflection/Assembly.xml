@@ -114,9 +114,9 @@ Many members of the <xref:System.Reflection.Assembly> class provide information 
 
  ]]></format>
     </remarks>
-    <threadsafe>This type is thread safe.</threadsafe>
     <altmember cref="T:System.AppDomain" />
     <altmember cref="T:System.Reflection.AssemblyName" />
+    <threadsafe>This type is thread safe.</threadsafe>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -3392,7 +3392,8 @@ If there are assembly-qualified generic type parameters in the type name string,
       </ReturnValue>
       <Docs>
         <summary>Gets a value indicating whether the assembly was loaded from the global assembly cache (.NET Framework only).</summary>
-        <value><see langword="false" /> in all cases.</value>
+        <value>
+          <see langword="false" /> in all cases.</value>
         <remarks>This property is marked obsolete starting in .NET 5, and generates a compile-time warning.</remarks>
       </Docs>
     </Member>
@@ -3695,7 +3696,8 @@ By default, <xref:System.Reflection.Assembly.ImageRuntimeVersion*> is set to the
       </ReturnValue>
       <Docs>
         <summary>Gets a value that indicates whether the current assembly is loaded with full trust.</summary>
-        <value><see langword="true" /> in all cases.</value>
+        <value>
+          <see langword="true" /> in all cases.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -3928,8 +3930,8 @@ To load the correct assembly, it's recommended to call the `Load` method by pass
         <exception cref="T:System.BadImageFormatException">
           <paramref name="assemblyString" /> is not a valid assembly for the currently loaded runtime.
         </exception>
-        <altmember cref="T:System.Reflection.AssemblyName" />
         <altmember cref="M:System.Reflection.Assembly.LoadFrom(System.String)" />
+        <altmember cref="T:System.Reflection.AssemblyName" />
         <related type="Article" href="/dotnet/framework/deployment/how-the-runtime-locates-assemblies">How the Runtime Locates Assemblies</related>
       </Docs>
     </Member>

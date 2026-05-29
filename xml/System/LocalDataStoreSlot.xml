@@ -67,8 +67,8 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Threading.Thread" />
     <altmember cref="T:System.Runtime.Remoting.Contexts.Context" />
+    <altmember cref="T:System.Threading.Thread" />
   </Docs>
   <Members>
     <Member MemberName="Finalize">

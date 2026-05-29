@@ -87,10 +87,10 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Security.RightsManagement.ContentGrant.Right" />
+        <altmember cref="P:System.Security.RightsManagement.ContentGrant.User" />
         <altmember cref="P:System.Security.RightsManagement.ContentGrant.ValidFrom" />
         <altmember cref="P:System.Security.RightsManagement.ContentGrant.ValidUntil" />
-        <altmember cref="P:System.Security.RightsManagement.ContentGrant.User" />
-        <altmember cref="P:System.Security.RightsManagement.ContentGrant.Right" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -134,10 +134,10 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Security.RightsManagement.ContentGrant.Right" />
+        <altmember cref="P:System.Security.RightsManagement.ContentGrant.User" />
         <altmember cref="P:System.Security.RightsManagement.ContentGrant.ValidFrom" />
         <altmember cref="P:System.Security.RightsManagement.ContentGrant.ValidUntil" />
-        <altmember cref="P:System.Security.RightsManagement.ContentGrant.User" />
-        <altmember cref="P:System.Security.RightsManagement.ContentGrant.Right" />
       </Docs>
     </Member>
     <Member MemberName="Right">

@@ -49,8 +49,8 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Windows.Forms.Layout.LayoutEngine" />
     <altmember cref="T:System.Windows.Forms.FlowLayoutPanel" />
+    <altmember cref="T:System.Windows.Forms.Layout.LayoutEngine" />
   </Docs>
   <Members>
     <Member MemberName="FlowDirection">
@@ -92,9 +92,9 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Forms.FlowLayoutPanel.FlowDirection" />
         <altmember cref="P:System.Windows.Forms.FlowLayoutSettings.WrapContents" />
         <altmember cref="T:System.Windows.Forms.FlowDirection" />
-        <altmember cref="P:System.Windows.Forms.FlowLayoutPanel.FlowDirection" />
       </Docs>
     </Member>
     <Member MemberName="GetFlowBreak">
@@ -167,9 +167,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.Forms.Layout.LayoutEngine" />
-        <altmember cref="P:System.Windows.Forms.FlowLayoutPanel.LayoutEngine" />
         <altmember cref="E:System.Windows.Forms.Control.Layout" />
+        <altmember cref="P:System.Windows.Forms.FlowLayoutPanel.LayoutEngine" />
+        <altmember cref="T:System.Windows.Forms.Layout.LayoutEngine" />
       </Docs>
     </Member>
     <Member MemberName="SetFlowBreak">
@@ -247,8 +247,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.FlowLayoutSettings.FlowDirection" />
         <altmember cref="P:System.Windows.Forms.FlowLayoutPanel.WrapContents" />
+        <altmember cref="P:System.Windows.Forms.FlowLayoutSettings.FlowDirection" />
       </Docs>
     </Member>
   </Members>

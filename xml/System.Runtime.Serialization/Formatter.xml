@@ -70,6 +70,8 @@
 
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Runtime.Serialization.ObjectIDGenerator" />
+    <related type="Article" href="/dotnet/standard/serialization/xml-and-soap-serialization">XML and SOAP Serialization</related>
     <block subset="none" type="overrides">
       <para>When you inherit from <see cref="T:System.Runtime.Serialization.Formatter" />, you must override the following members:
 
@@ -119,8 +121,6 @@
 
 -   <see cref="P:System.Runtime.Serialization.Formatter.Context" /></para>
     </block>
-    <altmember cref="T:System.Runtime.Serialization.ObjectIDGenerator" />
-    <related type="Article" href="/dotnet/standard/serialization/xml-and-soap-serialization">XML and SOAP Serialization</related>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -347,10 +347,10 @@
         <summary>When overridden in a derived class, deserializes the stream attached to the formatter when it was created, creating a graph of objects identical to the graph originally serialized into that stream.</summary>
         <returns>The top object of the deserialized graph of objects.</returns>
         <remarks>To be added.</remarks>
+        <related type="Article" href="/dotnet/standard/serialization/xml-and-soap-serialization">XML and SOAP Serialization</related>
         <block subset="none" type="overrides">
           <para>You must implement this method in a derived class.</para>
         </block>
-        <related type="Article" href="/dotnet/standard/serialization/xml-and-soap-serialization">XML and SOAP Serialization</related>
       </Docs>
     </Member>
     <Member MemberName="GetNext">
@@ -626,10 +626,10 @@
         <param name="graph">The object at the root of the graph to serialize.</param>
         <summary>When overridden in a derived class, serializes the graph of objects with the specified root to the stream already attached to the formatter.</summary>
         <remarks>To be added.</remarks>
+        <related type="Article" href="/dotnet/standard/serialization/xml-and-soap-serialization">XML and SOAP Serialization</related>
         <block subset="none" type="overrides">
           <para>You must implement this method in a derived class.</para>
         </block>
-        <related type="Article" href="/dotnet/standard/serialization/xml-and-soap-serialization">XML and SOAP Serialization</related>
       </Docs>
     </Member>
     <Member MemberName="SurrogateSelector">
@@ -937,10 +937,10 @@
         <param name="name">The name of the member.</param>
         <summary>When overridden in a derived class, writes a <see cref="T:System.DateTime" /> value to the stream already attached to the formatter.</summary>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.DateTime" />
         <block subset="none" type="overrides">
           <para>You must implement this method in a derived class.</para>
         </block>
-        <altmember cref="T:System.DateTime" />
       </Docs>
     </Member>
     <Member MemberName="WriteDecimal">
@@ -987,10 +987,10 @@
         <param name="name">The name of the member.</param>
         <summary>When overridden in a derived class, writes a <see cref="T:System.Decimal" /> value to the stream already attached to the formatter.</summary>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Decimal" />
         <block subset="none" type="overrides">
           <para>You must implement this method in a derived class.</para>
         </block>
-        <altmember cref="T:System.Decimal" />
       </Docs>
     </Member>
     <Member MemberName="WriteDouble">
@@ -1464,10 +1464,10 @@
         <param name="name">The name of the member.</param>
         <summary>When overridden in a derived class, writes a <see cref="T:System.TimeSpan" /> value to the stream already attached to the formatter.</summary>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.TimeSpan" />
         <block subset="none" type="overrides">
           <para>You must implement this method in a derived class.</para>
         </block>
-        <altmember cref="T:System.TimeSpan" />
       </Docs>
     </Member>
     <Member MemberName="WriteUInt16">
@@ -1681,10 +1681,10 @@
         <param name="memberType">The <see cref="T:System.Type" /> of the value type.</param>
         <summary>When overridden in a derived class, writes a value of the given type to the stream already attached to the formatter.</summary>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.ValueType" />
         <block subset="none" type="overrides">
           <para>You must implement this method in a derived class.</para>
         </block>
-        <altmember cref="T:System.ValueType" />
       </Docs>
     </Member>
   </Members>

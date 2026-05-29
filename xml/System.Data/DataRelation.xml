@@ -90,14 +90,14 @@
 
  ]]></format>
     </remarks>
-    <threadsafe>This type is safe for multithreaded read operations. You must synchronize any write operations.</threadsafe>
     <altmember cref="P:System.Data.DataTable.ChildRelations" />
+    <altmember cref="P:System.Data.DataTable.ParentRelations" />
     <altmember cref="T:System.Data.DataColumn" />
+    <altmember cref="T:System.Data.DataRelationCollection" />
     <altmember cref="T:System.Data.DataSet" />
     <altmember cref="T:System.Data.ForeignKeyConstraint" />
-    <altmember cref="T:System.Data.DataRelationCollection" />
     <altmember cref="T:System.Data.UniqueConstraint" />
-    <altmember cref="P:System.Data.DataTable.ParentRelations" />
+    <threadsafe>This type is safe for multithreaded read operations. You must synchronize any write operations.</threadsafe>
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">
@@ -178,8 +178,8 @@
  -Or-
 
  The tables do not belong to the same <see cref="T:System.Data.DataSet" />.</exception>
-        <altmember cref="T:System.Data.DataColumn" />
         <altmember cref="P:System.Data.DataRelation.RelationName" />
+        <altmember cref="T:System.Data.DataColumn" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -253,9 +253,9 @@
  -Or-
 
  The tables do not belong to the same <see cref="T:System.Data.DataSet" />.</exception>
+        <altmember cref="P:System.Data.DataRelation.RelationName" />
         <altmember cref="T:System.Data.DataColumn" />
         <altmember cref="T:System.Data.ForeignKeyConstraint" />
-        <altmember cref="P:System.Data.DataRelation.RelationName" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -327,9 +327,9 @@
  -Or-
 
  The tables do not belong to the same <see cref="T:System.Data.DataSet" />.</exception>
+        <altmember cref="P:System.Data.DataRelation.RelationName" />
         <altmember cref="T:System.Data.DataColumn" />
         <altmember cref="T:System.Data.ForeignKeyConstraint" />
-        <altmember cref="P:System.Data.DataRelation.RelationName" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -401,9 +401,9 @@
  -Or-
 
  The tables do not belong to the same <see cref="T:System.Data.DataSet" />.</exception>
+        <altmember cref="P:System.Data.DataRelation.RelationName" />
         <altmember cref="T:System.Data.DataColumn" />
         <altmember cref="T:System.Data.ForeignKeyConstraint" />
-        <altmember cref="P:System.Data.DataRelation.RelationName" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -683,8 +683,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Data.DataColumn" />
         <altmember cref="P:System.Data.DataRelation.ParentColumns" />
+        <altmember cref="T:System.Data.DataColumn" />
       </Docs>
     </Member>
     <Member MemberName="ChildKeyConstraint">
@@ -748,8 +748,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Data.AcceptRejectRule" />
         <altmember cref="P:System.Data.DataRelation.ParentKeyConstraint" />
+        <altmember cref="T:System.Data.AcceptRejectRule" />
         <altmember cref="T:System.Data.Rule" />
       </Docs>
     </Member>
@@ -802,8 +802,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Data.DataTable" />
         <altmember cref="P:System.Data.DataRelation.ParentTable" />
+        <altmember cref="T:System.Data.DataTable" />
       </Docs>
     </Member>
     <Member MemberName="DataSet">
@@ -875,9 +875,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Data.DataSet" />
         <altmember cref="P:System.Data.DataSet.Relations" />
         <altmember cref="T:System.Data.DataRelationCollection" />
+        <altmember cref="T:System.Data.DataSet" />
       </Docs>
     </Member>
     <Member MemberName="ExtendedProperties">
@@ -1090,8 +1090,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Data.DataColumn" />
         <altmember cref="P:System.Data.DataRelation.ChildColumns" />
+        <altmember cref="T:System.Data.DataColumn" />
       </Docs>
     </Member>
     <Member MemberName="ParentKeyConstraint">
@@ -1203,8 +1203,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Data.DataTable" />
         <altmember cref="P:System.Data.DataRelation.ChildTable" />
+        <altmember cref="T:System.Data.DataTable" />
       </Docs>
     </Member>
     <Member MemberName="RaisePropertyChanging">
@@ -1315,9 +1315,9 @@
         <exception cref="T:System.ArgumentException">
           <see langword="null" /> or empty string ("") was passed into a <see cref="T:System.Data.DataColumn" /> that is a <see cref="T:System.Data.DataRelation" />.</exception>
         <exception cref="T:System.Data.DuplicateNameException">The <see cref="T:System.Data.DataRelation" /> belongs to a collection that already contains a <see cref="T:System.Data.DataRelation" /> with the same name.</exception>
-        <altmember cref="T:System.Data.DataSet" />
-        <altmember cref="T:System.Data.DataRelationCollection" />
         <altmember cref="P:System.Data.DataRelationCollection.Item(System.Int32)" />
+        <altmember cref="T:System.Data.DataRelationCollection" />
+        <altmember cref="T:System.Data.DataSet" />
       </Docs>
     </Member>
     <Member MemberName="ToString">
@@ -1371,8 +1371,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Data.DataColumn.Expression" />
         <altmember cref="P:System.Data.DataColumn.ColumnName" />
+        <altmember cref="P:System.Data.DataColumn.Expression" />
       </Docs>
     </Member>
   </Members>

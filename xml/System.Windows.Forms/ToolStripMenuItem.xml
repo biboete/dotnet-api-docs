@@ -454,9 +454,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.ToolStripMenuItem.CheckState" />
-        <altmember cref="E:System.Windows.Forms.ToolStripMenuItem.CheckStateChanged" />
         <altmember cref="E:System.Windows.Forms.ToolStripMenuItem.CheckedChanged" />
+        <altmember cref="E:System.Windows.Forms.ToolStripMenuItem.CheckStateChanged" />
+        <altmember cref="P:System.Windows.Forms.ToolStripMenuItem.CheckState" />
       </Docs>
     </Member>
     <Member MemberName="CheckedChanged">
@@ -508,9 +508,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.ToolStripMenuItem.CheckState" />
         <altmember cref="E:System.Windows.Forms.ToolStripMenuItem.CheckStateChanged" />
         <altmember cref="P:System.Windows.Forms.ToolStripMenuItem.Checked" />
+        <altmember cref="P:System.Windows.Forms.ToolStripMenuItem.CheckState" />
       </Docs>
     </Member>
     <Member MemberName="CheckOnClick">
@@ -604,9 +604,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ComponentModel.InvalidEnumArgumentException">The <see cref="P:System.Windows.Forms.ToolStripMenuItem.CheckState" /> property is not set to one of the <see cref="T:System.Windows.Forms.CheckState" /> values.</exception>
+        <altmember cref="E:System.Windows.Forms.ToolStripMenuItem.CheckedChanged" />
         <altmember cref="E:System.Windows.Forms.ToolStripMenuItem.CheckStateChanged" />
         <altmember cref="P:System.Windows.Forms.ToolStripMenuItem.Checked" />
-        <altmember cref="E:System.Windows.Forms.ToolStripMenuItem.CheckedChanged" />
       </Docs>
     </Member>
     <Member MemberName="CheckStateChanged">
@@ -658,9 +658,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.ToolStripMenuItem.CheckState" />
-        <altmember cref="P:System.Windows.Forms.ToolStripMenuItem.Checked" />
         <altmember cref="E:System.Windows.Forms.ToolStripMenuItem.CheckedChanged" />
+        <altmember cref="P:System.Windows.Forms.ToolStripMenuItem.Checked" />
+        <altmember cref="P:System.Windows.Forms.ToolStripMenuItem.CheckState" />
       </Docs>
     </Member>
     <Member MemberName="CreateAccessibilityInstance">
@@ -709,8 +709,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.Forms.Control.ControlAccessibleObject" />
         <altmember cref="T:System.Windows.Forms.AccessibleObject" />
+        <altmember cref="T:System.Windows.Forms.Control.ControlAccessibleObject" />
       </Docs>
     </Member>
     <Member MemberName="CreateDefaultDropDown">

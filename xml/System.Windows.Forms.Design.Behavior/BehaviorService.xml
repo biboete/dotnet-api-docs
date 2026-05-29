@@ -68,9 +68,9 @@
 
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
     <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
     <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-    <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
     <related type="Article" href="https://msdn.microsoft.com/library/7c60cc41-4324-46b5-b444-b39eda7cb33f">Behavior Service Overview</related>
   </Docs>
   <Members>
@@ -121,9 +121,9 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
       </Docs>
     </Member>
     <Member MemberName="AdornerWindowGraphics">
@@ -157,10 +157,10 @@
         <summary>Gets the <see cref="T:System.Drawing.Graphics" /> for the adorner window.</summary>
         <value>The <see cref="T:System.Drawing.Graphics" /> for the adorner window.</value>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Drawing.Graphics" />
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
-        <altmember cref="T:System.Drawing.Graphics" />
       </Docs>
     </Member>
     <Member MemberName="AdornerWindowPointToScreen">
@@ -198,9 +198,9 @@
         <summary>Translates a <see cref="T:System.Drawing.Point" /> in the adorner window to screen coordinates.</summary>
         <returns>The transformed <see cref="T:System.Drawing.Point" /> value, in screen coordinates.</returns>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
       </Docs>
     </Member>
     <Member MemberName="AdornerWindowToScreen">
@@ -235,9 +235,9 @@
         <summary>Gets the location of the adorner window in screen coordinates.</summary>
         <returns>The location, from the upper-left corner of the adorner window, in screen coordinates.</returns>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
       </Docs>
     </Member>
     <Member MemberName="BeginDrag">
@@ -286,9 +286,9 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
       </Docs>
     </Member>
     <Member MemberName="ControlRectInAdornerWindow">
@@ -333,9 +333,9 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
       </Docs>
     </Member>
     <Member MemberName="ControlToAdornerWindow">
@@ -384,9 +384,9 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
       </Docs>
     </Member>
     <Member MemberName="CurrentBehavior">
@@ -521,9 +521,9 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
       </Docs>
     </Member>
     <Member MemberName="GetNextBehavior">
@@ -617,9 +617,9 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
       </Docs>
     </Member>
     <Member MemberName="Invalidate">
@@ -663,9 +663,9 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
       </Docs>
     </Member>
     <Member MemberName="Invalidate">
@@ -709,9 +709,9 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
       </Docs>
     </Member>
     <Member MemberName="MapAdornerWindowPoint">
@@ -751,9 +751,9 @@
         <summary>Converts a point in a handle's coordinate system to the adorner window coordinates.</summary>
         <returns>A <see cref="T:System.Drawing.Point" /> in the adorner window coordinates.</returns>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
       </Docs>
     </Member>
     <Member MemberName="PopBehavior">
@@ -806,9 +806,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">The <see cref="T:System.Windows.Forms.Design.Behavior.Behavior" /> stack is empty.</exception>
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
       </Docs>
     </Member>
     <Member MemberName="PushBehavior">
@@ -854,9 +854,9 @@
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="behavior" /> is <see langword="null" />.</exception>
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
       </Docs>
     </Member>
     <Member MemberName="PushCaptureBehavior">
@@ -902,9 +902,9 @@
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="behavior" /> is <see langword="null" />.</exception>
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
       </Docs>
     </Member>
     <Member MemberName="ScreenToAdornerWindow">
@@ -942,9 +942,9 @@
         <summary>Translates a point in screen coordinates into the adorner window coordinates of the <see cref="T:System.Windows.Forms.Design.Behavior.BehaviorService" />.</summary>
         <returns>The transformed <see cref="T:System.Drawing.Point" /> value, in adorner window coordinates.</returns>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
       </Docs>
     </Member>
     <Member MemberName="Synchronize">
@@ -991,9 +991,9 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
       </Docs>
     </Member>
     <Member MemberName="SyncSelection">
@@ -1027,9 +1027,9 @@
       <Docs>
         <summary>Synchronizes all selection glyphs.</summary>
         <remarks>To be added.</remarks>
+        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Behavior" />
         <altmember cref="T:System.Windows.Forms.Design.Behavior.Glyph" />
-        <altmember cref="T:System.Windows.Forms.Design.Behavior.Adorner" />
       </Docs>
     </Member>
   </Members>

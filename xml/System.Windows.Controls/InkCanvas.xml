@@ -1636,8 +1636,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:System.Windows.Controls.InkCanvas.Select" />
         <altmember cref="M:System.Windows.Controls.InkCanvas.GetSelectedElements" />
+        <altmember cref="Overload:System.Windows.Controls.InkCanvas.Select" />
       </Docs>
     </Member>
     <Member MemberName="GetSelectionBounds">
@@ -2776,8 +2776,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Controls.InkCanvas.CopySelection" />
         <altmember cref="M:System.Windows.Controls.InkCanvas.CanPaste" />
+        <altmember cref="M:System.Windows.Controls.InkCanvas.CopySelection" />
       </Docs>
     </Member>
     <Member MemberName="Paste">
@@ -2824,8 +2824,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Controls.InkCanvas.CopySelection" />
         <altmember cref="M:System.Windows.Controls.InkCanvas.CanPaste" />
+        <altmember cref="M:System.Windows.Controls.InkCanvas.CopySelection" />
       </Docs>
     </Member>
     <Member MemberName="PreferredPasteFormats">
@@ -3248,8 +3248,8 @@
  ]]></format>
         </remarks>
         <altmember cref="E:System.Windows.Controls.InkCanvas.SelectionChanging" />
-        <altmember cref="M:System.Windows.Controls.InkCanvas.GetSelectedStrokes" />
         <altmember cref="M:System.Windows.Controls.InkCanvas.GetSelectedElements" />
+        <altmember cref="M:System.Windows.Controls.InkCanvas.GetSelectedStrokes" />
       </Docs>
     </Member>
     <Member MemberName="SelectionChanging">
@@ -3346,8 +3346,8 @@
  ]]></format>
         </remarks>
         <altmember cref="E:System.Windows.Controls.InkCanvas.SelectionMoving" />
-        <altmember cref="M:System.Windows.Controls.InkCanvas.GetSelectedStrokes" />
         <altmember cref="M:System.Windows.Controls.InkCanvas.GetSelectedElements" />
+        <altmember cref="M:System.Windows.Controls.InkCanvas.GetSelectedStrokes" />
       </Docs>
     </Member>
     <Member MemberName="SelectionMoving">
@@ -3395,8 +3395,8 @@
  ]]></format>
         </remarks>
         <altmember cref="E:System.Windows.Controls.InkCanvas.SelectionMoved" />
-        <altmember cref="M:System.Windows.Controls.InkCanvas.GetSelectedStrokes" />
         <altmember cref="M:System.Windows.Controls.InkCanvas.GetSelectedElements" />
+        <altmember cref="M:System.Windows.Controls.InkCanvas.GetSelectedStrokes" />
       </Docs>
     </Member>
     <Member MemberName="SelectionResized">
@@ -3442,8 +3442,8 @@
  ]]></format>
         </remarks>
         <altmember cref="E:System.Windows.Controls.InkCanvas.SelectionResizing" />
-        <altmember cref="M:System.Windows.Controls.InkCanvas.GetSelectedStrokes" />
         <altmember cref="M:System.Windows.Controls.InkCanvas.GetSelectedElements" />
+        <altmember cref="M:System.Windows.Controls.InkCanvas.GetSelectedStrokes" />
       </Docs>
     </Member>
     <Member MemberName="SelectionResizing">
@@ -3491,8 +3491,8 @@
  ]]></format>
         </remarks>
         <altmember cref="E:System.Windows.Controls.InkCanvas.SelectionResized" />
-        <altmember cref="M:System.Windows.Controls.InkCanvas.GetSelectedStrokes" />
         <altmember cref="M:System.Windows.Controls.InkCanvas.GetSelectedElements" />
+        <altmember cref="M:System.Windows.Controls.InkCanvas.GetSelectedStrokes" />
       </Docs>
     </Member>
     <Member MemberName="SetBottom">

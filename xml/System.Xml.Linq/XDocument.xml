@@ -128,9 +128,9 @@ Console.WriteLine(doc)
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Xml.Linq.XNamespace" />
     <altmember cref="T:System.Xml.Linq.XDeclaration" />
     <altmember cref="T:System.Xml.Linq.XElement" />
+    <altmember cref="T:System.Xml.Linq.XNamespace" />
     <altmember cref="T:System.Xml.Linq.XNode" />
     <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
     <related type="Article" href="/dotnet/standard/linq/xdocument-class-overview">XDocument Class Overview</related>
@@ -870,8 +870,8 @@ Console.WriteLine(doc)
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Xml.Linq.XDocumentType" />
         <altmember cref="P:System.Xml.Linq.XDocument.NodeType" />
+        <altmember cref="T:System.Xml.Linq.XDocumentType" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -1034,9 +1034,9 @@ Console.WriteLine(doc)
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Xml.Linq.XDocument.WriteTo(System.Xml.XmlWriter)" />
         <altmember cref="Overload:System.Xml.Linq.XDocument.Parse" />
         <altmember cref="Overload:System.Xml.Linq.XDocument.Save" />
-        <altmember cref="M:System.Xml.Linq.XDocument.WriteTo(System.Xml.XmlWriter)" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
         <related type="Article" href="/dotnet/standard/linq/query-xdocument-vs-query-xelement">Query an XDocument vs. query an XElement</related>
       </Docs>
@@ -1160,9 +1160,9 @@ Console.WriteLine(doc)
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Xml.Linq.XDocument.WriteTo(System.Xml.XmlWriter)" />
         <altmember cref="Overload:System.Xml.Linq.XDocument.Parse" />
         <altmember cref="Overload:System.Xml.Linq.XDocument.Save" />
-        <altmember cref="M:System.Xml.Linq.XDocument.WriteTo(System.Xml.XmlWriter)" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
         <related type="Article" href="/dotnet/standard/linq/query-xdocument-vs-query-xelement">Query an XDocument vs. query an XElement</related>
       </Docs>
@@ -1273,9 +1273,9 @@ End Using
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Xml.Linq.XDocument.WriteTo(System.Xml.XmlWriter)" />
         <altmember cref="Overload:System.Xml.Linq.XDocument.Parse" />
         <altmember cref="Overload:System.Xml.Linq.XDocument.Save" />
-        <altmember cref="M:System.Xml.Linq.XDocument.WriteTo(System.Xml.XmlWriter)" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
         <related type="Article" href="/dotnet/standard/linq/query-xdocument-vs-query-xelement">Query an XDocument vs. query an XElement</related>
       </Docs>
@@ -1475,9 +1475,9 @@ Count of white space nodes (preserving whitespace): 3
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Xml.Linq.XDocument.WriteTo(System.Xml.XmlWriter)" />
         <altmember cref="Overload:System.Xml.Linq.XDocument.Parse" />
         <altmember cref="Overload:System.Xml.Linq.XDocument.Save" />
-        <altmember cref="M:System.Xml.Linq.XDocument.WriteTo(System.Xml.XmlWriter)" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
         <related type="Article" href="/dotnet/standard/linq/query-xdocument-vs-query-xelement">Query an XDocument vs. query an XElement</related>
       </Docs>
@@ -1588,9 +1588,9 @@ nodes if preserving whitespace: 82
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Xml.Linq.XDocument.WriteTo(System.Xml.XmlWriter)" />
         <altmember cref="Overload:System.Xml.Linq.XDocument.Parse" />
         <altmember cref="Overload:System.Xml.Linq.XDocument.Save" />
-        <altmember cref="M:System.Xml.Linq.XDocument.WriteTo(System.Xml.XmlWriter)" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
         <related type="Article" href="/dotnet/standard/linq/query-xdocument-vs-query-xelement">Query an XDocument vs. query an XElement</related>
       </Docs>
@@ -1743,8 +1743,8 @@ Root                1    2
  ]]></format>
         </remarks>
         <altmember cref="M:System.Xml.Linq.XDocument.WriteTo(System.Xml.XmlWriter)" />
-        <altmember cref="Overload:System.Xml.Linq.XDocument.Save" />
         <altmember cref="Overload:System.Xml.Linq.XDocument.Parse" />
+        <altmember cref="Overload:System.Xml.Linq.XDocument.Save" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
         <related type="Article" href="/dotnet/standard/linq/read-write-encoded-document">How to read and write an encoded document</related>
       </Docs>
@@ -1973,8 +1973,8 @@ Document
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Xml.XmlNodeType" />
         <altmember cref="P:System.Xml.Linq.XDocument.DocumentType" />
+        <altmember cref="T:System.Xml.XmlNodeType" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -2130,9 +2130,9 @@ Console.WriteLine(doc)
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Xml.Linq.XDocument.WriteTo(System.Xml.XmlWriter)" />
         <altmember cref="Overload:System.Xml.Linq.XDocument.Load" />
         <altmember cref="Overload:System.Xml.Linq.XDocument.Save" />
-        <altmember cref="M:System.Xml.Linq.XDocument.WriteTo(System.Xml.XmlWriter)" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
         <related type="Article" href="/dotnet/standard/linq/parse-string">How to parse a string</related>
       </Docs>
@@ -2243,9 +2243,9 @@ nodes when not preserving whitespace: 4
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Xml.Linq.XDocument.WriteTo(System.Xml.XmlWriter)" />
         <altmember cref="Overload:System.Xml.Linq.XDocument.Load" />
         <altmember cref="Overload:System.Xml.Linq.XDocument.Save" />
-        <altmember cref="M:System.Xml.Linq.XDocument.WriteTo(System.Xml.XmlWriter)" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
         <related type="Article" href="/dotnet/standard/linq/parse-string">How to parse a string</related>
       </Docs>
@@ -3226,9 +3226,9 @@ Console.WriteLine(sb.ToString())
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:System.Xml.Linq.XDocument.Save" />
         <altmember cref="Overload:System.Xml.Linq.XDocument.Load" />
         <altmember cref="Overload:System.Xml.Linq.XDocument.Parse" />
+        <altmember cref="Overload:System.Xml.Linq.XDocument.Save" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>

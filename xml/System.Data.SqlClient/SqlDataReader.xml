@@ -3014,8 +3014,8 @@ Boolean, Byte, Char, DateTime, DateTimeOffset, Decimal, Double, Float, Guid, Int
 
  <see langword="Context Connection=true" /> is specified in the connection string.</exception>
         <exception cref="T:System.Data.SqlClient.SqlException">SQL Server returned an error while executing the command text.</exception>
-        <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
         <exception cref="T:System.OperationCanceledException">The cancellation token was canceled. This exception is stored into the returned task.</exception>
+        <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
       </Docs>
     </Member>
     <Member MemberName="Read">
@@ -3122,8 +3122,8 @@ Boolean, Byte, Char, DateTime, DateTimeOffset, Decimal, Double, Float, Guid, Int
 
  <see langword="Context Connection=true" /> is specified in the connection string.</exception>
         <exception cref="T:System.Data.SqlClient.SqlException">SQL Server returned an error while executing the command text.</exception>
-        <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
         <exception cref="T:System.OperationCanceledException">The cancellation token was canceled. This exception is stored into the returned task.</exception>
+        <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
       </Docs>
     </Member>
     <Member MemberName="RecordsAffected">

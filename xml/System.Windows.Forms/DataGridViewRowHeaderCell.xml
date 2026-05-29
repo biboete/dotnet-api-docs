@@ -44,10 +44,10 @@
 
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Forms.DataGridView" />
     <block subset="none" type="overrides">
       <para>When you derive from <see cref="T:System.Windows.Forms.DataGridViewRowHeaderCell" /> and add new properties to the derived class, be sure to override the <see cref="M:System.Windows.Forms.DataGridViewRowHeaderCell.Clone" /> method to copy the new properties during cloning operations. You should also call the base class's <see cref="M:System.Windows.Forms.DataGridViewRowHeaderCell.Clone" /> method so that the properties of the base class are copied to the new cell.</para>
     </block>
-    <altmember cref="T:System.Windows.Forms.DataGridView" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -142,9 +142,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="M:System.Windows.Forms.DataGridViewRowHeaderCell.CreateAccessibilityInstance" />
         <altmember cref="P:System.Windows.Forms.DataGridViewCell.AccessibilityObject" />
+        <altmember cref="T:System.Windows.Forms.DataGridView" />
       </Docs>
     </Member>
     <Member MemberName="GetClipboardContent">
@@ -213,11 +213,11 @@
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="rowIndex" /> is less than zero or greater than or equal to the number of rows in the control.</exception>
-        <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="M:System.Windows.Forms.DataGridView.GetClipboardContent" />
-        <altmember cref="T:System.Windows.Forms.DataFormats" />
-        <altmember cref="T:System.Windows.Forms.Clipboard" />
         <altmember cref="P:System.Windows.Forms.DataGridView.ClipboardCopyMode" />
+        <altmember cref="T:System.Windows.Forms.Clipboard" />
+        <altmember cref="T:System.Windows.Forms.DataFormats" />
+        <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="T:System.Windows.Forms.DataGridViewClipboardCopyMode" />
       </Docs>
     </Member>
@@ -360,9 +360,9 @@
         <returns>The <see cref="T:System.Windows.Forms.ContextMenuStrip" /> of the row if one exists; otherwise, the <see cref="T:System.Windows.Forms.ContextMenuStrip" /> inherited from <see cref="T:System.Windows.Forms.DataGridView" />.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">The value of the <see cref="P:System.Windows.Forms.DataGridViewElement.DataGridView" /> property of the cell is not <see langword="null" /> and the specified <paramref name="rowIndex" /> is less than 0 or greater than the number of rows in the control minus 1.</exception>
-        <altmember cref="T:System.Windows.Forms.DataGridView" />
-        <altmember cref="T:System.Windows.Forms.ContextMenuStrip" />
         <altmember cref="P:System.Windows.Forms.Control.ContextMenuStrip" />
+        <altmember cref="T:System.Windows.Forms.ContextMenuStrip" />
+        <altmember cref="T:System.Windows.Forms.DataGridView" />
       </Docs>
     </Member>
     <Member MemberName="GetInheritedStyle">

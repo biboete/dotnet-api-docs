@@ -2463,11 +2463,11 @@ Each chunk except the last one will be of size `size`. The last chunk will conta
 
           ]]></format>
         </remarks>
-        <related type="Article" href="/dotnet/csharp/linq/standard-query-operators/partitioning-data">Partitioning data</related>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="source" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="size" /> is below 1.</exception>
+        <related type="Article" href="/dotnet/csharp/linq/standard-query-operators/partitioning-data">Partitioning data</related>
       </Docs>
     </Member>
     <Member MemberName="Concat&lt;TSource&gt;">
@@ -3413,9 +3413,9 @@ The <xref:System.Linq.Enumerable.DistinctBy``2(System.Collections.Generic.IEnume
 
           ]]></format>
         </remarks>
-        <related type="Article" href="/dotnet/csharp/linq/standard-query-operators/set-operations?branch=main">Distinct and DistinctBy examples</related>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="source" /> is <see langword="null" />.</exception>
+        <related type="Article" href="/dotnet/csharp/linq/standard-query-operators/set-operations?branch=main">Distinct and DistinctBy examples</related>
       </Docs>
     </Member>
     <Member MemberName="DistinctBy&lt;TSource,TKey&gt;">
@@ -3490,9 +3490,9 @@ The <xref:System.Linq.Enumerable.DistinctBy``2(System.Collections.Generic.IEnume
 
           ]]></format>
         </remarks>
-        <related type="Article" href="/dotnet/csharp/linq/standard-query-operators/set-operations?branch=main">Distinct and DistinctBy examples</related>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="source" /> is <see langword="null" />.</exception>
+        <related type="Article" href="/dotnet/csharp/linq/standard-query-operators/set-operations?branch=main">Distinct and DistinctBy examples</related>
       </Docs>
     </Member>
     <Member MemberName="ElementAt&lt;TSource&gt;">
@@ -6077,9 +6077,9 @@ The default equality comparer, <xref:System.Collections.Generic.EqualityComparer
 
           ]]></format>
         </remarks>
-        <related type="Article" href="/dotnet/csharp/linq/standard-query-operators/set-operations?branch=main">Intersect and IntersectBy examples</related>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="first" /> or <paramref name="second" /> is <see langword="null" />.</exception>
+        <related type="Article" href="/dotnet/csharp/linq/standard-query-operators/set-operations?branch=main">Intersect and IntersectBy examples</related>
       </Docs>
     </Member>
     <Member MemberName="IntersectBy&lt;TSource,TKey&gt;">
@@ -6160,9 +6160,9 @@ If `comparer` is `null`, the default equality comparer, <xref:System.Collections
 
           ]]></format>
         </remarks>
-        <related type="Article" href="/dotnet/csharp/linq/standard-query-operators/set-operations?branch=main">Intersect and IntersectBy examples</related>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="first" /> or <paramref name="second" /> is <see langword="null" />.</exception>
+        <related type="Article" href="/dotnet/csharp/linq/standard-query-operators/set-operations?branch=main">Intersect and IntersectBy examples</related>
       </Docs>
     </Member>
     <MemberGroup MemberName="Join&lt;TOuter,TInner,TKey,TResult&gt;">
@@ -17689,9 +17689,9 @@ The following example demonstrates how to use `UnionBy` to merge two collections
 
           ]]></format>
         </remarks>
-        <related type="Article" href="/dotnet/csharp/linq/standard-query-operators/set-operations?branch=main">Union and UnionBy examples</related>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="first" /> or <paramref name="second" /> is <see langword="null" />.</exception>
+        <related type="Article" href="/dotnet/csharp/linq/standard-query-operators/set-operations?branch=main">Union and UnionBy examples</related>
       </Docs>
     </Member>
     <Member MemberName="UnionBy&lt;TSource,TKey&gt;">
@@ -17776,9 +17776,9 @@ The following example demonstrates how to use `UnionBy` to merge two collections
 
           ]]></format>
         </remarks>
-        <related type="Article" href="/dotnet/csharp/linq/standard-query-operators/set-operations?branch=main">Union and UnionBy examples</related>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="first" /> or <paramref name="second" /> is <see langword="null" />.</exception>
+        <related type="Article" href="/dotnet/csharp/linq/standard-query-operators/set-operations?branch=main">Union and UnionBy examples</related>
       </Docs>
     </Member>
     <MemberGroup MemberName="Where&lt;TSource&gt;">
@@ -18106,9 +18106,9 @@ The following example demonstrates how to use `UnionBy` to merge two collections
 
  ]]></format>
         </remarks>
-        <related type="Article" href="/dotnet/csharp/linq/standard-query-operators/projection-operations">Projection operations - Zip</related>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="first" /> or <paramref name="second" /> is <see langword="null" />.</exception>
+        <related type="Article" href="/dotnet/csharp/linq/standard-query-operators/projection-operations">Projection operations - Zip</related>
       </Docs>
     </Member>
     <Member MemberName="Zip&lt;TFirst,TSecond,TThird&gt;">

@@ -637,8 +637,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Automation.AutomationElement.TryGetClickablePoint(System.Windows.Point@)" />
         <altmember cref="M:System.Windows.Automation.AutomationElement.GetClickablePoint" />
+        <altmember cref="M:System.Windows.Automation.AutomationElement.TryGetClickablePoint(System.Windows.Point@)" />
         <related type="Article" href="/dotnet/framework/ui-automation/ui-automation-properties-for-clients">UI Automation Properties Overview</related>
         <related type="Article" href="/dotnet/framework/ui-automation/ui-automation-and-screen-scaling">UI Automation and Screen Scaling</related>
       </Docs>
@@ -832,8 +832,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Automation.AutomationElement.op_Equality(System.Windows.Automation.AutomationElement,System.Windows.Automation.AutomationElement)" />
         <altmember cref="M:System.Windows.Automation.Automation.Compare(System.Windows.Automation.AutomationElement,System.Windows.Automation.AutomationElement)" />
+        <altmember cref="M:System.Windows.Automation.AutomationElement.op_Equality(System.Windows.Automation.AutomationElement,System.Windows.Automation.AutomationElement)" />
       </Docs>
     </Member>
     <Member MemberName="Finalize">
@@ -3760,9 +3760,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Automation.AutomationElement.op_Inequality(System.Windows.Automation.AutomationElement,System.Windows.Automation.AutomationElement)" />
-        <altmember cref="M:System.Windows.Automation.AutomationElement.Equals(System.Object)" />
         <altmember cref="M:System.Windows.Automation.Automation.Compare(System.Windows.Automation.AutomationElement,System.Windows.Automation.AutomationElement)" />
+        <altmember cref="M:System.Windows.Automation.AutomationElement.Equals(System.Object)" />
+        <altmember cref="M:System.Windows.Automation.AutomationElement.op_Inequality(System.Windows.Automation.AutomationElement,System.Windows.Automation.AutomationElement)" />
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
@@ -3798,9 +3798,9 @@
         <returns>
           <see langword="true" /> if the two objects refer to different UI elements; otherwise <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
-        <altmember cref="M:System.Windows.Automation.AutomationElement.op_Equality(System.Windows.Automation.AutomationElement,System.Windows.Automation.AutomationElement)" />
-        <altmember cref="M:System.Windows.Automation.AutomationElement.Equals(System.Object)" />
         <altmember cref="M:System.Windows.Automation.Automation.Compare(System.Windows.Automation.AutomationElement,System.Windows.Automation.AutomationElement)" />
+        <altmember cref="M:System.Windows.Automation.AutomationElement.Equals(System.Object)" />
+        <altmember cref="M:System.Windows.Automation.AutomationElement.op_Equality(System.Windows.Automation.AutomationElement,System.Windows.Automation.AutomationElement)" />
       </Docs>
     </Member>
     <Member MemberName="OrientationProperty">
@@ -4029,10 +4029,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Automation.AutomationElement.GetRuntimeId" />
-        <altmember cref="M:System.Windows.Automation.WindowClosedEventArgs.GetRuntimeId" />
-        <altmember cref="M:System.Windows.Automation.StructureChangedEventArgs.GetRuntimeId" />
         <altmember cref="F:System.Windows.Automation.AutomationElement.AutomationIdProperty" />
+        <altmember cref="M:System.Windows.Automation.AutomationElement.GetRuntimeId" />
+        <altmember cref="M:System.Windows.Automation.StructureChangedEventArgs.GetRuntimeId" />
+        <altmember cref="M:System.Windows.Automation.WindowClosedEventArgs.GetRuntimeId" />
         <related type="Article" href="/dotnet/framework/ui-automation/ui-automation-properties-for-clients">UI Automation Properties Overview</related>
       </Docs>
     </Member>

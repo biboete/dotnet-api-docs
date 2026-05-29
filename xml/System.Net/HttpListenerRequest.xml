@@ -916,12 +916,12 @@
 
  ]]></format>
         </remarks>
-        <block subset="none" type="usage">
-          <para>This member outputs trace information when you enable network tracing in your application.</para>
-        </block>
         <altmember cref="T:System.Net.HttpListener" />
         <altmember cref="T:System.Net.HttpListenerContext" />
         <altmember cref="T:System.Net.HttpListenerResponse" />
+        <block subset="none" type="usage">
+          <para>This member outputs trace information when you enable network tracing in your application.</para>
+        </block>
       </Docs>
     </Member>
     <Member MemberName="IsAuthenticated">
@@ -1620,12 +1620,12 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="N:System.Security.Authentication.ExtendedProtection" />
         <altmember cref="P:System.Net.HttpListener.DefaultServiceNames" />
         <altmember cref="P:System.Net.HttpListener.ExtendedProtectionPolicy" />
         <altmember cref="P:System.Net.HttpListener.ExtendedProtectionSelectorDelegate" />
-        <altmember cref="T:System.Net.HttpListener.ExtendedProtectionSelector" />
         <altmember cref="P:System.Net.HttpListenerRequest.TransportContext" />
-        <altmember cref="N:System.Security.Authentication.ExtendedProtection" />
+        <altmember cref="T:System.Net.HttpListener.ExtendedProtectionSelector" />
         <altmember cref="T:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy" />
         <related type="Article" href="/dotnet/framework/network-programming/integrated-windows-authentication-with-extended-protection">Integrated Windows Authentication with Extended Protection</related>
       </Docs>
@@ -1680,12 +1680,12 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="N:System.Security.Authentication.ExtendedProtection" />
         <altmember cref="P:System.Net.HttpListener.DefaultServiceNames" />
         <altmember cref="P:System.Net.HttpListener.ExtendedProtectionPolicy" />
         <altmember cref="P:System.Net.HttpListener.ExtendedProtectionSelectorDelegate" />
-        <altmember cref="T:System.Net.HttpListener.ExtendedProtectionSelector" />
         <altmember cref="P:System.Net.HttpListenerRequest.ServiceName" />
-        <altmember cref="N:System.Security.Authentication.ExtendedProtection" />
+        <altmember cref="T:System.Net.HttpListener.ExtendedProtectionSelector" />
         <altmember cref="T:System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy" />
         <related type="Article" href="/dotnet/framework/network-programming/integrated-windows-authentication-with-extended-protection">Integrated Windows Authentication with Extended Protection</related>
       </Docs>

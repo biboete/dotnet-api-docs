@@ -578,9 +578,9 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Console.TreatControlCAsInput" />
         <altmember cref="T:System.ConsoleCancelEventArgs" />
         <altmember cref="T:System.ConsoleCancelEventHandler" />
-        <altmember cref="P:System.Console.TreatControlCAsInput" />
       </Docs>
     </Member>
     <Member MemberName="CapsLock">
@@ -1107,10 +1107,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Console.In" />
-        <altmember cref="P:System.Console.Out" />
-        <altmember cref="P:System.Console.IsErrorRedirected" />
         <altmember cref="M:System.Console.SetError(System.IO.TextWriter)" />
+        <altmember cref="P:System.Console.In" />
+        <altmember cref="P:System.Console.IsErrorRedirected" />
+        <altmember cref="P:System.Console.Out" />
       </Docs>
     </Member>
     <Member MemberName="ForegroundColor">
@@ -1340,10 +1340,10 @@ Columns are numbered from left to right starting at 0. Rows are numbered from to
  ]]></format>
         </remarks>
         <altmember cref="M:System.Console.OpenStandardInput" />
-        <altmember cref="P:System.Console.IsInputRedirected" />
-        <altmember cref="P:System.Console.Error" />
-        <altmember cref="P:System.Console.Out" />
         <altmember cref="M:System.Console.SetIn(System.IO.TextReader)" />
+        <altmember cref="P:System.Console.Error" />
+        <altmember cref="P:System.Console.IsInputRedirected" />
+        <altmember cref="P:System.Console.Out" />
       </Docs>
     </Member>
     <Member MemberName="InputEncoding">
@@ -1459,9 +1459,9 @@ Columns are numbered from left to right starting at 0. Rows are numbered from to
         <value>
           <see langword="true" /> if error output is redirected; otherwise, <see langword="false" />.</value>
         <remarks>To be added.</remarks>
-        <altmember cref="P:System.Console.Error" />
-        <altmember cref="M:System.Console.SetError(System.IO.TextWriter)" />
         <altmember cref="M:System.Console.OpenStandardError" />
+        <altmember cref="M:System.Console.SetError(System.IO.TextWriter)" />
+        <altmember cref="P:System.Console.Error" />
       </Docs>
     </Member>
     <Member MemberName="IsInputRedirected">
@@ -1504,9 +1504,9 @@ Columns are numbered from left to right starting at 0. Rows are numbered from to
         <value>
           <see langword="true" /> if input is redirected; otherwise, <see langword="false" />.</value>
         <remarks>To be added.</remarks>
-        <altmember cref="P:System.Console.In" />
-        <altmember cref="M:System.Console.SetIn(System.IO.TextReader)" />
         <altmember cref="M:System.Console.OpenStandardInput" />
+        <altmember cref="M:System.Console.SetIn(System.IO.TextReader)" />
+        <altmember cref="P:System.Console.In" />
       </Docs>
     </Member>
     <Member MemberName="IsOutputRedirected">
@@ -1549,9 +1549,9 @@ Columns are numbered from left to right starting at 0. Rows are numbered from to
         <value>
           <see langword="true" /> if output is redirected; otherwise, <see langword="false" />.</value>
         <remarks>To be added.</remarks>
-        <altmember cref="P:System.Console.Out" />
-        <altmember cref="M:System.Console.SetOut(System.IO.TextWriter)" />
         <altmember cref="M:System.Console.OpenStandardError" />
+        <altmember cref="M:System.Console.SetOut(System.IO.TextWriter)" />
+        <altmember cref="P:System.Console.Out" />
       </Docs>
     </Member>
     <Member MemberName="KeyAvailable">
@@ -2056,9 +2056,9 @@ Columns are numbered from left to right starting at 0. Rows are numbered from to
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Console.SetError(System.IO.TextWriter)" />
         <altmember cref="P:System.Console.Error" />
         <altmember cref="P:System.Console.IsErrorRedirected" />
-        <altmember cref="M:System.Console.SetError(System.IO.TextWriter)" />
       </Docs>
     </Member>
     <Member MemberName="OpenStandardError">
@@ -2114,9 +2114,9 @@ Columns are numbered from left to right starting at 0. Rows are numbered from to
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="bufferSize" /> is less than or equal to zero.</exception>
+        <altmember cref="M:System.Console.SetError(System.IO.TextWriter)" />
         <altmember cref="P:System.Console.Error" />
         <altmember cref="P:System.Console.IsErrorRedirected" />
-        <altmember cref="M:System.Console.SetError(System.IO.TextWriter)" />
       </Docs>
     </Member>
     <Member MemberName="OpenStandardErrorHandle">
@@ -2244,9 +2244,9 @@ The following example illustrates the use of the `OpenStandardInput` method.
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Console.SetIn(System.IO.TextReader)" />
         <altmember cref="P:System.Console.In" />
         <altmember cref="P:System.Console.IsInputRedirected" />
-        <altmember cref="M:System.Console.SetIn(System.IO.TextReader)" />
       </Docs>
     </Member>
     <Member MemberName="OpenStandardInput">
@@ -2313,9 +2313,9 @@ This method can be used to reacquire the standard output stream after it has bee
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="bufferSize" /> is less than or equal to zero.</exception>
+        <altmember cref="M:System.Console.SetIn(System.IO.TextReader)" />
         <altmember cref="P:System.Console.In" />
         <altmember cref="P:System.Console.IsInputRedirected" />
-        <altmember cref="M:System.Console.SetIn(System.IO.TextReader)" />
       </Docs>
     </Member>
     <Member MemberName="OpenStandardInputHandle">
@@ -2429,9 +2429,9 @@ This method can be used to reacquire the standard output stream after it has bee
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Console.Out" />
-        <altmember cref="P:System.Console.IsOutputRedirected" />
         <altmember cref="M:System.Console.SetOut(System.IO.TextWriter)" />
+        <altmember cref="P:System.Console.IsOutputRedirected" />
+        <altmember cref="P:System.Console.Out" />
       </Docs>
     </Member>
     <Member MemberName="OpenStandardOutput">
@@ -2496,9 +2496,9 @@ This method can be used to reacquire the standard output stream after it has bee
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="bufferSize" /> is less than or equal to zero.</exception>
-        <altmember cref="P:System.Console.Out" />
-        <altmember cref="P:System.Console.IsOutputRedirected" />
         <altmember cref="M:System.Console.SetOut(System.IO.TextWriter)" />
+        <altmember cref="P:System.Console.IsOutputRedirected" />
+        <altmember cref="P:System.Console.Out" />
       </Docs>
     </Member>
     <Member MemberName="OpenStandardOutputHandle">
@@ -2599,9 +2599,9 @@ This method can be used to reacquire the standard output stream after it has bee
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Console.SetOut(System.IO.TextWriter)" />
         <altmember cref="P:System.Console.Error" />
         <altmember cref="P:System.Console.In" />
-        <altmember cref="M:System.Console.SetOut(System.IO.TextWriter)" />
       </Docs>
     </Member>
     <Member MemberName="OutputEncoding">
@@ -2762,8 +2762,8 @@ This method can be used to reacquire the standard output stream after it has bee
         </remarks>
         <exception cref="T:System.IO.IOException">An I/O error occurred.</exception>
         <altmember cref="M:System.Console.ReadLine" />
-        <altmember cref="M:System.Console.Write(System.String,System.Object)" />
         <altmember cref="M:System.Console.WriteLine" />
+        <altmember cref="M:System.Console.Write(System.String,System.Object)" />
       </Docs>
     </Member>
     <MemberGroup MemberName="ReadKey">
@@ -2862,10 +2862,10 @@ This method can be used to reacquire the standard output stream after it has bee
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">The <see cref="P:System.Console.In" /> property is redirected from some stream other than the console.</exception>
-        <altmember cref="T:System.ConsoleKey" />
+        <altmember cref="E:System.Console.CancelKeyPress" />
         <altmember cref="P:System.Console.KeyAvailable" />
         <altmember cref="P:System.Console.TreatControlCAsInput" />
-        <altmember cref="E:System.Console.CancelKeyPress" />
+        <altmember cref="T:System.ConsoleKey" />
       </Docs>
     </Member>
     <Member MemberName="ReadKey">
@@ -2957,10 +2957,10 @@ This method can be used to reacquire the standard output stream after it has bee
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">The <see cref="P:System.Console.In" /> property is redirected from some stream other than the console.</exception>
-        <altmember cref="T:System.ConsoleKey" />
+        <altmember cref="E:System.Console.CancelKeyPress" />
         <altmember cref="P:System.Console.KeyAvailable" />
         <altmember cref="P:System.Console.TreatControlCAsInput" />
-        <altmember cref="E:System.Console.CancelKeyPress" />
+        <altmember cref="T:System.ConsoleKey" />
       </Docs>
     </Member>
     <Member MemberName="ReadLine">
@@ -3077,8 +3077,8 @@ This method can be used to reacquire the standard output stream after it has bee
         <exception cref="T:System.OutOfMemoryException">There is insufficient memory to allocate a buffer for the returned string.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The number of characters in the next line of characters is greater than <see cref="F:System.Int32.MaxValue">Int32.MaxValue</see>.</exception>
         <altmember cref="M:System.Console.Read" />
-        <altmember cref="M:System.Console.Write(System.String,System.Object)" />
         <altmember cref="M:System.Console.WriteLine" />
+        <altmember cref="M:System.Console.Write(System.String,System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="ResetColor">
@@ -3400,8 +3400,8 @@ This method can be used to reacquire the standard output stream after it has bee
         <exception cref="T:System.ArgumentNullException">
           <paramref name="newError" /> is <see langword="null" />.</exception>
         <exception cref="T:System.Security.SecurityException">The caller does not have the required permission.</exception>
-        <altmember cref="P:System.Console.IsErrorRedirected" />
         <altmember cref="P:System.Console.Error" />
+        <altmember cref="P:System.Console.IsErrorRedirected" />
       </Docs>
     </Member>
     <Member MemberName="SetIn">
@@ -3487,8 +3487,8 @@ This method can be used to reacquire the standard output stream after it has bee
         <exception cref="T:System.ArgumentNullException">
           <paramref name="newIn" /> is <see langword="null" />.</exception>
         <exception cref="T:System.Security.SecurityException">The caller does not have the required permission.</exception>
-        <altmember cref="T:System.IO.TextReader" />
         <altmember cref="P:System.Console.In" />
+        <altmember cref="T:System.IO.TextReader" />
       </Docs>
     </Member>
     <Member MemberName="SetOut">
@@ -3560,8 +3560,8 @@ This method can be used to reacquire the standard output stream after it has bee
         <exception cref="T:System.ArgumentNullException">
           <paramref name="newOut" /> is <see langword="null" />.</exception>
         <exception cref="T:System.Security.SecurityException">The caller does not have the required permission.</exception>
-        <altmember cref="T:System.IO.TextWriter" />
         <altmember cref="P:System.Console.Out" />
+        <altmember cref="T:System.IO.TextWriter" />
       </Docs>
     </Member>
     <Member MemberName="SetWindowPosition">
@@ -3902,9 +3902,9 @@ This method can be used to reacquire the standard output stream after it has bee
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">Unable to get or set the input mode of the console input buffer.</exception>
-        <altmember cref="F:System.ConsoleModifiers.Control" />
-        <altmember cref="F:System.ConsoleKey.C" />
         <altmember cref="E:System.Console.CancelKeyPress" />
+        <altmember cref="F:System.ConsoleKey.C" />
+        <altmember cref="F:System.ConsoleModifiers.Control" />
       </Docs>
     </Member>
     <Member MemberName="WindowHeight">
@@ -5320,14 +5320,14 @@ This method can be used to reacquire the standard output stream after it has bee
         <exception cref="T:System.ArgumentNullException">
           <paramref name="format" /> or <paramref name="arg" /> is <see langword="null" />.</exception>
         <exception cref="T:System.FormatException">The format specification in <paramref name="format" /> is invalid.</exception>
-        <block subset="none" type="usage">
-          <para>This method is not called by C++ code. The C++ compiler resolves calls to <see href="xref:System.Console.Write*">System.Console.Write</see> that include a string and a list of four or more object parameters as a call to <see cref="M:System.Console.Write(System.String,System.Object,System.Object,System.Object,System.Object)" />. It resolves calls to <see href="xref:System.Console.Write*">System.Console.Write</see> that include a string and an object array as a call to <see cref="M:System.Console.Write(System.String,System.Object)" />.</para>
-        </block>
         <altmember cref="M:System.Console.Read" />
         <altmember cref="M:System.Console.ReadLine" />
         <altmember cref="M:System.Console.WriteLine" />
         <related type="Article" href="/dotnet/standard/base-types/formatting-types">Formatting Types in .NET</related>
         <related type="Article" href="/dotnet/standard/base-types/composite-formatting">Composite Formatting</related>
+        <block subset="none" type="usage">
+          <para>This method is not called by C++ code. The C++ compiler resolves calls to <see href="xref:System.Console.Write*">System.Console.Write</see> that include a string and a list of four or more object parameters as a call to <see cref="M:System.Console.Write(System.String,System.Object,System.Object,System.Object,System.Object)" />. It resolves calls to <see href="xref:System.Console.Write*">System.Console.Write</see> that include a string and an object array as a call to <see cref="M:System.Console.Write(System.String,System.Object)" />.</para>
+        </block>
       </Docs>
     </Member>
     <Member MemberName="Write">
@@ -5748,8 +5748,8 @@ This method can be used to reacquire the standard output stream after it has bee
         <altmember cref="M:System.Console.Read" />
         <altmember cref="M:System.Console.ReadLine" />
         <altmember cref="M:System.Console.Write(System.String,System.Object)" />
-        <altmember cref="P:System.IO.TextWriter.NewLine" />
         <altmember cref="P:System.Console.Out" />
+        <altmember cref="P:System.IO.TextWriter.NewLine" />
       </Docs>
     </Member>
     <Member MemberName="WriteLine">
@@ -6819,14 +6819,14 @@ This method can be used to reacquire the standard output stream after it has bee
         <exception cref="T:System.ArgumentNullException">
           <paramref name="format" /> or <paramref name="arg" /> is <see langword="null" />.</exception>
         <exception cref="T:System.FormatException">The format specification in <paramref name="format" /> is invalid.</exception>
-        <block subset="none" type="usage">
-          <para>This method is not called by C++ code. The C++ compiler resolves calls to <see href="xref:System.Console.WriteLine*">System.Console.WriteLine</see> that include a string and a list of four or more object parameters as a call to <see cref="M:System.Console.WriteLine(System.String,System.Object,System.Object,System.Object,System.Object)" />. It resolves calls to <see href="xref:System.Console.WriteLine*">System.Console.WriteLine</see> that include a string and an object array as a call to <see cref="M:System.Console.WriteLine(System.String,System.Object)" />.</para>
-        </block>
         <altmember cref="M:System.Console.Read" />
         <altmember cref="M:System.Console.ReadLine" />
         <altmember cref="M:System.Console.Write(System.String,System.Object)" />
         <related type="Article" href="/dotnet/standard/base-types/formatting-types">Formatting Types in .NET</related>
         <related type="Article" href="/dotnet/standard/base-types/composite-formatting">Composite Formatting</related>
+        <block subset="none" type="usage">
+          <para>This method is not called by C++ code. The C++ compiler resolves calls to <see href="xref:System.Console.WriteLine*">System.Console.WriteLine</see> that include a string and a list of four or more object parameters as a call to <see cref="M:System.Console.WriteLine(System.String,System.Object,System.Object,System.Object,System.Object)" />. It resolves calls to <see href="xref:System.Console.WriteLine*">System.Console.WriteLine</see> that include a string and an object array as a call to <see cref="M:System.Console.WriteLine(System.String,System.Object)" />.</para>
+        </block>
       </Docs>
     </Member>
     <Member MemberName="WriteLine">

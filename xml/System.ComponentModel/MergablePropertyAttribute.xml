@@ -92,10 +92,10 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.ComponentModel.PropertyDescriptor" />
-    <altmember cref="T:System.ComponentModel.AttributeCollection" />
-    <altmember cref="T:System.ComponentModel.PropertyDescriptorCollection" />
     <altmember cref="T:System.Attribute" />
+    <altmember cref="T:System.ComponentModel.AttributeCollection" />
+    <altmember cref="T:System.ComponentModel.PropertyDescriptor" />
+    <altmember cref="T:System.ComponentModel.PropertyDescriptorCollection" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -215,10 +215,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.ComponentModel.MergablePropertyAttribute" />
         <altmember cref="T:System.Attribute" />
-        <altmember cref="T:System.ComponentModel.PropertyDescriptor" />
         <altmember cref="T:System.ComponentModel.AttributeCollection" />
+        <altmember cref="T:System.ComponentModel.MergablePropertyAttribute" />
+        <altmember cref="T:System.ComponentModel.PropertyDescriptor" />
         <altmember cref="T:System.ComponentModel.PropertyDescriptorCollection" />
       </Docs>
     </Member>
@@ -269,9 +269,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.ComponentModel.MergablePropertyAttribute" />
-        <altmember cref="F:System.ComponentModel.MergablePropertyAttribute.Yes" />
         <altmember cref="F:System.ComponentModel.MergablePropertyAttribute.No" />
+        <altmember cref="F:System.ComponentModel.MergablePropertyAttribute.Yes" />
+        <altmember cref="T:System.ComponentModel.MergablePropertyAttribute" />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -465,8 +465,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.ComponentModel.MergablePropertyAttribute" />
         <altmember cref="F:System.ComponentModel.MergablePropertyAttribute.Yes" />
+        <altmember cref="T:System.ComponentModel.MergablePropertyAttribute" />
       </Docs>
     </Member>
     <Member MemberName="Yes">
@@ -518,8 +518,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.ComponentModel.MergablePropertyAttribute" />
         <altmember cref="F:System.ComponentModel.MergablePropertyAttribute.No" />
+        <altmember cref="T:System.ComponentModel.MergablePropertyAttribute" />
       </Docs>
     </Member>
   </Members>

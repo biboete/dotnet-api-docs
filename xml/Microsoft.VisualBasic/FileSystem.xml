@@ -122,11 +122,11 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="Path" /> is empty.</exception>
         <exception cref="T:System.IO.FileNotFoundException">Invalid drive is specified, or drive is unavailable.</exception>
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.MkDir(System.String)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.RmDir(System.String)" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.ChDrive" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.CurDir" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Dir" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.MkDir(System.String)" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.RmDir(System.String)" />
         <altmember cref="T:System.ArgumentException" />
         <altmember cref="T:System.IO.FileNotFoundException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/how-to-parse-file-paths">How to: Parse File Paths in Visual Basic</related>
@@ -200,10 +200,10 @@
         </remarks>
         <exception cref="T:System.IO.IOException">Invalid drive is specified, or drive is unavailable.</exception>
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.ChDir(System.String)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.CurDir" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Dir" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.MkDir(System.String)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.RmDir(System.String)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.CurDir" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Dir" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/file-access">File Access with Visual Basic</related>
       </Docs>
@@ -267,10 +267,10 @@
         </remarks>
         <exception cref="T:System.IO.IOException">Invalid drive is specified, or drive is unavailable.</exception>
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.ChDir(System.String)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.CurDir" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Dir" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.MkDir(System.String)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.RmDir(System.String)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.CurDir" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Dir" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/file-access">File Access with Visual Basic</related>
       </Docs>
@@ -327,12 +327,12 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.ChDrive" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.ChDir(System.String)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.MkDir(System.String)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.RmDir(System.String)" />
-        <altmember cref="T:System.IO.IOException" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.ChDrive" />
         <altmember cref="T:System.ArgumentException" />
+        <altmember cref="T:System.IO.IOException" />
       </Docs>
     </Member>
     <Member MemberName="CurDir">
@@ -387,12 +387,12 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.ChDrive" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.ChDir(System.String)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.MkDir(System.String)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.RmDir(System.String)" />
-        <altmember cref="T:System.IO.IOException" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.ChDrive" />
         <altmember cref="T:System.ArgumentException" />
+        <altmember cref="T:System.IO.IOException" />
       </Docs>
     </Member>
     <MemberGroup MemberName="Dir">
@@ -611,10 +611,10 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Loc(System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.LOF(System.Int32)" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
         <altmember cref="T:System.IO.IOException" />
       </Docs>
     </Member>
@@ -669,8 +669,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.GetAttr(System.String)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.GetAttr(System.String)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.SetAttr(System.String,Microsoft.VisualBasic.FileAttribute)" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/file-access">File Access with Visual Basic</related>
@@ -741,8 +741,8 @@
         </remarks>
         <exception cref="T:System.IO.IOException">
           <paramref name="FileNumber" /> does not exist.</exception>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Reset" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <related type="Article" href="/dotnet/visual-basic/language-reference/statements/end-statement">End Statement</related>
         <related type="Article" href="/dotnet/visual-basic/language-reference/statements/stop-statement">Stop Statement (Visual Basic)</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/file-access">File Access with Visual Basic</related>
@@ -808,8 +808,8 @@
         <exception cref="T:System.IO.FileNotFoundException">File does not exist.</exception>
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Kill(System.String)" />
         <altmember cref="T:System.ArgumentException" />
-        <altmember cref="T:System.IO.IOException" />
         <altmember cref="T:System.IO.FileNotFoundException" />
+        <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/how-to-create-a-copy-of-a-file-in-a-different-directory">How to: Create a Copy of a File in a Different Directory in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/how-to-create-a-copy-of-a-file-in-the-same-directory">How to: Create a Copy of a File in the Same Directory in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/how-to-copy-a-directory-to-another-directory">How to: Copy a Directory to Another Directory in Visual Basic</related>
@@ -972,10 +972,10 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
       </Docs>
@@ -1071,10 +1071,10 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
       </Docs>
@@ -1170,10 +1170,10 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
       </Docs>
@@ -1269,10 +1269,10 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
       </Docs>
@@ -1368,10 +1368,10 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
       </Docs>
@@ -1467,10 +1467,10 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
       </Docs>
@@ -1566,10 +1566,10 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
       </Docs>
@@ -1665,10 +1665,10 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
       </Docs>
@@ -1764,10 +1764,10 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
       </Docs>
@@ -1863,10 +1863,10 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
       </Docs>
@@ -1968,10 +1968,10 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
       </Docs>
@@ -2069,10 +2069,10 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
       </Docs>
@@ -2178,10 +2178,10 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
       </Docs>
@@ -2282,10 +2282,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
       </Docs>
@@ -2442,8 +2442,8 @@
         <exception cref="T:System.ArgumentException">Record length is negative (and not equal to -1).</exception>
         <exception cref="T:System.IO.IOException">
           <paramref name="FileName" /> is already open, or <paramref name="FileName" /> is invalid.</exception>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileClose(System.Int32[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FreeFile" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileClose(System.Int32[])" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
       </Docs>
@@ -2554,12 +2554,12 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
-        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.Strings.Len(System.UInt16)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
+        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
         <altmember cref="T:System.ArgumentException" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
@@ -2662,12 +2662,12 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
-        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.Strings.Len(System.UInt16)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
+        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
         <altmember cref="T:System.ArgumentException" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
@@ -2770,12 +2770,12 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
-        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.Strings.Len(System.UInt16)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
+        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
         <altmember cref="T:System.ArgumentException" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
@@ -2878,12 +2878,12 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
-        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.Strings.Len(System.UInt16)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
+        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
         <altmember cref="T:System.ArgumentException" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
@@ -2986,12 +2986,12 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
-        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.Strings.Len(System.UInt16)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
+        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
         <altmember cref="T:System.ArgumentException" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
@@ -3094,12 +3094,12 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
-        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.Strings.Len(System.UInt16)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
+        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
         <altmember cref="T:System.ArgumentException" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
@@ -3202,12 +3202,12 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
-        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.Strings.Len(System.UInt16)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
+        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
         <altmember cref="T:System.ArgumentException" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
@@ -3310,12 +3310,12 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
-        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.Strings.Len(System.UInt16)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
+        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
         <altmember cref="T:System.ArgumentException" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
@@ -3418,12 +3418,12 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
-        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.Strings.Len(System.UInt16)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
+        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
         <altmember cref="T:System.ArgumentException" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
@@ -3526,12 +3526,12 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
-        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.Strings.Len(System.UInt16)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
+        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
         <altmember cref="T:System.ArgumentException" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
@@ -3640,12 +3640,12 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
-        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.Strings.Len(System.UInt16)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
+        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
         <altmember cref="T:System.ArgumentException" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
@@ -3704,12 +3704,12 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
-        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.Strings.Len(System.UInt16)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
+        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
         <altmember cref="T:System.ArgumentException" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
@@ -3814,12 +3814,12 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
-        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.Strings.Len(System.UInt16)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
+        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
         <altmember cref="T:System.ArgumentException" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
@@ -3932,12 +3932,12 @@
         <exception cref="T:System.ArgumentException">
           <paramref name="RecordNumber" /> &lt; 1 and not equal to -1.</exception>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileGetObject(System.Int32,System.Object@,System.Int64)" />
-        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.Strings.Len(System.UInt16)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
+        <altmember cref="T:Microsoft.VisualBasic.VBFixedStringAttribute" />
         <altmember cref="T:System.ArgumentException" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
@@ -4028,10 +4028,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Seek" />
         <altmember cref="T:Microsoft.VisualBasic.FileIO.FileSystem" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
       </Docs>
@@ -4207,9 +4207,9 @@ Result = GetAttr(FName) And vbArchive
         <exception cref="T:System.IO.FileNotFoundException">Target file does not exist.</exception>
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileAttr(System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.SetAttr(System.String,Microsoft.VisualBasic.FileAttribute)" />
-        <altmember cref="T:System.IO.IOException" />
-        <altmember cref="T:System.IO.FileNotFoundException" />
         <altmember cref="T:Microsoft.VisualBasic.FileAttribute" />
+        <altmember cref="T:System.IO.FileNotFoundException" />
+        <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/language-reference/operators/and-operator">And Operator (Visual Basic)</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/file-access">File Access with Visual Basic</related>
       </Docs>
@@ -4299,8 +4299,8 @@ Result = GetAttr(FName) And vbArchive
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Write(System.Int32,System.Object[])" />
@@ -4386,8 +4386,8 @@ Result = GetAttr(FName) And vbArchive
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Write(System.Int32,System.Object[])" />
@@ -4473,8 +4473,8 @@ Result = GetAttr(FName) And vbArchive
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Write(System.Int32,System.Object[])" />
@@ -4560,8 +4560,8 @@ Result = GetAttr(FName) And vbArchive
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Write(System.Int32,System.Object[])" />
@@ -4647,8 +4647,8 @@ Result = GetAttr(FName) And vbArchive
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Write(System.Int32,System.Object[])" />
@@ -4734,8 +4734,8 @@ Result = GetAttr(FName) And vbArchive
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Write(System.Int32,System.Object[])" />
@@ -4821,8 +4821,8 @@ Result = GetAttr(FName) And vbArchive
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Write(System.Int32,System.Object[])" />
@@ -4908,8 +4908,8 @@ Result = GetAttr(FName) And vbArchive
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Write(System.Int32,System.Object[])" />
@@ -4995,8 +4995,8 @@ Result = GetAttr(FName) And vbArchive
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Write(System.Int32,System.Object[])" />
@@ -5088,8 +5088,8 @@ Result = GetAttr(FName) And vbArchive
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Write(System.Int32,System.Object[])" />
@@ -5175,8 +5175,8 @@ Result = GetAttr(FName) And vbArchive
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Write(System.Int32,System.Object[])" />
@@ -5262,8 +5262,8 @@ Result = GetAttr(FName) And vbArchive
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.InputString(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Write(System.Int32,System.Object[])" />
@@ -5415,8 +5415,8 @@ Result = GetAttr(FName) And vbArchive
         <exception cref="T:System.IO.FileNotFoundException">Target file(s) not found.</exception>
         <exception cref="T:System.Security.SecurityException">Permission denied.</exception>
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.RmDir(System.String)" />
-        <altmember cref="T:System.IO.IOException" />
         <altmember cref="T:System.IO.FileNotFoundException" />
+        <altmember cref="T:System.IO.IOException" />
       </Docs>
     </Member>
     <Member MemberName="LineInput">
@@ -5856,8 +5856,8 @@ Result = GetAttr(FName) And vbArchive
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.EOF(System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileLen(System.String)" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.Loc(System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.Loc(System.Int32)" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/writing-to-files">Writing to Files in Visual Basic</related>
@@ -5918,8 +5918,8 @@ Result = GetAttr(FName) And vbArchive
         <exception cref="T:System.Security.SecurityException">Permission denied.</exception>
         <exception cref="T:System.IO.IOException">Directory already exists.</exception>
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.ChDir(System.String)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.CurDir" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.RmDir(System.String)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.CurDir" />
         <altmember cref="T:System.ArgumentException" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/how-to-create-a-directory">How to: Create a Directory in Visual Basic</related>
@@ -6008,12 +6008,12 @@ Result = GetAttr(FName) And vbArchive
 
  ]]></format>
         </remarks>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.SPC(System.Int16)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.TAB" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Write(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.WriteLine(System.Int32,System.Object[])" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.TAB" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/file-access">File Access with Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/how-to-write-text-to-files">How to: Write Text to Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/how-to-write-text-to-files-with-a-streamwriter">How to: Write Text to a File with a Streamwriter (Visual Basic)</related>
@@ -6102,12 +6102,12 @@ Result = GetAttr(FName) And vbArchive
 
  ]]></format>
         </remarks>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.SPC(System.Int16)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.TAB" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Write(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.WriteLine(System.Int32,System.Object[])" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.TAB" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/file-access">File Access with Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/how-to-write-text-to-files">How to: Write Text to Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/how-to-write-text-to-files-with-a-streamwriter">How to: Write Text to a File with a Streamwriter (Visual Basic)</related>
@@ -6294,12 +6294,12 @@ Result = GetAttr(FName) And vbArchive
         <exception cref="T:System.IO.IOException">Target directory contains files.</exception>
         <exception cref="T:System.IO.FileNotFoundException">Directory does not exist.</exception>
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.ChDir(System.String)" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.CurDir" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Kill(System.String)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.MkDir(System.String)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.CurDir" />
         <altmember cref="T:System.ArgumentException" />
-        <altmember cref="T:System.IO.IOException" />
         <altmember cref="T:System.IO.FileNotFoundException" />
+        <altmember cref="T:System.IO.IOException" />
       </Docs>
     </Member>
     <MemberGroup MemberName="Seek">
@@ -6384,9 +6384,9 @@ Result = GetAttr(FName) And vbArchive
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.Loc(System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.Loc(System.Int32)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
@@ -6467,9 +6467,9 @@ Result = GetAttr(FName) And vbArchive
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.Loc(System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.Loc(System.Int32)" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FileGet" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.FilePut" />
         <altmember cref="T:System.IO.IOException" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/reading-from-files">Reading from Files in Visual Basic</related>
@@ -6548,9 +6548,9 @@ Result = GetAttr(FName) And vbArchive
           <paramref name="Attribute" /> type is invalid.</exception>
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileAttr(System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.GetAttr(System.String)" />
-        <altmember cref="T:System.ArgumentException" />
         <altmember cref="T:Microsoft.VisualBasic.FileAttribute" />
         <altmember cref="T:Microsoft.VisualBasic.FileIO.FileSystem" />
+        <altmember cref="T:System.ArgumentException" />
       </Docs>
     </Member>
     <Member MemberName="SPC">
@@ -6611,11 +6611,11 @@ Result = GetAttr(FName) And vbArchive
 
  ]]></format>
         </remarks>
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileWidth(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.Strings.Space(System.Int32)" />
         <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.TAB" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileWidth(System.Int32,System.Int32)" />
         <related type="Article" href="/dotnet/visual-basic/language-reference/operators/mod-operator">Mod Operator (Visual Basic)</related>
       </Docs>
     </Member>
@@ -6687,11 +6687,11 @@ Result = GetAttr(FName) And vbArchive
 
  ]]></format>
         </remarks>
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileWidth(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
-        <altmember cref="M:Microsoft.VisualBasic.Strings.Space(System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.SPC(System.Int16)" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileWidth(System.Int32,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.Strings.Space(System.Int32)" />
         <related type="Article" href="/dotnet/visual-basic/language-reference/operators/mod-operator">Mod Operator (Visual Basic)</related>
       </Docs>
     </Member>
@@ -6757,11 +6757,11 @@ Result = GetAttr(FName) And vbArchive
 
  ]]></format>
         </remarks>
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileWidth(System.Int32,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
-        <altmember cref="M:Microsoft.VisualBasic.Strings.Space(System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.SPC(System.Int16)" />
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileWidth(System.Int32,System.Int32)" />
+        <altmember cref="M:Microsoft.VisualBasic.Strings.Space(System.Int32)" />
         <related type="Article" href="/dotnet/visual-basic/language-reference/operators/mod-operator">Mod Operator (Visual Basic)</related>
       </Docs>
     </Member>
@@ -7092,11 +7092,11 @@ Result = GetAttr(FName) And vbArchive
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">File mode is invalid.</exception>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.WriteLine(System.Int32,System.Object[])" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Input" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.WriteLine(System.Int32,System.Object[])" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Input" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/file-access">File Access with Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/how-to-write-text-to-files">How to: Write Text to Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/how-to-write-text-to-files-with-a-streamwriter">How to: Write Text to a File with a Streamwriter (Visual Basic)</related>
@@ -7185,11 +7185,11 @@ Result = GetAttr(FName) And vbArchive
 
  ]]></format>
         </remarks>
-        <altmember cref="M:Microsoft.VisualBasic.FileSystem.Write(System.Int32,System.Object[])" />
-        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Input" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.FileOpen(System.Int32,System.String,Microsoft.VisualBasic.OpenMode,Microsoft.VisualBasic.OpenAccess,Microsoft.VisualBasic.OpenShare,System.Int32)" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.Print(System.Int32,System.Object[])" />
         <altmember cref="M:Microsoft.VisualBasic.FileSystem.PrintLine(System.Int32,System.Object[])" />
+        <altmember cref="M:Microsoft.VisualBasic.FileSystem.Write(System.Int32,System.Object[])" />
+        <altmember cref="Overload:Microsoft.VisualBasic.FileSystem.Input" />
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/file-access">File Access with Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/how-to-write-text-to-files">How to: Write Text to Files in Visual Basic</related>
         <related type="Article" href="/dotnet/visual-basic/developing-apps/programming/drives-directories-files/how-to-write-text-to-files-with-a-streamwriter">How to: Write Text to a File with a Streamwriter (Visual Basic)</related>

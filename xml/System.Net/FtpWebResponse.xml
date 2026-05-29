@@ -73,12 +73,12 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Net.FtpWebRequest" />
     <altmember cref="T:System.Net.FtpStatusCode" />
-    <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
+    <altmember cref="T:System.Net.FtpWebRequest" />
+    <altmember cref="T:System.Net.WebClient" />
     <altmember cref="T:System.Net.WebRequest" />
     <altmember cref="T:System.Net.WebResponse" />
-    <altmember cref="T:System.Net.WebClient" />
+    <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
   </Docs>
   <Members>
     <Member MemberName="BannerMessage">
@@ -130,12 +130,12 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Net.FtpWebRequest" />
         <altmember cref="T:System.Net.FtpStatusCode" />
-        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
+        <altmember cref="T:System.Net.FtpWebRequest" />
+        <altmember cref="T:System.Net.WebClient" />
         <altmember cref="T:System.Net.WebRequest" />
         <altmember cref="T:System.Net.WebResponse" />
-        <altmember cref="T:System.Net.WebClient" />
+        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -192,12 +192,12 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Net.FtpWebRequest" />
         <altmember cref="T:System.Net.FtpStatusCode" />
-        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
+        <altmember cref="T:System.Net.FtpWebRequest" />
+        <altmember cref="T:System.Net.WebClient" />
         <altmember cref="T:System.Net.WebRequest" />
         <altmember cref="T:System.Net.WebResponse" />
-        <altmember cref="T:System.Net.WebClient" />
+        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
       </Docs>
     </Member>
     <Member MemberName="ContentLength">
@@ -255,12 +255,12 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Net.FtpWebRequest" />
         <altmember cref="T:System.Net.FtpStatusCode" />
-        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
+        <altmember cref="T:System.Net.FtpWebRequest" />
+        <altmember cref="T:System.Net.WebClient" />
         <altmember cref="T:System.Net.WebRequest" />
         <altmember cref="T:System.Net.WebResponse" />
-        <altmember cref="T:System.Net.WebClient" />
+        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
       </Docs>
     </Member>
     <Member MemberName="ContentType">
@@ -356,14 +356,14 @@ This property is provided only for compatibility with other implementations of t
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Net.FtpWebRequest" />
+        <altmember cref="P:System.Net.FtpWebResponse.BannerMessage" />
+        <altmember cref="P:System.Net.FtpWebResponse.WelcomeMessage" />
         <altmember cref="T:System.Net.FtpStatusCode" />
-        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
+        <altmember cref="T:System.Net.FtpWebRequest" />
+        <altmember cref="T:System.Net.WebClient" />
         <altmember cref="T:System.Net.WebRequest" />
         <altmember cref="T:System.Net.WebResponse" />
-        <altmember cref="T:System.Net.WebClient" />
-        <altmember cref="P:System.Net.FtpWebResponse.WelcomeMessage" />
-        <altmember cref="P:System.Net.FtpWebResponse.BannerMessage" />
+        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
       </Docs>
     </Member>
     <Member MemberName="GetResponseStream">
@@ -423,13 +423,13 @@ This property is provided only for compatibility with other implementations of t
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">The response did not return a data stream.</exception>
-        <altmember cref="T:System.Net.FtpWebRequest" />
+        <altmember cref="M:System.Net.FtpWebResponse.Close" />
         <altmember cref="T:System.Net.FtpStatusCode" />
-        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
+        <altmember cref="T:System.Net.FtpWebRequest" />
+        <altmember cref="T:System.Net.WebClient" />
         <altmember cref="T:System.Net.WebRequest" />
         <altmember cref="T:System.Net.WebResponse" />
-        <altmember cref="T:System.Net.WebClient" />
-        <altmember cref="M:System.Net.FtpWebResponse.Close" />
+        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
       </Docs>
     </Member>
     <Member MemberName="Headers">
@@ -484,12 +484,12 @@ This property is provided only for compatibility with other implementations of t
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Net.FtpWebRequest" />
         <altmember cref="T:System.Net.FtpStatusCode" />
-        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
+        <altmember cref="T:System.Net.FtpWebRequest" />
+        <altmember cref="T:System.Net.WebClient" />
         <altmember cref="T:System.Net.WebRequest" />
         <altmember cref="T:System.Net.WebResponse" />
-        <altmember cref="T:System.Net.WebClient" />
+        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
       </Docs>
     </Member>
     <Member MemberName="LastModified">
@@ -545,12 +545,12 @@ This property is provided only for compatibility with other implementations of t
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Net.FtpWebRequest" />
         <altmember cref="T:System.Net.FtpStatusCode" />
-        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
+        <altmember cref="T:System.Net.FtpWebRequest" />
+        <altmember cref="T:System.Net.WebClient" />
         <altmember cref="T:System.Net.WebRequest" />
         <altmember cref="T:System.Net.WebResponse" />
-        <altmember cref="T:System.Net.WebClient" />
+        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
       </Docs>
     </Member>
     <Member MemberName="ResponseUri">
@@ -614,12 +614,12 @@ This property is provided only for compatibility with other implementations of t
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Net.FtpWebRequest" />
         <altmember cref="T:System.Net.FtpStatusCode" />
-        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
+        <altmember cref="T:System.Net.FtpWebRequest" />
+        <altmember cref="T:System.Net.WebClient" />
         <altmember cref="T:System.Net.WebRequest" />
         <altmember cref="T:System.Net.WebResponse" />
-        <altmember cref="T:System.Net.WebClient" />
+        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
       </Docs>
     </Member>
     <Member MemberName="StatusCode">
@@ -675,12 +675,12 @@ This property is provided only for compatibility with other implementations of t
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Net.FtpWebRequest" />
         <altmember cref="T:System.Net.FtpStatusCode" />
-        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
+        <altmember cref="T:System.Net.FtpWebRequest" />
+        <altmember cref="T:System.Net.WebClient" />
         <altmember cref="T:System.Net.WebRequest" />
         <altmember cref="T:System.Net.WebResponse" />
-        <altmember cref="T:System.Net.WebClient" />
+        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
       </Docs>
     </Member>
     <Member MemberName="StatusDescription">
@@ -737,12 +737,12 @@ This property is provided only for compatibility with other implementations of t
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Net.FtpWebRequest" />
         <altmember cref="T:System.Net.FtpStatusCode" />
-        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
+        <altmember cref="T:System.Net.FtpWebRequest" />
+        <altmember cref="T:System.Net.WebClient" />
         <altmember cref="T:System.Net.WebRequest" />
         <altmember cref="T:System.Net.WebResponse" />
-        <altmember cref="T:System.Net.WebClient" />
+        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
       </Docs>
     </Member>
     <Member MemberName="SupportsHeaders">
@@ -840,14 +840,14 @@ This property is provided only for compatibility with other implementations of t
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Net.FtpWebRequest" />
+        <altmember cref="P:System.Net.FtpWebResponse.BannerMessage" />
+        <altmember cref="P:System.Net.FtpWebResponse.ExitMessage" />
         <altmember cref="T:System.Net.FtpStatusCode" />
-        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
+        <altmember cref="T:System.Net.FtpWebRequest" />
+        <altmember cref="T:System.Net.WebClient" />
         <altmember cref="T:System.Net.WebRequest" />
         <altmember cref="T:System.Net.WebResponse" />
-        <altmember cref="T:System.Net.WebClient" />
-        <altmember cref="P:System.Net.FtpWebResponse.ExitMessage" />
-        <altmember cref="P:System.Net.FtpWebResponse.BannerMessage" />
+        <altmember cref="T:System.Net.WebRequestMethods.Ftp" />
       </Docs>
     </Member>
   </Members>

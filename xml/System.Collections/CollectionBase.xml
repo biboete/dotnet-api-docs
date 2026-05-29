@@ -85,6 +85,11 @@ A <xref:System.Collections.CollectionBase> instance is always modifiable. See <x
 
  ]]></format>
     </remarks>
+    <altmember cref="N:System.Collections.Generic" />
+    <altmember cref="T:System.Collections.ArrayList" />
+    <altmember cref="T:System.Collections.IList" />
+    <altmember cref="T:System.Collections.ReadOnlyCollectionBase" />
+    <related type="Article" href="/dotnet/standard/globalization-localization/performing-culture-insensitive-string-operations">Performing Culture-Insensitive String Operations</related>
     <threadsafe>Public static (<see langword="Shared" /> in Visual Basic) members of this type are thread safe. Any instance members are not guaranteed to be thread safe.
 
  This implementation does not provide a synchronized (thread safe) wrapper for a <see cref="T:System.Collections.CollectionBase" />, but derived classes can create their own synchronized versions of the <see cref="T:System.Collections.CollectionBase" /> using the <see cref="P:System.Collections.ICollection.SyncRoot" /> property.
@@ -93,11 +98,6 @@ A <xref:System.Collections.CollectionBase> instance is always modifiable. See <x
     <block subset="none" type="overrides">
       <para>This base class is provided to make it easier for implementers to create a strongly typed custom collection. Implementers are encouraged to extend this base class instead of creating their own.</para>
     </block>
-    <altmember cref="T:System.Collections.ArrayList" />
-    <altmember cref="T:System.Collections.IList" />
-    <altmember cref="T:System.Collections.ReadOnlyCollectionBase" />
-    <altmember cref="N:System.Collections.Generic" />
-    <related type="Article" href="/dotnet/standard/globalization-localization/performing-culture-insensitive-string-operations">Performing Culture-Insensitive String Operations</related>
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">
@@ -631,6 +631,8 @@ A <xref:System.Collections.CollectionBase> instance is always modifiable. See <x
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Collections.CollectionBase.OnClearComplete" />
+        <altmember cref="M:System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)" />
         <block subset="none" type="overrides">
           <para>This method allows implementers to define processes that must be performed before deleting all the elements from the underlying <see cref="T:System.Collections.ArrayList" />. By defining this method, implementers can add functionality to inherited methods without having to override all other methods.
 
@@ -638,8 +640,6 @@ A <xref:System.Collections.CollectionBase> instance is always modifiable. See <x
 
  For example, implementers can exempt certain elements from deletion by a global Clear.</para>
         </block>
-        <altmember cref="M:System.Collections.CollectionBase.OnClearComplete" />
-        <altmember cref="M:System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="OnClearComplete">
@@ -694,13 +694,13 @@ A <xref:System.Collections.CollectionBase> instance is always modifiable. See <x
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Collections.CollectionBase.OnClear" />
+        <altmember cref="M:System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)" />
         <block subset="none" type="overrides">
           <para>This method allows implementers to define processes that must be performed after deleting all the elements from the underlying <see cref="T:System.Collections.ArrayList" />. By defining this method, implementers can add functionality to inherited methods without having to override all other methods.
 
  <see cref="M:System.Collections.CollectionBase.OnClear" /> is invoked before the standard Clear behavior, whereas <see cref="M:System.Collections.CollectionBase.OnClearComplete" /> is invoked after the standard Clear behavior.</para>
         </block>
-        <altmember cref="M:System.Collections.CollectionBase.OnClear" />
-        <altmember cref="M:System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="OnInsert">
@@ -771,6 +771,9 @@ A <xref:System.Collections.CollectionBase> instance is always modifiable. See <x
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)" />
+        <altmember cref="M:System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)" />
+        <altmember cref="M:System.Collections.CollectionBase.OnValidate(System.Object)" />
         <block subset="none" type="overrides">
           <para>This method allows implementers to define processes that must be performed before inserting the element into the underlying <see cref="T:System.Collections.ArrayList" />. By defining this method, implementers can add functionality to inherited methods without having to override all other methods.
 
@@ -780,9 +783,6 @@ A <xref:System.Collections.CollectionBase> instance is always modifiable. See <x
 
  <see cref="M:System.Collections.CollectionBase.OnValidate(System.Object)" /> is called prior to this method.</para>
         </block>
-        <altmember cref="M:System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)" />
-        <altmember cref="M:System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)" />
-        <altmember cref="M:System.Collections.CollectionBase.OnValidate(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="OnInsertComplete">
@@ -849,13 +849,13 @@ A <xref:System.Collections.CollectionBase> instance is always modifiable. See <x
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)" />
+        <altmember cref="M:System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)" />
         <block subset="none" type="overrides">
           <para>This method allows implementers to define processes that must be performed after inserting the element into the underlying <see cref="T:System.Collections.ArrayList" />. By defining this method, implementers can add functionality to inherited methods without having to override all other methods.
 
  <see cref="M:System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)" /> is invoked before the standard Insert behavior, whereas <see cref="M:System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)" /> is invoked after the standard Insert behavior.</para>
         </block>
-        <altmember cref="M:System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)" />
-        <altmember cref="M:System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="OnRemove">
@@ -926,6 +926,8 @@ A <xref:System.Collections.CollectionBase> instance is always modifiable. See <x
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Collections.CollectionBase.OnClear" />
+        <altmember cref="M:System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)" />
         <block subset="none" type="overrides">
           <para>This method allows implementers to define processes that must be performed before removing the element from the underlying <see cref="T:System.Collections.ArrayList" />. By defining this method, implementers can add functionality to inherited methods without having to override all other methods.
 
@@ -935,8 +937,6 @@ A <xref:System.Collections.CollectionBase> instance is always modifiable. See <x
 
  <see cref="M:System.Collections.CollectionBase.OnValidate(System.Object)" /> is called prior to this method.</para>
         </block>
-        <altmember cref="M:System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)" />
-        <altmember cref="M:System.Collections.CollectionBase.OnClear" />
       </Docs>
     </Member>
     <Member MemberName="OnRemoveComplete">
@@ -1003,13 +1003,13 @@ A <xref:System.Collections.CollectionBase> instance is always modifiable. See <x
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Collections.CollectionBase.OnClearComplete" />
+        <altmember cref="M:System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)" />
         <block subset="none" type="overrides">
           <para>This method allows implementers to define processes that must be performed after removing the element from the underlying <see cref="T:System.Collections.ArrayList" />. By defining this method, implementers can add functionality to inherited methods without having to override all other methods.
 
  <see cref="M:System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)" /> is invoked before the standard Remove behavior, whereas <see cref="M:System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)" /> is invoked after the standard Remove behavior.</para>
         </block>
-        <altmember cref="M:System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)" />
-        <altmember cref="M:System.Collections.CollectionBase.OnClearComplete" />
       </Docs>
     </Member>
     <Member MemberName="OnSet">
@@ -1082,6 +1082,9 @@ A <xref:System.Collections.CollectionBase> instance is always modifiable. See <x
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)" />
+        <altmember cref="M:System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)" />
+        <altmember cref="M:System.Collections.CollectionBase.OnValidate(System.Object)" />
         <block subset="none" type="overrides">
           <para>This method allows implementers to define processes that must be performed before setting the specified element in the underlying <see cref="T:System.Collections.ArrayList" />. By defining this method, implementers can add functionality to inherited methods without having to override all other methods.
 
@@ -1091,9 +1094,6 @@ A <xref:System.Collections.CollectionBase> instance is always modifiable. See <x
 
  <see cref="M:System.Collections.CollectionBase.OnValidate(System.Object)" /> is called prior to this method.</para>
         </block>
-        <altmember cref="M:System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)" />
-        <altmember cref="M:System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)" />
-        <altmember cref="M:System.Collections.CollectionBase.OnValidate(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="OnSetComplete">
@@ -1162,13 +1162,13 @@ A <xref:System.Collections.CollectionBase> instance is always modifiable. See <x
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)" />
+        <altmember cref="M:System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)" />
         <block subset="none" type="overrides">
           <para>This method allows implementers to define processes that must be performed after setting the specified element in the underlying <see cref="T:System.Collections.ArrayList" />. By defining this method, implementers can add functionality to inherited methods without having to override all other methods.
 
  <see cref="M:System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)" /> is invoked before the standard Set behavior, whereas <see cref="M:System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)" /> is invoked after the standard Set behavior.</para>
         </block>
-        <altmember cref="M:System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)" />
-        <altmember cref="M:System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="OnValidate">
@@ -1236,6 +1236,8 @@ A <xref:System.Collections.CollectionBase> instance is always modifiable. See <x
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="value" /> is <see langword="null" />.</exception>
+        <altmember cref="M:System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)" />
+        <altmember cref="M:System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)" />
         <block subset="none" type="overrides">
           <para>This method allows implementers to define processes that must be performed when executing the standard behavior of the underlying <see cref="T:System.Collections.ArrayList" />. By defining this method, implementers can add functionality to inherited methods without having to override all other methods.
 
@@ -1243,8 +1245,6 @@ A <xref:System.Collections.CollectionBase> instance is always modifiable. See <x
 
  <see cref="M:System.Collections.CollectionBase.OnValidate(System.Object)" /> is called prior to <see cref="M:System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)" />, <see cref="M:System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)" />, and <see cref="M:System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)" />.</para>
         </block>
-        <altmember cref="M:System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)" />
-        <altmember cref="M:System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="RemoveAt">
@@ -1584,12 +1584,12 @@ A <xref:System.Collections.CollectionBase> instance is always modifiable. See <x
  -or-
 
  The <see cref="T:System.Collections.CollectionBase" /> has a fixed size.</exception>
+        <altmember cref="M:System.Collections.IList.Insert(System.Int32,System.Object)" />
+        <altmember cref="M:System.Collections.IList.Remove(System.Object)" />
+        <altmember cref="P:System.Collections.CollectionBase.Count" />
         <block subset="none" type="overrides">
           <para>This method calls <see cref="M:System.Collections.CollectionBase.OnValidate(System.Object)" />, <see cref="M:System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)" />, and <see cref="M:System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)" />.</para>
         </block>
-        <altmember cref="P:System.Collections.CollectionBase.Count" />
-        <altmember cref="M:System.Collections.IList.Insert(System.Int32,System.Object)" />
-        <altmember cref="M:System.Collections.IList.Remove(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IList.Contains">
@@ -1812,11 +1812,11 @@ This method uses the collection's objects' <xref:System.Object.Equals*> and <xre
  -or-
 
  The <see cref="T:System.Collections.CollectionBase" /> has a fixed size.</exception>
+        <altmember cref="M:System.Collections.IList.Add(System.Object)" />
+        <altmember cref="M:System.Collections.IList.Remove(System.Object)" />
         <block subset="none" type="overrides">
           <para>This method calls <see cref="M:System.Collections.CollectionBase.OnValidate(System.Object)" />, <see cref="M:System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)" />, and <see cref="M:System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)" />.</para>
         </block>
-        <altmember cref="M:System.Collections.IList.Add(System.Object)" />
-        <altmember cref="M:System.Collections.IList.Remove(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IList.IsFixedSize">
@@ -2013,10 +2013,10 @@ This method uses the collection's objects' <xref:System.Object.Equals*> and <xre
  -or-
 
  <paramref name="index" /> is equal to or greater than <see cref="P:System.Collections.CollectionBase.Count" />.</exception>
+        <altmember cref="P:System.Collections.CollectionBase.Count" />
         <block subset="none" type="overrides">
           <para>When this property is set, the methods <see cref="M:System.Collections.CollectionBase.OnValidate(System.Object)" />, <see cref="M:System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)" />, and <see cref="M:System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)" /> are called.</para>
         </block>
-        <altmember cref="P:System.Collections.CollectionBase.Count" />
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IList.Remove">
@@ -2093,13 +2093,13 @@ This method uses the collection's objects' <xref:System.Object.Equals*> and <xre
  -or-
 
  The <see cref="T:System.Collections.CollectionBase" /> has a fixed size.</exception>
-        <block subset="none" type="overrides">
-          <para>This method calls <see cref="M:System.Collections.CollectionBase.OnValidate(System.Object)" />, <see cref="M:System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)" />, and <see cref="M:System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)" />.</para>
-        </block>
         <altmember cref="M:System.Collections.CollectionBase.RemoveAt(System.Int32)" />
         <altmember cref="M:System.Collections.IList.Add(System.Object)" />
         <altmember cref="M:System.Collections.IList.Insert(System.Int32,System.Object)" />
         <related type="Article" href="/dotnet/standard/globalization-localization/performing-culture-insensitive-string-operations">Performing Culture-Insensitive String Operations</related>
+        <block subset="none" type="overrides">
+          <para>This method calls <see cref="M:System.Collections.CollectionBase.OnValidate(System.Object)" />, <see cref="M:System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)" />, and <see cref="M:System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)" />.</para>
+        </block>
       </Docs>
     </Member>
   </Members>

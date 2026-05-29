@@ -128,9 +128,9 @@
         <exception cref="T:System.ArgumentNullException">The <paramref name="key" /> parameter is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">This instance is read-only.</exception>
         <exception cref="T:System.Security.Cryptography.CryptographicException">The key export failed.</exception>
-        <altmember cref="P:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.IsReadOnly" />
-        <altmember cref="Overload:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.AddShroudedKey" />
         <altmember cref="M:System.Security.Cryptography.AsymmetricAlgorithm.ExportPkcs8PrivateKey" />
+        <altmember cref="Overload:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.AddShroudedKey" />
+        <altmember cref="P:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.IsReadOnly" />
       </Docs>
     </Member>
     <Member MemberName="AddNestedContents">
@@ -310,9 +310,9 @@
         <exception cref="T:System.ArgumentNullException">The <paramref name="key" /> parameter is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">This instance is read-only.</exception>
         <exception cref="T:System.Security.Cryptography.CryptographicException">The key export failed.</exception>
-        <altmember cref="P:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.IsReadOnly" />
-        <altmember cref="Overload:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.AddShroudedKey" />
         <altmember cref="M:System.Security.Cryptography.AsymmetricAlgorithm.ExportEncryptedPkcs8PrivateKey(System.ReadOnlySpan{System.Byte},System.Security.Cryptography.PbeParameters)" />
+        <altmember cref="Overload:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.AddShroudedKey" />
+        <altmember cref="P:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.IsReadOnly" />
       </Docs>
     </Member>
     <Member MemberName="AddShroudedKey">
@@ -360,9 +360,9 @@
         <exception cref="T:System.ArgumentNullException">The <paramref name="key" /> parameter is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">This instance is read-only.</exception>
         <exception cref="T:System.Security.Cryptography.CryptographicException">The key export failed.</exception>
-        <altmember cref="P:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.IsReadOnly" />
-        <altmember cref="Overload:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.AddShroudedKey" />
         <altmember cref="M:System.Security.Cryptography.AsymmetricAlgorithm.ExportEncryptedPkcs8PrivateKey(System.ReadOnlySpan{System.Byte},System.Security.Cryptography.PbeParameters)" />
+        <altmember cref="Overload:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.AddShroudedKey" />
+        <altmember cref="P:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.IsReadOnly" />
       </Docs>
     </Member>
     <Member MemberName="AddShroudedKey">
@@ -410,9 +410,9 @@
         <exception cref="T:System.ArgumentNullException">The <paramref name="key" /> parameter is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">This instance is read-only.</exception>
         <exception cref="T:System.Security.Cryptography.CryptographicException">The key export failed.</exception>
-        <altmember cref="P:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.IsReadOnly" />
-        <altmember cref="Overload:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.AddShroudedKey" />
         <altmember cref="M:System.Security.Cryptography.AsymmetricAlgorithm.ExportEncryptedPkcs8PrivateKey(System.ReadOnlySpan{System.Char},System.Security.Cryptography.PbeParameters)" />
+        <altmember cref="Overload:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.AddShroudedKey" />
+        <altmember cref="P:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.IsReadOnly" />
       </Docs>
     </Member>
     <Member MemberName="AddShroudedKey">
@@ -461,9 +461,9 @@
         <exception cref="T:System.ArgumentNullException">The <paramref name="key" /> parameter is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">This instance is read-only.</exception>
         <exception cref="T:System.Security.Cryptography.CryptographicException">The key export failed.</exception>
-        <altmember cref="P:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.IsReadOnly" />
-        <altmember cref="Overload:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.AddShroudedKey" />
         <altmember cref="M:System.Security.Cryptography.AsymmetricAlgorithm.ExportEncryptedPkcs8PrivateKey(System.ReadOnlySpan{System.Char},System.Security.Cryptography.PbeParameters)" />
+        <altmember cref="Overload:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.AddShroudedKey" />
+        <altmember cref="P:System.Security.Cryptography.Pkcs.Pkcs12SafeContents.IsReadOnly" />
       </Docs>
     </Member>
     <Member MemberName="ConfidentialityMode">

@@ -55,9 +55,9 @@
 
  ]]></format>
     </remarks>
+    <altmember cref="T:System.CodeDom.Compiler.CodeDomProvider" />
     <altmember cref="T:System.ComponentModel.Design.Serialization.CodeDomSerializer" />
     <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerSerializationManager" />
-    <altmember cref="T:System.CodeDom.Compiler.CodeDomProvider" />
     <related type="Article" href="/dotnet/framework/reflection-and-codedom/dynamic-source-code-generation-and-compilation">Dynamic Source Code Generation and Compilation</related>
   </Docs>
   <Members>
@@ -149,10 +149,10 @@
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="manager" /> or <paramref name="declaration" /> is <see langword="null" />.</exception>
+        <altmember cref="T:System.CodeDom.CodeTypeDeclaration" />
+        <altmember cref="T:System.CodeDom.Compiler.CodeDomProvider" />
         <altmember cref="T:System.ComponentModel.Design.Serialization.CodeDomSerializer" />
         <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerSerializationManager" />
-        <altmember cref="T:System.CodeDom.Compiler.CodeDomProvider" />
-        <altmember cref="T:System.CodeDom.CodeTypeDeclaration" />
         <related type="Article" href="/dotnet/framework/reflection-and-codedom/dynamic-source-code-generation-and-compilation">Dynamic Source Code Generation and Compilation</related>
       </Docs>
     </Member>
@@ -204,10 +204,10 @@
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="manager" />, <paramref name="declaration" />, or <paramref name="value" /> is <see langword="null" />.</exception>
+        <altmember cref="T:System.CodeDom.CodeTypeDeclaration" />
+        <altmember cref="T:System.CodeDom.Compiler.CodeDomProvider" />
         <altmember cref="T:System.ComponentModel.Design.Serialization.CodeDomSerializer" />
         <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerSerializationManager" />
-        <altmember cref="T:System.CodeDom.Compiler.CodeDomProvider" />
-        <altmember cref="T:System.CodeDom.CodeTypeDeclaration" />
         <related type="Article" href="/dotnet/framework/reflection-and-codedom/dynamic-source-code-generation-and-compilation">Dynamic Source Code Generation and Compilation</related>
       </Docs>
     </Member>
@@ -257,10 +257,10 @@
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="manager" /> or <paramref name="declaration" /> is <see langword="null" />.</exception>
+        <altmember cref="T:System.CodeDom.CodeTypeDeclaration" />
+        <altmember cref="T:System.CodeDom.Compiler.CodeDomProvider" />
         <altmember cref="T:System.ComponentModel.Design.Serialization.CodeDomSerializer" />
         <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerSerializationManager" />
-        <altmember cref="T:System.CodeDom.Compiler.CodeDomProvider" />
-        <altmember cref="T:System.CodeDom.CodeTypeDeclaration" />
         <related type="Article" href="/dotnet/framework/reflection-and-codedom/dynamic-source-code-generation-and-compilation">Dynamic Source Code Generation and Compilation</related>
       </Docs>
     </Member>
@@ -340,10 +340,10 @@
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="manager" /> or <paramref name="root" /> is <see langword="null" />.</exception>
+        <altmember cref="T:System.CodeDom.CodeTypeDeclaration" />
+        <altmember cref="T:System.CodeDom.Compiler.CodeDomProvider" />
         <altmember cref="T:System.ComponentModel.Design.Serialization.CodeDomSerializer" />
         <altmember cref="T:System.ComponentModel.Design.Serialization.IDesignerSerializationManager" />
-        <altmember cref="T:System.CodeDom.Compiler.CodeDomProvider" />
-        <altmember cref="T:System.CodeDom.CodeTypeDeclaration" />
         <related type="Article" href="/dotnet/framework/reflection-and-codedom/dynamic-source-code-generation-and-compilation">Dynamic Source Code Generation and Compilation</related>
       </Docs>
     </Member>

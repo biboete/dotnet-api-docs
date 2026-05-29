@@ -285,6 +285,9 @@
         <summary>Creates a <see cref="T:System.Linq.Expressions.BinaryExpression" /> that represents an arithmetic addition operation that does not have overflow checking.</summary>
         <returns>A <see cref="T:System.Linq.Expressions.BinaryExpression" /> that has the <see cref="P:System.Linq.Expressions.Expression.NodeType" /> property equal to <see cref="F:System.Linq.Expressions.ExpressionType.Add" /> and the <see cref="P:System.Linq.Expressions.BinaryExpression.Left" /> and <see cref="P:System.Linq.Expressions.BinaryExpression.Right" /> properties set to the specified values.</returns>
         <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-linq-expressions-expression-add">Supplemental API remarks for Expression.Add</see>.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="left" /> or <paramref name="right" /> is <see langword="null" />.</exception>
+        <exception cref="T:System.InvalidOperationException">The addition operator is not defined for <paramref name="left" />.Type and <paramref name="right" />.Type.</exception>
         <example>
           <format type="text/markdown"><![CDATA[
 The following code example shows how to create an expression that adds two integers.
@@ -293,9 +296,6 @@ The following code example shows how to create an expression that adds two integ
 :::code language="vb" source="~/snippets/visualbasic/System.Linq.Expressions/BlockExpression/Overview/module1.vb" id="Snippet1":::
           ]]></format>
         </example>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="left" /> or <paramref name="right" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">The addition operator is not defined for <paramref name="left" />.Type and <paramref name="right" />.Type.</exception>
       </Docs>
     </Member>
     <Member MemberName="Add">

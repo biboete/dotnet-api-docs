@@ -288,9 +288,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Xml.Serialization.XmlSerializer" />
-        <altmember cref="P:System.Xml.Serialization.XmlArrayAttribute.Namespace" />
         <altmember cref="P:System.Xml.Serialization.XmlArrayAttribute.Form" />
+        <altmember cref="P:System.Xml.Serialization.XmlArrayAttribute.Namespace" />
+        <altmember cref="T:System.Xml.Serialization.XmlSerializer" />
       </Docs>
     </Member>
     <Member MemberName="Form">
@@ -363,10 +363,10 @@ attributeFormDefault="unqualified"... >
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Xml.Serialization.XmlSerializer" />
         <altmember cref="M:System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter,System.Object)" />
         <altmember cref="P:System.Xml.Serialization.XmlArrayAttribute.ElementName" />
         <altmember cref="P:System.Xml.Serialization.XmlArrayAttribute.Namespace" />
+        <altmember cref="T:System.Xml.Serialization.XmlSerializer" />
       </Docs>
     </Member>
     <Member MemberName="IsNullable">
@@ -498,10 +498,10 @@ attributeFormDefault="unqualified"... >
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Xml.Serialization.XmlSerializer" />
         <altmember cref="M:System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter,System.Object)" />
         <altmember cref="P:System.Xml.Serialization.XmlArrayAttribute.ElementName" />
         <altmember cref="P:System.Xml.Serialization.XmlArrayAttribute.Form" />
+        <altmember cref="T:System.Xml.Serialization.XmlSerializer" />
       </Docs>
     </Member>
     <Member MemberName="Order">

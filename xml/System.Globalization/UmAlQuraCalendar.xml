@@ -82,9 +82,9 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Globalization.Calendar" />
     <altmember cref="P:System.Globalization.CultureInfo.Calendar" />
     <altmember cref="P:System.Globalization.CultureInfo.OptionalCalendars" />
+    <altmember cref="T:System.Globalization.Calendar" />
     <altmember cref="T:System.Globalization.HijriCalendar" />
     <related type="Article" href="/dotnet/standard/datetime/working-with-calendars">Working with Calendars</related>
   </Docs>

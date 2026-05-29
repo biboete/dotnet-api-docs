@@ -57,18 +57,18 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Windows.Forms.Clipboard" />
-    <altmember cref="T:System.Windows.Forms.DataObject" />
-    <altmember cref="T:System.Windows.Forms.DataFormats.Format" />
-    <altmember cref="T:System.Windows.Forms.IDataObject" />
-    <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
     <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-    <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
     <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
+    <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+    <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
     <altmember cref="M:System.Windows.Forms.IDataObject.GetData(System.String,System.Boolean)" />
     <altmember cref="M:System.Windows.Forms.IDataObject.GetDataPresent(System.String,System.Boolean)" />
     <altmember cref="M:System.Windows.Forms.IDataObject.GetFormats(System.Boolean)" />
     <altmember cref="M:System.Windows.Forms.IDataObject.SetData(System.String,System.Boolean,System.Object)" />
+    <altmember cref="T:System.Windows.Forms.Clipboard" />
+    <altmember cref="T:System.Windows.Forms.DataObject" />
+    <altmember cref="T:System.Windows.Forms.IDataObject" />
+    <altmember cref="T:System.Windows.Forms.DataFormats.Format" />
   </Docs>
   <Members>
     <Member MemberName="Bitmap">
@@ -111,15 +111,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="CommaSeparatedValue">
@@ -160,15 +160,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="Dib">
@@ -211,15 +211,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="Dif">
@@ -271,15 +271,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="EnhancedMetafile">
@@ -325,15 +325,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="FileDrop">
@@ -376,15 +376,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <MemberGroup MemberName="GetFormat">
@@ -542,15 +542,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="Locale">
@@ -591,15 +591,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="MetafilePict">
@@ -645,15 +645,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="OemText">
@@ -694,15 +694,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="Palette">
@@ -745,15 +745,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="PenData">
@@ -794,15 +794,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="Riff">
@@ -845,15 +845,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="Rtf">
@@ -897,15 +897,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="Serializable">
@@ -949,15 +949,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="StringFormat">
@@ -1010,15 +1010,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="SymbolicLink">
@@ -1061,15 +1061,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -1119,15 +1119,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="Tiff">
@@ -1170,15 +1170,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="UnicodeText">
@@ -1228,15 +1228,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
     <Member MemberName="WaveAudio">
@@ -1277,15 +1277,15 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetData(System.String,System.Boolean)" />
-        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetDataPresent(System.Type)" />
         <altmember cref="M:System.Windows.Forms.DataObject.GetFormats(System.Boolean)" />
+        <altmember cref="M:System.Windows.Forms.DataObject.SetData(System.String,System.Boolean,System.Object)" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
+        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
         <altmember cref="T:System.Windows.Forms.DataObject" />
         <altmember cref="T:System.Windows.Forms.IDataObject" />
-        <altmember cref="M:System.Windows.Forms.DataFormats.GetFormat(System.String)" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Name" />
-        <altmember cref="P:System.Windows.Forms.DataFormats.Format.Id" />
       </Docs>
     </Member>
   </Members>

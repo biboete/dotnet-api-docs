@@ -71,9 +71,9 @@
   
  ]]></format>
     </remarks>
-    <forInternalUseOnly />
     <altmember cref="T:Microsoft.VisualBasic.FileIO.FileSystem" />
     <related type="Article" href="/dotnet/visual-basic/language-reference/objects/">Objects (Visual Basic)</related>
+    <forInternalUseOnly />
   </Docs>
   <Members>
     <Member MemberName="AllUsersApplicationData">
@@ -125,9 +125,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.DirectoryNotFoundException">The path is empty, usually because the operating system does not support the directory.</exception>
-        <forInternalUseOnly />
         <altmember cref="T:Microsoft.VisualBasic.FileIO.FileSystem" />
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/">Objects (Visual Basic)</related>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="CurrentUserApplicationData">
@@ -179,9 +179,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.DirectoryNotFoundException">The path is empty, usually because the operating system does not support the directory.</exception>
-        <forInternalUseOnly />
         <altmember cref="T:Microsoft.VisualBasic.FileIO.FileSystem" />
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/">Objects (Visual Basic)</related>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="Desktop">
@@ -233,9 +233,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.DirectoryNotFoundException">The path is empty, usually because the operating system does not support the directory.</exception>
-        <forInternalUseOnly />
         <altmember cref="T:Microsoft.VisualBasic.FileIO.FileSystem" />
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/">Objects (Visual Basic)</related>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="MyDocuments">
@@ -287,9 +287,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.DirectoryNotFoundException">The path is empty, usually because the operating system does not support the directory.</exception>
-        <forInternalUseOnly />
         <altmember cref="T:Microsoft.VisualBasic.FileIO.FileSystem" />
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/">Objects (Visual Basic)</related>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="MyMusic">
@@ -341,9 +341,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.DirectoryNotFoundException">The path is empty, usually because the operating system does not support the directory.</exception>
-        <forInternalUseOnly />
         <altmember cref="T:Microsoft.VisualBasic.FileIO.FileSystem" />
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/">Objects (Visual Basic)</related>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="MyPictures">
@@ -395,9 +395,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.DirectoryNotFoundException">The path is empty, usually because the operating system does not support the directory.</exception>
-        <forInternalUseOnly />
         <altmember cref="T:Microsoft.VisualBasic.FileIO.FileSystem" />
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/">Objects (Visual Basic)</related>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="ProgramFiles">
@@ -449,9 +449,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.DirectoryNotFoundException">The path is empty, usually because the operating system does not support the directory.</exception>
-        <forInternalUseOnly />
         <altmember cref="T:Microsoft.VisualBasic.FileIO.FileSystem" />
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/">Objects (Visual Basic)</related>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="Programs">
@@ -503,9 +503,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.DirectoryNotFoundException">The path is empty, usually because the operating system does not support the directory.</exception>
-        <forInternalUseOnly />
         <altmember cref="T:Microsoft.VisualBasic.FileIO.FileSystem" />
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/">Objects (Visual Basic)</related>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="Temp">
@@ -557,9 +557,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.DirectoryNotFoundException">The path is empty, usually because the operating system does not support the directory.</exception>
-        <forInternalUseOnly />
         <altmember cref="T:Microsoft.VisualBasic.FileIO.FileSystem" />
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/">Objects (Visual Basic)</related>
+        <forInternalUseOnly />
       </Docs>
     </Member>
   </Members>

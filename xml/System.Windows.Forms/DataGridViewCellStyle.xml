@@ -57,20 +57,20 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Windows.Forms.DataGridView" />
-    <altmember cref="P:System.Windows.Forms.DataGridView.DefaultCellStyle" />
-    <altmember cref="P:System.Windows.Forms.DataGridView.RowsDefaultCellStyle" />
-    <altmember cref="P:System.Windows.Forms.DataGridView.AlternatingRowsDefaultCellStyle" />
-    <altmember cref="P:System.Windows.Forms.DataGridView.ColumnHeadersDefaultCellStyle" />
-    <altmember cref="P:System.Windows.Forms.DataGridView.RowHeadersDefaultCellStyle" />
     <altmember cref="E:System.Windows.Forms.DataGridView.CellFormatting" />
     <altmember cref="E:System.Windows.Forms.DataGridView.CellStyleContentChanged" />
-    <altmember cref="P:System.Windows.Forms.DataGridViewBand.InheritedStyle" />
+    <altmember cref="P:System.Windows.Forms.DataGridView.AlternatingRowsDefaultCellStyle" />
+    <altmember cref="P:System.Windows.Forms.DataGridView.ColumnHeadersDefaultCellStyle" />
+    <altmember cref="P:System.Windows.Forms.DataGridView.DefaultCellStyle" />
+    <altmember cref="P:System.Windows.Forms.DataGridView.RowHeadersDefaultCellStyle" />
+    <altmember cref="P:System.Windows.Forms.DataGridView.RowsDefaultCellStyle" />
     <altmember cref="P:System.Windows.Forms.DataGridViewBand.DefaultCellStyle" />
-    <altmember cref="P:System.Windows.Forms.DataGridViewRow.DefaultCellStyle" />
-    <altmember cref="P:System.Windows.Forms.DataGridViewColumn.DefaultCellStyle" />
+    <altmember cref="P:System.Windows.Forms.DataGridViewBand.InheritedStyle" />
     <altmember cref="P:System.Windows.Forms.DataGridViewCell.InheritedStyle" />
     <altmember cref="P:System.Windows.Forms.DataGridViewCell.Style" />
+    <altmember cref="P:System.Windows.Forms.DataGridViewColumn.DefaultCellStyle" />
+    <altmember cref="P:System.Windows.Forms.DataGridViewRow.DefaultCellStyle" />
+    <altmember cref="T:System.Windows.Forms.DataGridView" />
     <altmember cref="T:System.Windows.Forms.DataGridViewCellFormattingEventArgs" />
     <related type="Article" href="/dotnet/desktop/winforms/controls/cell-styles-in-the-windows-forms-datagridview-control">Cell Styles in the Windows Forms DataGridView Control</related>
     <related type="Article" href="/dotnet/desktop/winforms/controls/datagridview-control-overview-windows-forms">DataGridView Control Overview (Windows Forms)</related>
@@ -369,11 +369,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="E:System.Windows.Forms.DataGridView.CellFormatting" />
         <altmember cref="P:System.Windows.Forms.DataGridViewCell.Value" />
         <altmember cref="P:System.Windows.Forms.DataGridViewCellStyle.IsDataSourceNullValueDefault" />
         <altmember cref="P:System.Windows.Forms.DataGridViewCellStyle.NullValue" />
+        <altmember cref="T:System.Windows.Forms.DataGridView" />
         <related type="Article" href="/dotnet/desktop/winforms/controls/cell-styles-in-the-windows-forms-datagridview-control">Cell Styles in the Windows Forms DataGridView Control</related>
       </Docs>
     </Member>
@@ -685,8 +685,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="P:System.Windows.Forms.DataGridViewCellStyle.DataSourceNullValue" />
+        <altmember cref="T:System.Windows.Forms.DataGridView" />
         <related type="Article" href="/dotnet/desktop/winforms/controls/cell-styles-in-the-windows-forms-datagridview-control">Cell Styles in the Windows Forms DataGridView Control</related>
       </Docs>
     </Member>
@@ -847,11 +847,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="E:System.Windows.Forms.DataGridView.CellFormatting" />
         <altmember cref="P:System.Windows.Forms.DataGridViewCell.Value" />
         <altmember cref="P:System.Windows.Forms.DataGridViewCellStyle.DataSourceNullValue" />
         <altmember cref="P:System.Windows.Forms.DataGridViewCellStyle.IsDataSourceNullValueDefault" />
+        <altmember cref="T:System.Windows.Forms.DataGridView" />
         <related type="Article" href="/dotnet/desktop/winforms/controls/how-to-format-data-in-the-windows-forms-datagridview-control">How to: Format Data in the Windows Forms DataGridView Control</related>
         <related type="Article" href="/dotnet/desktop/winforms/controls/cell-styles-in-the-windows-forms-datagridview-control">Cell Styles in the Windows Forms DataGridView Control</related>
       </Docs>

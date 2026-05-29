@@ -60,9 +60,9 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.ComponentModel.TypeDescriptor" />
     <altmember cref="T:System.ComponentModel.CustomTypeDescriptor" />
     <altmember cref="T:System.ComponentModel.TypeDescriptionProvider" />
+    <altmember cref="T:System.ComponentModel.TypeDescriptor" />
   </Docs>
   <Members>
     <Member MemberName="GetAttributes">
@@ -116,11 +116,11 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="Overload:System.ComponentModel.ICustomTypeDescriptor.GetEvents" />
+        <altmember cref="Overload:System.ComponentModel.ICustomTypeDescriptor.GetProperties" />
         <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetAttributes" />
         <altmember cref="T:System.Attribute" />
         <altmember cref="T:System.ComponentModel.AttributeCollection" />
-        <altmember cref="Overload:System.ComponentModel.ICustomTypeDescriptor.GetEvents" />
-        <altmember cref="Overload:System.ComponentModel.ICustomTypeDescriptor.GetProperties" />
       </Docs>
     </Member>
     <Member MemberName="GetClassName">
@@ -173,8 +173,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetClassName" />
         <altmember cref="M:System.ComponentModel.ICustomTypeDescriptor.GetComponentName" />
+        <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetClassName" />
       </Docs>
     </Member>
     <Member MemberName="GetComponentName">
@@ -227,8 +227,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetComponentName" />
         <altmember cref="M:System.ComponentModel.ICustomTypeDescriptor.GetClassName" />
+        <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetComponentName" />
       </Docs>
     </Member>
     <Member MemberName="GetConverter">
@@ -287,9 +287,9 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.ComponentModel.ICustomTypeDescriptor.GetEditor(System.Type)" />
         <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetConverter" />
         <altmember cref="T:System.ComponentModel.TypeConverter" />
-        <altmember cref="M:System.ComponentModel.ICustomTypeDescriptor.GetEditor(System.Type)" />
       </Docs>
     </Member>
     <Member MemberName="GetConverterFromRegisteredType">
@@ -375,9 +375,9 @@
         <summary>Returns the default event for this instance of a component.</summary>
         <returns>An <see cref="T:System.ComponentModel.EventDescriptor" /> that represents the default event for this object, or <see langword="null" /> if this object does not have events.</returns>
         <remarks>To be added.</remarks>
+        <altmember cref="M:System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty" />
         <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetDefaultEvent" />
         <altmember cref="T:System.ComponentModel.EventDescriptor" />
-        <altmember cref="M:System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty" />
       </Docs>
     </Member>
     <Member MemberName="GetDefaultProperty">
@@ -429,9 +429,9 @@
         <summary>Returns the default property for this instance of a component.</summary>
         <returns>A <see cref="T:System.ComponentModel.PropertyDescriptor" /> that represents the default property for this object, or <see langword="null" /> if this object does not have properties.</returns>
         <remarks>To be added.</remarks>
+        <altmember cref="M:System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent" />
         <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetDefaultProperty" />
         <altmember cref="T:System.ComponentModel.PropertyDescriptor" />
-        <altmember cref="M:System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent" />
       </Docs>
     </Member>
     <Member MemberName="GetEditor">
@@ -503,8 +503,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetEditor" />
         <altmember cref="M:System.ComponentModel.ICustomTypeDescriptor.GetConverter" />
+        <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetEditor" />
       </Docs>
     </Member>
     <MemberGroup MemberName="GetEvents">
@@ -568,11 +568,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetEvents" />
-        <altmember cref="T:System.ComponentModel.EventDescriptorCollection" />
-        <altmember cref="Overload:System.ComponentModel.ICustomTypeDescriptor.GetProperties" />
         <altmember cref="M:System.ComponentModel.ICustomTypeDescriptor.GetAttributes" />
         <altmember cref="M:System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent" />
+        <altmember cref="Overload:System.ComponentModel.ICustomTypeDescriptor.GetProperties" />
+        <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetEvents" />
+        <altmember cref="T:System.ComponentModel.EventDescriptorCollection" />
       </Docs>
     </Member>
     <Member MemberName="GetEvents">
@@ -643,13 +643,13 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Attribute" />
-        <altmember cref="T:System.ComponentModel.DefaultEventAttribute" />
-        <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetEvents" />
-        <altmember cref="T:System.ComponentModel.EventDescriptorCollection" />
-        <altmember cref="Overload:System.ComponentModel.ICustomTypeDescriptor.GetProperties" />
         <altmember cref="M:System.ComponentModel.ICustomTypeDescriptor.GetAttributes" />
         <altmember cref="M:System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent" />
+        <altmember cref="Overload:System.ComponentModel.ICustomTypeDescriptor.GetProperties" />
+        <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetEvents" />
+        <altmember cref="T:System.Attribute" />
+        <altmember cref="T:System.ComponentModel.DefaultEventAttribute" />
+        <altmember cref="T:System.ComponentModel.EventDescriptorCollection" />
       </Docs>
     </Member>
     <Member MemberName="GetEventsFromRegisteredType">
@@ -755,11 +755,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetProperties" />
-        <altmember cref="T:System.ComponentModel.PropertyDescriptorCollection" />
-        <altmember cref="Overload:System.ComponentModel.ICustomTypeDescriptor.GetEvents" />
         <altmember cref="M:System.ComponentModel.ICustomTypeDescriptor.GetAttributes" />
         <altmember cref="M:System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty" />
+        <altmember cref="Overload:System.ComponentModel.ICustomTypeDescriptor.GetEvents" />
+        <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetProperties" />
+        <altmember cref="T:System.ComponentModel.PropertyDescriptorCollection" />
       </Docs>
     </Member>
     <Member MemberName="GetProperties">
@@ -832,14 +832,14 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.ComponentModel.TypeDescriptor.GetProperties(System.Object,System.Attribute[])" />
-        <altmember cref="T:System.Attribute" />
-        <altmember cref="T:System.ComponentModel.DefaultPropertyAttribute" />
-        <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetProperties" />
-        <altmember cref="T:System.ComponentModel.PropertyDescriptorCollection" />
-        <altmember cref="Overload:System.ComponentModel.ICustomTypeDescriptor.GetEvents" />
         <altmember cref="M:System.ComponentModel.ICustomTypeDescriptor.GetAttributes" />
         <altmember cref="M:System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty" />
+        <altmember cref="M:System.ComponentModel.TypeDescriptor.GetProperties(System.Object,System.Attribute[])" />
+        <altmember cref="Overload:System.ComponentModel.ICustomTypeDescriptor.GetEvents" />
+        <altmember cref="Overload:System.ComponentModel.TypeDescriptor.GetProperties" />
+        <altmember cref="T:System.Attribute" />
+        <altmember cref="T:System.ComponentModel.DefaultPropertyAttribute" />
+        <altmember cref="T:System.ComponentModel.PropertyDescriptorCollection" />
       </Docs>
     </Member>
     <Member MemberName="GetPropertiesFromRegisteredType">
@@ -939,8 +939,8 @@ pd.GetValue(GetPropertyOwner(myPd));
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.ComponentModel.PropertyDescriptor" />
         <altmember cref="Overload:System.ComponentModel.ICustomTypeDescriptor.GetProperties" />
+        <altmember cref="T:System.ComponentModel.PropertyDescriptor" />
       </Docs>
     </Member>
     <Member MemberName="RequireRegisteredTypes">

@@ -56,6 +56,9 @@
   <Docs>
     <summary>Controls the system garbage collector, a service that automatically reclaims unused memory.</summary>
     <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-gc">Supplemental API remarks for GC</see>.</remarks>
+    <altmember cref="T:System.Runtime.GCSettings" />
+    <related type="Article" href="/dotnet/standard/garbage-collection/">Garbage Collection</related>
+    <related type="Article" href="/dotnet/standard/garbage-collection/fundamentals">Fundamentals of Garbage Collection</related>
     <example>
       <format type="text/markdown"><![CDATA[
 The following example uses several GC methods to get generation and memory information about a block of unused objects and print it to the console. The unused objects are then collected, and the resulting memory totals are displayed.
@@ -65,9 +68,6 @@ The following example uses several GC methods to get generation and memory infor
 :::code language="vb" source="~/snippets/visualbasic/System/GC/Overview/class1.vb" id="Snippet1":::
       ]]></format>
     </example>
-    <altmember cref="T:System.Runtime.GCSettings" />
-    <related type="Article" href="/dotnet/standard/garbage-collection/">Garbage Collection</related>
-    <related type="Article" href="/dotnet/standard/garbage-collection/fundamentals">Fundamentals of Garbage Collection</related>
   </Docs>
   <Members>
     <Member MemberName="AddMemoryPressure">
@@ -1091,9 +1091,9 @@ The following example demonstrates the use of the <xref:System.GC.GetGeneration*
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">Garbage collection has already been performed on <paramref name="wo" />.</exception>
-        <altmember cref="P:System.GC.MaxGeneration" />
         <exception cref="T:System.ArgumentNullException">The target of the weak reference
             has already been garbage collected.</exception>
+        <altmember cref="P:System.GC.MaxGeneration" />
       </Docs>
     </Member>
     <Member MemberName="GetTotalAllocatedBytes">
@@ -1491,8 +1491,8 @@ The following example demonstrates the use of the <xref:System.GC.GetGeneration*
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="maxGenerationThreshold" /> or <paramref name="largeObjectHeapThreshold" /> is not between 1 and 99.</exception>
-        <related type="Article" href="/dotnet/standard/garbage-collection/notifications">Garbage Collection Notifications</related>
         <exception cref="T:System.InvalidOperationException">This member is not available when concurrent garbage collection is enabled. See the &lt;gcConcurrent&gt; runtime setting for information about how to disable concurrent garbage collection.</exception>
+        <related type="Article" href="/dotnet/standard/garbage-collection/notifications">Garbage Collection Notifications</related>
       </Docs>
     </Member>
     <Member MemberName="RegisterNoGCRegionCallback">

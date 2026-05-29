@@ -155,12 +155,12 @@ catch (Exception ex) {
 
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Data.SqlClient.SqlException.LineNumber" />
         <altmember cref="P:System.Data.SqlClient.SqlException.Number" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Procedure" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Server" />
         <altmember cref="P:System.Data.SqlClient.SqlException.Source" />
         <altmember cref="P:System.Data.SqlClient.SqlException.State" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.Server" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.Procedure" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.LineNumber" />
         <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
       </Docs>
     </Member>
@@ -248,8 +248,8 @@ catch (Exception ex) {
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Data.SqlClient.SqlErrorCollection" />
         <altmember cref="T:System.Data.SqlClient.SqlError" />
+        <altmember cref="T:System.Data.SqlClient.SqlErrorCollection" />
         <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
       </Docs>
     </Member>
@@ -300,12 +300,12 @@ catch (Exception ex) {
 
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Data.SqlClient.SqlException.Class" />
         <altmember cref="P:System.Data.SqlClient.SqlException.Number" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Procedure" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Server" />
         <altmember cref="P:System.Data.SqlClient.SqlException.Source" />
         <altmember cref="P:System.Data.SqlClient.SqlException.State" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.Class" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.Server" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.Procedure" />
         <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
       </Docs>
     </Member>
@@ -354,12 +354,12 @@ catch (Exception ex) {
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Data.SqlClient.SqlException.State" />
         <altmember cref="P:System.Data.SqlClient.SqlException.Class" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.Source" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.Server" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.Procedure" />
         <altmember cref="P:System.Data.SqlClient.SqlException.LineNumber" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Procedure" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Server" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Source" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.State" />
         <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
       </Docs>
     </Member>
@@ -408,12 +408,12 @@ catch (Exception ex) {
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Data.SqlClient.SqlException.Number" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.State" />
         <altmember cref="P:System.Data.SqlClient.SqlException.Class" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.LineNumber" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Number" />
         <altmember cref="P:System.Data.SqlClient.SqlException.Server" />
         <altmember cref="P:System.Data.SqlClient.SqlException.Source" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.LineNumber" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.State" />
         <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
       </Docs>
     </Member>
@@ -462,12 +462,12 @@ catch (Exception ex) {
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Data.SqlClient.SqlException.Number" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.State" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.Source" />
         <altmember cref="P:System.Data.SqlClient.SqlException.Class" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.Procedure" />
         <altmember cref="P:System.Data.SqlClient.SqlException.LineNumber" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Number" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Procedure" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Source" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.State" />
         <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
       </Docs>
     </Member>
@@ -516,12 +516,12 @@ catch (Exception ex) {
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Data.SqlClient.SqlException.Number" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.State" />
         <altmember cref="P:System.Data.SqlClient.SqlException.Class" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.Server" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.Procedure" />
         <altmember cref="P:System.Data.SqlClient.SqlException.LineNumber" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Number" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Procedure" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Server" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.State" />
         <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
       </Docs>
     </Member>
@@ -570,12 +570,12 @@ catch (Exception ex) {
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Data.SqlClient.SqlException.Number" />
         <altmember cref="P:System.Data.SqlClient.SqlException.Class" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.Source" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.Server" />
-        <altmember cref="P:System.Data.SqlClient.SqlException.Procedure" />
         <altmember cref="P:System.Data.SqlClient.SqlException.LineNumber" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Number" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Procedure" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Server" />
+        <altmember cref="P:System.Data.SqlClient.SqlException.Source" />
         <related type="Article" href="/dotnet/framework/data/adonet/ado-net-overview">ADO.NET Overview</related>
       </Docs>
     </Member>

@@ -52,9 +52,9 @@
 
  ]]></format>
     </remarks>
-    <forInternalUseOnly />
     <related type="Article" href="/dotnet/visual-basic/language-reference/objects/my-forms-object">My.Forms Object</related>
     <related type="Article" href="/dotnet/visual-basic/language-reference/objects/my-webservices-object">My.WebServices Object</related>
+    <forInternalUseOnly />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -108,9 +108,9 @@
 
  ]]></format>
         </remarks>
-        <forInternalUseOnly />
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/my-forms-object">My.Forms Object</related>
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/my-webservices-object">My.WebServices Object</related>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="CreateMethod">
@@ -152,9 +152,9 @@
 
  ]]></format>
         </remarks>
-        <forInternalUseOnly />
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/my-forms-object">My.Forms Object</related>
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/my-webservices-object">My.WebServices Object</related>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="DefaultInstanceAlias">
@@ -196,9 +196,9 @@
 
  ]]></format>
         </remarks>
-        <forInternalUseOnly />
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/my-forms-object">My.Forms Object</related>
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/my-webservices-object">My.WebServices Object</related>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="DisposeMethod">
@@ -240,9 +240,9 @@
 
  ]]></format>
         </remarks>
-        <forInternalUseOnly />
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/my-forms-object">My.Forms Object</related>
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/my-webservices-object">My.WebServices Object</related>
+        <forInternalUseOnly />
       </Docs>
     </Member>
     <Member MemberName="MyGroupName">
@@ -284,9 +284,9 @@
 
  ]]></format>
         </remarks>
-        <forInternalUseOnly />
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/my-forms-object">My.Forms Object</related>
         <related type="Article" href="/dotnet/visual-basic/language-reference/objects/my-webservices-object">My.WebServices Object</related>
+        <forInternalUseOnly />
       </Docs>
     </Member>
   </Members>

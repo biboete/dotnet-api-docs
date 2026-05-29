@@ -55,8 +55,8 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Data.SqlClient.SqlParameterCollection" />
     <altmember cref="T:System.Data.SqlClient.SqlCommand" />
+    <altmember cref="T:System.Data.SqlClient.SqlParameterCollection" />
     <related type="Article" href="/dotnet/framework/data/adonet/commands-and-parameters">Commands and Parameters</related>
     <related type="Article" href="/dotnet/framework/data/adonet/dataadapter-parameters">DataAdapter Parameters</related>
     <related type="Article" href="/dotnet/framework/data/adonet/sql/">SQL Server and ADO.NET</related>

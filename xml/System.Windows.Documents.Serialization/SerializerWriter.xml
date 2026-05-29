@@ -793,11 +793,11 @@
 
 ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.DocumentPaginator)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.DocumentPaginator)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -838,11 +838,11 @@
 
 ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocument)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocument)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -883,11 +883,11 @@
 
 ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocumentSequence)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocumentSequence)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -928,11 +928,11 @@
 
 ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedPage)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedPage)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -973,11 +973,11 @@
 
 ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Media.Visual)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Media.Visual)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -1020,11 +1020,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.DocumentPaginator)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.DocumentPaginator)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -1071,11 +1071,11 @@
 
 ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -1118,11 +1118,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocument)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocument)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -1169,11 +1169,11 @@
 
 ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -1216,11 +1216,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocumentSequence)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocumentSequence)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -1267,11 +1267,11 @@
 
 ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocumentSequence,System.Printing.PrintTicket)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocumentSequence,System.Printing.PrintTicket)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -1314,11 +1314,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedPage)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedPage)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -1365,11 +1365,11 @@
 
 ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedPage,System.Printing.PrintTicket)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedPage,System.Printing.PrintTicket)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -1412,11 +1412,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Media.Visual)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Media.Visual)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -1461,11 +1461,11 @@
 
 ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Media.Visual,System.Printing.PrintTicket)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Media.Visual,System.Printing.PrintTicket)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -1514,11 +1514,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -1567,11 +1567,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -1620,11 +1620,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -1673,11 +1673,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedPage,System.Printing.PrintTicket)" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedPage,System.Printing.PrintTicket)" />
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
@@ -1726,10 +1726,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
       </Docs>
     </Member>
     <Member MemberName="WritingCancelled">
@@ -1757,10 +1757,10 @@
       <Docs>
         <summary>When overridden in a derived class, occurs when a <see cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" /> operation is performed.</summary>
         <remarks>To be added.</remarks>
-        <altmember cref="Overload:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync" />
-        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync" />
+        <altmember cref="Overload:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync" />
       </Docs>
     </Member>
     <Member MemberName="WritingCompleted">
@@ -1788,9 +1788,9 @@
       <Docs>
         <summary>When overridden in a derived class, occurs when a write operation finishes.</summary>
         <remarks>To be added.</remarks>
-        <altmember cref="Overload:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
+        <altmember cref="Overload:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync" />
       </Docs>
     </Member>
     <Member MemberName="WritingPrintTicketRequired">
@@ -1825,8 +1825,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
+        <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged" />
       </Docs>
     </Member>
@@ -1862,9 +1862,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled" />
         <altmember cref="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted" />
+        <altmember cref="Overload:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync" />
       </Docs>
     </Member>
   </Members>

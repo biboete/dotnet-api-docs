@@ -30,10 +30,10 @@
   
  ]]></format>
     </remarks>
-    <altmember cref="E:System.Windows.Forms.Form.FormClosing" />
     <altmember cref="E:System.Windows.Forms.Form.FormClosed" />
-    <altmember cref="P:System.Windows.Forms.FormClosingEventArgs.CloseReason" />
+    <altmember cref="E:System.Windows.Forms.Form.FormClosing" />
     <altmember cref="P:System.Windows.Forms.FormClosedEventArgs.CloseReason" />
+    <altmember cref="P:System.Windows.Forms.FormClosingEventArgs.CloseReason" />
   </Docs>
   <Members>
     <Member MemberName="ApplicationExitCall">

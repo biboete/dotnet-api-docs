@@ -508,9 +508,9 @@
         <returns>The parameters representing the point on the curve for this key.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.NotSupportedException">A derived class must override this method.</exception>
+        <altmember cref="F:System.Security.Cryptography.ECParameters.Curve" />
         <altmember cref="T:System.Security.Cryptography.ECCurve" />
         <altmember cref="T:System.Security.Cryptography.ECParameters" />
-        <altmember cref="F:System.Security.Cryptography.ECParameters.Curve" />
       </Docs>
     </Member>
     <Member MemberName="FromXmlString">

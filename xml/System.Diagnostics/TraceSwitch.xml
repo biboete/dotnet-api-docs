@@ -82,11 +82,11 @@ You can create a <xref:System.Diagnostics.TraceSwitch> in your code and set the 
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Diagnostics.Switch" />
     <altmember cref="T:System.Diagnostics.BooleanSwitch" />
-    <altmember cref="T:System.Diagnostics.TraceLevel" />
     <altmember cref="T:System.Diagnostics.Debug" />
+    <altmember cref="T:System.Diagnostics.Switch" />
     <altmember cref="T:System.Diagnostics.Trace" />
+    <altmember cref="T:System.Diagnostics.TraceLevel" />
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">
@@ -167,11 +167,11 @@ The <xref:System.Diagnostics.TraceSwitch> class provides the <xref:System.Diagno
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Diagnostics.TraceSwitch" />
-        <altmember cref="T:System.Diagnostics.TraceLevel" />
-        <altmember cref="T:System.Diagnostics.Switch" />
         <altmember cref="T:System.Diagnostics.Debug" />
+        <altmember cref="T:System.Diagnostics.Switch" />
         <altmember cref="T:System.Diagnostics.Trace" />
+        <altmember cref="T:System.Diagnostics.TraceLevel" />
+        <altmember cref="T:System.Diagnostics.TraceSwitch" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -292,11 +292,11 @@ Setting this property updates the <xref:System.Diagnostics.TraceSwitch.TraceErro
         </remarks>
         <exception cref="T:System.ArgumentException">
           <see cref="P:System.Diagnostics.TraceSwitch.Level" /> is set to a value that is not one of the <see cref="T:System.Diagnostics.TraceLevel" /> values.</exception>
-        <altmember cref="T:System.Diagnostics.TraceSwitch" />
-        <altmember cref="T:System.Diagnostics.TraceLevel" />
-        <altmember cref="T:System.Diagnostics.Switch" />
         <altmember cref="T:System.Diagnostics.Debug" />
+        <altmember cref="T:System.Diagnostics.Switch" />
         <altmember cref="T:System.Diagnostics.Trace" />
+        <altmember cref="T:System.Diagnostics.TraceLevel" />
+        <altmember cref="T:System.Diagnostics.TraceSwitch" />
       </Docs>
     </Member>
     <Member MemberName="OnSwitchSettingChanged">
@@ -349,10 +349,10 @@ Setting this property updates the <xref:System.Diagnostics.TraceSwitch.TraceErro
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Diagnostics.TraceSwitch" />
-        <altmember cref="T:System.Diagnostics.Switch" />
         <altmember cref="T:System.Diagnostics.Debug" />
+        <altmember cref="T:System.Diagnostics.Switch" />
         <altmember cref="T:System.Diagnostics.Trace" />
+        <altmember cref="T:System.Diagnostics.TraceSwitch" />
       </Docs>
     </Member>
     <Member MemberName="OnValueChanged">
@@ -464,11 +464,11 @@ Setting this property updates the <xref:System.Diagnostics.TraceSwitch.TraceErro
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Diagnostics.TraceSwitch" />
-        <altmember cref="T:System.Diagnostics.Switch" />
-        <altmember cref="T:System.Diagnostics.TraceLevel" />
         <altmember cref="T:System.Diagnostics.Debug" />
+        <altmember cref="T:System.Diagnostics.Switch" />
         <altmember cref="T:System.Diagnostics.Trace" />
+        <altmember cref="T:System.Diagnostics.TraceLevel" />
+        <altmember cref="T:System.Diagnostics.TraceSwitch" />
       </Docs>
     </Member>
     <Member MemberName="TraceInfo">
@@ -528,11 +528,11 @@ Setting this property updates the <xref:System.Diagnostics.TraceSwitch.TraceErro
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Diagnostics.TraceSwitch" />
-        <altmember cref="T:System.Diagnostics.Switch" />
-        <altmember cref="T:System.Diagnostics.TraceLevel" />
         <altmember cref="T:System.Diagnostics.Debug" />
+        <altmember cref="T:System.Diagnostics.Switch" />
         <altmember cref="T:System.Diagnostics.Trace" />
+        <altmember cref="T:System.Diagnostics.TraceLevel" />
+        <altmember cref="T:System.Diagnostics.TraceSwitch" />
       </Docs>
     </Member>
     <Member MemberName="TraceVerbose">
@@ -592,11 +592,11 @@ Setting this property updates the <xref:System.Diagnostics.TraceSwitch.TraceErro
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Diagnostics.TraceSwitch" />
-        <altmember cref="T:System.Diagnostics.Switch" />
-        <altmember cref="T:System.Diagnostics.TraceLevel" />
         <altmember cref="T:System.Diagnostics.Debug" />
+        <altmember cref="T:System.Diagnostics.Switch" />
         <altmember cref="T:System.Diagnostics.Trace" />
+        <altmember cref="T:System.Diagnostics.TraceLevel" />
+        <altmember cref="T:System.Diagnostics.TraceSwitch" />
       </Docs>
     </Member>
     <Member MemberName="TraceWarning">
@@ -656,11 +656,11 @@ Setting this property updates the <xref:System.Diagnostics.TraceSwitch.TraceErro
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Diagnostics.TraceSwitch" />
-        <altmember cref="T:System.Diagnostics.Switch" />
-        <altmember cref="T:System.Diagnostics.TraceLevel" />
         <altmember cref="T:System.Diagnostics.Debug" />
+        <altmember cref="T:System.Diagnostics.Switch" />
         <altmember cref="T:System.Diagnostics.Trace" />
+        <altmember cref="T:System.Diagnostics.TraceLevel" />
+        <altmember cref="T:System.Diagnostics.TraceSwitch" />
       </Docs>
     </Member>
   </Members>

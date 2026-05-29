@@ -89,14 +89,14 @@
     <typeparam name="T">The type of elements in the list.</typeparam>
     <summary>Represents a strongly typed list of objects that can be accessed by index. Provides methods to search, sort, and manipulate lists.</summary>
     <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-collections-generic-list{t}">Supplemental API remarks for List&lt;T&gt;</see>.</remarks>
-    <threadsafe>Public static (<see langword="Shared" /> in Visual Basic) members of this type are thread safe. Any instance members are not guaranteed to be thread safe.
-
- It is safe to perform multiple read operations on a <see cref="T:System.Collections.Generic.List`1" />, but issues can occur if the collection is modified while it's being read. To ensure thread safety, lock the collection during a read or write operation. To enable a collection to be accessed by multiple threads for reading and writing, you must implement your own synchronization. For collections with built-in synchronization, see the classes in the <see cref="N:System.Collections.Concurrent" /> namespace. For an inherently thread-safe alternative, see the <see cref="T:System.Collections.Immutable.ImmutableList`1" /> class.</threadsafe>
     <altmember cref="T:System.Collections.IList" />
     <altmember cref="T:System.Collections.Immutable.ImmutableList`1" />
     <related type="Article" href="/dotnet/standard/globalization-localization/performing-culture-insensitive-string-operations-in-collections">Performing Culture-Insensitive String Operations in Collections</related>
     <related type="Article" href="/dotnet/csharp/programming-guide/concepts/iterators">Iterators (C#)</related>
     <related type="Article" href="/dotnet/visual-basic/programming-guide/concepts/iterators">Iterators (Visual Basic)</related>
+    <threadsafe>Public static (<see langword="Shared" /> in Visual Basic) members of this type are thread safe. Any instance members are not guaranteed to be thread safe.
+
+ It is safe to perform multiple read operations on a <see cref="T:System.Collections.Generic.List`1" />, but issues can occur if the collection is modified while it's being read. To ensure thread safety, lock the collection during a read or write operation. To enable a collection to be accessed by multiple threads for reading and writing, you must implement your own synchronization. For collections with built-in synchronization, see the classes in the <see cref="N:System.Collections.Concurrent" /> namespace. For an inherently thread-safe alternative, see the <see cref="T:System.Collections.Immutable.ImmutableList`1" /> class.</threadsafe>
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">
@@ -227,8 +227,8 @@
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="collection" /> is <see langword="null" />.</exception>
-        <altmember cref="T:System.Collections.Generic.IEnumerable`1" />
         <altmember cref="P:System.Collections.Generic.List`1.Capacity" />
+        <altmember cref="T:System.Collections.Generic.IEnumerable`1" />
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -371,9 +371,9 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Collections.Generic.List`1.Remove(`0)" />
         <altmember cref="M:System.Collections.Generic.List`1.AddRange(System.Collections.Generic.IEnumerable{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.Insert(System.Int32,`0)" />
-        <altmember cref="M:System.Collections.Generic.List`1.Remove(`0)" />
         <altmember cref="P:System.Collections.Generic.List`1.Count" />
       </Docs>
     </Member>
@@ -439,13 +439,13 @@
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="collection" /> is <see langword="null" />.</exception>
-        <altmember cref="T:System.Collections.Generic.IEnumerable`1" />
-        <altmember cref="P:System.Collections.Generic.List`1.Capacity" />
-        <altmember cref="P:System.Collections.Generic.List`1.Count" />
         <altmember cref="M:System.Collections.Generic.List`1.Add(`0)" />
+        <altmember cref="M:System.Collections.Generic.List`1.GetRange(System.Int32,System.Int32)" />
         <altmember cref="M:System.Collections.Generic.List`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.RemoveRange(System.Int32,System.Int32)" />
-        <altmember cref="M:System.Collections.Generic.List`1.GetRange(System.Int32,System.Int32)" />
+        <altmember cref="P:System.Collections.Generic.List`1.Capacity" />
+        <altmember cref="P:System.Collections.Generic.List`1.Count" />
+        <altmember cref="T:System.Collections.Generic.IEnumerable`1" />
       </Docs>
     </Member>
     <Member MemberName="AsReadOnly">
@@ -789,8 +789,8 @@
           <paramref name="index" /> and <paramref name="count" /> do not denote a valid range in the <see cref="T:System.Collections.Generic.List`1" />.</exception>
         <exception cref="T:System.InvalidOperationException">
           <paramref name="comparer" /> is <see langword="null" />, and the default comparer <see cref="P:System.Collections.Generic.Comparer`1.Default" /> cannot find an implementation of the <see cref="T:System.IComparable`1" /> generic interface or the <see cref="T:System.IComparable" /> interface for type <paramref name="T" />.</exception>
-        <altmember cref="T:System.Collections.Generic.IComparer`1" />
         <altmember cref="T:System.IComparable`1" />
+        <altmember cref="T:System.Collections.Generic.IComparer`1" />
         <related type="Article" href="/dotnet/standard/globalization-localization/performing-culture-insensitive-string-operations-in-collections">Performing Culture-Insensitive String Operations in Collections</related>
       </Docs>
     </Member>
@@ -1503,14 +1503,14 @@
         <exception cref="T:System.ArgumentNullException">
           <paramref name="match" /> is <see langword="null" />.</exception>
         <altmember cref="M:System.Collections.Generic.List`1.Find(System.Predicate{`0})" />
-        <altmember cref="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.FindAll(System.Predicate{`0})" />
+        <altmember cref="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})" />
+        <altmember cref="M:System.Collections.Generic.List`1.TrueForAll(System.Predicate{`0})" />
+        <altmember cref="Overload:System.Collections.Generic.List`1.BinarySearch" />
         <altmember cref="Overload:System.Collections.Generic.List`1.FindIndex" />
         <altmember cref="Overload:System.Collections.Generic.List`1.FindLastIndex" />
-        <altmember cref="Overload:System.Collections.Generic.List`1.BinarySearch" />
         <altmember cref="Overload:System.Collections.Generic.List`1.IndexOf" />
         <altmember cref="Overload:System.Collections.Generic.List`1.LastIndexOf" />
-        <altmember cref="M:System.Collections.Generic.List`1.TrueForAll(System.Predicate{`0})" />
         <altmember cref="T:System.Predicate`1" />
       </Docs>
     </Member>
@@ -1603,11 +1603,11 @@
         <exception cref="T:System.ArgumentNullException">
           <paramref name="match" /> is <see langword="null" />.</exception>
         <altmember cref="M:System.Collections.Generic.List`1.Exists(System.Predicate{`0})" />
-        <altmember cref="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.FindAll(System.Predicate{`0})" />
+        <altmember cref="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})" />
+        <altmember cref="Overload:System.Collections.Generic.List`1.BinarySearch" />
         <altmember cref="Overload:System.Collections.Generic.List`1.FindIndex" />
         <altmember cref="Overload:System.Collections.Generic.List`1.FindLastIndex" />
-        <altmember cref="Overload:System.Collections.Generic.List`1.BinarySearch" />
         <altmember cref="Overload:System.Collections.Generic.List`1.IndexOf" />
         <altmember cref="Overload:System.Collections.Generic.List`1.LastIndexOf" />
         <altmember cref="T:System.Predicate`1" />
@@ -1689,9 +1689,9 @@
         <altmember cref="M:System.Collections.Generic.List`1.Exists(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.Find(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})" />
+        <altmember cref="Overload:System.Collections.Generic.List`1.BinarySearch" />
         <altmember cref="Overload:System.Collections.Generic.List`1.FindIndex" />
         <altmember cref="Overload:System.Collections.Generic.List`1.FindLastIndex" />
-        <altmember cref="Overload:System.Collections.Generic.List`1.BinarySearch" />
         <altmember cref="Overload:System.Collections.Generic.List`1.IndexOf" />
         <altmember cref="Overload:System.Collections.Generic.List`1.LastIndexOf" />
         <altmember cref="T:System.Predicate`1" />
@@ -1791,10 +1791,10 @@ Public Function StartsWith(e As Employee) As Boolean
           <paramref name="match" /> is <see langword="null" />.</exception>
         <altmember cref="M:System.Collections.Generic.List`1.Exists(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.Find(System.Predicate{`0})" />
-        <altmember cref="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.FindAll(System.Predicate{`0})" />
-        <altmember cref="Overload:System.Collections.Generic.List`1.FindLastIndex" />
+        <altmember cref="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})" />
         <altmember cref="Overload:System.Collections.Generic.List`1.BinarySearch" />
+        <altmember cref="Overload:System.Collections.Generic.List`1.FindLastIndex" />
         <altmember cref="Overload:System.Collections.Generic.List`1.IndexOf" />
         <altmember cref="Overload:System.Collections.Generic.List`1.LastIndexOf" />
         <altmember cref="T:System.Predicate`1" />
@@ -1887,10 +1887,10 @@ Public Function StartsWith(e As Employee) As Boolean
           <paramref name="startIndex" /> is outside the range of valid indexes for the <see cref="T:System.Collections.Generic.List`1" />.</exception>
         <altmember cref="M:System.Collections.Generic.List`1.Exists(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.Find(System.Predicate{`0})" />
-        <altmember cref="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.FindAll(System.Predicate{`0})" />
-        <altmember cref="Overload:System.Collections.Generic.List`1.FindLastIndex" />
+        <altmember cref="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})" />
         <altmember cref="Overload:System.Collections.Generic.List`1.BinarySearch" />
+        <altmember cref="Overload:System.Collections.Generic.List`1.FindLastIndex" />
         <altmember cref="Overload:System.Collections.Generic.List`1.IndexOf" />
         <altmember cref="Overload:System.Collections.Generic.List`1.LastIndexOf" />
         <altmember cref="T:System.Predicate`1" />
@@ -1993,10 +1993,10 @@ Public Function StartsWith(e As Employee) As Boolean
  <paramref name="startIndex" /> and <paramref name="count" /> do not specify a valid section in the <see cref="T:System.Collections.Generic.List`1" />.</exception>
         <altmember cref="M:System.Collections.Generic.List`1.Exists(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.Find(System.Predicate{`0})" />
-        <altmember cref="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.FindAll(System.Predicate{`0})" />
-        <altmember cref="Overload:System.Collections.Generic.List`1.FindLastIndex" />
+        <altmember cref="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})" />
         <altmember cref="Overload:System.Collections.Generic.List`1.BinarySearch" />
+        <altmember cref="Overload:System.Collections.Generic.List`1.FindLastIndex" />
         <altmember cref="Overload:System.Collections.Generic.List`1.IndexOf" />
         <altmember cref="Overload:System.Collections.Generic.List`1.LastIndexOf" />
         <altmember cref="T:System.Predicate`1" />
@@ -2088,9 +2088,9 @@ Public Function StartsWith(e As Employee) As Boolean
         <altmember cref="M:System.Collections.Generic.List`1.Exists(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.Find(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.FindAll(System.Predicate{`0})" />
+        <altmember cref="Overload:System.Collections.Generic.List`1.BinarySearch" />
         <altmember cref="Overload:System.Collections.Generic.List`1.FindIndex" />
         <altmember cref="Overload:System.Collections.Generic.List`1.FindLastIndex" />
-        <altmember cref="Overload:System.Collections.Generic.List`1.BinarySearch" />
         <altmember cref="Overload:System.Collections.Generic.List`1.IndexOf" />
         <altmember cref="Overload:System.Collections.Generic.List`1.LastIndexOf" />
         <altmember cref="T:System.Predicate`1" />
@@ -2184,10 +2184,10 @@ Public Function StartsWith(e As Employee) As Boolean
           <paramref name="match" /> is <see langword="null" />.</exception>
         <altmember cref="M:System.Collections.Generic.List`1.Exists(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.Find(System.Predicate{`0})" />
-        <altmember cref="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.FindAll(System.Predicate{`0})" />
-        <altmember cref="Overload:System.Collections.Generic.List`1.FindIndex" />
+        <altmember cref="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})" />
         <altmember cref="Overload:System.Collections.Generic.List`1.BinarySearch" />
+        <altmember cref="Overload:System.Collections.Generic.List`1.FindIndex" />
         <altmember cref="Overload:System.Collections.Generic.List`1.IndexOf" />
         <altmember cref="Overload:System.Collections.Generic.List`1.LastIndexOf" />
         <altmember cref="T:System.Predicate`1" />
@@ -2256,10 +2256,10 @@ Public Function StartsWith(e As Employee) As Boolean
           <paramref name="startIndex" /> is outside the range of valid indexes for the <see cref="T:System.Collections.Generic.List`1" />.</exception>
         <altmember cref="M:System.Collections.Generic.List`1.Exists(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.Find(System.Predicate{`0})" />
-        <altmember cref="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.FindAll(System.Predicate{`0})" />
-        <altmember cref="Overload:System.Collections.Generic.List`1.FindIndex" />
+        <altmember cref="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})" />
         <altmember cref="Overload:System.Collections.Generic.List`1.BinarySearch" />
+        <altmember cref="Overload:System.Collections.Generic.List`1.FindIndex" />
         <altmember cref="Overload:System.Collections.Generic.List`1.IndexOf" />
         <altmember cref="Overload:System.Collections.Generic.List`1.LastIndexOf" />
         <altmember cref="T:System.Predicate`1" />
@@ -2356,10 +2356,10 @@ Public Function StartsWith(e As Employee) As Boolean
  <paramref name="startIndex" /> and <paramref name="count" /> do not specify a valid section in the <see cref="T:System.Collections.Generic.List`1" />.</exception>
         <altmember cref="M:System.Collections.Generic.List`1.Exists(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.Find(System.Predicate{`0})" />
-        <altmember cref="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.FindAll(System.Predicate{`0})" />
-        <altmember cref="Overload:System.Collections.Generic.List`1.FindIndex" />
+        <altmember cref="M:System.Collections.Generic.List`1.FindLast(System.Predicate{`0})" />
         <altmember cref="Overload:System.Collections.Generic.List`1.BinarySearch" />
+        <altmember cref="Overload:System.Collections.Generic.List`1.FindIndex" />
         <altmember cref="Overload:System.Collections.Generic.List`1.IndexOf" />
         <altmember cref="Overload:System.Collections.Generic.List`1.LastIndexOf" />
         <altmember cref="T:System.Predicate`1" />
@@ -2504,8 +2504,8 @@ Public Function StartsWith(e As Employee) As Boolean
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Collections.Generic.List`1.Enumerator" />
         <altmember cref="T:System.Collections.Generic.IEnumerator`1" />
+        <altmember cref="T:System.Collections.Generic.List`1.Enumerator" />
       </Docs>
     </Member>
     <Member MemberName="GetRange">
@@ -2581,9 +2581,9 @@ Public Function StartsWith(e As Employee) As Boolean
  <paramref name="count" /> is less than 0.</exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="index" /> and <paramref name="count" /> do not denote a valid range of elements in the <see cref="T:System.Collections.Generic.List`1" />.</exception>
-        <altmember cref="M:System.Collections.Generic.List`1.RemoveRange(System.Int32,System.Int32)" />
         <altmember cref="M:System.Collections.Generic.List`1.AddRange(System.Collections.Generic.IEnumerable{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})" />
+        <altmember cref="M:System.Collections.Generic.List`1.RemoveRange(System.Int32,System.Int32)" />
       </Docs>
     </Member>
     <MemberGroup MemberName="IndexOf">
@@ -2666,8 +2666,8 @@ Public Function StartsWith(e As Employee) As Boolean
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Collections.Generic.List`1.LastIndexOf(`0)" />
         <altmember cref="M:System.Collections.Generic.List`1.Contains(`0)" />
+        <altmember cref="M:System.Collections.Generic.List`1.LastIndexOf(`0)" />
         <related type="Article" href="/dotnet/standard/globalization-localization/performing-culture-insensitive-string-operations-in-collections">Performing Culture-Insensitive String Operations in Collections</related>
       </Docs>
     </Member>
@@ -2730,8 +2730,8 @@ Public Function StartsWith(e As Employee) As Boolean
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="index" /> is outside the range of valid indexes for the <see cref="T:System.Collections.Generic.List`1" />.</exception>
-        <altmember cref="M:System.Collections.Generic.List`1.LastIndexOf(`0)" />
         <altmember cref="M:System.Collections.Generic.List`1.Contains(`0)" />
+        <altmember cref="M:System.Collections.Generic.List`1.LastIndexOf(`0)" />
         <related type="Article" href="/dotnet/standard/globalization-localization/performing-culture-insensitive-string-operations-in-collections">Performing Culture-Insensitive String Operations in Collections</related>
       </Docs>
     </Member>
@@ -2804,8 +2804,8 @@ Public Function StartsWith(e As Employee) As Boolean
  -or-
 
  <paramref name="index" /> and <paramref name="count" /> do not specify a valid section in the <see cref="T:System.Collections.Generic.List`1" />.</exception>
-        <altmember cref="M:System.Collections.Generic.List`1.LastIndexOf(`0)" />
         <altmember cref="M:System.Collections.Generic.List`1.Contains(`0)" />
+        <altmember cref="M:System.Collections.Generic.List`1.LastIndexOf(`0)" />
         <related type="Article" href="/dotnet/standard/globalization-localization/performing-culture-insensitive-string-operations-in-collections">Performing Culture-Insensitive String Operations in Collections</related>
       </Docs>
     </Member>
@@ -2890,9 +2890,9 @@ Public Function StartsWith(e As Employee) As Boolean
  -or-
 
  <paramref name="index" /> is greater than <see cref="P:System.Collections.Generic.List`1.Count" />.</exception>
-        <altmember cref="M:System.Collections.Generic.List`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.Add(`0)" />
         <altmember cref="M:System.Collections.Generic.List`1.Remove(`0)" />
+        <altmember cref="M:System.Collections.Generic.List`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})" />
       </Docs>
     </Member>
     <Member MemberName="InsertRange">
@@ -2969,9 +2969,9 @@ Public Function StartsWith(e As Employee) As Boolean
  -or-
 
  <paramref name="index" /> is greater than <see cref="P:System.Collections.Generic.List`1.Count" />.</exception>
-        <altmember cref="M:System.Collections.Generic.List`1.Insert(System.Int32,`0)" />
         <altmember cref="M:System.Collections.Generic.List`1.AddRange(System.Collections.Generic.IEnumerable{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.GetRange(System.Int32,System.Int32)" />
+        <altmember cref="M:System.Collections.Generic.List`1.Insert(System.Int32,`0)" />
         <altmember cref="M:System.Collections.Generic.List`1.RemoveRange(System.Int32,System.Int32)" />
       </Docs>
     </Member>
@@ -3132,8 +3132,8 @@ Public Function StartsWith(e As Employee) As Boolean
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Collections.Generic.List`1.IndexOf(`0)" />
         <altmember cref="M:System.Collections.Generic.List`1.Contains(`0)" />
+        <altmember cref="M:System.Collections.Generic.List`1.IndexOf(`0)" />
         <related type="Article" href="/dotnet/standard/globalization-localization/performing-culture-insensitive-string-operations-in-collections">Performing Culture-Insensitive String Operations in Collections</related>
       </Docs>
     </Member>
@@ -3196,8 +3196,8 @@ Public Function StartsWith(e As Employee) As Boolean
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="index" /> is outside the range of valid indexes for the <see cref="T:System.Collections.Generic.List`1" />.</exception>
-        <altmember cref="M:System.Collections.Generic.List`1.IndexOf(`0)" />
         <altmember cref="M:System.Collections.Generic.List`1.Contains(`0)" />
+        <altmember cref="M:System.Collections.Generic.List`1.IndexOf(`0)" />
         <related type="Article" href="/dotnet/standard/globalization-localization/performing-culture-insensitive-string-operations-in-collections">Performing Culture-Insensitive String Operations in Collections</related>
       </Docs>
     </Member>
@@ -3270,8 +3270,8 @@ Public Function StartsWith(e As Employee) As Boolean
  -or-
 
  <paramref name="index" /> and <paramref name="count" /> do not specify a valid section in the <see cref="T:System.Collections.Generic.List`1" />.</exception>
-        <altmember cref="M:System.Collections.Generic.List`1.IndexOf(`0)" />
         <altmember cref="M:System.Collections.Generic.List`1.Contains(`0)" />
+        <altmember cref="M:System.Collections.Generic.List`1.IndexOf(`0)" />
         <related type="Article" href="/dotnet/standard/globalization-localization/performing-culture-insensitive-string-operations-in-collections">Performing Culture-Insensitive String Operations in Collections</related>
       </Docs>
     </Member>
@@ -3346,10 +3346,10 @@ Public Function StartsWith(e As Employee) As Boolean
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Collections.Generic.List`1.RemoveAt(System.Int32)" />
-        <altmember cref="M:System.Collections.Generic.List`1.RemoveRange(System.Int32,System.Int32)" />
         <altmember cref="M:System.Collections.Generic.List`1.Add(`0)" />
         <altmember cref="M:System.Collections.Generic.List`1.Insert(System.Int32,`0)" />
+        <altmember cref="M:System.Collections.Generic.List`1.RemoveAt(System.Int32)" />
+        <altmember cref="M:System.Collections.Generic.List`1.RemoveRange(System.Int32,System.Int32)" />
         <related type="Article" href="/dotnet/standard/globalization-localization/performing-culture-insensitive-string-operations-in-collections">Performing Culture-Insensitive String Operations in Collections</related>
       </Docs>
     </Member>
@@ -3425,11 +3425,11 @@ Public Function StartsWith(e As Employee) As Boolean
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="match" /> is <see langword="null" />.</exception>
-        <altmember cref="M:System.Collections.Generic.List`1.FindAll(System.Predicate{`0})" />
-        <altmember cref="T:System.Predicate`1" />
         <altmember cref="M:System.Collections.Generic.List`1.Remove(`0)" />
+        <altmember cref="M:System.Collections.Generic.List`1.FindAll(System.Predicate{`0})" />
         <altmember cref="M:System.Collections.Generic.List`1.RemoveAt(System.Int32)" />
         <altmember cref="M:System.Collections.Generic.List`1.RemoveRange(System.Int32,System.Int32)" />
+        <altmember cref="T:System.Predicate`1" />
       </Docs>
     </Member>
     <Member MemberName="RemoveAt">
@@ -3501,10 +3501,10 @@ Public Function StartsWith(e As Employee) As Boolean
  -or-
 
  <paramref name="index" /> is equal to or greater than <see cref="P:System.Collections.Generic.List`1.Count" />.</exception>
-        <altmember cref="M:System.Collections.Generic.List`1.Remove(`0)" />
-        <altmember cref="M:System.Collections.Generic.List`1.RemoveRange(System.Int32,System.Int32)" />
         <altmember cref="M:System.Collections.Generic.List`1.Add(`0)" />
+        <altmember cref="M:System.Collections.Generic.List`1.Remove(`0)" />
         <altmember cref="M:System.Collections.Generic.List`1.Insert(System.Int32,`0)" />
+        <altmember cref="M:System.Collections.Generic.List`1.RemoveRange(System.Int32,System.Int32)" />
       </Docs>
     </Member>
     <Member MemberName="RemoveRange">
@@ -3576,10 +3576,10 @@ Public Function StartsWith(e As Employee) As Boolean
         <exception cref="T:System.ArgumentException">
           <paramref name="index" /> and <paramref name="count" /> do not denote a valid range of elements in the <see cref="T:System.Collections.Generic.List`1" />.</exception>
         <altmember cref="M:System.Collections.Generic.List`1.Remove(`0)" />
-        <altmember cref="M:System.Collections.Generic.List`1.RemoveAt(System.Int32)" />
-        <altmember cref="M:System.Collections.Generic.List`1.GetRange(System.Int32,System.Int32)" />
         <altmember cref="M:System.Collections.Generic.List`1.AddRange(System.Collections.Generic.IEnumerable{`0})" />
+        <altmember cref="M:System.Collections.Generic.List`1.GetRange(System.Int32,System.Int32)" />
         <altmember cref="M:System.Collections.Generic.List`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})" />
+        <altmember cref="M:System.Collections.Generic.List`1.RemoveAt(System.Int32)" />
       </Docs>
     </Member>
     <MemberGroup MemberName="Reverse">

@@ -98,17 +98,17 @@
   <Docs>
     <summary>Represents text as a sequence of UTF-16 code units.</summary>
     <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-string">Supplemental API remarks for String</see>.</remarks>
-    <related type="ExternalDocumentation" href="https://www.microsoft.com/download/details.aspx?id=10921">Sorting Weight Tables for Windows (.NET Framework and .NET Core only)</related>
-    <related type="ExternalDocumentation" href="https://www.unicode.org/Public/UCA/latest/allkeys.txt">Default Unicode Collation Element Tables</related>
-    <threadsafe>This type is thread safe.</threadsafe>
-    <altmember cref="T:System.IComparable" />
     <altmember cref="T:System.ICloneable" />
+    <altmember cref="T:System.IComparable" />
     <altmember cref="T:System.IConvertible" />
     <altmember cref="T:System.Collections.IEnumerable" />
-    <altmember cref="T:System.Text.StringBuilder" />
     <altmember cref="T:System.Globalization.CultureInfo" />
+    <altmember cref="T:System.Text.StringBuilder" />
+    <related type="ExternalDocumentation" href="https://www.microsoft.com/download/details.aspx?id=10921">Sorting Weight Tables for Windows (.NET Framework and .NET Core only)</related>
+    <related type="ExternalDocumentation" href="https://www.unicode.org/Public/UCA/latest/allkeys.txt">Default Unicode Collation Element Tables</related>
     <related type="Article" href="/dotnet/standard/base-types/formatting-types">Formatting Types in .NET</related>
     <related type="Article" href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings in .NET</related>
+    <threadsafe>This type is thread safe.</threadsafe>
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">
@@ -781,8 +781,8 @@ The following example demonstrates how you can use this indexer in a routine to 
         </remarks>
         <exception cref="T:System.IndexOutOfRangeException">
           <paramref name="index" /> is greater than or equal to the length of this object or less than zero.</exception>
-        <altmember cref="T:System.Char" />
         <altmember cref="M:System.String.GetEnumerator" />
+        <altmember cref="T:System.Char" />
         <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
@@ -980,6 +980,9 @@ In the following example, the `ReverseStringComparer` class demonstrates how you
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
+        <altmember cref="M:System.String.CompareTo(System.Object)" />
+        <altmember cref="T:System.Int32" />
         <block subset="none" type="usage">
           <para>Character sets include ignorable characters. The <see cref="M:System.String.Compare(System.String,System.String)" /> method does not consider such characters when it performs a culture-sensitive comparison. For example, if the following code is run on the .NET Framework 4 or later, a culture-sensitive comparison of "animal" with "ani-mal" (using a soft hyphen, or U+00AD) indicates that the two strings are equivalent.
 
@@ -989,9 +992,6 @@ In the following example, the `ReverseStringComparer` class demonstrates how you
 
 To recognize ignorable characters in a string comparison, call the <see cref="M:System.String.Compare(System.String,System.String,System.StringComparison)" /> method and supply a value of either <see cref="F:System.Globalization.CompareOptions.Ordinal" /> or <see cref="F:System.Globalization.CompareOptions.OrdinalIgnoreCase" /> for the `comparisonType` parameter.</para>
         </block>
-        <altmember cref="T:System.Int32" />
-        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
-        <altmember cref="M:System.String.CompareTo(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="Compare">
@@ -1098,6 +1098,10 @@ The following example demonstrates that the <xref:System.String.Compare(System.S
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Globalization.CompareInfo.IsPrefix(System.String,System.String,System.Globalization.CompareOptions)" />
+        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
+        <altmember cref="M:System.String.CompareTo(System.Object)" />
+        <altmember cref="T:System.Int32" />
         <block subset="none" type="usage">
           <para>Character sets include ignorable characters. The <see cref="M:System.String.Compare(System.String,System.String,System.Boolean)" /> method does not consider such characters when it performs a culture-sensitive comparison. For example, a culture-sensitive, case-insensitive comparison of "animal" with "Ani-mal" (using a soft hyphen, or U+00AD) indicates that the two strings are equivalent.
 
@@ -1107,10 +1111,6 @@ The following example demonstrates that the <xref:System.String.Compare(System.S
 
 To recognize ignorable characters in a string comparison, call the <see cref="M:System.String.Compare(System.String,System.String,System.StringComparison)" /> method and supply a value of either <see cref="F:System.Globalization.CompareOptions.Ordinal" /> or <see cref="F:System.Globalization.CompareOptions.OrdinalIgnoreCase" /> for the <paramref name="comparisonType" /> parameter.</para>
         </block>
-        <altmember cref="T:System.Int32" />
-        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
-        <altmember cref="M:System.String.CompareTo(System.Object)" />
-        <altmember cref="M:System.Globalization.CompareInfo.IsPrefix(System.String,System.String,System.Globalization.CompareOptions)" />
       </Docs>
     </Member>
     <Member MemberName="Compare">
@@ -1214,13 +1214,13 @@ The following example compares three versions of the letter "I". The results are
           <paramref name="comparisonType" /> is not a <see cref="T:System.StringComparison" /> value.</exception>
         <exception cref="T:System.NotSupportedException">
           <see cref="T:System.StringComparison" /> is not supported.</exception>
+        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
+        <altmember cref="M:System.String.CompareTo(System.Object)" />
+        <altmember cref="T:System.Int32" />
+        <altmember cref="T:System.Globalization.CultureInfo" />
         <block subset="none" type="usage">
           <para>Character sets include ignorable characters. The <see cref="M:System.String.Compare(System.String,System.String,System.StringComparison)" /> method does not consider such characters when it performs a culture-sensitive comparison. To recognize ignorable characters in your comparison, supply a value of <see cref="F:System.StringComparison.Ordinal" /> or <see cref="F:System.StringComparison.OrdinalIgnoreCase" /> for the <paramref name="comparisonType" /> parameter.</para>
         </block>
-        <altmember cref="T:System.Int32" />
-        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
-        <altmember cref="M:System.String.CompareTo(System.Object)" />
-        <altmember cref="T:System.Globalization.CultureInfo" />
       </Docs>
     </Member>
     <Member MemberName="Compare">
@@ -1325,6 +1325,11 @@ The following example demonstrates how culture can affect a comparison. In Czech
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Globalization.CompareInfo.IsPrefix(System.String,System.String,System.Globalization.CompareOptions)" />
+        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
+        <altmember cref="M:System.String.CompareTo(System.Object)" />
+        <altmember cref="T:System.Boolean" />
+        <altmember cref="T:System.Int32" />
         <block subset="none" type="usage">
           <para>Character sets include ignorable characters. The <see cref="M:System.String.Compare(System.String,System.String,System.Boolean,System.Globalization.CultureInfo)" /> method does not consider such characters when it performs a culture-sensitive comparison. For example, if the following code is run on the .NET Framework 4 or later, a case-insensitive comparison of "animal" with "Ani-mal" (using a soft hyphen, or U+00AD) using the invariant culture indicates that the two strings are equivalent.
 
@@ -1334,11 +1339,6 @@ The following example demonstrates how culture can affect a comparison. In Czech
 
 To recognize ignorable characters in a string comparison, call the <see cref="M:System.String.Compare(System.String,System.String,System.Globalization.CultureInfo,System.Globalization.CompareOptions)" /> method and supply a value of either <see cref="F:System.Globalization.CompareOptions.Ordinal" /> or <see cref="F:System.Globalization.CompareOptions.OrdinalIgnoreCase" /> for the <paramref name="options" /> parameter.</para>
         </block>
-        <altmember cref="T:System.Int32" />
-        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
-        <altmember cref="M:System.String.CompareTo(System.Object)" />
-        <altmember cref="M:System.Globalization.CompareInfo.IsPrefix(System.String,System.String,System.Globalization.CompareOptions)" />
-        <altmember cref="T:System.Boolean" />
       </Docs>
     </Member>
     <Member MemberName="Compare">
@@ -1434,12 +1434,12 @@ The following example compares two strings in three different ways: Use linguist
         </remarks>
         <exception cref="T:System.ArgumentException">
           <paramref name="options" /> is not a <see cref="T:System.Globalization.CompareOptions" /> value.</exception>
-        <block subset="none" type="usage">
-          <para>Character sets include ignorable characters, which are characters that are not considered when performing a linguistic or culture-sensitive comparison. The <see cref="M:System.String.Compare(System.String,System.String,System.Globalization.CultureInfo,System.Globalization.CompareOptions)" /> method does not consider such characters when it performs a culture-sensitive comparison. To recognize ignorable characters in your comparison, supply a value of <see cref="F:System.Globalization.CompareOptions.Ordinal" /> or <see cref="F:System.Globalization.CompareOptions.OrdinalIgnoreCase" /> for the <paramref name="options" /> parameter.</para>
-        </block>
         <altmember cref="Overload:System.String.CompareOrdinal" />
         <altmember cref="Overload:System.String.CompareTo" />
         <altmember cref="Overload:System.String.Equals" />
+        <block subset="none" type="usage">
+          <para>Character sets include ignorable characters, which are characters that are not considered when performing a linguistic or culture-sensitive comparison. The <see cref="M:System.String.Compare(System.String,System.String,System.Globalization.CultureInfo,System.Globalization.CompareOptions)" /> method does not consider such characters when it performs a culture-sensitive comparison. To recognize ignorable characters in your comparison, supply a value of <see cref="F:System.Globalization.CompareOptions.Ordinal" /> or <see cref="F:System.Globalization.CompareOptions.OrdinalIgnoreCase" /> for the <paramref name="options" /> parameter.</para>
+        </block>
       </Docs>
     </Member>
     <Member MemberName="Compare">
@@ -1567,12 +1567,12 @@ The following example compares two substrings.
 -or-
 
 Either <paramref name="indexA" /> or <paramref name="indexB" /> is <see langword="null" />, and <paramref name="length" /> is greater than zero.</exception>
+        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
+        <altmember cref="M:System.String.CompareTo(System.Object)" />
+        <altmember cref="T:System.Int32" />
         <block subset="none" type="usage">
           <para>Character sets include ignorable characters. The <see cref="M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32)" /> method does not consider these characters when it performs a linguistic or culture-sensitive comparison. To recognize ignorable characters in your comparison, call the <see cref="M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.StringComparison)" /> method and supply a value of <see cref="F:System.Globalization.CompareOptions.Ordinal" /> or <see cref="F:System.Globalization.CompareOptions.OrdinalIgnoreCase" /> for the <paramref name="comparisonType" /> parameter.</para>
         </block>
-        <altmember cref="T:System.Int32" />
-        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
-        <altmember cref="M:System.String.CompareTo(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="Compare">
@@ -1702,12 +1702,12 @@ The following example performs two comparisons of two substrings that only diffe
 -or-
 
 Either <paramref name="indexA" /> or <paramref name="indexB" /> is <see langword="null" />, and <paramref name="length" /> is greater than zero.</exception>
+        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
+        <altmember cref="M:System.String.CompareTo(System.Object)" />
+        <altmember cref="T:System.Int32" />
         <block subset="none" type="usage">
           <para>Character sets include ignorable characters. The <see cref="M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Boolean)" /> method does not consider these characters when it performs a linguistic or culture-sensitive comparison. To recognize ignorable characters in your comparison, call the <see cref="M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.StringComparison)" /> method and supply a value of <see cref="F:System.Globalization.CompareOptions.Ordinal" /> or <see cref="F:System.Globalization.CompareOptions.OrdinalIgnoreCase" /> for the <paramref name="comparisonType" /> parameter.</para>
         </block>
-        <altmember cref="T:System.Int32" />
-        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
-        <altmember cref="M:System.String.CompareTo(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="Compare">
@@ -1833,12 +1833,12 @@ The following example compares two substrings.
 Either <paramref name="indexA" /> or <paramref name="indexB" /> is <see langword="null" />, and <paramref name="length" /> is greater than zero.</exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="comparisonType" /> is not a <see cref="T:System.StringComparison" /> value.</exception>
+        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
+        <altmember cref="M:System.String.CompareTo(System.Object)" />
+        <altmember cref="T:System.Int32" />
         <block subset="none" type="usage">
           <para>Character sets include ignorable characters. The <see cref="M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.StringComparison)" /> method does not consider these characters when it performs a linguistic or culture-sensitive comparison. To recognize ignorable characters in your comparison, supply a value of <see cref="F:System.StringComparison.Ordinal" /> or <see cref="F:System.StringComparison.OrdinalIgnoreCase" /> for the <paramref name="comparisonType" /> parameter.</para>
         </block>
-        <altmember cref="T:System.Int32" />
-        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
-        <altmember cref="M:System.String.CompareTo(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="Compare">
@@ -1967,12 +1967,12 @@ The following example compares two substrings using different cultures and ignor
 -or-
 
 Either <paramref name="strA" /> or <paramref name="strB" /> is <see langword="null" />, and <paramref name="length" /> is greater than zero.</exception>
+        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
+        <altmember cref="M:System.String.CompareTo(System.Object)" />
+        <altmember cref="T:System.Int32" />
         <block subset="none" type="usage">
           <para>Character sets include ignorable characters. The <see cref="M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Boolean,System.Globalization.CultureInfo)" /> method does not consider these characters when it performs a linguistic or culture-sensitive comparison. To recognize ignorable characters in your comparison, call the <see cref="M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CultureInfo,System.Globalization.CompareOptions)" /> method and supply a value of <see cref="F:System.Globalization.CompareOptions.Ordinal" /> or <see cref="F:System.Globalization.CompareOptions.OrdinalIgnoreCase" /> for the <paramref name="options" /> parameter.</para>
         </block>
-        <altmember cref="T:System.Int32" />
-        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
-        <altmember cref="M:System.String.CompareTo(System.Object)" />
       </Docs>
     </Member>
     <Member MemberName="Compare">
@@ -2092,10 +2092,10 @@ The following example uses the <xref:System.String.Compare(System.String,System.
 -or-
 
 Either <paramref name="strA" /> or <paramref name="strB" /> is <see langword="null" />, and <paramref name="length" /> is greater than zero.</exception>
+        <altmember cref="Overload:System.String.Equals" />
         <block subset="none" type="usage">
           <para>Character sets include ignorable characters. The <see cref="M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CultureInfo,System.Globalization.CompareOptions)" /> method does not consider these characters when it performs a linguistic or culture-sensitive comparison. To recognize ignorable characters in your comparison, supply a value of <see cref="F:System.Globalization.CompareOptions.Ordinal" /> or <see cref="F:System.Globalization.CompareOptions.OrdinalIgnoreCase" /> for the <paramref name="options" /> parameter.</para>
         </block>
-        <altmember cref="Overload:System.String.Equals" />
       </Docs>
     </Member>
     <MemberGroup MemberName="CompareOrdinal">
@@ -2193,9 +2193,9 @@ The following example performs and ordinal comparison of two strings that only d
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Int32" />
         <altmember cref="M:System.String.Compare(System.String,System.String)" />
         <altmember cref="M:System.String.CompareTo(System.Object)" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <Member MemberName="CompareOrdinal">
@@ -2416,6 +2416,8 @@ The following example uses the <xref:System.String.CompareTo*> method with an <x
         </remarks>
         <exception cref="T:System.ArgumentException">
           <paramref name="value" /> is not a <see cref="T:System.String" />.</exception>
+        <altmember cref="M:System.String.Compare(System.String,System.String)" />
+        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
         <block subset="none" type="usage">
           <para>Character sets include ignorable characters. The <see cref="M:System.String.CompareTo(System.Object)" /> method does not consider such characters when it performs a culture-sensitive comparison. For example, if the following code is run on the .NET Framework 4 or later, a comparison of "animal" with "ani-mal" (using a soft hyphen, or U+00AD) indicates that the two strings are equivalent.
 
@@ -2425,8 +2427,6 @@ The following example uses the <xref:System.String.CompareTo*> method with an <x
 
 To recognize ignorable characters in a string comparison, call the <see cref="M:System.String.CompareOrdinal(System.String,System.String)" /> method.</para>
         </block>
-        <altmember cref="M:System.String.Compare(System.String,System.String)" />
-        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
       </Docs>
     </Member>
     <Member MemberName="CompareTo">
@@ -2527,6 +2527,8 @@ The following example demonstrates generic and non-generic versions of the Compa
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.String.Compare(System.String,System.String)" />
+        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
         <block subset="none" type="usage">
           <para>Character sets include ignorable characters. The <see cref="M:System.String.CompareTo(System.String)" /> method does not consider such characters when it performs a culture-sensitive comparison. For example, if the following code is run on the .NET Framework 4 or later, a comparison of "animal" with "ani-mal" (using a soft hyphen, or U+00AD) indicates that the two strings are equivalent.
 
@@ -2536,8 +2538,6 @@ The following example demonstrates generic and non-generic versions of the Compa
 
 To recognize ignorable characters in a string comparison, call the <see cref="M:System.String.CompareOrdinal(System.String,System.String)" /> method.</para>
         </block>
-        <altmember cref="M:System.String.Compare(System.String,System.String)" />
-        <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
       </Docs>
     </Member>
     <MemberGroup MemberName="Concat">
@@ -2707,8 +2707,8 @@ The following example demonstrates the <xref:System.String.Concat*> method.
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Object" />
         <altmember cref="M:System.String.Join(System.String,System.String[])" />
+        <altmember cref="T:System.Object" />
       </Docs>
     </Member>
     <Member MemberName="Concat">
@@ -2787,11 +2787,11 @@ The following example demonstrates the use of the <xref:System.String.Concat*> m
         <exception cref="T:System.ArgumentNullException">
           <paramref name="args" /> is <see langword="null" />.</exception>
         <exception cref="T:System.OutOfMemoryException">Out of memory.</exception>
+        <altmember cref="M:System.String.Join(System.String,System.String[])" />
+        <altmember cref="T:System.Object" />
         <block subset="none" type="usage">
           <para>This method is not called by C++ code. The C++ compiler resolves calls to <see cref="Overload:System.String.Concat" /> that have four or more object parameters as a call to <see cref="M:System.String.Concat(System.Object,System.Object,System.Object,System.Object)" />.</para>
         </block>
-        <altmember cref="T:System.Object" />
-        <altmember cref="M:System.String.Join(System.String,System.String[])" />
       </Docs>
     </Member>
     <Member MemberName="Concat">
@@ -3041,8 +3041,8 @@ The following example demonstrates the <xref:System.String.Concat*> method.
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Object" />
         <altmember cref="M:System.String.Join(System.String,System.String[])" />
+        <altmember cref="T:System.Object" />
       </Docs>
     </Member>
     <Member MemberName="Concat">
@@ -3234,8 +3234,8 @@ The following example demonstrates the <xref:System.String.Concat*> method.
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Object" />
         <altmember cref="M:System.String.Join(System.String,System.String[])" />
+        <altmember cref="T:System.Object" />
       </Docs>
     </Member>
     <Member MemberName="Concat">
@@ -4033,10 +4033,10 @@ The following example demonstrates the <xref:System.String.CopyTo*> method.
 -or-
 
 <paramref name="count" /> is greater than the length of the subarray from <paramref name="destinationIndex" /> to the end of the <paramref name="destination" /> array.</exception>
-        <altmember cref="T:System.Char" />
-        <altmember cref="T:System.Int32" />
         <altmember cref="M:System.String.Insert(System.Int32,System.String)" />
         <altmember cref="M:System.String.Substring(System.Int32)" />
+        <altmember cref="T:System.Char" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <Member MemberName="Create">
@@ -4387,11 +4387,11 @@ The following example defines a `StripEndTags` method that uses the <xref:System
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="value" /> is <see langword="null" />.</exception>
+        <altmember cref="M:System.String.Compare(System.String,System.String)" />
+        <altmember cref="M:System.String.StartsWith(System.String)" />
         <block subset="none" type="usage">
           <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling string comparison methods that substitute default values and instead call methods that require parameters to be explicitly specified. To determine whether a string ends with a particular substring by using the string comparison rules of the current culture, signal your intention explicitly by calling the <see cref="M:System.String.EndsWith(System.String,System.StringComparison)" /> method overload with a value of <see cref="F:System.StringComparison.CurrentCulture" /> for its <paramref name="comparisonType" /> parameter. If you don't need linguistic-aware comparison, consider using <see cref="F:System.StringComparison.Ordinal" />.</para>
         </block>
-        <altmember cref="M:System.String.StartsWith(System.String)" />
-        <altmember cref="M:System.String.Compare(System.String,System.String)" />
       </Docs>
     </Member>
     <Member MemberName="EndsWith">
@@ -4759,8 +4759,8 @@ The following example demonstrates the <xref:System.String.Equals*> method.
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Object" />
         <altmember cref="M:System.String.CompareOrdinal(System.String,System.String)" />
+        <altmember cref="T:System.Object" />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -5527,9 +5527,9 @@ This example uses the <xref:System.String.Format(System.IFormatProvider,System.S
 -or-
 
 The index of a format item is less than zero, or greater than or equal to the length of the <paramref name="args" /> array.</exception>
-        <altmember cref="T:System.Globalization.DateTimeFormatInfo" />
         <altmember cref="T:System.ICustomFormatter" />
         <altmember cref="T:System.IFormatProvider" />
+        <altmember cref="T:System.Globalization.DateTimeFormatInfo" />
         <altmember cref="T:System.Globalization.NumberFormatInfo" />
         <related type="Article" href="/dotnet/standard/base-types/formatting-types">Formatting Types in .NET</related>
         <related type="Article" href="/dotnet/standard/base-types/composite-formatting">Composite Formatting</related>
@@ -6374,9 +6374,9 @@ The following example iterates the characters in several strings and displays in
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Collections.IEnumerator" />
-        <altmember cref="T:System.Collections.IEnumerable" />
         <altmember cref="P:System.String.Chars(System.Int32)" />
+        <altmember cref="T:System.Collections.IEnumerable" />
+        <altmember cref="T:System.Collections.IEnumerator" />
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -6482,11 +6482,11 @@ The following example demonstrates the <xref:System.String.GetHashCode*> method 
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Object.GetHashCode" />
+        <related type="Article" href="/dotnet/framework/configure-apps/file-schema/runtime/userandomizedstringhashalgorithm-element">&lt;UseRandomizedStringHashAlgorithm&gt; Element</related>
         <block subset="none" type="usage">
           <para>The value returned by <see cref="M:System.String.GetHashCode" /> is platform-dependent. It differs on the 32-bit and 64-bit versions of .NET Framework. It also can differ between versions of .NET Framework and .NET Core.</para>
         </block>
-        <altmember cref="M:System.Object.GetHashCode" />
-        <related type="Article" href="/dotnet/framework/configure-apps/file-schema/runtime/userandomizedstringhashalgorithm-element">&lt;UseRandomizedStringHashAlgorithm&gt; Element</related>
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -6788,10 +6788,10 @@ The following example demonstrates how you can search a <xref:System.String> for
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Char" />
         <altmember cref="M:System.String.IndexOfAny(System.Char[])" />
         <altmember cref="M:System.String.LastIndexOf(System.Char)" />
         <altmember cref="M:System.String.LastIndexOfAny(System.Char[])" />
+        <altmember cref="T:System.Char" />
       </Docs>
     </Member>
     <Member MemberName="IndexOf">
@@ -6869,14 +6869,14 @@ The following example uses the <xref:System.String.IndexOf*> method to determine
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="value" /> is <see langword="null" />.</exception>
-        <block subset="none" type="usage">
-          <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling string comparison methods that substitute default values and instead call methods that require parameters to be explicitly specified. To find the first index of a substring within a string instance by using the comparison rules of the current culture, signal your intention explicitly by calling the <see cref="M:System.String.IndexOf(System.String,System.StringComparison)" /> method overload with a value of <see cref="F:System.StringComparison.CurrentCulture" /> for its `comparisonType` parameter. If you don't need linguistic-aware comparison, consider using <see cref="F:System.StringComparison.Ordinal" />.</para>
-        </block>
-        <altmember cref="T:System.Int32" />
-        <altmember cref="T:System.Globalization.CultureInfo" />
         <altmember cref="M:System.String.IndexOfAny(System.Char[])" />
         <altmember cref="M:System.String.LastIndexOf(System.Char)" />
         <altmember cref="M:System.String.LastIndexOfAny(System.Char[])" />
+        <altmember cref="T:System.Int32" />
+        <altmember cref="T:System.Globalization.CultureInfo" />
+        <block subset="none" type="usage">
+          <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling string comparison methods that substitute default values and instead call methods that require parameters to be explicitly specified. To find the first index of a substring within a string instance by using the comparison rules of the current culture, signal your intention explicitly by calling the <see cref="M:System.String.IndexOf(System.String,System.StringComparison)" /> method overload with a value of <see cref="F:System.StringComparison.CurrentCulture" /> for its `comparisonType` parameter. If you don't need linguistic-aware comparison, consider using <see cref="F:System.StringComparison.Ordinal" />.</para>
+        </block>
       </Docs>
     </Member>
     <Member MemberName="IndexOf">
@@ -6977,11 +6977,11 @@ The following example demonstrates the <xref:System.String.IndexOf*> method.
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="startIndex" /> is less than 0 (zero) or greater than the length of the string.</exception>
-        <altmember cref="T:System.Int32" />
-        <altmember cref="T:System.Char" />
         <altmember cref="M:System.String.IndexOfAny(System.Char[])" />
         <altmember cref="M:System.String.LastIndexOf(System.Char)" />
         <altmember cref="M:System.String.LastIndexOfAny(System.Char[])" />
+        <altmember cref="T:System.Char" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <Member MemberName="IndexOf">
@@ -7108,14 +7108,14 @@ The following example searches for all occurrences of a specified string within 
           <paramref name="value" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="startIndex" /> is less than 0 (zero) or greater than the length of this string.</exception>
-        <block subset="none" type="usage">
-          <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling string comparison methods that substitute default values and instead call methods that require parameters to be explicitly specified. To find the first index of a substring that occurs after a particular character position by using the comparison rules of the current culture, signal your intention explicitly by calling the <see cref="M:System.String.IndexOf(System.String,System.Int32,System.StringComparison)" /> method overload with a value of <see cref="F:System.StringComparison.CurrentCulture" /> for its `comparisonType` parameter. If you don't need linguistic-aware comparison, consider using <see cref="F:System.StringComparison.Ordinal" />.</para>
-        </block>
-        <altmember cref="T:System.Int32" />
-        <altmember cref="T:System.Globalization.CultureInfo" />
         <altmember cref="M:System.String.IndexOfAny(System.Char[])" />
         <altmember cref="M:System.String.LastIndexOf(System.Char)" />
         <altmember cref="M:System.String.LastIndexOfAny(System.Char[])" />
+        <altmember cref="T:System.Int32" />
+        <altmember cref="T:System.Globalization.CultureInfo" />
+        <block subset="none" type="usage">
+          <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling string comparison methods that substitute default values and instead call methods that require parameters to be explicitly specified. To find the first index of a substring that occurs after a particular character position by using the comparison rules of the current culture, signal your intention explicitly by calling the <see cref="M:System.String.IndexOf(System.String,System.Int32,System.StringComparison)" /> method overload with a value of <see cref="F:System.StringComparison.CurrentCulture" /> for its `comparisonType` parameter. If you don't need linguistic-aware comparison, consider using <see cref="F:System.StringComparison.Ordinal" />.</para>
+        </block>
       </Docs>
     </Member>
     <Member MemberName="IndexOf">
@@ -7338,11 +7338,11 @@ The following example demonstrates the <xref:System.String.IndexOf*> method.
 -or-
 
 <paramref name="count" /> is greater than the length of this string minus <paramref name="startIndex" />.</exception>
-        <altmember cref="T:System.Char" />
-        <altmember cref="T:System.Int32" />
         <altmember cref="M:System.String.IndexOfAny(System.Char[])" />
         <altmember cref="M:System.String.LastIndexOf(System.Char)" />
         <altmember cref="M:System.String.LastIndexOfAny(System.Char[])" />
+        <altmember cref="T:System.Char" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <Member MemberName="IndexOf">
@@ -7463,14 +7463,14 @@ The following example finds the index of all occurrences of the string "he" with
 -or-
 
 <paramref name="count" /> is greater than the length of this string minus <paramref name="startIndex" />.</exception>
-        <block subset="none" type="usage">
-          <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling string comparison methods that substitute default values and instead call methods that require parameters to be explicitly specified. To use the comparison rules of the current culture to perform this operation, signal your intention explicitly by calling the <see cref="M:System.String.IndexOf(System.String,System.Int32,System.Int32,System.StringComparison)" /> method overload with a value of <see cref="F:System.StringComparison.CurrentCulture" /> for its `comparisonType` parameter. If you don't need linguistic-aware comparison, consider using <see cref="F:System.StringComparison.Ordinal" />.</para>
-        </block>
-        <altmember cref="T:System.Int32" />
-        <altmember cref="T:System.Globalization.CultureInfo" />
         <altmember cref="M:System.String.IndexOfAny(System.Char[])" />
         <altmember cref="M:System.String.LastIndexOf(System.Char)" />
         <altmember cref="M:System.String.LastIndexOfAny(System.Char[])" />
+        <altmember cref="T:System.Int32" />
+        <altmember cref="T:System.Globalization.CultureInfo" />
+        <block subset="none" type="usage">
+          <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling string comparison methods that substitute default values and instead call methods that require parameters to be explicitly specified. To use the comparison rules of the current culture to perform this operation, signal your intention explicitly by calling the <see cref="M:System.String.IndexOf(System.String,System.Int32,System.Int32,System.StringComparison)" /> method overload with a value of <see cref="F:System.StringComparison.CurrentCulture" /> for its `comparisonType` parameter. If you don't need linguistic-aware comparison, consider using <see cref="F:System.StringComparison.Ordinal" />.</para>
+        </block>
       </Docs>
     </Member>
     <Member MemberName="IndexOf">
@@ -7951,12 +7951,12 @@ The following example finds the index of the occurrence of any character of the 
 -or-
 
 <paramref name="startIndex" /> is greater than the number of characters in this instance.</exception>
-        <altmember cref="T:System.Char" />
-        <altmember cref="T:System.Int32" />
-        <altmember cref="T:System.Array" />
         <altmember cref="M:System.String.IndexOf(System.Char)" />
         <altmember cref="M:System.String.LastIndexOf(System.Char)" />
         <altmember cref="M:System.String.LastIndexOfAny(System.Char[])" />
+        <altmember cref="T:System.Array" />
+        <altmember cref="T:System.Char" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <Member MemberName="IndexOfAny">
@@ -8036,12 +8036,12 @@ The following example finds the index of the occurrence of any character of the 
 -or-
 
 <paramref name="count" /> + <paramref name="startIndex" /> is greater than the number of characters in this instance.</exception>
-        <altmember cref="T:System.Char" />
-        <altmember cref="T:System.Int32" />
-        <altmember cref="T:System.Array" />
         <altmember cref="M:System.String.IndexOf(System.Char)" />
         <altmember cref="M:System.String.LastIndexOf(System.Char)" />
         <altmember cref="M:System.String.LastIndexOfAny(System.Char[])" />
+        <altmember cref="T:System.Array" />
+        <altmember cref="T:System.Char" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <Member MemberName="Insert">
@@ -8120,7 +8120,6 @@ The following console application prompts the users to enter one or more adjecti
           <paramref name="value" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="startIndex" /> is negative or greater than the length of this instance.</exception>
-        <altmember cref="T:System.Int32" />
         <altmember cref="M:System.String.Concat(System.Object)" />
         <altmember cref="M:System.String.CopyTo(System.Int32,System.Char[],System.Int32,System.Int32)" />
         <altmember cref="M:System.String.Insert(System.Int32,System.String)" />
@@ -8130,6 +8129,7 @@ The following console application prompts the users to enter one or more adjecti
         <altmember cref="M:System.String.Split(System.Char[])" />
         <altmember cref="M:System.String.Substring(System.Int32)" />
         <altmember cref="M:System.String.Trim(System.Char[])" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <Member MemberName="Intern">
@@ -8183,6 +8183,9 @@ The following console application prompts the users to enter one or more adjecti
             For more information about this API, see [Supplemental API remarks for String.Intern](/dotnet/fundamentals/runtime-libraries/system-string-intern).
             ]]></format>
         </remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="str" /> is <see langword="null" />.</exception>
+        <altmember cref="M:System.String.IsInterned(System.String)" />
         <example>
           <format type="text/markdown"><![CDATA[
 The following example creates two strings with equal values and demonstrates that interning them yields the same reference.
@@ -8192,9 +8195,6 @@ The following example creates two strings with equal values and demonstrates tha
 :::code language="vb" source="~/snippets/visualbasic/System/String/Intern/string_intern.vb" id="Snippet1":::
           ]]></format>
         </example>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="str" /> is <see langword="null" />.</exception>
-        <altmember cref="M:System.String.IsInterned(System.String)" />
       </Docs>
     </Member>
     <Member MemberName="IsInterned">
@@ -8354,10 +8354,10 @@ For a description of supported Unicode normalization forms, see <xref:System.Tex
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">The current instance contains invalid Unicode characters.</exception>
+        <altmember cref="M:System.String.Normalize" />
         <block subset="none" type="usage">
           <para>The <see cref="Overload:System.String.IsNormalized" /> method returns <see langword="false" /> as soon as it encounters the first non-normalized character in a string. Therefore, if a string contains non-normalized characters followed by invalid Unicode characters, the <see cref="Overload:System.String.Normalize" /> method will throw an <see cref="T:System.ArgumentException" /> although <see cref="Overload:System.String.IsNormalized" /> returns <see langword="false" />.</para>
         </block>
-        <altmember cref="M:System.String.Normalize" />
       </Docs>
     </Member>
     <Member MemberName="IsNormalized">
@@ -8416,10 +8416,10 @@ For a description of supported Unicode normalization forms, see <xref:System.Tex
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">The current instance contains invalid Unicode characters.</exception>
+        <altmember cref="M:System.String.Normalize" />
         <block subset="none" type="usage">
           <para>The <see cref="Overload:System.String.IsNormalized" /> method returns <see langword="false" /> as soon as it encounters the first non-normalized character in a string. Therefore, if a string contains non-normalized characters followed by invalid Unicode characters, the <see cref="Overload:System.String.Normalize" /> method will throw an <see cref="T:System.ArgumentException" /> although <see cref="Overload:System.String.IsNormalized" /> returns <see langword="false" />.</para>
         </block>
-        <altmember cref="M:System.String.Normalize" />
       </Docs>
     </Member>
     <Member MemberName="IsNullOrEmpty">
@@ -8475,6 +8475,7 @@ For a description of supported Unicode normalization forms, see <xref:System.Tex
         <returns>
           <see langword="true" /> if the <paramref name="value" /> parameter is <see langword="null" /> or an empty string (""); otherwise, <see langword="false" />.</returns>
         <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-string-isnullorempty">Supplemental API remarks for String.IsNullOrEmpty</see>.</remarks>
+        <altmember cref="M:System.String.IsNullOrWhiteSpace(System.String)" />
         <example>
           <format type="text/markdown"><![CDATA[
 The following example examines three strings and determines whether each string has a value, is an empty string, or is `null`.
@@ -8484,7 +8485,6 @@ The following example examines three strings and determines whether each string 
 :::code language="fsharp" source="~/snippets/fsharp/System/String/IsNullOrEmpty/inoe.fs" id="Snippet1":::
           ]]></format>
         </example>
-        <altmember cref="M:System.String.IsNullOrWhiteSpace(System.String)" />
       </Docs>
     </Member>
     <Member MemberName="IsNullOrWhiteSpace">
@@ -8967,6 +8967,7 @@ The following example uses the Sieve of Eratosthenes algorithm to calculate the 
         <exception cref="T:System.ArgumentNullException">
           <paramref name="values" /> is <see langword="null" />.</exception>
         <exception cref="T:System.OutOfMemoryException">The length of the resulting string overflows the maximum allowed length (<see cref="F:System.Int32.MaxValue">Int32.MaxValue</see>).</exception>
+        <altmember cref="M:System.String.Split(System.Char[])" />
         <block subset="none" type="usage">
           <para>.NET Framework only: If the first element of <paramref name="values" /> is <see langword="null" />, the <see cref="M:System.String.Join(System.String,System.Object[])" /> method does not concatenate the elements in <paramref name="values" /> but instead returns <see cref="F:System.String.Empty" />. A number of workarounds for this issue are available. The easiest is to assign a value of <see cref="F:System.String.Empty" /> to the first element of the array, as the following example shows.
 
@@ -8974,7 +8975,6 @@ The following example uses the Sieve of Eratosthenes algorithm to calculate the 
 :::code language="fsharp" source="~/snippets/fsharp/System/String/Join/joinfix1.fs" id="Snippet6":::
 :::code language="vb" source="~/snippets/visualbasic/System/String/Join/joinfix1.vb" id="Snippet6":::</para>
         </block>
-        <altmember cref="M:System.String.Split(System.Char[])" />
       </Docs>
     </Member>
     <Member MemberName="Join">
@@ -9572,10 +9572,10 @@ The following example defines an `ExtractFilename` method that uses the <xref:Sy
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Char" />
         <altmember cref="M:System.String.IndexOf(System.Char)" />
         <altmember cref="M:System.String.IndexOfAny(System.Char[])" />
         <altmember cref="M:System.String.LastIndexOfAny(System.Char[])" />
+        <altmember cref="T:System.Char" />
       </Docs>
     </Member>
     <Member MemberName="LastIndexOf">
@@ -9652,13 +9652,13 @@ The following example removes opening and closing HTML tags from a string if the
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="value" /> is <see langword="null" />.</exception>
-        <block subset="none" type="usage">
-          <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling string comparison methods that substitute default values and instead call methods that require parameters to be explicitly specified. To find the last index of a substring within a string instance by using the comparison rules of the current culture, signal your intention explicitly by calling the <see cref="M:System.String.LastIndexOf(System.String,System.StringComparison)" /> method overload with a value of <see cref="F:System.StringComparison.CurrentCulture" /> for its <paramref name="comparisonType" /> parameter. If you don't need linguistic-aware comparison, consider using <see cref="F:System.StringComparison.Ordinal" />.</para>
-        </block>
-        <altmember cref="T:System.Int32" />
         <altmember cref="M:System.String.IndexOf(System.Char)" />
         <altmember cref="M:System.String.IndexOfAny(System.Char[])" />
         <altmember cref="M:System.String.LastIndexOfAny(System.Char[])" />
+        <altmember cref="T:System.Int32" />
+        <block subset="none" type="usage">
+          <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling string comparison methods that substitute default values and instead call methods that require parameters to be explicitly specified. To find the last index of a substring within a string instance by using the comparison rules of the current culture, signal your intention explicitly by calling the <see cref="M:System.String.LastIndexOf(System.String,System.StringComparison)" /> method overload with a value of <see cref="F:System.StringComparison.CurrentCulture" /> for its <paramref name="comparisonType" /> parameter. If you don't need linguistic-aware comparison, consider using <see cref="F:System.StringComparison.Ordinal" />.</para>
+        </block>
       </Docs>
     </Member>
     <Member MemberName="LastIndexOf">
@@ -9756,11 +9756,11 @@ The following example finds the index of all occurrences of a character in a str
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">The current instance does not equal <see cref="F:System.String.Empty" />, and <paramref name="startIndex" /> is less than zero or greater than or equal to the length of this instance.</exception>
-        <altmember cref="T:System.Char" />
-        <altmember cref="T:System.Int32" />
         <altmember cref="M:System.String.IndexOf(System.Char)" />
         <altmember cref="M:System.String.IndexOfAny(System.Char[])" />
         <altmember cref="M:System.String.LastIndexOfAny(System.Char[])" />
+        <altmember cref="T:System.Char" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <Member MemberName="LastIndexOf">
@@ -9874,13 +9874,13 @@ The following example finds the index of all occurrences of a string in target s
 -or-
 
 The current instance equals <see cref="F:System.String.Empty" />, and <paramref name="startIndex" /> is less than -1 or greater than zero.</exception>
-        <block subset="none" type="usage">
-          <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling string comparison methods that substitute default values and instead call methods that require parameters to be explicitly specified. To find the index of a substring that precedes a particular character position by using the comparison rules of the current culture, signal your intention explicitly by calling the <see cref="M:System.String.LastIndexOf(System.String,System.Int32,System.StringComparison)" /> method overload with a value of <see cref="F:System.StringComparison.CurrentCulture" /> for its <paramref name="comparisonType" /> parameter. If you don't need linguistic-aware comparison, consider using <see cref="F:System.StringComparison.Ordinal" />.</para>
-        </block>
-        <altmember cref="T:System.Int32" />
         <altmember cref="M:System.String.IndexOf(System.Char)" />
         <altmember cref="M:System.String.IndexOfAny(System.Char[])" />
         <altmember cref="M:System.String.LastIndexOfAny(System.Char[])" />
+        <altmember cref="T:System.Int32" />
+        <block subset="none" type="usage">
+          <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling string comparison methods that substitute default values and instead call methods that require parameters to be explicitly specified. To find the index of a substring that precedes a particular character position by using the comparison rules of the current culture, signal your intention explicitly by calling the <see cref="M:System.String.LastIndexOf(System.String,System.Int32,System.StringComparison)" /> method overload with a value of <see cref="F:System.StringComparison.CurrentCulture" /> for its <paramref name="comparisonType" /> parameter. If you don't need linguistic-aware comparison, consider using <see cref="F:System.StringComparison.Ordinal" />.</para>
+        </block>
       </Docs>
     </Member>
     <Member MemberName="LastIndexOf">
@@ -10105,11 +10105,11 @@ The following example finds the index of all occurrences of a character in a sub
 -or-
 
 The current instance does not equal <see cref="F:System.String.Empty" />, and <paramref name="startIndex" /> - <paramref name="count" /> + 1 is less than zero.</exception>
-        <altmember cref="T:System.Char" />
-        <altmember cref="T:System.Int32" />
         <altmember cref="M:System.String.IndexOf(System.Char)" />
         <altmember cref="M:System.String.IndexOfAny(System.Char[])" />
         <altmember cref="M:System.String.LastIndexOfAny(System.Char[])" />
+        <altmember cref="T:System.Char" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <Member MemberName="LastIndexOf">
@@ -10246,13 +10246,13 @@ The current instance equals <see cref="F:System.String.Empty" /> and <paramref n
 -or-
 
 The current instance equals <see cref="F:System.String.Empty" /> and <paramref name="count" /> is greater than 1.</exception>
-        <block subset="none" type="usage">
-          <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling string comparison methods that substitute default values and instead call methods that require parameters to be explicitly specified. To perform this operation by using the comparison rules of the current culture, signal your intention explicitly by calling the <see cref="M:System.String.LastIndexOf(System.String,System.Int32,System.Int32,System.StringComparison)" /> method overload with a value of <see cref="F:System.StringComparison.CurrentCulture" /> for its <paramref name="comparisonType" /> parameter. If you don't need linguistic-aware comparison, consider using <see cref="F:System.StringComparison.Ordinal" />.</para>
-        </block>
-        <altmember cref="T:System.Int32" />
         <altmember cref="M:System.String.IndexOf(System.Char)" />
         <altmember cref="M:System.String.IndexOfAny(System.Char[])" />
         <altmember cref="M:System.String.LastIndexOfAny(System.Char[])" />
+        <altmember cref="T:System.Int32" />
+        <block subset="none" type="usage">
+          <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling string comparison methods that substitute default values and instead call methods that require parameters to be explicitly specified. To perform this operation by using the comparison rules of the current culture, signal your intention explicitly by calling the <see cref="M:System.String.LastIndexOf(System.String,System.Int32,System.Int32,System.StringComparison)" /> method overload with a value of <see cref="F:System.StringComparison.CurrentCulture" /> for its <paramref name="comparisonType" /> parameter. If you don't need linguistic-aware comparison, consider using <see cref="F:System.StringComparison.Ordinal" />.</para>
+        </block>
       </Docs>
     </Member>
     <Member MemberName="LastIndexOf">
@@ -10672,12 +10672,12 @@ The following example finds the index of the last occurrence of any character in
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="anyOf" /> is <see langword="null" />.</exception>
-        <altmember cref="T:System.Char" />
-        <altmember cref="T:System.Int32" />
-        <altmember cref="T:System.Array" />
         <altmember cref="M:System.String.IndexOf(System.Char)" />
         <altmember cref="M:System.String.IndexOfAny(System.Char[])" />
         <altmember cref="M:System.String.LastIndexOf(System.Char)" />
+        <altmember cref="T:System.Array" />
+        <altmember cref="T:System.Char" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <Member MemberName="LastIndexOfAny">
@@ -10748,12 +10748,12 @@ The following example finds the index of the last occurrence of any character in
         <exception cref="T:System.ArgumentNullException">
           <paramref name="anyOf" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">The current instance does not equal <see cref="F:System.String.Empty" />, and <paramref name="startIndex" /> specifies a position that is not within this instance.</exception>
-        <altmember cref="T:System.Char" />
-        <altmember cref="T:System.Int32" />
-        <altmember cref="T:System.Array" />
         <altmember cref="M:System.String.IndexOf(System.Char)" />
         <altmember cref="M:System.String.IndexOfAny(System.Char[])" />
         <altmember cref="M:System.String.LastIndexOf(System.Char)" />
+        <altmember cref="T:System.Array" />
+        <altmember cref="T:System.Char" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <Member MemberName="LastIndexOfAny">
@@ -10830,12 +10830,12 @@ The following example finds the index of the last occurrence of any character in
 -or-
 
 The current instance does not equal <see cref="F:System.String.Empty" />, and <paramref name="startIndex" /> minus <paramref name="count" /> + 1 is less than zero.</exception>
-        <altmember cref="T:System.Char" />
-        <altmember cref="T:System.Int32" />
-        <altmember cref="T:System.Array" />
         <altmember cref="M:System.String.IndexOf(System.Char)" />
         <altmember cref="M:System.String.IndexOfAny(System.Char[])" />
         <altmember cref="M:System.String.LastIndexOf(System.Char)" />
+        <altmember cref="T:System.Array" />
+        <altmember cref="T:System.Char" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <Member MemberName="Length">
@@ -10994,10 +10994,10 @@ For a description of supported Unicode normalization forms, see <xref:System.Tex
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">The current instance contains invalid Unicode characters.</exception>
+        <altmember cref="M:System.String.IsNormalized" />
         <block subset="none" type="usage">
           <para>The <see cref="Overload:System.String.IsNormalized" /> method returns <see langword="false" /> as soon as it encounters the first non-normalized character in a string. Therefore, if a string contains non-normalized characters followed by invalid Unicode characters, the <see cref="Overload:System.String.Normalize" /> method will throw an <see cref="T:System.ArgumentException" /> although <see cref="Overload:System.String.IsNormalized" /> returns <see langword="false" />.</para>
         </block>
-        <altmember cref="M:System.String.IsNormalized" />
       </Docs>
     </Member>
     <Member MemberName="Normalize">
@@ -11065,10 +11065,10 @@ For a description of supported Unicode normalization forms, see <xref:System.Tex
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">The current instance contains invalid Unicode characters.</exception>
+        <altmember cref="M:System.String.IsNormalized" />
         <block subset="none" type="usage">
           <para>The <see cref="Overload:System.String.IsNormalized" /> method returns <see langword="false" /> as soon as it encounters the first non-normalized character in a string. Therefore, if a string contains non-normalized characters followed by invalid Unicode characters, the <see cref="Overload:System.String.Normalize" /> method may throw an <see cref="T:System.ArgumentException" /> although <see cref="Overload:System.String.IsNormalized" /> returns <see langword="false" />.</para>
         </block>
-        <altmember cref="M:System.String.IsNormalized" />
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
@@ -11331,9 +11331,9 @@ The following example demonstrates the <xref:System.String.PadLeft*> method.
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="totalWidth" /> is less than zero.</exception>
-        <altmember cref="T:System.Int32" />
         <altmember cref="M:System.String.PadRight(System.Int32)" />
         <altmember cref="M:System.String.Trim(System.Char[])" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <Member MemberName="PadLeft">
@@ -11402,10 +11402,10 @@ The following example demonstrates the <xref:System.String.PadLeft*> method.
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="totalWidth" /> is less than zero.</exception>
-        <altmember cref="T:System.Char" />
-        <altmember cref="T:System.Int32" />
         <altmember cref="M:System.String.PadRight(System.Int32)" />
         <altmember cref="M:System.String.Trim(System.Char[])" />
+        <altmember cref="T:System.Char" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <MemberGroup MemberName="PadRight">
@@ -11487,9 +11487,9 @@ The following example demonstrates the <xref:System.String.PadRight*> method.
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="totalWidth" /> is less than zero.</exception>
-        <altmember cref="T:System.Int32" />
         <altmember cref="M:System.String.PadLeft(System.Int32)" />
         <altmember cref="M:System.String.Trim(System.Char[])" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <Member MemberName="PadRight">
@@ -11558,10 +11558,10 @@ The following example demonstrates the <xref:System.String.PadRight*> method.
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="totalWidth" /> is less than zero.</exception>
-        <altmember cref="T:System.Char" />
-        <altmember cref="T:System.Int32" />
         <altmember cref="M:System.String.PadLeft(System.Int32)" />
         <altmember cref="M:System.String.Trim(System.Char[])" />
+        <altmember cref="T:System.Char" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <MemberGroup MemberName="Remove">
@@ -11644,7 +11644,6 @@ The following example demonstrates the <xref:System.String.Remove*> method. The 
 -or-
 
 <paramref name="startIndex" /> is greater than the length of this instance.</exception>
-        <altmember cref="T:System.Int32" />
         <altmember cref="M:System.String.Concat(System.Object)" />
         <altmember cref="M:System.String.Insert(System.Int32,System.String)" />
         <altmember cref="M:System.String.Join(System.String,System.String[])" />
@@ -11652,6 +11651,7 @@ The following example demonstrates the <xref:System.String.Remove*> method. The 
         <altmember cref="M:System.String.Split(System.Char[])" />
         <altmember cref="M:System.String.Substring(System.Int32)" />
         <altmember cref="M:System.String.Trim(System.Char[])" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <Member MemberName="Remove">
@@ -11723,7 +11723,6 @@ The following example demonstrates how you can remove the middle name from a com
 -or-
 
 <paramref name="startIndex" /> plus <paramref name="count" /> specify a position outside this instance.</exception>
-        <altmember cref="T:System.Int32" />
         <altmember cref="M:System.String.Concat(System.Object)" />
         <altmember cref="M:System.String.Insert(System.Int32,System.String)" />
         <altmember cref="M:System.String.Join(System.String,System.String[])" />
@@ -11731,6 +11730,7 @@ The following example demonstrates how you can remove the middle name from a com
         <altmember cref="M:System.String.Split(System.Char[])" />
         <altmember cref="M:System.String.Substring(System.Int32)" />
         <altmember cref="M:System.String.Trim(System.Char[])" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <MemberGroup MemberName="Replace">
@@ -11816,7 +11816,6 @@ The following example creates a comma separated value list by substituting comma
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Char" />
         <altmember cref="M:System.String.Concat(System.Object)" />
         <altmember cref="M:System.String.Insert(System.Int32,System.String)" />
         <altmember cref="M:System.String.Join(System.String,System.String[])" />
@@ -11824,6 +11823,7 @@ The following example creates a comma separated value list by substituting comma
         <altmember cref="M:System.String.Split(System.Char[])" />
         <altmember cref="M:System.String.Substring(System.Int32)" />
         <altmember cref="M:System.String.Trim(System.Char[])" />
+        <altmember cref="T:System.Char" />
       </Docs>
     </Member>
     <Member MemberName="Replace">
@@ -12371,10 +12371,6 @@ The following example demonstrates how to extract individual words from a block 
 
  ]]></format>
         </remarks>
-        <block subset="none" type="usage">
-          <para>In .NET Framework 3.5 and earlier versions, if the <see cref="M:System.String.Split(System.Char[])" /> method is passed a <paramref name="separator" /> that is <see langword="null" /> or contains no characters, the method uses a slightly different set of white-space characters to split the string than the <see cref="M:System.String.Trim(System.Char[])" /> method does to trim the string. Starting with .NET Framework 4, both methods use an identical set of Unicode white-space characters.</para>
-        </block>
-        <altmember cref="T:System.Char" />
         <altmember cref="M:System.String.Concat(System.Object)" />
         <altmember cref="M:System.String.Insert(System.Int32,System.String)" />
         <altmember cref="M:System.String.Join(System.String,System.String[])" />
@@ -12382,6 +12378,10 @@ The following example demonstrates how to extract individual words from a block 
         <altmember cref="M:System.String.Replace(System.Char,System.Char)" />
         <altmember cref="M:System.String.Substring(System.Int32)" />
         <altmember cref="M:System.String.Trim(System.Char[])" />
+        <altmember cref="T:System.Char" />
+        <block subset="none" type="usage">
+          <para>In .NET Framework 3.5 and earlier versions, if the <see cref="M:System.String.Split(System.Char[])" /> method is passed a <paramref name="separator" /> that is <see langword="null" /> or contains no characters, the method uses a slightly different set of white-space characters to split the string than the <see cref="M:System.String.Trim(System.Char[])" /> method does to trim the string. Starting with .NET Framework 4, both methods use an identical set of Unicode white-space characters.</para>
+        </block>
       </Docs>
     </Member>
     <Member MemberName="Split">
@@ -12573,12 +12573,6 @@ The following example demonstrates how `count` can be used to limit the number o
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="count" /> is negative.</exception>
-        <block subset="none" type="usage">
-          <para>In .NET Framework 3.5 and earlier versions, if the <see cref="M:System.String.Split(System.Char[])" /> method is passed a <paramref name="separator" /> that is <see langword="null" /> or contains no characters, the method uses a slightly different set of white-space characters to split the string than the <see cref="M:System.String.Trim(System.Char[])" /> method does to trim the string. Starting with .NET Framework 4, both methods use an identical set of Unicode white-space characters.</para>
-        </block>
-        <altmember cref="T:System.Char" />
-        <altmember cref="T:System.Array" />
-        <altmember cref="T:System.Int32" />
         <altmember cref="M:System.String.Concat(System.Object)" />
         <altmember cref="M:System.String.Insert(System.Int32,System.String)" />
         <altmember cref="M:System.String.Join(System.String,System.String[])" />
@@ -12586,6 +12580,12 @@ The following example demonstrates how `count` can be used to limit the number o
         <altmember cref="M:System.String.Replace(System.Char,System.Char)" />
         <altmember cref="M:System.String.Substring(System.Int32)" />
         <altmember cref="M:System.String.Trim(System.Char[])" />
+        <altmember cref="T:System.Array" />
+        <altmember cref="T:System.Char" />
+        <altmember cref="T:System.Int32" />
+        <block subset="none" type="usage">
+          <para>In .NET Framework 3.5 and earlier versions, if the <see cref="M:System.String.Split(System.Char[])" /> method is passed a <paramref name="separator" /> that is <see langword="null" /> or contains no characters, the method uses a slightly different set of white-space characters to split the string than the <see cref="M:System.String.Trim(System.Char[])" /> method does to trim the string. Starting with .NET Framework 4, both methods use an identical set of Unicode white-space characters.</para>
+        </block>
       </Docs>
     </Member>
     <Member MemberName="Split">
@@ -13396,10 +13396,10 @@ The following example defines a `StripStartTags` method that uses the <xref:Syst
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="value" /> is <see langword="null" />.</exception>
+        <altmember cref="M:System.String.EndsWith(System.String)" />
         <block subset="none" type="usage">
           <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling string comparison methods that substitute default values and instead call methods that require parameters to be explicitly specified. To determine whether a string begins with a particular substring by using the string comparison rules of the current culture, signal your intention explicitly by calling the <see cref="M:System.String.StartsWith(System.String,System.StringComparison)" /> method overload with a value of <see cref="F:System.StringComparison.CurrentCulture" /> for its <paramref name="comparisonType" /> parameter. If you don't need linguistic-aware comparison, consider using <see cref="F:System.StringComparison.Ordinal" />.</para>
         </block>
-        <altmember cref="M:System.String.EndsWith(System.String)" />
       </Docs>
     </Member>
     <Member MemberName="StartsWith">
@@ -13741,7 +13741,6 @@ The <xref:System.String.IndexOf*> method is used to get the position of the equa
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="startIndex" /> is less than zero or greater than the length of this instance.</exception>
-        <altmember cref="T:System.Int32" />
         <altmember cref="M:System.String.Concat(System.Object)" />
         <altmember cref="M:System.String.Insert(System.Int32,System.String)" />
         <altmember cref="M:System.String.Join(System.String,System.String[])" />
@@ -13749,6 +13748,7 @@ The <xref:System.String.IndexOf*> method is used to get the position of the equa
         <altmember cref="M:System.String.Replace(System.Char,System.Char)" />
         <altmember cref="M:System.String.Split(System.Char[])" />
         <altmember cref="M:System.String.Trim(System.Char[])" />
+        <altmember cref="T:System.Int32" />
       </Docs>
     </Member>
     <Member MemberName="Substring">
@@ -15247,8 +15247,8 @@ The following example calls the <xref:System.String.ToCharArray*> method to extr
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Char" />
         <altmember cref="T:System.Array" />
+        <altmember cref="T:System.Char" />
       </Docs>
     </Member>
     <Member MemberName="ToCharArray">
@@ -15407,6 +15407,9 @@ The casing operation that results from calling the <xref:System.String.ToLower> 
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.String.ToLowerInvariant" />
+        <altmember cref="M:System.String.ToUpper" />
+        <altmember cref="M:System.String.ToUpperInvariant" />
         <example>
           <format type="text/markdown"><![CDATA[
 The following example converts several mixed case strings to lowercase.
@@ -15419,9 +15422,6 @@ The following example converts several mixed case strings to lowercase.
         <block subset="none" type="usage">
           <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling string casing methods that substitute default values and instead call methods that require parameters to be explicitly specified. To convert a character to lowercase by using the casing conventions of the current culture, signal your intention explicitly by calling the <see cref="M:System.String.ToLower(System.Globalization.CultureInfo)" /> method overload with a value of <see cref="P:System.Globalization.CultureInfo.CurrentCulture" /> for its <paramref name="culture" /> parameter. If you don't need linguistic-aware comparison, consider using <see cref="F:System.StringComparison.Ordinal" />.</para>
         </block>
-        <altmember cref="M:System.String.ToLowerInvariant" />
-        <altmember cref="M:System.String.ToUpper" />
-        <altmember cref="M:System.String.ToUpperInvariant" />
       </Docs>
     </Member>
     <Member MemberName="ToLower">
@@ -15489,6 +15489,8 @@ If you pass the <xref:System.String.ToLower(System.Globalization.CultureInfo)> m
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.String.ToUpper" />
+        <altmember cref="T:System.Globalization.CultureInfo" />
         <example>
           <format type="text/markdown"><![CDATA[
 The following example converts two strings of uppercase characters to lowercase characters using the English-United States and Turkish-Turkey cultures, then compares the lowercase strings. The uppercase strings are identical except that for each occurrence of the Unicode LATIN CAPITAL LETTER I in one string, the other string contains LATIN CAPITAL LETTER I WITH DOT ABOVE.
@@ -15498,8 +15500,6 @@ The following example converts two strings of uppercase characters to lowercase 
 :::code language="vb" source="~/snippets/visualbasic/System/String/ToLower/tolower.vb" id="Snippet1":::
           ]]></format>
         </example>
-        <altmember cref="T:System.Globalization.CultureInfo" />
-        <altmember cref="M:System.String.ToUpper" />
       </Docs>
     </Member>
     <Member MemberName="ToLowerInvariant">
@@ -15564,9 +15564,9 @@ The following example defines a string array that contains a single word in a nu
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.String.ToLower" />
         <altmember cref="M:System.String.ToUpperInvariant" />
         <altmember cref="M:System.String.ToLower(System.Globalization.CultureInfo)" />
-        <altmember cref="M:System.String.ToLower" />
         <altmember cref="P:System.Globalization.CultureInfo.InvariantCulture" />
       </Docs>
     </Member>
@@ -15777,6 +15777,9 @@ The casing operation that results from calling the <xref:System.String.ToUpper> 
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.String.ToLower" />
+        <altmember cref="M:System.String.ToLowerInvariant" />
+        <altmember cref="M:System.String.ToUpperInvariant" />
         <example>
           <format type="text/markdown"><![CDATA[
 The following example calls the <xref:System.String.ToUpper*> method to convert a series of one-character strings that contain each character in the Basic Latin, Latin-1 Supplement, and Latin Extended-A character sets. It then displays each string whose uppercase character is different from its lowercase character.
@@ -15789,9 +15792,6 @@ The following example calls the <xref:System.String.ToUpper*> method to convert 
         <block subset="none" type="usage">
           <para>As explained in <see href="/dotnet/standard/base-types/best-practices-strings">Best Practices for Using Strings</see>, we recommend that you avoid calling string casing methods that substitute default values and instead call methods that require parameters to be explicitly specified. To convert a string to uppercase by using the casing conventions of the current culture, signal your intention explicitly by calling the <see cref="M:System.String.ToUpper(System.Globalization.CultureInfo)" /> method overload with a value of <see cref="P:System.Globalization.CultureInfo.CurrentCulture" /> for its <paramref name="culture" /> parameter. If you don't need linguistic-aware comparison, consider using <see cref="F:System.StringComparison.Ordinal" />.</para>
         </block>
-        <altmember cref="M:System.String.ToLower" />
-        <altmember cref="M:System.String.ToLowerInvariant" />
-        <altmember cref="M:System.String.ToUpperInvariant" />
       </Docs>
     </Member>
     <Member MemberName="ToUpper">
@@ -15858,6 +15858,9 @@ If you pass the <xref:System.String.ToUpper(System.Globalization.CultureInfo)> m
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.String.ToLower" />
+        <altmember cref="M:System.String.ToLowerInvariant" />
+        <altmember cref="M:System.String.ToUpperInvariant" />
         <example>
           <format type="text/markdown"><![CDATA[
 The following example converts a string of lowercase characters to two strings of uppercase characters using the English-United States and Turkish-Turkey cultures, then compares the uppercase strings. The uppercase strings are identical except that for each occurrence of the Unicode LATIN CAPITAL LETTER I in one string, the other string contains LATIN CAPITAL LETTER I WITH DOT ABOVE.
@@ -15867,9 +15870,6 @@ The following example converts a string of lowercase characters to two strings o
 :::code language="vb" source="~/snippets/visualbasic/System/String/ToUpper/toupper.vb" id="Snippet1":::
           ]]></format>
         </example>
-        <altmember cref="M:System.String.ToLower" />
-        <altmember cref="M:System.String.ToLowerInvariant" />
-        <altmember cref="M:System.String.ToUpperInvariant" />
       </Docs>
     </Member>
     <Member MemberName="ToUpperInvariant">
@@ -15927,6 +15927,9 @@ If you need the lowercase or uppercase version of an operating system identifier
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.String.ToLowerInvariant" />
+        <altmember cref="M:System.String.ToUpper" />
+        <altmember cref="P:System.Globalization.CultureInfo.InvariantCulture" />
         <example>
           <format type="text/markdown"><![CDATA[
 The following example defines a string array that contains a single word in a number of languages. The <xref:System.String.ToUpperInvariant*> method is used to populate the elements of a parallel array with the case-insensitive version of each word. The <xref:System.Array.Sort``2(``0%5B%5D,``1%5B%5D,System.Collections.Generic.IComparer%7B``0%7D)?displayProperty=nameWithType> method is used to sort the case-sensitive array based on the order of elements in the uppercase array to ensure that elements appear in the same order regardless of language.
@@ -15936,9 +15939,6 @@ The following example defines a string array that contains a single word in a nu
 :::code language="vb" source="~/snippets/visualbasic/System/String/ToUpperInvariant/toupperinvariant.vb" id="Snippet1":::
           ]]></format>
         </example>
-        <altmember cref="M:System.String.ToLowerInvariant" />
-        <altmember cref="M:System.String.ToUpper" />
-        <altmember cref="P:System.Globalization.CultureInfo.InvariantCulture" />
       </Docs>
     </Member>
     <MemberGroup MemberName="Trim">
@@ -16019,12 +16019,12 @@ The following example uses the <xref:System.String.Trim?displayProperty=nameWith
 
           ]]></format>
         </remarks>
+        <altmember cref="M:System.Char.IsWhiteSpace(System.Char)" />
+        <altmember cref="M:System.String.TrimEnd(System.Char[])" />
+        <altmember cref="M:System.String.TrimStart(System.Char[])" />
         <block subset="none" type="usage">
           <para>The .NET Framework 3.5 SP1 and earlier versions maintain an internal list of white-space characters that this method trims. Starting with the .NET Framework 4, the method trims all Unicode white-space characters (that is, characters that produce a <see langword="true" /> return value when they are passed to the <see cref="M:System.Char.IsWhiteSpace(System.Char)" /> method). Because of this change, the <see cref="M:System.String.Trim" /> method in the .NET Framework 3.5 SP1 and earlier versions removes two characters, ZERO WIDTH SPACE (U+200B) and ZERO WIDTH NO-BREAK SPACE (U+FEFF), that the <see cref="M:System.String.Trim" /> method in the .NET Framework 4 and later versions does not remove. In addition, the <see cref="M:System.String.Trim" /> method in the .NET Framework 3.5 SP1 and earlier versions does not trim three Unicode white-space characters: MONGOLIAN VOWEL SEPARATOR (U+180E), NARROW NO-BREAK SPACE (U+202F), and MEDIUM MATHEMATICAL SPACE (U+205F).</para>
         </block>
-        <altmember cref="M:System.String.TrimEnd(System.Char[])" />
-        <altmember cref="M:System.String.TrimStart(System.Char[])" />
-        <altmember cref="M:System.Char.IsWhiteSpace(System.Char)" />
       </Docs>
     </Member>
     <Member MemberName="Trim">
@@ -16158,13 +16158,13 @@ The following example uses the `Trim(System.Char[])` method to remove space, ast
 
           ]]></format>
         </remarks>
+        <altmember cref="M:System.Char.IsWhiteSpace(System.Char)" />
+        <altmember cref="M:System.String.TrimEnd(System.Char[])" />
+        <altmember cref="M:System.String.TrimStart(System.Char[])" />
+        <altmember cref="T:System.Char" />
         <block subset="none" type="usage">
           <para>The .NET Framework 3.5 SP1 and earlier versions maintains an internal list of white-space characters that this method trims if <paramref name="trimChars" /> is <see langword="null" /> or an empty array. Starting with the .NET Framework 4, if <paramref name="trimChars" /> is <see langword="null" /> or an empty array, the method trims all Unicode white-space characters (that is, characters that produce a <see langword="true" /> return value when they are passed to the <see cref="M:System.Char.IsWhiteSpace(System.Char)" /> method). Because of this change, the <see cref="M:System.String.Trim" /> method in the .NET Framework 3.5 SP1 and earlier versions removes two characters, ZERO WIDTH SPACE (U+200B) and ZERO WIDTH NO-BREAK SPACE (U+FEFF), that the <see cref="M:System.String.Trim" /> method in the .NET Framework 4and later versions does not remove. In addition, the <see cref="M:System.String.Trim" /> method in the .NET Framework 3.5 SP1 and earlier versions does not trim three Unicode white-space characters: MONGOLIAN VOWEL SEPARATOR (U+180E), NARROW NO-BREAK SPACE (U+202F), and MEDIUM MATHEMATICAL SPACE (U+205F).</para>
         </block>
-        <altmember cref="T:System.Char" />
-        <altmember cref="M:System.String.TrimEnd(System.Char[])" />
-        <altmember cref="M:System.String.TrimStart(System.Char[])" />
-        <altmember cref="M:System.Char.IsWhiteSpace(System.Char)" />
       </Docs>
     </Member>
     <Member MemberName="Trim">
@@ -16369,13 +16369,13 @@ The following example demonstrates how you can use the `TrimEnd(System.Char[])` 
 
           ]]></format>
         </remarks>
+        <altmember cref="M:System.Char.IsWhiteSpace(System.Char)" />
+        <altmember cref="M:System.String.Trim(System.Char[])" />
+        <altmember cref="M:System.String.TrimStart(System.Char[])" />
+        <altmember cref="T:System.Char" />
         <block subset="none" type="usage">
           <para>The .NET Framework 3.5 SP1 and earlier versions maintains an internal list of white-space characters that this method trims if <paramref name="trimChars" /> is <see langword="null" /> or an empty array. Starting with the .NET Framework 4, if <paramref name="trimChars" /> is <see langword="null" /> or an empty array, the method trims all Unicode white-space characters (that is, characters that produce a <see langword="true" /> return value when they are passed to the <see cref="M:System.Char.IsWhiteSpace(System.Char)" /> method). Because of this change, the <see cref="M:System.String.Trim" /> method in the .NET Framework 3.5 SP1 and earlier versions removes two characters, ZERO WIDTH SPACE (U+200B) and ZERO WIDTH NO-BREAK SPACE (U+FEFF), that the <see cref="M:System.String.Trim" /> method in the .NET Framework 4 and later versions does not remove. In addition, the <see cref="M:System.String.Trim" /> method in the .NET Framework 3.5 SP1 and earlier versions does not trim three Unicode white-space characters: MONGOLIAN VOWEL SEPARATOR (U+180E), NARROW NO-BREAK SPACE (U+202F), and MEDIUM MATHEMATICAL SPACE (U+205F).</para>
         </block>
-        <altmember cref="T:System.Char" />
-        <altmember cref="M:System.String.Trim(System.Char[])" />
-        <altmember cref="M:System.String.TrimStart(System.Char[])" />
-        <altmember cref="M:System.Char.IsWhiteSpace(System.Char)" />
       </Docs>
     </Member>
     <Member MemberName="TrimEnd">
@@ -16592,13 +16592,13 @@ The following example then illustrates a call to the `StripComments` method.
 
           ]]></format>
         </remarks>
+        <altmember cref="M:System.Char.IsWhiteSpace(System.Char)" />
+        <altmember cref="M:System.String.Trim(System.Char[])" />
+        <altmember cref="M:System.String.TrimEnd(System.Char[])" />
+        <altmember cref="T:System.Char" />
         <block subset="none" type="usage">
           <para>The .NET Framework 3.5 SP1 and earlier versions maintains an internal list of white-space characters that this method trims if <paramref name="trimChars" /> is <see langword="null" /> or an empty array. Starting with the .NET Framework 4, if <paramref name="trimChars" /> is <see langword="null" /> or an empty array, the method trims all Unicode white-space characters (that is, characters that produce a <see langword="true" /> return value when they are passed to the <see cref="M:System.Char.IsWhiteSpace(System.Char)" /> method). Because of this change, the <see cref="M:System.String.Trim" /> method in the .NET Framework 3.5 SP1 and earlier versions removes two characters, ZERO WIDTH SPACE (U+200B) and ZERO WIDTH NO-BREAK SPACE (U+FEFF), that the <see cref="M:System.String.Trim" /> method in the .NET Framework 4 and later versions does not remove. In addition, the <see cref="M:System.String.Trim" /> method in the .NET Framework 3.5 SP1 and earlier versions does not trim three Unicode white-space characters: MONGOLIAN VOWEL SEPARATOR (U+180E), NARROW NO-BREAK SPACE (U+202F), and MEDIUM MATHEMATICAL SPACE (U+205F).</para>
         </block>
-        <altmember cref="T:System.Char" />
-        <altmember cref="M:System.String.Trim(System.Char[])" />
-        <altmember cref="M:System.String.TrimEnd(System.Char[])" />
-        <altmember cref="M:System.Char.IsWhiteSpace(System.Char)" />
       </Docs>
     </Member>
     <Member MemberName="TrimStart">

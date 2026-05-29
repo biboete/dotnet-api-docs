@@ -54,6 +54,7 @@
   <Docs>
     <summary>Specifies a set of features to support on the <see cref="T:System.Xml.XmlReader" /> object created by the <see cref="Overload:System.Xml.XmlReader.Create" /> method.</summary>
     <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-xml-xmlreadersettings">Supplemental API remarks for XmlReaderSettings</see>.</remarks>
+    <related type="Article" href="/dotnet/standard/data/xml/">XML Documents and Data</related>
     <example>
       <format type="text/markdown"><![CDATA[
 The following example creates an <xref:System.Xml.XmlReader> that uses an <xref:System.Xml.XmlUrlResolver> with the necessary credentials.
@@ -62,7 +63,6 @@ The following example creates an <xref:System.Xml.XmlReader> that uses an <xref:
 :::code language="vb" source="~/snippets/visualbasic/VS_Snippets_Data/XmlReader.Create/VB/XmlReader_Create.vb" id="Snippet2":::
       ]]></format>
     </example>
-    <related type="Article" href="/dotnet/standard/data/xml/">XML Documents and Data</related>
   </Docs>
   <Members>
     <MemberGroup MemberName=".ctor">
@@ -150,8 +150,8 @@ The following example creates an <xref:System.Xml.XmlReader> that uses an <xref:
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Xml.XmlReader" />
         <altmember cref="M:System.Xml.XmlReader.Create(System.String)" />
+        <altmember cref="T:System.Xml.XmlReader" />
       </Docs>
     </Member>
     <Member MemberName="Async">
@@ -317,8 +317,8 @@ If the <xref:System.Xml.XmlReader> is processing text data, it always checks tha
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Xml.XmlReader" />
         <altmember cref="M:System.Xml.XmlReader.Create(System.String)" />
+        <altmember cref="T:System.Xml.XmlReader" />
       </Docs>
     </Member>
     <Member MemberName="CloseInput">
@@ -1210,8 +1210,8 @@ There is an error in XML document (MaxCharactersInDocument, ).
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Xml.XmlReader" />
         <altmember cref="M:System.Xml.XmlReader.Create(System.String)" />
+        <altmember cref="T:System.Xml.XmlReader" />
       </Docs>
     </Member>
     <Member MemberName="Schemas">
@@ -1253,6 +1253,8 @@ There is an error in XML document (MaxCharactersInDocument, ).
         <summary>Gets or sets the <see cref="T:System.Xml.Schema.XmlSchemaSet" /> to use when performing schema validation.</summary>
         <value>The <see cref="T:System.Xml.Schema.XmlSchemaSet" /> to use when performing schema validation. The default is an empty <see cref="T:System.Xml.Schema.XmlSchemaSet" /> object.</value>
         <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-xml-xmlreadersettings-schemas">Supplemental API remarks for XmlReaderSettings.Schemas</see>.</remarks>
+        <altmember cref="M:System.Xml.XmlReader.Create(System.String)" />
+        <altmember cref="T:System.Xml.XmlReader" />
         <example>
           <format type="text/markdown"><![CDATA[
 The example below uses the <xref:System.Xml.XmlReaderSettings> object and the <xref:System.Xml.XmlReader.Create*?displayProperty=nameWithType> method to associate a schema with an XML document. The schema is added to the <xref:System.Xml.XmlReaderSettings.Schemas> property of the <xref:System.Xml.XmlReaderSettings> object. The value of the <xref:System.Xml.XmlReaderSettings.Schemas> property is an <xref:System.Xml.Schema.XmlSchemaSet> object. The schema is used to validate that the XML document conforms to the schema content model. Schema validation errors and warnings are handled by the <xref:System.Xml.XmlReaderSettings.ValidationEventHandler> defined in the <xref:System.Xml.XmlReaderSettings> object.
@@ -1269,8 +1271,6 @@ The example uses the books.xsd file as an input.
 :::code language="xml" source="~/snippets/xml/VS_Snippets_Data/XmlSchemaSetOverall Example/XML/books.xsd" id="Snippet3":::
           ]]></format>
         </example>
-        <altmember cref="T:System.Xml.XmlReader" />
-        <altmember cref="M:System.Xml.XmlReader.Create(System.String)" />
       </Docs>
     </Member>
     <Member MemberName="ValidationEventHandler">
@@ -1332,8 +1332,8 @@ The example uses the books.xsd file as an input.
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Xml.XmlReader" />
         <altmember cref="M:System.Xml.XmlReader.Create(System.String)" />
+        <altmember cref="T:System.Xml.XmlReader" />
       </Docs>
     </Member>
     <Member MemberName="ValidationFlags">
@@ -1404,8 +1404,8 @@ The output is as follows:
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Xml.XmlReader" />
         <altmember cref="M:System.Xml.XmlReader.Create(System.String)" />
+        <altmember cref="T:System.Xml.XmlReader" />
       </Docs>
     </Member>
     <Member MemberName="ValidationType">
@@ -1481,8 +1481,8 @@ The output is as follows:
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Xml.XmlReader" />
         <altmember cref="M:System.Xml.XmlReader.Create(System.String)" />
+        <altmember cref="T:System.Xml.XmlReader" />
         <altmember cref="T:System.Xml.Schema.XmlSchemaValidationFlags" />
       </Docs>
     </Member>
@@ -1556,8 +1556,8 @@ The output is as follows:
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Xml.XmlReader" />
         <altmember cref="M:System.Xml.XmlReader.Create(System.String)" />
+        <altmember cref="T:System.Xml.XmlReader" />
       </Docs>
     </Member>
   </Members>

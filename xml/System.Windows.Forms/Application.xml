@@ -717,11 +717,11 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Forms.Form.Closed" />
+        <altmember cref="E:System.Windows.Forms.Form.Closing" />
         <altmember cref="M:System.Windows.Forms.Application.ExitThread" />
         <altmember cref="M:System.Windows.Forms.Application.Run" />
         <altmember cref="P:System.Windows.Forms.Application.OpenForms" />
-        <altmember cref="E:System.Windows.Forms.Form.Closed" />
-        <altmember cref="E:System.Windows.Forms.Form.Closing" />
       </Docs>
     </Member>
     <Member MemberName="Exit">
@@ -1261,8 +1261,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.Application.ProductVersion" />
         <altmember cref="P:System.Windows.Forms.Application.CompanyName" />
+        <altmember cref="P:System.Windows.Forms.Application.ProductVersion" />
         <altmember cref="T:System.Reflection.AssemblyProductAttribute" />
       </Docs>
     </Member>
@@ -1310,8 +1310,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.Application.ProductName" />
         <altmember cref="P:System.Windows.Forms.Application.CompanyName" />
+        <altmember cref="P:System.Windows.Forms.Application.ProductName" />
         <altmember cref="T:System.Reflection.AssemblyVersionAttribute" />
       </Docs>
     </Member>
@@ -1584,9 +1584,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">A main message loop is already running on this thread.</exception>
+        <altmember cref="M:System.Windows.Forms.Application.DoEvents" />
         <altmember cref="M:System.Windows.Forms.Application.Exit" />
         <altmember cref="M:System.Windows.Forms.Application.ExitThread" />
-        <altmember cref="M:System.Windows.Forms.Application.DoEvents" />
       </Docs>
     </Member>
     <Member MemberName="Run">
@@ -1639,9 +1639,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">A main message loop is already running on this thread.</exception>
+        <altmember cref="M:System.Windows.Forms.Application.DoEvents" />
         <altmember cref="M:System.Windows.Forms.Application.Exit" />
         <altmember cref="M:System.Windows.Forms.Application.ExitThread" />
-        <altmember cref="M:System.Windows.Forms.Application.DoEvents" />
       </Docs>
     </Member>
     <Member MemberName="Run">
@@ -1699,9 +1699,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">A main message loop is already running on the current thread.</exception>
+        <altmember cref="M:System.Windows.Forms.Application.DoEvents" />
         <altmember cref="M:System.Windows.Forms.Application.Exit" />
         <altmember cref="M:System.Windows.Forms.Application.ExitThread" />
-        <altmember cref="M:System.Windows.Forms.Application.DoEvents" />
       </Docs>
     </Member>
     <Member MemberName="SafeTopLevelCaptionFormat">
@@ -1846,14 +1846,14 @@ static class Program
  ]]></format>
         </remarks>
         <exception cref="T:System.InvalidOperationException">You can only call this method before the first window is created by your Windows Forms application.</exception>
+        <altmember cref="M:System.Drawing.Text.PrivateFontCollection.AddMemoryFont(System.IntPtr,System.Int32)" />
+        <altmember cref="P:Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.UseCompatibleTextRendering" />
         <altmember cref="P:System.Windows.Forms.ButtonBase.UseCompatibleTextRendering" />
         <altmember cref="P:System.Windows.Forms.CheckedListBox.UseCompatibleTextRendering" />
         <altmember cref="P:System.Windows.Forms.GroupBox.UseCompatibleTextRendering" />
         <altmember cref="P:System.Windows.Forms.Label.UseCompatibleTextRendering" />
         <altmember cref="P:System.Windows.Forms.LinkLabel.UseCompatibleTextRendering" />
         <altmember cref="P:System.Windows.Forms.PropertyGrid.UseCompatibleTextRendering" />
-        <altmember cref="P:Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.UseCompatibleTextRendering" />
-        <altmember cref="M:System.Drawing.Text.PrivateFontCollection.AddMemoryFont(System.IntPtr,System.Int32)" />
       </Docs>
     </Member>
     <Member MemberName="SetDefaultFont">

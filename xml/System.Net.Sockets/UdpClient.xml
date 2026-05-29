@@ -486,8 +486,8 @@
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="port" /> is not between <see cref="F:System.Net.IPEndPoint.MinPort" /> and <see cref="F:System.Net.IPEndPoint.MaxPort" />.</exception>
         <exception cref="T:System.Net.Sockets.SocketException">An error occurred when accessing the socket.</exception>
-        <altmember cref="M:System.Net.Sockets.UdpClient.Send(System.Byte[],System.Int32,System.Net.IPEndPoint)" />
         <altmember cref="M:System.Net.Sockets.UdpClient.Connect(System.String,System.Int32)" />
+        <altmember cref="M:System.Net.Sockets.UdpClient.Send(System.Byte[],System.Int32,System.Net.IPEndPoint)" />
       </Docs>
     </Member>
     <Member MemberName="Active">
@@ -539,9 +539,9 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Net.Sockets.UdpClient" />
         <altmember cref="M:System.Net.Sockets.UdpClient.Connect(System.String,System.Int32)" />
         <altmember cref="M:System.Net.Sockets.UdpClient.Send(System.Byte[],System.Int32,System.Net.IPEndPoint)" />
+        <altmember cref="T:System.Net.Sockets.UdpClient" />
       </Docs>
     </Member>
     <Member MemberName="AllowNatTraversal">
@@ -604,11 +604,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Net.IPAddress.IsIPv6Teredo" />
-        <altmember cref="T:System.Net.Sockets.IPProtectionLevel" />
         <altmember cref="F:System.Net.Sockets.SocketOptionName.IPProtectionLevel" />
         <altmember cref="M:System.Net.Sockets.Socket.SetIPProtectionLevel(System.Net.Sockets.IPProtectionLevel)" />
         <altmember cref="M:System.Net.Sockets.TcpListener.AllowNatTraversal(System.Boolean)" />
+        <altmember cref="P:System.Net.IPAddress.IsIPv6Teredo" />
+        <altmember cref="T:System.Net.Sockets.IPProtectionLevel" />
       </Docs>
     </Member>
     <Member MemberName="Available">
@@ -1220,9 +1220,9 @@
         <exception cref="T:System.ArgumentNullException">
           <paramref name="endPoint" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ObjectDisposedException">The <see cref="T:System.Net.Sockets.UdpClient" /> is closed.</exception>
-        <altmember cref="T:System.Net.Sockets.Socket" />
-        <altmember cref="M:System.Net.Sockets.UdpClient.Send(System.Byte[],System.Int32,System.Net.IPEndPoint)" />
         <altmember cref="M:System.Net.Sockets.UdpClient.Receive(System.Net.IPEndPoint@)" />
+        <altmember cref="M:System.Net.Sockets.UdpClient.Send(System.Byte[],System.Int32,System.Net.IPEndPoint)" />
+        <altmember cref="T:System.Net.Sockets.Socket" />
       </Docs>
     </Member>
     <Member MemberName="Connect">
@@ -1301,9 +1301,9 @@
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="port" /> is not between <see cref="F:System.Net.IPEndPoint.MinPort" /> and <see cref="F:System.Net.IPEndPoint.MaxPort" />.</exception>
         <exception cref="T:System.Net.Sockets.SocketException">An error occurred when accessing the socket.</exception>
-        <altmember cref="T:System.Net.Sockets.Socket" />
-        <altmember cref="M:System.Net.Sockets.UdpClient.Send(System.Byte[],System.Int32,System.Net.IPEndPoint)" />
         <altmember cref="M:System.Net.Sockets.UdpClient.Receive(System.Net.IPEndPoint@)" />
+        <altmember cref="M:System.Net.Sockets.UdpClient.Send(System.Byte[],System.Int32,System.Net.IPEndPoint)" />
+        <altmember cref="T:System.Net.Sockets.Socket" />
       </Docs>
     </Member>
     <Member MemberName="Connect">
@@ -1381,9 +1381,9 @@
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="port" /> is not between <see cref="F:System.Net.IPEndPoint.MinPort" /> and <see cref="F:System.Net.IPEndPoint.MaxPort" />.</exception>
         <exception cref="T:System.Net.Sockets.SocketException">An error occurred when accessing the socket.</exception>
-        <altmember cref="T:System.Net.Sockets.Socket" />
-        <altmember cref="M:System.Net.Sockets.UdpClient.Send(System.Byte[],System.Int32,System.Net.IPEndPoint)" />
         <altmember cref="M:System.Net.Sockets.UdpClient.Receive(System.Net.IPEndPoint@)" />
+        <altmember cref="M:System.Net.Sockets.UdpClient.Send(System.Byte[],System.Int32,System.Net.IPEndPoint)" />
+        <altmember cref="T:System.Net.Sockets.Socket" />
       </Docs>
     </Member>
     <Member MemberName="Dispose">
@@ -2412,10 +2412,10 @@
         </remarks>
         <exception cref="T:System.ObjectDisposedException">The underlying <see cref="T:System.Net.Sockets.Socket" /> has been closed.</exception>
         <exception cref="T:System.Net.Sockets.SocketException">An error occurred when accessing the socket.</exception>
-        <altmember cref="M:System.Net.Sockets.UdpClient.Send(System.Byte[],System.Int32,System.Net.IPEndPoint)" />
-        <altmember cref="T:System.Net.IPEndPoint" />
         <altmember cref="M:System.Net.Sockets.UdpClient.Connect(System.String,System.Int32)" />
+        <altmember cref="M:System.Net.Sockets.UdpClient.Send(System.Byte[],System.Int32,System.Net.IPEndPoint)" />
         <altmember cref="T:System.Net.IPAddress" />
+        <altmember cref="T:System.Net.IPEndPoint" />
       </Docs>
     </Member>
     <Member MemberName="ReceiveAsync">
@@ -2761,8 +2761,8 @@
         <exception cref="T:System.Net.Sockets.SocketException">An error occurred when accessing the socket.</exception>
         <altmember cref="F:System.Net.Sockets.SocketOptionName.Broadcast" />
         <altmember cref="M:System.Net.Sockets.UdpClient.Connect(System.String,System.Int32)" />
-        <altmember cref="T:System.Net.Sockets.Socket" />
         <altmember cref="T:System.Net.IPEndPoint" />
+        <altmember cref="T:System.Net.Sockets.Socket" />
       </Docs>
     </Member>
     <Member MemberName="Send">

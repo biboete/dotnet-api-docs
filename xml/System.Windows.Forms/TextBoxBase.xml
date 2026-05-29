@@ -67,11 +67,11 @@
 
  ]]></format>
     </remarks>
+    <altmember cref="T:System.Windows.Forms.RichTextBox" />
+    <altmember cref="T:System.Windows.Forms.TextBox" />
     <block subset="none" type="overrides">
       <para>You do not typically inherit from <see cref="T:System.Windows.Forms.TextBoxBase" />. To create your own text control class, inherit from <see cref="T:System.Windows.Forms.TextBox" /> or <see cref="T:System.Windows.Forms.RichTextBox" />.</para>
     </block>
-    <altmember cref="T:System.Windows.Forms.TextBox" />
-    <altmember cref="T:System.Windows.Forms.RichTextBox" />
   </Docs>
   <Members>
     <Member MemberName="AcceptsTab">
@@ -750,11 +750,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.Cut" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.Clear" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.Copy" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.Cut" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.Paste" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.Undo" />
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.Clear" />
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -799,11 +799,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.Cut" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.ClearUndo" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.Copy" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.Cut" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.Paste" />
         <altmember cref="P:System.Windows.Forms.TextBoxBase.CanUndo" />
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.ClearUndo" />
       </Docs>
     </Member>
     <Member MemberName="ClearUndo">
@@ -848,11 +848,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.Cut" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.Clear" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.Copy" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.Cut" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.Paste" />
         <altmember cref="P:System.Windows.Forms.TextBoxBase.CanUndo" />
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.Clear" />
       </Docs>
     </Member>
     <Member MemberName="Click">
@@ -979,11 +979,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.Cut" />
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.Undo" />
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.Paste" />
-        <altmember cref="P:System.Windows.Forms.TextBoxBase.CanUndo" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.Clear" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.Cut" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.Paste" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.Undo" />
+        <altmember cref="P:System.Windows.Forms.TextBoxBase.CanUndo" />
       </Docs>
     </Member>
     <Member MemberName="CreateAccessibilityInstance">
@@ -1074,8 +1074,8 @@
         <summary>Gets the required creation parameters when the control handle is created.</summary>
         <value>A <see cref="T:System.Windows.Forms.CreateParams" /> that contains the required creation parameters when the handle to the control is created.</value>
         <remarks>To be added.</remarks>
-        <altmember cref="T:System.Windows.Forms.CreateParams" />
         <altmember cref="P:System.Windows.Forms.Control.CreateParams" />
+        <altmember cref="T:System.Windows.Forms.CreateParams" />
       </Docs>
     </Member>
     <Member MemberName="Cut">
@@ -1120,11 +1120,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.Undo" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.Clear" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.Copy" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.Paste" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.Undo" />
         <altmember cref="P:System.Windows.Forms.TextBoxBase.CanUndo" />
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.Clear" />
       </Docs>
     </Member>
     <Member MemberName="DefaultCursor">
@@ -1354,9 +1354,9 @@
  ]]></format>
         </remarks>
         <altmember cref="M:System.Windows.Forms.TextBoxBase.GetCharIndexFromPosition(System.Drawing.Point)" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.GetFirstCharIndexFromLine(System.Int32)" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.GetLineFromCharIndex(System.Int32)" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.GetPositionFromCharIndex(System.Int32)" />
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.GetFirstCharIndexFromLine(System.Int32)" />
       </Docs>
     </Member>
     <Member MemberName="GetCharIndexFromPosition">
@@ -1400,9 +1400,9 @@
  ]]></format>
         </remarks>
         <altmember cref="M:System.Windows.Forms.TextBoxBase.GetCharFromPosition(System.Drawing.Point)" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.GetFirstCharIndexFromLine(System.Int32)" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.GetLineFromCharIndex(System.Int32)" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.GetPositionFromCharIndex(System.Int32)" />
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.GetFirstCharIndexFromLine(System.Int32)" />
       </Docs>
     </Member>
     <Member MemberName="GetFirstCharIndexFromLine">
@@ -1445,10 +1445,10 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">The value of the <paramref name="lineNumber" /> parameter is less than zero.</exception>
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.GetCharFromPosition(System.Drawing.Point)" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.GetCharIndexFromPosition(System.Drawing.Point)" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.GetLineFromCharIndex(System.Int32)" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.GetPositionFromCharIndex(System.Int32)" />
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.GetCharFromPosition(System.Drawing.Point)" />
       </Docs>
     </Member>
     <Member MemberName="GetFirstCharIndexOfCurrentLine">
@@ -1520,10 +1520,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.GetCharIndexFromPosition(System.Drawing.Point)" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.GetCharFromPosition(System.Drawing.Point)" />
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.GetPositionFromCharIndex(System.Int32)" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.GetCharIndexFromPosition(System.Drawing.Point)" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.GetFirstCharIndexFromLine(System.Int32)" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.GetPositionFromCharIndex(System.Int32)" />
       </Docs>
     </Member>
     <Member MemberName="GetPositionFromCharIndex">
@@ -1563,10 +1563,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.GetCharIndexFromPosition(System.Drawing.Point)" />
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.GetLineFromCharIndex(System.Int32)" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.GetCharFromPosition(System.Drawing.Point)" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.GetCharIndexFromPosition(System.Drawing.Point)" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.GetFirstCharIndexFromLine(System.Int32)" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.GetLineFromCharIndex(System.Int32)" />
       </Docs>
     </Member>
     <Member MemberName="HideSelection">
@@ -2107,9 +2107,9 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="P:System.Windows.Forms.TextBox.ScrollBars" />
         <altmember cref="P:System.Windows.Forms.TextBoxBase.Lines" />
         <altmember cref="P:System.Windows.Forms.TextBoxBase.WordWrap" />
-        <altmember cref="P:System.Windows.Forms.TextBox.ScrollBars" />
       </Docs>
     </Member>
     <Member MemberName="MultilineChanged">
@@ -2196,11 +2196,11 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Forms.TextBoxBase.AcceptsTabChanged" />
+        <altmember cref="P:System.Windows.Forms.TextBoxBase.AcceptsTab" />
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Windows.Forms.TextBoxBase.OnAcceptsTabChanged(System.EventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Windows.Forms.TextBoxBase.OnAcceptsTabChanged(System.EventArgs)" /> method so that registered delegates receive the event.</para>
         </block>
-        <altmember cref="P:System.Windows.Forms.TextBoxBase.AcceptsTab" />
-        <altmember cref="E:System.Windows.Forms.TextBoxBase.AcceptsTabChanged" />
       </Docs>
     </Member>
     <Member MemberName="OnBorderStyleChanged">
@@ -2241,11 +2241,11 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Forms.TextBoxBase.BorderStyleChanged" />
+        <altmember cref="P:System.Windows.Forms.TextBoxBase.BorderStyle" />
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Windows.Forms.TextBoxBase.OnBorderStyleChanged(System.EventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Windows.Forms.TextBoxBase.OnBorderStyleChanged(System.EventArgs)" /> method so that registered delegates receive the event.</para>
         </block>
-        <altmember cref="P:System.Windows.Forms.TextBoxBase.BorderStyle" />
-        <altmember cref="E:System.Windows.Forms.TextBoxBase.BorderStyleChanged" />
       </Docs>
     </Member>
     <Member MemberName="OnFontChanged">
@@ -2382,11 +2382,11 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Forms.TextBoxBase.HideSelectionChanged" />
+        <altmember cref="P:System.Windows.Forms.TextBoxBase.HideSelection" />
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Windows.Forms.TextBoxBase.OnHideSelectionChanged(System.EventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Windows.Forms.TextBoxBase.OnHideSelectionChanged(System.EventArgs)" /> method so that registered delegates receive the event.</para>
         </block>
-        <altmember cref="P:System.Windows.Forms.TextBoxBase.HideSelection" />
-        <altmember cref="E:System.Windows.Forms.TextBoxBase.HideSelectionChanged" />
       </Docs>
     </Member>
     <Member MemberName="OnModifiedChanged">
@@ -2427,11 +2427,11 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Forms.TextBoxBase.ModifiedChanged" />
+        <altmember cref="P:System.Windows.Forms.TextBoxBase.Modified" />
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Windows.Forms.TextBoxBase.OnModifiedChanged(System.EventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Windows.Forms.TextBoxBase.OnModifiedChanged(System.EventArgs)" /> method so that registered delegates receive the event.</para>
         </block>
-        <altmember cref="P:System.Windows.Forms.TextBoxBase.Modified" />
-        <altmember cref="E:System.Windows.Forms.TextBoxBase.ModifiedChanged" />
       </Docs>
     </Member>
     <Member MemberName="OnMouseUp">
@@ -2503,11 +2503,11 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Forms.TextBoxBase.MultilineChanged" />
+        <altmember cref="P:System.Windows.Forms.TextBoxBase.Multiline" />
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Windows.Forms.TextBoxBase.OnMultilineChanged(System.EventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Windows.Forms.TextBoxBase.OnMultilineChanged(System.EventArgs)" /> method so that registered delegates receive the event.</para>
         </block>
-        <altmember cref="P:System.Windows.Forms.TextBoxBase.Multiline" />
-        <altmember cref="E:System.Windows.Forms.TextBoxBase.MultilineChanged" />
       </Docs>
     </Member>
     <Member MemberName="OnPaddingChanged">
@@ -2586,11 +2586,11 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="E:System.Windows.Forms.TextBoxBase.ReadOnlyChanged" />
+        <altmember cref="P:System.Windows.Forms.TextBoxBase.ReadOnly" />
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Windows.Forms.TextBoxBase.OnReadOnlyChanged(System.EventArgs)" /> in a derived class, be sure to call the base class's <see cref="M:System.Windows.Forms.TextBoxBase.OnReadOnlyChanged(System.EventArgs)" /> method so that registered delegates receive the event.</para>
         </block>
-        <altmember cref="P:System.Windows.Forms.TextBoxBase.ReadOnly" />
-        <altmember cref="E:System.Windows.Forms.TextBoxBase.ReadOnlyChanged" />
       </Docs>
     </Member>
     <Member MemberName="OnTextChanged">
@@ -3127,9 +3127,9 @@
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">The value of the <paramref name="start" /> parameter is less than zero.</exception>
         <altmember cref="M:System.Windows.Forms.TextBoxBase.SelectAll" />
+        <altmember cref="P:System.Windows.Forms.TextBoxBase.SelectedText" />
         <altmember cref="P:System.Windows.Forms.TextBoxBase.SelectionLength" />
         <altmember cref="P:System.Windows.Forms.TextBoxBase.SelectionStart" />
-        <altmember cref="P:System.Windows.Forms.TextBoxBase.SelectedText" />
       </Docs>
     </Member>
     <Member MemberName="SelectAll">
@@ -3232,8 +3232,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="P:System.Windows.Forms.TextBoxBase.SelectionStart" />
         <altmember cref="P:System.Windows.Forms.TextBoxBase.SelectionLength" />
+        <altmember cref="P:System.Windows.Forms.TextBoxBase.SelectionStart" />
       </Docs>
     </Member>
     <Member MemberName="SelectionLength">
@@ -3292,8 +3292,8 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">The assigned value is less than zero.</exception>
-        <altmember cref="P:System.Windows.Forms.TextBoxBase.SelectionStart" />
         <altmember cref="P:System.Windows.Forms.TextBoxBase.SelectedText" />
+        <altmember cref="P:System.Windows.Forms.TextBoxBase.SelectionStart" />
       </Docs>
     </Member>
     <Member MemberName="SelectionStart">
@@ -3674,11 +3674,11 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.Cut" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.Clear" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.Copy" />
+        <altmember cref="M:System.Windows.Forms.TextBoxBase.Cut" />
         <altmember cref="M:System.Windows.Forms.TextBoxBase.Paste" />
         <altmember cref="P:System.Windows.Forms.TextBoxBase.CanUndo" />
-        <altmember cref="M:System.Windows.Forms.TextBoxBase.Clear" />
       </Docs>
     </Member>
     <Member MemberName="WndProc">

@@ -61,8 +61,8 @@
   
  ]]></format>
     </remarks>
-    <forInternalUseOnly />
     <altmember cref="T:System.Web.Services.Description.MessagePart" />
+    <forInternalUseOnly />
   </Docs>
   <Members>
     <Member MemberName=".ctor">

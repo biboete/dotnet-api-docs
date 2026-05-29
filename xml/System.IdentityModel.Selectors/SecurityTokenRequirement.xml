@@ -280,8 +280,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.IdentityModel.Tokens.SecurityKeyType" />
         <altmember cref="P:System.IdentityModel.Selectors.SecurityTokenRequirement.KeyTypeProperty" />
+        <altmember cref="T:System.IdentityModel.Tokens.SecurityKeyType" />
       </Docs>
     </Member>
     <Member MemberName="KeyTypeProperty">
@@ -318,8 +318,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.IdentityModel.Tokens.SecurityKeyType" />
         <altmember cref="P:System.IdentityModel.Selectors.SecurityTokenRequirement.KeyType" />
+        <altmember cref="T:System.IdentityModel.Tokens.SecurityKeyType" />
       </Docs>
     </Member>
     <Member MemberName="KeyUsage">
@@ -357,8 +357,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.IdentityModel.Tokens.SecurityKeyUsage" />
         <altmember cref="P:System.IdentityModel.Selectors.SecurityTokenRequirement.KeyUsageProperty" />
+        <altmember cref="T:System.IdentityModel.Tokens.SecurityKeyUsage" />
       </Docs>
     </Member>
     <Member MemberName="KeyUsageProperty">
@@ -395,8 +395,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.IdentityModel.Tokens.SecurityKeyUsage" />
         <altmember cref="P:System.IdentityModel.Selectors.SecurityTokenRequirement.KeyUsageProperty" />
+        <altmember cref="T:System.IdentityModel.Tokens.SecurityKeyUsage" />
       </Docs>
     </Member>
     <Member MemberName="PeerAuthenticationMode">
@@ -578,8 +578,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.IdentityModel.Tokens.SecurityTokenTypes" />
         <altmember cref="P:System.IdentityModel.Selectors.SecurityTokenRequirement.TokenTypeProperty" />
+        <altmember cref="T:System.IdentityModel.Tokens.SecurityTokenTypes" />
       </Docs>
     </Member>
     <Member MemberName="TokenTypeProperty">

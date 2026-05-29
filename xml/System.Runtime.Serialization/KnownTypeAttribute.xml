@@ -78,8 +78,8 @@
  ]]></format>
     </remarks>
     <altmember cref="T:System.Runtime.Serialization.DataContractAttribute" />
-    <altmember cref="T:System.Runtime.Serialization.DataMemberAttribute" />
     <altmember cref="T:System.Runtime.Serialization.DataContractSerializer" />
+    <altmember cref="T:System.Runtime.Serialization.DataMemberAttribute" />
     <related type="Article" href="/dotnet/framework/wcf/feature-details/data-contract-known-types">Data Contract Known Types</related>
   </Docs>
   <Members>

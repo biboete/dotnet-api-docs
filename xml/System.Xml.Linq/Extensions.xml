@@ -364,11 +364,11 @@ Ancestors
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xml.Linq.XNode.Ancestors" />
+        <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
         <altmember cref="M:System.Xml.Linq.XElement.AncestorsAndSelf" />
+        <altmember cref="M:System.Xml.Linq.XNode.Ancestors" />
         <altmember cref="Overload:System.Xml.Linq.Extensions.AncestorsAndSelf" />
         <altmember cref="Overload:System.Xml.Linq.Extensions.Descendants" />
-        <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -642,11 +642,11 @@ Ancestors
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xml.Linq.XNode.Ancestors" />
+        <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
         <altmember cref="M:System.Xml.Linq.XElement.AncestorsAndSelf" />
+        <altmember cref="M:System.Xml.Linq.XNode.Ancestors" />
         <altmember cref="Overload:System.Xml.Linq.Extensions.AncestorsAndSelf" />
         <altmember cref="Overload:System.Xml.Linq.Extensions.Descendants" />
-        <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -935,11 +935,11 @@ Ancestors and Self
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xml.Linq.XNode.Ancestors" />
+        <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
         <altmember cref="M:System.Xml.Linq.XElement.AncestorsAndSelf" />
+        <altmember cref="M:System.Xml.Linq.XNode.Ancestors" />
         <altmember cref="Overload:System.Xml.Linq.Extensions.Ancestors" />
         <altmember cref="Overload:System.Xml.Linq.Extensions.Descendants" />
-        <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -1199,11 +1199,11 @@ Ancestors and Self
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xml.Linq.XNode.Ancestors" />
+        <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
         <altmember cref="M:System.Xml.Linq.XElement.AncestorsAndSelf" />
+        <altmember cref="M:System.Xml.Linq.XNode.Ancestors" />
         <altmember cref="Overload:System.Xml.Linq.Extensions.Ancestors" />
         <altmember cref="Overload:System.Xml.Linq.Extensions.Descendants" />
-        <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -1803,13 +1803,13 @@ Text: ddd
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
-        <altmember cref="M:System.Xml.Linq.XContainer.DescendantNodes" />
-        <altmember cref="M:System.Xml.Linq.XContainer.Descendants" />
-        <altmember cref="Overload:System.Xml.Linq.Extensions.Descendants" />
-        <altmember cref="Overload:System.Xml.Linq.Extensions.DescendantsAndSelf" />
         <altmember cref="M:System.Xml.Linq.Extensions.DescendantNodesAndSelf(System.Collections.Generic.IEnumerable{System.Xml.Linq.XElement})" />
         <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
+        <altmember cref="M:System.Xml.Linq.XContainer.DescendantNodes" />
+        <altmember cref="M:System.Xml.Linq.XContainer.Descendants" />
+        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
+        <altmember cref="Overload:System.Xml.Linq.Extensions.Descendants" />
+        <altmember cref="Overload:System.Xml.Linq.Extensions.DescendantsAndSelf" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -1874,14 +1874,14 @@ Text: ddd
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xml.Linq.XElement.DescendantNodesAndSelf" />
-        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
-        <altmember cref="M:System.Xml.Linq.XContainer.DescendantNodes" />
-        <altmember cref="M:System.Xml.Linq.XContainer.Descendants" />
-        <altmember cref="Overload:System.Xml.Linq.Extensions.Descendants" />
-        <altmember cref="Overload:System.Xml.Linq.Extensions.DescendantsAndSelf" />
         <altmember cref="M:System.Xml.Linq.Extensions.DescendantNodes``1(System.Collections.Generic.IEnumerable{``0})" />
         <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
+        <altmember cref="M:System.Xml.Linq.XContainer.DescendantNodes" />
+        <altmember cref="M:System.Xml.Linq.XContainer.Descendants" />
+        <altmember cref="M:System.Xml.Linq.XElement.DescendantNodesAndSelf" />
+        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
+        <altmember cref="Overload:System.Xml.Linq.Extensions.Descendants" />
+        <altmember cref="Overload:System.Xml.Linq.Extensions.DescendantsAndSelf" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -2120,13 +2120,13 @@ End Module
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xml.Linq.XElement.DescendantNodesAndSelf" />
-        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
+        <altmember cref="M:System.Xml.Linq.Extensions.DescendantNodes``1(System.Collections.Generic.IEnumerable{``0})" />
+        <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
         <altmember cref="M:System.Xml.Linq.XContainer.DescendantNodes" />
         <altmember cref="M:System.Xml.Linq.XContainer.Descendants" />
-        <altmember cref="M:System.Xml.Linq.Extensions.DescendantNodes``1(System.Collections.Generic.IEnumerable{``0})" />
+        <altmember cref="M:System.Xml.Linq.XElement.DescendantNodesAndSelf" />
+        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
         <altmember cref="Overload:System.Xml.Linq.Extensions.DescendantsAndSelf" />
-        <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -2344,13 +2344,13 @@ This is some text where all of the text nodes must be concatenated. This is a se
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xml.Linq.XElement.DescendantNodesAndSelf" />
-        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
+        <altmember cref="M:System.Xml.Linq.Extensions.DescendantNodes``1(System.Collections.Generic.IEnumerable{``0})" />
+        <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
         <altmember cref="M:System.Xml.Linq.XContainer.DescendantNodes" />
         <altmember cref="M:System.Xml.Linq.XContainer.Descendants" />
-        <altmember cref="M:System.Xml.Linq.Extensions.DescendantNodes``1(System.Collections.Generic.IEnumerable{``0})" />
+        <altmember cref="M:System.Xml.Linq.XElement.DescendantNodesAndSelf" />
+        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
         <altmember cref="Overload:System.Xml.Linq.Extensions.DescendantsAndSelf" />
-        <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -2443,13 +2443,13 @@ This is some text where all of the text nodes must be concatenated. This is a se
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xml.Linq.XElement.DescendantNodesAndSelf" />
-        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
+        <altmember cref="M:System.Xml.Linq.Extensions.DescendantNodes``1(System.Collections.Generic.IEnumerable{``0})" />
+        <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
         <altmember cref="M:System.Xml.Linq.XContainer.DescendantNodes" />
         <altmember cref="M:System.Xml.Linq.XContainer.Descendants" />
-        <altmember cref="M:System.Xml.Linq.Extensions.DescendantNodes``1(System.Collections.Generic.IEnumerable{``0})" />
+        <altmember cref="M:System.Xml.Linq.XElement.DescendantNodesAndSelf" />
+        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
         <altmember cref="Overload:System.Xml.Linq.Extensions.Descendants" />
-        <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -2523,13 +2523,13 @@ This is some text where all of the text nodes must be concatenated. This is a se
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xml.Linq.XElement.DescendantNodesAndSelf" />
-        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
+        <altmember cref="M:System.Xml.Linq.Extensions.DescendantNodes``1(System.Collections.Generic.IEnumerable{``0})" />
+        <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
         <altmember cref="M:System.Xml.Linq.XContainer.DescendantNodes" />
         <altmember cref="M:System.Xml.Linq.XContainer.Descendants" />
-        <altmember cref="M:System.Xml.Linq.Extensions.DescendantNodes``1(System.Collections.Generic.IEnumerable{``0})" />
+        <altmember cref="M:System.Xml.Linq.XElement.DescendantNodesAndSelf" />
+        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
         <altmember cref="Overload:System.Xml.Linq.Extensions.Descendants" />
-        <altmember cref="M:System.Xml.Linq.Extensions.Nodes``1(System.Collections.Generic.IEnumerable{``0})" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -2770,10 +2770,10 @@ End Module
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xml.Linq.XElement.DescendantNodesAndSelf" />
-        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
         <altmember cref="M:System.Xml.Linq.XContainer.DescendantNodes" />
         <altmember cref="M:System.Xml.Linq.XContainer.Descendants" />
+        <altmember cref="M:System.Xml.Linq.XElement.DescendantNodesAndSelf" />
+        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
         <altmember cref="Overload:System.Xml.Linq.Extensions.Attributes" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
@@ -2994,10 +2994,10 @@ End Module
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xml.Linq.XElement.DescendantNodesAndSelf" />
-        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
         <altmember cref="M:System.Xml.Linq.XContainer.DescendantNodes" />
         <altmember cref="M:System.Xml.Linq.XContainer.Descendants" />
+        <altmember cref="M:System.Xml.Linq.XElement.DescendantNodesAndSelf" />
+        <altmember cref="M:System.Xml.Linq.XElement.DescendantsAndSelf" />
         <altmember cref="Overload:System.Xml.Linq.Extensions.Attributes" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
@@ -3276,9 +3276,9 @@ Text: ddd
 
  ]]></format>
         </remarks>
+        <altmember cref="M:System.Xml.Linq.Extensions.InDocumentOrder``1(System.Collections.Generic.IEnumerable{``0})" />
         <altmember cref="M:System.Xml.Linq.XContainer.Nodes" />
         <altmember cref="Overload:System.Xml.Linq.Extensions.Elements" />
-        <altmember cref="M:System.Xml.Linq.Extensions.InDocumentOrder``1(System.Collections.Generic.IEnumerable{``0})" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -3383,10 +3383,10 @@ Console.WriteLine(root)
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xml.Linq.XElement.RemoveAttributes" />
-        <altmember cref="Overload:System.Xml.Linq.Extensions.Attributes" />
         <altmember cref="M:System.Xml.Linq.XAttribute.Remove" />
+        <altmember cref="M:System.Xml.Linq.XElement.RemoveAttributes" />
         <altmember cref="M:System.Xml.Linq.XNode.Remove" />
+        <altmember cref="Overload:System.Xml.Linq.Extensions.Attributes" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>
@@ -3509,10 +3509,10 @@ Console.WriteLine(root)
 
  ]]></format>
         </remarks>
-        <altmember cref="M:System.Xml.Linq.XElement.RemoveAll" />
-        <altmember cref="Overload:System.Xml.Linq.Extensions.Attributes" />
         <altmember cref="M:System.Xml.Linq.XAttribute.Remove" />
+        <altmember cref="M:System.Xml.Linq.XElement.RemoveAll" />
         <altmember cref="M:System.Xml.Linq.XNode.Remove" />
+        <altmember cref="Overload:System.Xml.Linq.Extensions.Attributes" />
         <related type="Article" href="/dotnet/standard/linq/linq-xml-overview">LINQ to XML overview</related>
       </Docs>
     </Member>

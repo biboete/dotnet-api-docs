@@ -58,17 +58,17 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Windows.Forms.DataGridView" />
     <altmember cref="E:System.Windows.Forms.DataGridView.CellContextMenuStripNeeded" />
+    <altmember cref="E:System.Windows.Forms.DataGridView.RowContextMenuStripNeeded" />
+    <altmember cref="M:System.Windows.Forms.DataGridView.OnCellContextMenuStripNeeded(System.Windows.Forms.DataGridViewCellContextMenuStripNeededEventArgs)" />
     <altmember cref="P:System.Windows.Forms.DataGridView.DataSource" />
     <altmember cref="P:System.Windows.Forms.DataGridView.VirtualMode" />
-    <altmember cref="M:System.Windows.Forms.DataGridView.OnCellContextMenuStripNeeded(System.Windows.Forms.DataGridViewCellContextMenuStripNeededEventArgs)" />
-    <altmember cref="T:System.Windows.Forms.DataGridViewCellContextMenuStripNeededEventHandler" />
-    <altmember cref="P:System.Windows.Forms.DataGridViewCellContextMenuStripNeededEventArgs.ContextMenuStrip" />
     <altmember cref="P:System.Windows.Forms.DataGridViewCell.ContextMenuStrip" />
-    <altmember cref="E:System.Windows.Forms.DataGridView.RowContextMenuStripNeeded" />
+    <altmember cref="P:System.Windows.Forms.DataGridViewCellContextMenuStripNeededEventArgs.ContextMenuStrip" />
     <altmember cref="P:System.Windows.Forms.DataGridViewRow.ContextMenuStrip" />
     <altmember cref="T:System.Windows.Forms.ContextMenuStrip" />
+    <altmember cref="T:System.Windows.Forms.DataGridView" />
+    <altmember cref="T:System.Windows.Forms.DataGridViewCellContextMenuStripNeededEventHandler" />
     <related type="Article" href="/dotnet/desktop/winforms/controls/best-practices-for-scaling-the-windows-forms-datagridview-control">Best Practices for Scaling the Windows Forms DataGridView Control</related>
   </Docs>
   <Members>
@@ -100,9 +100,9 @@
         <param name="rowIndex">The row index of the cell that the event occurred for.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Forms.DataGridViewCellContextMenuStripNeededEventArgs" /> class.</summary>
         <remarks>To be added.</remarks>
-        <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="E:System.Windows.Forms.DataGridView.CellContextMenuStripNeeded" />
         <altmember cref="M:System.Windows.Forms.DataGridView.OnCellContextMenuStripNeeded(System.Windows.Forms.DataGridViewCellContextMenuStripNeededEventArgs)" />
+        <altmember cref="T:System.Windows.Forms.DataGridView" />
       </Docs>
     </Member>
     <Member MemberName="ContextMenuStrip">
@@ -148,10 +148,10 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Windows.Forms.DataGridView" />
         <altmember cref="E:System.Windows.Forms.DataGridView.CellContextMenuStripNeeded" />
         <altmember cref="P:System.Windows.Forms.DataGridViewCell.ContextMenuStrip" />
         <altmember cref="T:System.Windows.Forms.ContextMenuStrip" />
+        <altmember cref="T:System.Windows.Forms.DataGridView" />
       </Docs>
     </Member>
   </Members>

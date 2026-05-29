@@ -231,8 +231,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:System.Windows.Documents.Serialization.SerializerWriterCollator.WriteAsync" />
         <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriterCollator.Cancel" />
+        <altmember cref="Overload:System.Windows.Documents.Serialization.SerializerWriterCollator.WriteAsync" />
       </Docs>
     </Member>
     <Member MemberName="Write">
@@ -273,8 +273,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="Overload:System.Windows.Documents.Serialization.SerializerWriterCollator.WriteAsync" />
         <altmember cref="M:System.Windows.Documents.Serialization.SerializerWriterCollator.Cancel" />
+        <altmember cref="Overload:System.Windows.Documents.Serialization.SerializerWriterCollator.WriteAsync" />
       </Docs>
     </Member>
     <MemberGroup MemberName="WriteAsync">

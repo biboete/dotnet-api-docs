@@ -59,6 +59,9 @@
     <typeparam name="T">The underlying value type of the <see cref="T:System.Nullable`1" /> generic type.</typeparam>
     <summary>Represents a value type that can be assigned <see langword="null" />.</summary>
     <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-nullable{t}">Supplemental API remarks for Nullable&lt;T&gt;</see>.</remarks>
+    <altmember cref="T:System.Nullable" />
+    <related type="Article" href="/dotnet/csharp/language-reference/builtin-types/nullable-value-types">Nullable Types (C# Programming Guide)</related>
+    <related type="Article" href="/dotnet/visual-basic/programming-guide/language-features/data-types/nullable-value-types">Nullable Value Types (Visual Basic)</related>
     <example>
       <format type="text/markdown"><![CDATA[
 The following code example defines three rows of a table in the Microsoft Pubs sample database. The table contains two columns that are not nullable and two columns that are nullable.
@@ -68,9 +71,6 @@ The following code example defines three rows of a table in the Microsoft Pubs s
 :::code language="vb" source="~/snippets/visualbasic/System/NullableT/Overview/tarow.vb" id="Snippet1":::
       ]]></format>
     </example>
-    <altmember cref="T:System.Nullable" />
-    <related type="Article" href="/dotnet/csharp/language-reference/builtin-types/nullable-value-types">Nullable Types (C# Programming Guide)</related>
-    <related type="Article" href="/dotnet/visual-basic/programming-guide/language-features/data-types/nullable-value-types">Nullable Value Types (Visual Basic)</related>
   </Docs>
   <Members>
     <Member MemberName=".ctor">

@@ -58,8 +58,8 @@
 
  ]]></format>
     </remarks>
-    <altmember cref="T:System.Windows.Forms.DrawItemEventHandler" />
     <altmember cref="T:System.Windows.Forms.ComboBox" />
+    <altmember cref="T:System.Windows.Forms.DrawItemEventHandler" />
     <altmember cref="T:System.Windows.Forms.ListBox" />
     <altmember cref="T:System.Windows.Forms.MenuItem" />
     <altmember cref="T:System.Windows.Forms.TabControl" />
@@ -352,10 +352,10 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Forms.DrawItemState" />
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Windows.Forms.DrawItemEventArgs.DrawBackground" /> in a derived class, make sure to call the <see cref="M:System.Windows.Forms.DrawItemEventArgs.DrawBackground" /> method of the base class.</para>
         </block>
-        <altmember cref="T:System.Windows.Forms.DrawItemState" />
       </Docs>
     </Member>
     <Member MemberName="DrawFocusRectangle">
@@ -399,10 +399,10 @@
 
  ]]></format>
         </remarks>
+        <altmember cref="T:System.Windows.Forms.DrawItemState" />
         <block subset="none" type="overrides">
           <para>When overriding <see cref="M:System.Windows.Forms.DrawItemEventArgs.DrawFocusRectangle" /> in a derived class, make sure to call the <see cref="M:System.Windows.Forms.DrawItemEventArgs.DrawFocusRectangle" /> method of the base class.</para>
         </block>
-        <altmember cref="T:System.Windows.Forms.DrawItemState" />
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -453,8 +453,8 @@
 
  ]]></format>
         </remarks>
-        <altmember cref="T:System.Drawing.Font" />
         <altmember cref="P:System.Windows.Forms.Control.Font" />
+        <altmember cref="T:System.Drawing.Font" />
       </Docs>
     </Member>
     <Member MemberName="ForeColor">

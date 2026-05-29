@@ -48,6 +48,8 @@
   <Docs>
     <summary>Provides a mechanism for releasing unmanaged resources.</summary>
     <remarks>For more information about this API, see <see href="/dotnet/fundamentals/runtime-libraries/system-idisposable">Supplemental API remarks for IDisposable</see>.</remarks>
+    <altmember cref="T:Microsoft.Win32.SafeHandles.SafeFileHandle" />
+    <related type="Article" href="/dotnet/standard/garbage-collection/implementing-dispose">Implementing a Dispose Method</related>
     <example>
       <format type="text/markdown"><![CDATA[
         The following example demonstrates how to create a resource class that implements the <xref:System.IDisposable> interface.
@@ -57,8 +59,6 @@
         :::code language="vb" source="~/snippets/visualbasic/System/IDisposable/Overview/idisposabledispose.vb" id="Snippet1":::id="Snippet1":::
       ]]></format>
     </example>
-    <altmember cref="T:Microsoft.Win32.SafeHandles.SafeFileHandle" />
-    <related type="Article" href="/dotnet/standard/garbage-collection/implementing-dispose">Implementing a Dispose Method</related>
   </Docs>
   <Members>
     <Member MemberName="Dispose">
